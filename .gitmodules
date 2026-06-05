@@ -1,0 +1,3 @@
+[submodule "booking-scraper-flow"]
+	path = booking-scraper-flow
+	url = https://github.com/krzkraw/booking-scraper-flow.git

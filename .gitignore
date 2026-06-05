@@ -1,0 +1,46 @@
+# OS artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+
+# JavaScript dependencies and tool caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Build, cache, and temporary outputs
+.cache/
+dist/
+build/
+out/
+target/
+bin/
+tmp/
+temp/
+*.log
+
+# Browser/test artifacts
+playwright-report/
+test-results/
+.playwright/
+debug_*.png

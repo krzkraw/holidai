@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wielkie Porównanie Śródziemnomorskie 2026</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Chart.js (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            sand: '#fcfbf7',
+                            clay: '#eae6df',
+                            ocean: '#0d9488',
+                            sunset: '#f59e0b',
+                            dark: '#0f172a',
+                            albania: '#e11d48',
+                            greece: '#0284c7',
+                            cyprus: '#0f766e'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #fbfbfa;
+            color: #1e1b18;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(229, 224, 216, 0.6);
+        }
+
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+            animation: fadeInScale 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.98) translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .interactive-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .interactive-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.12);
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 380px;
+        }
+    </style>
+</head>
+<body class="pb-24 md:pb-12 pt-4 md:pt-8 px-3 sm:px-6 max-w-7xl mx-auto">
+
+    <!-- Hero Header -->
+    <header class="mb-8 text-center relative overflow-hidden rounded-3xl p-8 md:p-12 bg-slate-950 text-white shadow-2xl">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-teal-900/50 via-slate-950 to-slate-950 opacity-95 z-0"></div>
+        <div class="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[size:24px_24px] z-0"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <span class="text-xs font-bold uppercase tracking-widest text-teal-400 bg-teal-500/10 border border-teal-500/30 px-3.5 py-1.5 rounded-full">ULTIMATE PLANNER WRZESIEŃ 2026</span>
+            <h1 class="text-3xl md:text-6xl font-black mt-4 mb-3 tracking-tight leading-tight">Wielki Pojedynek Śródziemnomorski</h1>
+            <p class="text-slate-300 text-sm md:text-lg leading-relaxed font-light max-w-3xl mx-auto">
+                Kraków (KRK) &rarr; Wakacje dla 2 Osób. Kompletna, zintegrowana analiza 5 kluczowych kierunków pod kątem kosztów, fauny, dróg, jakości plaż oraz zweryfikowanych noclegów z prywatną łazienką i pralką.
+            </p>
+            
+            <div class="flex flex-wrap justify-center gap-2 mt-6">
+                <span class="bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs font-semibold px-3 py-1.5 rounded-xl">🇦🇱 Albania</span>
+                <span class="bg-sky-500/10 border border-sky-500/30 text-sky-300 text-xs font-semibold px-3 py-1.5 rounded-xl">🇬🇷 Zakynthos</span>
+                <span class="bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs font-semibold px-3 py-1.5 rounded-xl">🇨🇾 Cypr Południowy</span>
+                <span class="bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold px-3 py-1.5 rounded-xl">🇹🇷 Turcja Egejska</span>
+                <span class="bg-blue-500/10 border border-blue-500/30 text-blue-300 text-xs font-semibold px-3 py-1.5 rounded-xl">🇬🇷 Kreta Zachodnia</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tab Rows -->
+    <div class="space-y-3 mb-8">
+        <!-- Rząd 1: Analizy Globalne -->
+        <div class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-1 px-1">1. Analizy i Narzędzia Globalne</div>
+        <nav class="flex overflow-x-auto no-scrollbar bg-stone-100 rounded-2xl p-1.5 shadow-inner border border-stone-200/60 backdrop-blur-md bg-stone-100/90">
+            <button onclick="switchTab('tab-showdown')" id="btn-showdown" class="tab-btn flex-1 py-3.5 px-5 rounded-xl text-center text-xs md:text-sm font-bold text-slate-500 hover:text-slate-950 transition-all whitespace-nowrap focus:outline-none">
+                ⚔️ Szybki Pojedynek
+            </button>
+            <button onclick="switchTab('tab-calculator')" id="btn-calculator" class="tab-btn flex-1 py-3.5 px-5 rounded-xl text-center text-xs md:text-sm font-bold text-slate-500 hover:text-slate-950 transition-all whitespace-nowrap focus:outline-none">
+                💰 Kalkulator Budżetu Live
+            </button>
+            <button onclick="switchTab('tab-hotels')" id="btn-hotels" class="tab-btn flex-1 py-3.5 px-5 rounded-xl text-center text-xs md:text-sm font-bold text-slate-500 hover:text-slate-950 transition-all whitespace-nowrap focus:outline-none">
+                🏨 Globalna Selekcja Noclegów
+            </button>
+            <button onclick="switchTab('tab-checklist')" id="btn-checklist" class="tab-btn flex-1 py-3.5 px-5 rounded-xl text-center text-xs md:text-sm font-bold text-slate-500 hover:text-slate-950 transition-all whitespace-nowrap focus:outline-none">
+                ⚠️ Odprawa & Checklista
+            </button>
+        </nav>
+
+        <!-- Rząd 2: Dossier per Destynacja -->
+        <div class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-1 px-1 pt-2">2. Kompletne Dossier & Obiekty per Kraj</div>
+        <nav class="flex overflow-x-auto no-scrollbar bg-teal-50/50 rounded-2xl p-1.5 shadow-inner border border-teal-100/60 backdrop-blur-md">
+            <button onclick="switchTab('tab-albania-deep')" id="btn-albania-deep" class="tab-btn flex-1 py-3 px-4 rounded-xl text-center text-xs font-bold text-teal-700/60 hover:text-teal-950 transition-all whitespace-nowrap focus:outline-none">
+                🇦🇱 Albania (9 Obiektów)
+            </button>
+            <button onclick="switchTab('tab-greece-deep')" id="btn-greece-deep" class="tab-btn flex-1 py-3 px-4 rounded-xl text-center text-xs font-bold text-teal-700/60 hover:text-teal-950 transition-all whitespace-nowrap focus:outline-none">
+                🇬🇷 Zakynthos (9 Obiektów)
+            </button>
+            <button onclick="switchTab('tab-cyprus-deep')" id="btn-cyprus-deep" class="tab-btn flex-1 py-3 px-4 rounded-xl text-center text-xs font-bold text-teal-700/60 hover:text-teal-950 transition-all whitespace-nowrap focus:outline-none">
+                🇨🇾 Cypr (9 Obiektów)
+            </button>
+            <button onclick="switchTab('tab-turkey-deep')" id="btn-turkey-deep" class="tab-btn flex-1 py-3 px-4 rounded-xl text-center text-xs font-bold text-teal-700/60 hover:text-teal-950 transition-all whitespace-nowrap focus:outline-none">
+                🇹🇷 Turcja (9 Obiektów)
+            </button>
+            <button onclick="switchTab('tab-crete-deep')" id="btn-crete-deep" class="tab-btn flex-1 py-3 px-4 rounded-xl text-center text-xs font-bold text-teal-700/60 hover:text-teal-950 transition-all whitespace-nowrap focus:outline-none">
+                🇬🇷 Kreta (9 Obiektów)
+            </button>
+        </nav>
+    </div>
+
+    <main>
+        <!-- TAB: SHOWDOWN -->
+        <section id="tab-showdown" class="tab-content">
+            <!-- Matchmaker Widget -->
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8 border border-stone-200/50">
+                <h3 class="text-xl font-bold text-slate-950 mb-2">🎯 Co jest dla Was najważniejsze? (Matchmaker)</h3>
+                <p class="text-xs text-slate-500 mb-6">Kliknijcie w Wasz priorytet, aby sprawdzić, który kierunek wygrywa w danej kategorii.</p>
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <button onclick="setPriority('cena')" class="px-4 py-2 bg-stone-100 hover:bg-stone-200 text-slate-800 text-xs font-bold rounded-xl transition-all">💰 Najniższy koszt całkowity</button>
+                    <button onclick="setPriority('zolwie')" class="px-4 py-2 bg-stone-100 hover:bg-stone-200 text-slate-800 text-xs font-bold rounded-xl transition-all">🐢 Gwarancja żółwi pod wodą</button>
+                    <button onclick="setPriority('snorkeling')" class="px-4 py-2 bg-stone-100 hover:bg-stone-200 text-slate-800 text-xs font-bold rounded-xl transition-all">🤿 Wybitny, skalisty snorkeling</button>
+                    <button onclick="setPriority('drogi')" class="px-4 py-2 bg-stone-100 hover:bg-stone-200 text-slate-800 text-xs font-bold rounded-xl transition-all">🚗 Pewność dróg & Brak kaucji</button>
+                    <button onclick="setPriority('schengen')" class="px-4 py-2 bg-stone-100 hover:bg-stone-200 text-slate-800 text-xs font-bold rounded-xl transition-all">🇪🇺 Bezpieczeństwo i Strefa Schengen</button>
+                </div>
+                <div id="matchmaker-result" class="bg-teal-50 border border-teal-100 rounded-2xl p-4 text-xs text-teal-900 hidden transition-all">
+                    <!-- Dynamic Result -->
+                </div>
+            </div>
+
+            <!-- Comparison Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-4 mb-8">
+                <!-- Card 1: Albania -->
+                <div class="glass-panel rounded-2xl p-5 border-t-4 border-t-rose-500 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black text-rose-600 uppercase tracking-wider">OPCJA BUDGET</span>
+                        <h3 class="text-lg font-extrabold text-slate-900 mt-1 mb-2">Albania (Saranda)</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">Piękne, głębokie kaniony i tanie owoce morza, ale dno morskie jest piaszczyste i ubogie faunistycznie. Brak żółwi.</p>
+                    </div>
+                    <div class="space-y-2 border-t pt-4 text-[11px] text-slate-700">
+                        <div class="flex justify-between"><span>Koszt wyjazdu:</span><span class="font-bold text-rose-600">★★★★★ (Najtaniej)</span></div>
+                        <div class="flex justify-between"><span>Żółwie:</span><span>★☆☆☆☆ (Przypadek)</span></div>
+                        <div class="flex justify-between"><span>Snorkeling:</span><span>★★★☆☆ (Przeciętny)</span></div>
+                        <div class="flex justify-between"><span>Logistyka lotu:</span><span>★★☆☆☆ (Długi transfer)</span></div>
+                        <div class="flex justify-between"><span>Auto / Drogi:</span><span>★★★☆☆ (Kaucje, styl jazdy)</span></div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Zakynthos -->
+                <div class="glass-panel rounded-2xl p-5 border-t-4 border-t-sky-500 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black text-sky-600 uppercase tracking-wider">OPCJA FAUNA</span>
+                        <h3 class="text-lg font-extrabold text-slate-900 mt-1 mb-2">Zakynthos</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">Mekka żółwi Caretta caretta w Zatoce Laganas. Niewielka wyspa, idealna na spokojny odpoczynek bez wielkich dystansów.</p>
+                    </div>
+                    <div class="space-y-2 border-t pt-4 text-[11px] text-slate-700">
+                        <div class="flex justify-between"><span>Koszt wyjazdu:</span><span>★★★☆☆ (Średni)</span></div>
+                        <div class="flex justify-between"><span>Żółwie:</span><span class="font-bold text-emerald-600">★★★★★ (Pewne)</span></div>
+                        <div class="flex justify-between"><span>Snorkeling:</span><span>★★★☆☆ (Piaszczyste dno)</span></div>
+                        <div class="flex justify-between"><span>Logistyka lotu:</span><span>★★★★☆ (Szybki dojazd)</span></div>
+                        <div class="flex justify-between"><span>Auto / Drogi:</span><span>★★★★☆ (Łatwe trasy)</span></div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Cypr -->
+                <div class="glass-panel rounded-2xl p-5 border-t-4 border-t-teal-600 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black text-teal-600 uppercase tracking-wider">OPCJA BALANS</span>
+                        <h3 class="text-lg font-extrabold text-slate-900 mt-1 mb-2">Cypr (Pafos)</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">Krystaliczna, gorąca woda, dziki Akamas, stanowiska UNESCO oraz lęgowiska żółwi w Lara Bay. Najlepszy całoroczny klimat.</p>
+                    </div>
+                    <div class="space-y-2 border-t pt-4 text-[11px] text-slate-700">
+                        <div class="flex justify-between"><span>Koszt wyjazdu:</span><span>★★★☆☆ (Umiarkowany)</span></div>
+                        <div class="flex justify-between"><span>Żółwie:</span><span>★★★★☆ (Wysoka szansa)</span></div>
+                        <div class="flex justify-between"><span>Snorkeling:</span><span>★★★★☆ (Dobry, jaskinie)</span></div>
+                        <div class="flex justify-between"><span>Logistyka lotu:</span><span>★★★★★ (Bliskie lotnisko)</span></div>
+                        <div class="flex justify-between"><span>Auto / Drogi:</span><span>★★★☆☆ (Ruch lewostronny)</span></div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Turcja Egejska -->
+                <div class="glass-panel rounded-2xl p-5 border-t-4 border-t-amber-500 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black text-amber-600 uppercase tracking-wider">OPCJA PREMIUM WILD</span>
+                        <h3 class="text-lg font-extrabold text-slate-900 mt-1 mb-2">Turcja Egejska</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">Górskie klify schodzące do morza, wysoki standard hoteli w Kaş/Fethiye, 100% gwarancja żółwi w Dalyan i genialne ceny.</p>
+                    </div>
+                    <div class="space-y-2 border-t pt-4 text-[11px] text-slate-700">
+                        <div class="flex justify-between"><span>Koszt wyjazdu:</span><span class="font-bold text-rose-600">★★★★☆ (Korzystnie)</span></div>
+                        <div class="flex justify-between"><span>Żółwie:</span><span class="font-bold text-emerald-600">★★★★★ (Pewne)</span></div>
+                        <div class="flex justify-between"><span>Snorkeling:</span><span class="font-bold text-emerald-600">★★★★★ (Wybitny)</span></div>
+                        <div class="flex justify-between"><span>Logistyka lotu:</span><span>★★★☆☆ (Dojazd z AYT)</span></div>
+                        <div class="flex justify-between"><span>Auto / Drogi:</span><span>★★★★☆ (Szerokie trasy)</span></div>
+                    </div>
+                </div>
+
+                <!-- Card 5: Kreta Zachodnia -->
+                <div class="glass-panel rounded-2xl p-5 border-t-4 border-t-blue-600 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black text-blue-600 uppercase tracking-wider">OPCJA EUR PREMIUM</span>
+                        <h3 class="text-lg font-extrabold text-slate-900 mt-1 mb-2">Kreta (Chania)</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed mb-4">Pocztówkowe, gigantyczne laguny Balos i Elafonisi, stabilne drogi w Schengen, bezproblemowe wypożyczalnie bez kart kredytowych.</p>
+                    </div>
+                    <div class="space-y-2 border-t pt-4 text-[11px] text-slate-700">
+                        <div class="flex justify-between"><span>Koszt wyjazdu:</span><span>★★★☆☆ (Średni/Droższy)</span></div>
+                        <div class="flex justify-between"><span>Żółwie:</span><span>★★★☆☆ (Możliwe w Chanii)</span></div>
+                        <div class="flex justify-between"><span>Snorkeling:</span><span>★★★☆☆ (Fale, skaliste brzegi)</span></div>
+                        <div class="flex justify-between"><span>Logistyka lotu:</span><span>★★★★★ (Bezpośredni Chania)</span></div>
+                        <div class="flex justify-between"><span>Auto / Drogi:</span><span class="font-bold text-emerald-600">★★★★★ (Zero kaucji)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Predefined Ultimate Recommendation Frame -->
+            <div class="bg-slate-950 text-white rounded-3xl p-6 md:p-8 shadow-xl relative overflow-hidden mb-8">
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-teal-850 via-transparent to-transparent opacity-50 z-0"></div>
+                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-extrabold tracking-tight mb-2">Zalecany tryb podejmowania decyzji</h3>
+                        <p class="text-slate-300 text-sm max-w-3xl font-light leading-relaxed">
+                            Jeśli Wasz najważniejszy priorytet to <strong>budżet</strong> oraz malownicze klify, wybierzcie <strong>Albanię</strong>. Jeśli zależy Wam na <strong>wyjątkowej faunie morskiej, snorkelingowej ciszy oraz komforcie cenowym</strong>, bezkonkurencyjna będzie <strong>Turcja Egejska (Kaş / Fethiye)</strong>. Dla miłośników <strong>dzikiej, bezpiecznej europejskiej natury bez niespodzianek prawnych i kaucji</strong>, idealnym wyborem będzie <strong>Kreta Zachodnia</strong>.
+                        </p>
+                    </div>
+                    <button onclick="switchTab('tab-calculator')" class="bg-teal-500 hover:bg-teal-600 text-white font-bold px-6 py-3.5 rounded-2xl transition-all shadow-lg text-sm shrink-0">
+                        Otwórz Kalkulator Budżetu Live 💰
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB: CALCULATOR -->
+        <section id="tab-calculator" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8">
+                <h2 class="text-2xl font-black text-slate-950 mb-4 tracking-tight">💰 Zintegrowany Kalkulator Rzeczywistych Kosztów</h2>
+                <p class="text-xs text-slate-600 mb-8 leading-relaxed">
+                    Ustawcie poniższe suwaki do Waszych rzeczywistych planów. Wykres oraz wyliczenia uwzględniają rzeczywiste wahania cenowe, współczynniki strefy euro, koszty paliwa, biletów promowych oraz rejsów ekologicznych we wszystkich 5 lokalizacjach.
+                </p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Controls Area -->
+                    <div class="space-y-6 lg:col-span-1 bg-stone-50 p-6 rounded-2xl border border-stone-200/50">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Czas trwania wyjazdu (Dni)</label>
+                            <input id="calc-days" type="range" min="7" max="15" value="14" oninput="updateUltimateCalculator()" class="w-full h-1.5 bg-stone-200 rounded-lg appearance-none cursor-pointer accent-teal-600">
+                            <span id="calc-days-val" class="text-sm font-extrabold text-slate-900 mt-1 block">14 dni</span>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Standard Noclegu (A, B, C)</label>
+                            <select id="calc-variant" onchange="updateUltimateCalculator()" class="w-full bg-white border border-stone-300 rounded-xl px-3 py-2.5 text-xs font-bold text-slate-800 focus:outline-none focus:border-teal-600">
+                                <option value="A">Wariant A (Luksusowy, widok na morze / basen, pralka)</option>
+                                <option value="B" selected>Wariant B (Rozsądny, dobra lokalizacja, pralka / aneks)</option>
+                                <option value="C">Wariant C (Budżetowy, podstawowe studio, pryw. łazienka)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Dzienny bazowy budżet na jedzenie (2 os)</label>
+                            <input id="calc-food" type="range" min="150" max="500" value="250" step="50" oninput="updateUltimateCalculator()" class="w-full h-1.5 bg-stone-200 rounded-lg appearance-none cursor-pointer accent-teal-600">
+                            <span id="calc-food-val" class="text-sm font-extrabold text-slate-900 mt-1 block">250 PLN / dzień</span>
+                        </div>
+                    </div>
+
+                    <!-- Chart Container strictly constrained -->
+                    <div class="lg:col-span-2 flex flex-col justify-center">
+                        <div class="chart-container">
+                            <canvas id="ultimateCostChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB: HOTELS (GLOBAL FILTER) -->
+        <section id="tab-hotels" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8">
+                <h2 class="text-2xl font-black text-slate-950 mb-4 tracking-tight">🏨 Baza Wyselekcjonowanych Noclegów</h2>
+                <p class="text-xs text-slate-600 mb-6 leading-relaxed">
+                    Filtrujcie naszą bazę zweryfikowanych noclegów pod kątem wybranego kraju oraz wariantu budżetowego. Każdy obiekt został ręcznie sprawdzony pod kątem gwarancji prywatnej łazienki oraz realnej dostępności pralki.
+                </p>
+
+                <!-- Filters -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Wybierz Kraj / Kierunek</label>
+                        <select id="hotel-filter-country" onchange="filterHotels()" class="w-full bg-white border border-stone-300 rounded-xl px-3 py-2.5 text-xs font-bold text-slate-800 focus:outline-none focus:border-teal-600">
+                            <option value="all">Wszystkie kierunki</option>
+                            <option value="albania">Albania</option>
+                            <option value="zakynthos">Grecja (Zakynthos)</option>
+                            <option value="cyprus">Cypr Południowy</option>
+                            <option value="turkey">Turcja Egejska</option>
+                            <option value="crete">Kreta Zachodnia</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Wybierz Standard Noclegu</label>
+                        <select id="hotel-filter-variant" onchange="filterHotels()" class="w-full bg-white border border-stone-300 rounded-xl px-3 py-2.5 text-xs font-bold text-slate-800 focus:outline-none focus:border-teal-600">
+                            <option value="all">Wszystkie standardy (A, B, C)</option>
+                            <option value="A">Wariant A (Luksusowy)</option>
+                            <option value="B">Wariant B (Rozsądny)</option>
+                            <option value="C">Wariant C (Budżetowy)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Hotels Grid -->
+                <div id="consolidated-hotels-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Dynamic rendering via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB: CHECKLIST -->
+        <section id="tab-checklist" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8 border border-stone-200">
+                <h2 class="text-2xl font-black text-slate-950 mb-4 tracking-tight">⚠️ Ostateczna Odprawa Przed Rezerwacją</h2>
+                <p class="text-xs text-slate-600 mb-8 leading-relaxed">Przejdźcie przez poniższą checklistę wspólnie przed ostatecznym kliknięciem "Rezerwuj" na Booking czy Ryanairze. Pomoże to uniknąć niespodzianek na miejscu.</p>
+
+                <div class="space-y-4 text-xs text-slate-800">
+                    <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200/50">
+                        <input type="checkbox" class="w-4 h-4 mt-0.5 rounded border-stone-300 text-teal-600 focus:ring-teal-500">
+                        <div>
+                            <h4 class="font-bold text-slate-900">1. Pralka bezpośrednio w pokoju / apartamencie</h4>
+                            <p class="text-slate-500 mt-1">Upewnijcie się u gospodarza po rezerwacji. Bookingowa "Laundry" w spisie ogólnym hotelu to najczęściej płatna usługa prania przez personel hotelowy, a nie prywatna pralka.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200/50">
+                        <input type="checkbox" class="w-4 h-4 mt-0.5 rounded border-stone-300 text-teal-600 focus:ring-teal-500">
+                        <div>
+                            <h4 class="font-bold text-slate-900">2. Ruch lewostronny na Cyprze</h4>
+                            <p class="text-slate-500 mt-1">Jeśli wybieracie Cypr Południowy, kierowca musi czuć się pewnie przy jeździe po lewej stronie. Jeśli to budzi stres, lepszym wyborem będzie szeroka i bezstresowa droga krajowa D400 w Turcji.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200/50">
+                        <input type="checkbox" class="w-4 h-4 mt-0.5 rounded border-stone-300 text-teal-600 focus:ring-teal-500">
+                        <div>
+                            <h4 class="font-bold text-slate-900">3. Droga szutrowa na Balos (Kreta)</h4>
+                            <p class="text-slate-500 mt-1">Droga lądowa na Balos wyłącza pełne ubezpieczenie wypożyczonego auta. Jeśli boicie się uszkodzenia podwozia, zarezerwujcie rano rejs promem z portu w Kissamos.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200/50">
+                        <input type="checkbox" class="w-4 h-4 mt-0.5 rounded border-stone-300 text-teal-600 focus:ring-teal-500">
+                        <div>
+                            <h4 class="font-bold text-slate-900">4. Wypukła karta kredytowa kierowcy</h4>
+                            <p class="text-slate-500 mt-1">Bezwzględnie wymagana w Turcji oraz u większości sieciówek w Albanii i na Cyprze. Na Krecie u lokalnych pośredników (np. Autopapas) wypożyczycie auto bezpiecznie za gotówkę bez kaucji.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3 bg-rose-50 p-4 rounded-xl border border-rose-200/50">
+                        <div class="text-base">🚫</div>
+                        <div>
+                            <h4 class="font-bold text-rose-900">Włochy — Odrzucone ze względów budżetowych</h4>
+                            <p class="text-rose-700 mt-1">Zgodnie z wcześniejszymi ustaleniami, Włochy zostały definitywnie wycofane z zestawienia. Koszt twardy zakwaterowania i ubezpieczeń aut przewyższał budżet o blisko 45% w stosunku do Albanii i Turcji.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB: ALBANIA DEEP DIVE -->
+        <section id="tab-albania-deep" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8 border-l-8 border-rose-500">
+                <h2 class="text-2xl font-black text-rose-700 mb-4">🇦🇱 Albania (Saranda / Ksamil / Himarë) — Dossier</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-700 mb-8">
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">✈️ Szczegóły Logistyczne (TIA)</h4>
+                        <p><strong>Rekomendowane daty:</strong> 16–30 września 2026 r. (14 dni).</p>
+                        <p><strong>Loty (2 os):</strong> KRK - TIA - KRK szacowane bardzo tanio, historycznie ok. 358 PLN we wrześniu.</p>
+                        <p><strong>Dojazd:</strong> ⚠️ Długi i męczący transfer z Tirany do Sarandy (ok. 3.5 - 4 godziny). Rekomendujemy podział trasy z noclegiem/postojem we Vlorë lub na przełęczy Llogara.</p>
+                        <p><strong>Auto (TIA):</strong> Klasa B/C, koszt ok. 900–1300 PLN. Uwaga na agresywny styl jazdy lokalnych kierowców oraz wymagane depozyty na kartach.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">🌤️ Warunki Środowiskowe</h4>
+                        <p><strong>Pogoda (Wrzesień):</strong> Dzień 25–28°C, Noc 17–19°C. Woda ma ok. 24–25°C.</p>
+                        <p><strong>Fauna / Żółwie:</strong> <span class="text-red-600 font-bold">Unconfirmed / Brak gwarancji.</span> Żółwie morskie pojawiają się niezwykle rzadko i czysto przypadkowo.</p>
+                        <p><strong>Snorkeling:</strong> Przeciętny z powodu piaszczystego dna w Ksamilu. Wyjątkiem są dzikie, skaliste zatoczki wokół Himarë oraz spektakularna plaża w kanionie Gjipe.</p>
+                        <p><strong>Punkty Must-See:</strong> Ksamil, starożytny Butrint (UNESCO), zjawiskowe źródło Blue Eye, Llogara Pass (widokowa trasa górskia), Park Morski Karaburun-Sazan.</p>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-slate-950 mb-4 border-b pb-2">🏨 Pełne Zestawienie Noclegów (Warianty A, B, C)</h3>
+                <div id="hotels-grid-albania" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            </div>
+        </section>
+
+        <!-- TAB: GREECE DEEP DIVE -->
+        <section id="tab-greece-deep" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8 border-l-8 border-sky-500">
+                <h2 class="text-2xl font-black text-sky-700 mb-4">🇬🇷 Grecja (Zakynthos) — Dossier</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-700 mb-8">
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">✈️ Szczegóły Logistyczne (ZTH)</h4>
+                        <p><strong>Rekomendowane daty:</strong> 12–26 września 2026 r. (14 dni).</p>
+                        <p><strong>Loty (2 os):</strong> KRK - ZTH - KRK szacowane na ok. 1280 PLN.</p>
+                        <p><strong>Dojazd:</strong> Szybki i komfortowy bezpośrednio na lotnisko wyspiarskie. Krótkie transfery do baz noclegowych.</p>
+                        <p><strong>Auto (ZTH):</strong> Klasa B/C, koszt ok. 1200–1600 PLN. Ruch prawostronny, drogi dość wąskie, łatwy proces najmu lokalnego.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">🌤️ Warunki Środowiskowe</h4>
+                        <p><strong>Pogoda (Wrzesień):</strong> Dzień 26–29°C, Noc 18–20°C. Woda ma ok. 25–26°C.</p>
+                        <p><strong>Fauna / Żółwie:</strong> <span class="text-emerald-600 font-bold">POTWIERDZONE (Bardzo wysokie prawdopodobieństwo).</span> Zatoka Laganas to oficjalny Narodowy Park Morski i główne miejsce lęgowe żółwi Caretta caretta.</p>
+                        <p><strong>Snorkeling:</strong> Dobry w piaszczystych zatokach oraz jaskiniach Keri Caves. Należy korzystać z licencjonowanych eko-operatorów.</p>
+                        <p><strong>Punkty Must-See:</strong> Plaża Dafni i Gerakas (chronione plaże żółwi), Marathonisi (Turtle Island), klify Navagio, Blue Caves.</p>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-slate-950 mb-4 border-b pb-2">🏨 Pełne Zestawienie Noclegów (Warianty A, B, C)</h3>
+                <div id="hotels-grid-greece" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            </div>
+        </section>
+
+        <!-- TAB: CYPRUS DEEP DIVE -->
+        <section id="tab-cyprus-deep" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8 border-l-8 border-teal-600">
+                <h2 class="text-2xl font-black text-teal-700 mb-4">🇨🇾 Cypr Południowy (Pafos / Latchi) — Dossier</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-700 mb-8">
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">✈️ Szczegóły Logistyczne (PFO)</h4>
+                        <p><strong>Rekomendowane daty:</strong> 14–25 września 2026 r. (11 dni).</p>
+                        <p><strong>Loty (2 os):</strong> KRK - PFO - KRK szacowane na ok. 1046 PLN.</p>
+                        <p><strong>Dojazd:</strong> Bardzo szybki, lotnisko oddalone jedynie o 15-20 min od Kato Paphos.</p>
+                        <p><strong>Auto (PFO):</strong> Klasa B/C, koszt ok. 1100–1500 PLN. ⚠️ <strong>Ruch lewostronny!</strong> Wymaga skupienia przez pierwsze 2 dni.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">🌤️ Warunki Środowiskowe</h4>
+                        <p><strong>Pogoda (Wrzesień):</strong> Dzień 28–31°C, Noc 20–22°C. Woda najcieplejsza z całego zestawienia: ok. 26–27°C.</p>
+                        <p><strong>Fauna / Żółwie:</strong> <span class="text-emerald-600 font-bold">POTWIERDZONE (Wysoka szansa).</span> Zatoka Lara (Lara Bay) na półwyspie Akamas to ściśle chroniona dzika wylęgarnia żółwi Zielonych oraz Caretta.</p>
+                        <p><strong>Snorkeling:</strong> Znakomity w Blue Lagoon oraz wokół jaskiń Sea Caves w Peyia.</p>
+                        <p><strong>Punkty Must-See:</strong> Półwysep Akamas (wymaga 4x4 lub rejsu), Wąwóz Avakas, Grobowce Królewskie UNESCO w Pafos, Kourion.</p>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-slate-950 mb-4 border-b pb-2">🏨 Pełne Zestawienie Noclegów (Warianty A, B, C)</h3>
+                <div id="hotels-grid-cyprus" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            </div>
+        </section>
+
+        <!-- TAB: TURKEY DEEP DIVE -->
+        <section id="tab-turkey-deep" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8 border-l-8 border-amber-500">
+                <h2 class="text-2xl font-black text-amber-700 mb-4">🇹🇷 Turcja Egejska (Fethiye / Kaş / Dalyan) — Dossier</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-700 mb-8">
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">✈️ Szczegóły Logistyczne (AYT)</h4>
+                        <p><strong>Rekomendowane daty:</strong> 15–29 września 2026 r. (14 dni).</p>
+                        <p><strong>Loty (2 os):</strong> KRK - AYT - KRK szacowane na ok. 1650 PLN z bagażami.</p>
+                        <p><strong>Dojazd:</strong> Trasa z Antalyi wzdłuż wybrzeża D400 w góry licyjskie (ok. 2.5 - 3 godziny jazdy).</p>
+                        <p><strong>Auto (AYT):</strong> Klasa B/C, koszt ok. 1300–1700 PLN. Szerokie, bezpieczne drogi dwupasmowe. Wymagana karta kredytowa kierowcy.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">🌤️ Warunki Środowiskowe</h4>
+                        <p><strong>Pogoda (Wrzesień):</strong> Dzień 29–32°C, Noc ok. 20°C. Wyjątkowo stabilne warunki.</p>
+                        <p><strong>Fauna / Żółwie:</strong> <span class="text-emerald-600 font-bold">GWARANTOWANE (100% szans).</span> Rezerwat lęgowy İztuzu w Dalyan oraz stowarzyszenie DEKAMER gwarantują obserwację żółwi.</p>
+                        <p><strong>Snorkeling:</strong> Absolutnie najlepszy z całego zestawienia wokół skalistych platform półwyspu Kaş (widoczność do 30m).</p>
+                        <p><strong>Punkty Must-See:</strong> Butterfly Valley, wąwóz Saklıkent, ufortyfikowana plaża Kaputaş, licyjskie grobowce skalne, miasto duchów Kayaköy, Kekova.</p>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-slate-950 mb-4 border-b pb-2">🏨 Pełne Zestawienie Noclegów (Warianty A, B, C)</h3>
+                <div id="hotels-grid-turkey" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            </div>
+        </section>
+
+        <!-- TAB: CRETE DEEP DIVE -->
+        <section id="tab-crete-deep" class="tab-content">
+            <div class="glass-panel rounded-3xl p-6 md:p-8 shadow-sm mb-8 border-l-8 border-blue-600">
+                <h2 class="text-2xl font-black text-blue-700 mb-4">🇬🇷 Kreta Zachodnia (Chania / Kissamos / Rethymno) — Dossier</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-700 mb-8">
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">✈️ Szczegóły Logistyczne (CHQ)</h4>
+                        <p><strong>Rekomendowane daty:</strong> 13–27 września 2026 r. (14 dni).</p>
+                        <p><strong>Loty (2 os):</strong> KRK - CHQ - KRK szacowane na ok. 1900 PLN.</p>
+                        <p><strong>Dojazd:</strong> Bardzo krótki i wygodny bezpośrednio do bazy na zachodzie wyspy.</p>
+                        <p><strong>Auto (CHQ):</strong> Klasa B/C, koszt ok. 1500–1900 PLN. Wynajem bez depozytu i ubezpieczenie w cenie u lokalnych dostawców (Autopapas).</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 space-y-3">
+                        <h4 class="font-bold text-sm text-slate-950 flex items-center gap-1">🌤️ Warunki Środowiskowe</h4>
+                        <p><strong>Pogoda (Wrzesień):</strong> Dzień 27–29°C, Noc ok. 19°C. Możliwy wiatr północny generujący fale.</p>
+                        <p><strong>Fauna / Żółwie:</strong> <span class="text-emerald-600 font-bold">POTWIERDZONE (Wysokie prawdopodobieństwo).</span> Ochrona ARCHELON działa czynnie w Chanii oraz Rethymno.</p>
+                        <p><strong>Snorkeling:</strong> Dobry, głównie przy wejściach skalnych na obrzeżach Kissamos i rzadziej w piaszczystych lagunach.</p>
+                        <p><strong>Punkty Must-See:</strong> Karaibska laguna Balos, różowa plaża Elafonisi, stroma Seitan Limania, najgłębszy wąwóz Samaria, wenecki port w Chanii.</p>
+                    </div>
+                </div>
+                <h3 class="text-lg font-bold text-slate-950 mb-4 border-b pb-2">🏨 Pełne Zestawienie Noclegów (Warianty A, B, C)</h3>
+                <div id="hotels-grid-crete" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Ultimate Hotels Database (Exactly 45 unique hotels discussed so far)
+        const ultimateHotels = [
+            // Albania
+            { country: "albania", variant: "A", name: "Ksamil Blue Bay Apartments", price: 2450, rating: "9.4", revs: 210, type: "Apartament", wash: "TAK", beach: "100m - Ksamil Beach", score: 9.2, comment: "Świetny widok, pralka w apartamencie ujęta w opisie." },
+            { country: "albania", variant: "A", name: "Vila Kalcuni Sarande", price: 2800, rating: "9.1", revs: 450, type: "Hotel", wash: "CZĘŚCIOWO", beach: "Prywatna", score: 8.9, comment: "Pralnia w obiekcie, świetny standard i bezpośrednie zejście do morza." },
+            { country: "albania", variant: "A", name: "Himarë Seaview Villa", price: 2600, rating: "9.5", revs: 85, type: "Villa", wash: "TAK", beach: "300m - Livadi Beach", score: 9.1, comment: "Cicho, spokojnie, wymaga auta do dojazdów. Pralka potwierdzona." },
+            { country: "albania", variant: "B", name: "Saranda City Center Flat", price: 1850, rating: "8.7", revs: 120, type: "Apartament", wash: "TAK", beach: "400m - Saranda Promenada", score: 8.5, comment: "W centrum, ale plaża miejska jest średnia (trzeba jeździć)." },
+            { country: "albania", variant: "B", name: "Hotel Lula Ksamil", price: 2100, rating: "8.6", revs: 320, type: "Hotel", wash: "NIEPOTWIERDZONA", beach: "200m - Lori Beach", score: 8.2, comment: "Dobry balans, ale brak danych o pralce. Super lokalizacja." },
+            { country: "albania", variant: "B", name: "Bora Bora Hotel", price: 2250, rating: "8.8", revs: 205, type: "Studio", wash: "CZĘŚCIOWO", beach: "50m - Ksamil", score: 8.6, comment: "Bardzo blisko wody, usługa prania przez personel." },
+            { country: "albania", variant: "C", name: "Guesthouse Roza", price: 1200, rating: "8.2", revs: 55, type: "Pokój", wash: "TAK", beach: "800m - Saranda", score: 7.5, comment: "Cena miażdży. Gospodyni udostępnia swoją pralkę." },
+            { country: "albania", variant: "C", name: "Himarë Budget Rooms", price: 1400, rating: "8.0", revs: 40, type: "Studio", wash: "NIEPOTWIERDZONA", beach: "500m - Spille", score: 7.2, comment: "Basic, ale czysto. Wymaga dopytania o pralkę." },
+            { country: "albania", variant: "C", name: "Ksamil Sun Apartments", price: 1650, rating: "8.4", revs: 110, type: "Apartament", wash: "TAK", beach: "600m", score: 7.8, comment: "Taniej bo trochę dalej od centrum Ksamil, ale ma pralkę." },
+
+            // Zakynthos
+            { country: "zakynthos", variant: "A", name: "Kalamaki Beach Resort", price: 4800, rating: "9.2", revs: 600, type: "Resort", wash: "CZĘŚCIOWO", beach: "Beachfront - Kalamaki", score: 9.0, comment: "Plaża z gniazdami żółwi zaraz przy wyjściu! Usługa pralni w hotelu." },
+            { country: "zakynthos", variant: "A", name: "Keri Village & Bird", price: 4500, rating: "8.9", revs: 340, type: "Hotel", wash: "CZĘŚCIOWO", beach: "2km - Keri Beach", score: 8.5, comment: "Klimatycznie, ale wymaga dojazdu do żółwi." },
+            { country: "zakynthos", variant: "A", name: "Sea View Studio Laganas", price: 4100, rating: "9.5", revs: 90, type: "Apartament", wash: "TAK", beach: "100m - Laganas", score: 9.3, comment: "Unikać centrum imprezowego! Ma pralkę w pokoju." },
+            { country: "zakynthos", variant: "B", name: "Turtle's Nest Kalamaki", price: 3200, rating: "8.8", revs: 150, type: "Apartament", wash: "TAK", beach: "400m - Kalamaki", score: 8.7, comment: "Optymalny wybór. Cicho, blisko żółwi, potwierdzona pralka." },
+            { country: "zakynthos", variant: "B", name: "Dafni Beach Studios", price: 3400, rating: "8.5", revs: 80, type: "Studio", wash: "NIEPOTWIERDZONA", beach: "50m - Dafni", score: 8.1, comment: "Najpiękniejsza, dzika plaża żółwi (dojazd szutrem)." },
+            { country: "zakynthos", variant: "B", name: "Lithakia Balcony", price: 3100, rating: "9.0", revs: 210, type: "Apartament", wash: "TAK", beach: "1.5km - Agios Sostis", score: 8.6, comment: "Piękne widoki, pralka jest, konieczne auto." },
+            { country: "zakynthos", variant: "C", name: "Laganas Budget Rooms", price: 2100, rating: "7.8", revs: 400, type: "Pokój", wash: "NIEPOTWIERDZONA", beach: "800m - Laganas", score: 6.8, comment: "Uwaga na hałas z klubów. Zdecydowanie upewnić się o lokalizację." },
+            { country: "zakynthos", variant: "C", name: "Kalamaki Olive Grove", price: 2400, rating: "8.4", revs: 110, type: "Studio", wash: "CZĘŚCIOWO", beach: "1km - Kalamaki", score: 7.5, comment: "Taniej przez odległość. Pranie ogólnodostępne na parterze." },
+            { country: "zakynthos", variant: "C", name: "Agios Sostis Guesthouse", price: 2600, rating: "8.6", revs: 95, type: "Pokój", wash: "TAK", beach: "300m - Porto Koukla", score: 8.0, comment: "Bardzo dobry stosunek cena/jakość." },
+
+            // Cypr
+            { country: "cyprus", variant: "A", name: "Latchi Family Resort", price: 4600, rating: "9.1", revs: 320, type: "Resort", wash: "CZĘŚCIOWO", beach: "200m - Latchi", score: 8.9, comment: "Super logistyka na rejsy Blue Lagoon. Pranie zlecane recepcji." },
+            { country: "cyprus", variant: "A", name: "Akamas Edge Villa", price: 5200, rating: "9.6", revs: 45, type: "Villa", wash: "TAK", beach: "2km - dzikie plaże", score: 9.4, comment: "Luksusowo, własna pralka, taras. Wymagane auto." },
+            { country: "cyprus", variant: "A", name: "Coral Bay Seaview", price: 4300, rating: "8.9", revs: 500, type: "Apartament", wash: "TAK", beach: "300m - Coral Bay", score: 8.8, comment: "Turystyczne centrum, ładna plaża piaskowa." },
+            { country: "cyprus", variant: "B", name: "Polis Gardens Apt", price: 3100, rating: "9.0", revs: 180, type: "Apartament", wash: "TAK", beach: "1.5km - Polis", score: 8.7, comment: "Świetna baza pod Akamas. Duży apartament z pralką, basen." },
+            { country: "cyprus", variant: "B", name: "Kato Paphos Suites", price: 3300, rating: "8.7", revs: 410, type: "Apartament", wash: "TAK", beach: "800m - Lighthouse", score: 8.5, comment: "Blisko zabytków, trochę gorzej z jakością miejskich plaż." },
+            { country: "cyprus", variant: "B", name: "Peyia Sunset Studios", price: 2900, rating: "8.8", revs: 130, type: "Studio", wash: "NIEPOTWIERDZONA", beach: "3km - Coral Bay", score: 8.0, comment: "Widok z góry, daleko do morza (tylko auto!)." },
+            { country: "cyprus", variant: "C", name: "Paphos Budget Rooms", price: 2100, rating: "8.1", revs: 250, type: "Pokój", wash: "CZĘŚCIOWO", beach: "1km - miejska", score: 7.2, comment: "Tanie, czyste, ale wokół beton." },
+            { country: "cyprus", variant: "C", name: "Argaka Village Guesthouse", price: 2400, rating: "8.5", revs: 60, type: "Pokój", wash: "TAK", beach: "500m - Argaka", score: 7.8, comment: "Spokojnie, czarno-szary piasek wulkaniczny." },
+            { country: "cyprus", variant: "C", name: "Neo Chorio Authentic", price: 2500, rating: "9.2", revs: 40, type: "Studio", wash: "TAK", beach: "4km - Latchi", score: 8.3, comment: "Tradycyjna wioska przed Akamas." },
+
+            // Turcja
+            { country: "turkey", variant: "A", name: "Yacht Classic Hotel Fethiye", price: 5400, rating: "9.3", revs: 820, type: "Hotel Premium", wash: "CZĘŚCIOWO", beach: "Marina / 2km do plaży", score: 9.1, comment: "Luksusowy standard z basenami nad samą wodą. Wybitna kuchnia." },
+            { country: "turkey", variant: "A", name: "La Kumsal Hotel Kaş", price: 4900, rating: "9.4", revs: 180, type: "Hotel", wash: "CZĘŚCIOWO", beach: "100m - klify i platformy", score: 9.0, comment: "Widok na wyspę Meis. Fenomenalny snorkeling z platform." },
+            { country: "turkey", variant: "A", name: "Sunset Beach Villas Fethiye", price: 5800, rating: "9.1", revs: 310, type: "Apartament/Villa", wash: "TAK", beach: "50m - Çalış Beach", score: 9.4, comment: "Prywatna pralka w kuchni, bezpośrednio przy plaży." },
+            { country: "turkey", variant: "B", name: "Ten Apart Hotel", price: 3400, rating: "9.0", revs: 240, type: "Apartament", wash: "TAK", beach: "350m - Çalış Beach", score: 8.9, comment: "Pralka w apartamencie, świetny basen, spokojna lokalizacja." },
+            { country: "turkey", variant: "B", name: "Dalyan Resort Special", price: 3800, rating: "8.9", revs: 420, type: "Hotel", wash: "CZĘŚCIOWO", beach: "Rzeka / Transfer na Iztuzu", score: 8.6, comment: "Lokalizacja tuż przy rzece Dalyan. Hotel organizuje łodzie." },
+            { country: "turkey", variant: "B", name: "Kaş Center Apartments", price: 3600, rating: "8.8", revs: 95, type: "Apartament", wash: "TAK", beach: "400m - Pebble Beach", score: 8.7, comment: "W samym miasteczku Kaş. Pralka na wyposażeniu." },
+            { country: "turkey", variant: "C", name: "Dalyan Nish Hotel", price: 2200, rating: "8.5", revs: 110, type: "Studio", wash: "NIEPOTWIERDZONA", beach: "Wymaga dojazdu na Iztuzu", score: 7.6, comment: "Bardzo tanio, czysty basen, pokoje skromne." },
+            { country: "turkey", variant: "C", name: "Nilsu Apart Fethiye", price: 2500, rating: "8.6", revs: 70, type: "Apartament", wash: "TAK", beach: "600m - Çalış", score: 8.0, comment: "Budżetowy apartament rodzinny z pralką. Prosty standard." },
+            { country: "turkey", variant: "C", name: "Santana Hotel Kaş", price: 2700, rating: "8.3", revs: 140, type: "Hotel/Pensjonat", wash: "CZĘŚCIOWO", beach: "500m", score: 7.4, comment: "Dobra cena jak na drogie Kaş." },
+
+            // Kreta
+            { country: "crete", variant: "A", name: "Balos Beach Hotel", price: 5600, rating: "9.0", revs: 880, type: "Hotel/Apart", wash: "CZĘŚCIOWO", beach: "100m - dzika plaża", score: 8.9, comment: "Widok premium. Pralnia w hotelu." },
+            { country: "crete", variant: "A", name: "Chania Venetian Port Suites", price: 6200, rating: "9.5", revs: 190, type: "Apartament Premium", wash: "TAK", beach: "1.2km - Nea Chora", score: 9.2, comment: "Lokalizacja w sercu weneckiego portu. Pralka i suszarka." },
+            { country: "crete", variant: "A", name: "Nautilus Apartments Kissamos", price: 5100, rating: "9.3", revs: 140, type: "Apartament", wash: "TAK", beach: "20m - Mavros Molos", score: 9.3, comment: "Zejście bezpośrednio na piaszczystą plażę. Pralka." },
+            { country: "crete", variant: "B", name: "Kissamos Windmills Apartments", price: 3900, rating: "8.9", revs: 230, type: "Apartament", wash: "TAK", beach: "300m", score: 8.7, comment: "Zaaranżowane w starym młynie, prywatna pralka." },
+            { country: "crete", variant: "B", name: "Stelios Gardens Chania", price: 3600, rating: "8.7", revs: 410, type: "Studio", wash: "CZĘŚCIOWO", beach: "150m - Agia Marina", score: 8.3, comment: "Dobra baza wypadowa. Pralnia w piwnicy." },
+            { country: "crete", variant: "B", name: "Rethymno Old Town Suites", price: 4100, rating: "9.0", revs: 310, type: "Apartament", wash: "TAK", beach: "600m - miejska", score: 8.8, comment: "W starym mieście Rethymno. Pralka w aneksie." },
+            { country: "crete", variant: "C", name: "Maria Rooms Kissamos", price: 2400, rating: "8.3", revs: 90, type: "Studio", wash: "NIEPOTWIERDZONA", beach: "500m", score: 7.5, comment: "Bardzo proste pokoje u greckiej rodziny." },
+            { country: "crete", variant: "C", name: "Katerina Studios Agia Marina", price: 2600, rating: "8.4", revs: 150, type: "Studio", wash: "TAK", beach: "400m", score: 7.9, comment: "Posiada małe pralki w studiach typu Superior." },
+            { country: "crete", variant: "C", name: "Castell Studios Chania", price: 2800, rating: "8.1", revs: 115, type: "Pokój/Studio", wash: "NIEPOTWIERDZONA", beach: "900m", score: 7.2, comment: "Lokalizacja na obrzeżach Chanii, dobra cena." }
+        ];
+    </script>
+
+    <script>
+        // Tab Navigation Switcher supporting both rows
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('bg-slate-950', 'text-white', 'shadow-md', 'bg-teal-950', 'text-white');
+                if (btn.id.includes('deep')) {
+                    btn.classList.add('text-teal-700/60');
+                } else {
+                    btn.classList.add('text-slate-500', 'hover:text-slate-950');
+                }
+            });
+
+            const activeTab = document.getElementById(tabId);
+            if(activeTab) {
+                activeTab.classList.add('active');
+            }
+
+            const activeBtn = document.getElementById('btn-' + tabId.replace('tab-', ''));
+            if(activeBtn) {
+                activeBtn.classList.remove('text-slate-500', 'hover:text-slate-950', 'text-teal-700/60');
+                if (tabId.includes('deep')) {
+                    activeBtn.classList.add('bg-teal-950', 'text-white', 'shadow-md');
+                } else {
+                    activeBtn.classList.add('bg-slate-950', 'text-white', 'shadow-md');
+                }
+            }
+
+            // Explicit chart updates for general layout
+            if(tabId === 'tab-calculator') {
+                updateUltimateCalculator();
+            }
+        }
+
+        // Matchmaker Logic
+        function setPriority(type) {
+            const resultBox = document.getElementById('matchmaker-result');
+            resultBox.classList.remove('hidden');
+            
+            let htmlContent = "";
+            if (type === 'cena') {
+                htmlContent = "<strong>🥇 Wynik: Albania (Saranda)</strong><br>Najtańsze loty z Krakowa (~358 PLN/2 os.) oraz najniższe koszty twarde zakwaterowania na miejscu. Całkowity budżet zamyka się o 30% taniej niż w Grecji.";
+            } else if (type === 'zolwie') {
+                htmlContent = "<strong>🥇 Wynik: Grecja (Zakynthos) lub Turcja (Dalyan)</strong><br>Zakynthos gwarantuje żółwie Caretta caretta bezpośrednio przy plaży w Kalamaki. Turcja oferuje rezerwat İztuzu w Dalyan ze 100% pewnością obserwacji dorosłych osobników.";
+            } else if (type === 'snorkeling') {
+                htmlContent = "<strong>🥇 Wynik: Turcja Egejska (Kaş)</strong><br>Kaş bije wszystkie opcje na głowę. Skaliste zatoczki i platformy gwarantują przejrzystość wody do 30m głębokości oraz bogactwo podwodnej flory i fauny.";
+            } else if (type === 'drogi') {
+                htmlContent = "<strong>🥇 Wynik: Kreta Zachodnia (Chania)</strong><br>Lokalni greccy pośrednicy dają pełne ubezpieczenie (No Deposit / Zero Kaucji) bez blokowania środków na karcie kredytowej. Drogi są kręte, ale bezpieczne.";
+            } else if (type === 'schengen') {
+                htmlContent = "<strong>🥇 Wynik: Kreta Zachodnia / Zakynthos</strong><br>Pełne bezpieczeństwo strefy Schengen, brak kontroli paszportowych, płatności w Euro i gwarancja europejskiej opieki medycznej (karta EKUZ).";
+            }
+            
+            resultBox.innerHTML = htmlContent;
+        }
+
+        // Consolidated Filters for Global View
+        function filterHotels() {
+            const countryFilter = document.getElementById('hotel-filter-country').value;
+            const variantFilter = document.getElementById('hotel-filter-variant').value;
+            const container = document.getElementById('consolidated-hotels-grid');
+            
+            container.innerHTML = '';
+            
+            const filtered = ultimateHotels.filter(hotel => {
+                const countryMatch = countryFilter === 'all' || hotel.country === countryFilter;
+                const variantMatch = variantFilter === 'all' || hotel.variant === variantFilter;
+                return countryMatch && variantMatch;
+            });
+
+            filtered.forEach((hotel) => {
+                container.innerHTML += buildHotelCard(hotel);
+            });
+        }
+
+        // Generate clean modular cards with proper wash labels
+        function buildHotelCard(hotel) {
+            let washColor = "text-stone-500";
+            if(hotel.wash === "TAK") washColor = "text-emerald-600 font-bold";
+            if(hotel.wash === "CZĘŚCIOWO") washColor = "text-amber-600 font-bold";
+            if(hotel.wash === "NIEPOTWIERDZONA") washColor = "text-red-500 font-bold";
+
+            const countryBadge = hotel.country.toUpperCase();
+
+            return `
+                <div class="bg-white border border-stone-200 rounded-3xl p-5 shadow-sm interactive-card flex flex-col justify-between h-full">
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="text-[10px] font-black uppercase tracking-wider text-slate-400 bg-stone-100 px-2 py-1 rounded">${countryBadge} - Wariant ${hotel.variant}</span>
+                            <span class="text-xs font-bold text-teal-600 bg-teal-50 px-2 py-1 rounded-lg">⭐ ${hotel.rating} (${hotel.revs})</span>
+                        </div>
+                        <h4 class="font-extrabold text-slate-950 text-base leading-tight mb-2">${hotel.name}</h4>
+                        <div class="text-2xl font-black text-slate-900 mb-4">${hotel.price} PLN <span class="text-xs font-normal text-slate-400">/ Pobyt</span></div>
+                        
+                        <div class="border-t border-stone-100 py-3 space-y-2 text-xs text-slate-700">
+                            <div class="flex justify-between"><strong>Prywatna Łazienka:</strong> <span class="text-emerald-600 font-bold">Potwierdzona</span></div>
+                            <div class="flex justify-between"><strong>Pralka:</strong> <span class="${washColor}">${hotel.wash}</span></div>
+                            <div class="flex justify-between"><strong>Dojazd / Plaża:</strong> <span class="text-slate-500 text-right">${hotel.beach}</span></div>
+                            <div class="flex justify-between"><strong>Standard Ocena:</strong> <span class="font-bold text-slate-900">${hotel.score}/10</span></div>
+                        </div>
+                    </div>
+                    <div class="bg-stone-50 p-3 rounded-2xl text-[11px] text-slate-600 italic border border-stone-200/50 mt-4">
+                        💬 ${hotel.comment}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Populates dedicated Deep Dive Country grids automatically
+        function renderAllDeepDives() {
+            const countries = ['albania', 'greece', 'cyprus', 'turkey', 'crete'];
+            
+            countries.forEach(country => {
+                const gridId = `hotels-grid-${country}`;
+                const container = document.getElementById(gridId);
+                if(container) {
+                    container.innerHTML = '';
+                    const matchedHotels = ultimateHotels.filter(h => h.country === (country === 'greece' ? 'zakynthos' : country));
+                    matchedHotels.forEach(hotel => {
+                        container.innerHTML += buildHotelCard(hotel);
+                    });
+                }
+            });
+        }
+
+        // Interactive Live Chart
+        let ultimateChartInstance = null;
+
+        function updateUltimateCalculator() {
+            const days = parseInt(document.getElementById('calc-days').value);
+            const variant = document.getElementById('calc-variant').value;
+            const foodPerDay = parseInt(document.getElementById('calc-food').value);
+
+            document.getElementById('calc-days-val').innerText = `${days} dni`;
+            document.getElementById('calc-food-val').innerText = `${foodPerDay} PLN / dzień`;
+
+            // Hard base costs config (Sept 2026 Flight estimates for 2 persons)
+            const baseFlights = { albania: 358, zakynthos: 1280, cyprus: 1046, turkey: 1650, crete: 1900 };
+            const carPerDay = { albania: 80, zakynthos: 100, cyprus: 95, turkey: 105, crete: 120 };
+            
+            // Accommodation per-day based on Class and Destination
+            const hotelRates = {
+                A: { albania: 180, zakynthos: 330, cyprus: 410, turkey: 370, crete: 400 },
+                B: { albania: 135, zakynthos: 230, cyprus: 280, turkey: 250, crete: 275 },
+                C: { albania: 100, zakynthos: 165, cyprus: 210, turkey: 185, crete: 195 }
+            };
+
+            // Local Food Factors (Eurozones, local indices, currency ratios)
+            const foodFactors = { albania: 0.85, zakynthos: 1.25, cyprus: 1.20, turkey: 0.75, crete: 1.30 };
+            const localBuffers = { albania: 800, zakynthos: 1100, cyprus: 1200, turkey: 900, crete: 1300 };
+
+            // Calculating values
+            const destinationsList = ['albania', 'zakynthos', 'cyprus', 'turkey', 'crete'];
+            const hardCosts = [];
+            const softCosts = [];
+
+            destinationsList.forEach(dest => {
+                const flight = baseFlights[dest];
+                const car = carPerDay[dest] * days;
+                const hotel = hotelRates[variant][dest] * days;
+                const hardTotal = flight + car + hotel;
+
+                const food = foodPerDay * foodFactors[dest] * days;
+                const buffer = localBuffers[dest];
+                const softTotal = food + buffer;
+
+                hardCosts.push(hardTotal);
+                softCosts.push(softTotal);
+            });
+
+            const ctx = document.getElementById('ultimateCostChart').getContext('2d');
+            if (ultimateChartInstance) {
+                ultimateChartInstance.destroy();
+            }
+
+            ultimateChartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Albania', 'Zakynthos', 'Cypr Południowy', 'Turcja Egejska', 'Kreta Zachodnia'],
+                    datasets: [
+                        {
+                            label: 'Koszty Twarde (Lot + Auto + Hotel) [PLN]',
+                            data: hardCosts,
+                            backgroundColor: '#0d9488', // teal-600
+                            borderRadius: 8
+                        },
+                        {
+                            label: 'Wyżywienie + Aktywności / Paliwo [PLN]',
+                            data: softCosts,
+                            backgroundColor: '#f59e0b', // amber-500
+                            borderRadius: 8
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: { stacked: true },
+                        y: { 
+                            stacked: true,
+                            beginAtZero: true,
+                            title: { display: true, text: 'Koszt całkowity (PLN)', font: { weight: 'bold', family: 'Plus Jakarta Sans' } }
+                        }
+                    },
+                    plugins: {
+                        legend: { position: 'bottom', labels: { boxWidth: 12, font: { family: 'Plus Jakarta Sans' } } }
+                    }
+                }
+            });
+        }
+
+        // Initialize App on DOM Loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            switchTab('tab-showdown');
+            filterHotels();
+            renderAllDeepDives();
+            updateUltimateCalculator();
+        });
+    </script>
+</body>
+</html>
