@@ -101,4 +101,4 @@ The nested `booking-scraper-flow/` directory is included as a private Git submod
 - submodule branch: `main`
 - configured in `.gitmodules`
 
-Git internals are not versioned as ordinary files. Finder metadata snapshots such as `.DS_Store` were intentionally committed during the initial publish because the workspace was requested to include all files.
+Git internals are not versioned as ordinary files. Local generated files such as `.DS_Store` and Python `__pycache__/` output are ignored and should stay out of Git history.

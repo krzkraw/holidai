@@ -372,7 +372,7 @@ Project-specific boundaries:
 - Commit and push root changes in the root repository. Commit and push nested scraper changes inside `booking-scraper-flow/` first, then update and commit the root submodule pointer.
 - Treat `booking-scraper-flow/examples/booking/` as reference/example data unless the user asks to regenerate examples.
 - Treat `gpt/sources/` as source material and previous report artifacts. Do not overwrite it unless explicitly updating the vacation-report source set.
-- Root `.DS_Store`, `gpt/.DS_Store`, nested `.DS_Store`, and `booking-scraper-flow/scripts/__pycache__/` were intentionally snapshotted during the initial private publish. Do not update them casually; if macOS rewrites them, avoid committing churn unless the user explicitly asks to refresh all files.
+- Root `.DS_Store`, `gpt/.DS_Store`, nested `.DS_Store`, and Python `__pycache__/` output are generated/local artifacts. Keep them ignored and out of Git history.
 
 ## Verification Commands
 
@@ -418,8 +418,7 @@ Update this section during bootstrap and later discovery.
 |   |-- SKILL.md
 |   |-- scripts/
 |   |   |-- scrape_booking.py
-|   |   |-- consolidate.py
-|   |   `-- __pycache__/          # generated cache
+|   |   `-- consolidate.py
 |   `-- examples/booking/         # reference scraped output and country summaries
 |-- gemini/
 |   |-- system_por_wnawczy.html
