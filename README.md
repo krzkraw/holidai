@@ -6,12 +6,24 @@ This workspace collects vacation-planning artifacts for a September 2026 Mediter
 
 - Static HTML reports in `gpt/` and `gemini/`.
 - Markdown and CSV source material in `gpt/sources/`.
-- Python 3 scripts in `booking-scraper-flow/scripts/`.
+- Python 3 scripts in the private `booking-scraper-flow` Git submodule.
 - `agent-browser` CLI for live Booking.com scraping.
 
 No root package manifest, dependency lockfile, build system, test runner, or linter configuration was found.
 
 ## Setup
+
+Clone this private repository with its private submodule:
+
+```bash
+git clone --recurse-submodules https://github.com/krzkraw/holidai.git
+```
+
+If the repository was cloned without submodules, initialize them afterward:
+
+```bash
+git submodule update --init --recursive
+```
 
 For static report review, no setup is required. Open the HTML files directly in a browser.
 
@@ -58,6 +70,7 @@ gemini/wielkie_por_wnanie_r_dziemnomorskie_2026.html
 |-- AGENTS.md
 |-- README.md
 |-- .gitignore
+|-- .gitmodules
 |-- booking-scraper-flow/
 |   |-- AGENTS.md
 |   |-- README.md
@@ -77,6 +90,15 @@ gemini/wielkie_por_wnanie_r_dziemnomorskie_2026.html
 
 ## Repository Notes
 
-The root workspace is not currently a git repository. The nested `booking-scraper-flow/` directory is its own git repository and was clean during bootstrap inspection.
+The root workspace is a private GitHub repository:
 
-If the root workspace should be versioned, initialize git only after explicit confirmation from the user.
+- `origin`: `https://github.com/krzkraw/holidai.git`
+- default branch: `main`
+
+The nested `booking-scraper-flow/` directory is included as a private Git submodule:
+
+- submodule remote: `https://github.com/krzkraw/booking-scraper-flow.git`
+- submodule branch: `main`
+- configured in `.gitmodules`
+
+Git internals are not versioned as ordinary files. Finder metadata snapshots such as `.DS_Store` were intentionally committed during the initial publish because the workspace was requested to include all files.

@@ -337,6 +337,7 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
 
 - `README.md` - root workspace overview, setup, project map, and important commands.
 - `AGENTS.md` - root operating contract.
+- `.gitmodules` - private submodule configuration for `booking-scraper-flow/`.
 - `booking-scraper-flow/AGENTS.md` - nested contract for the Booking.com scraping flow.
 - `booking-scraper-flow/README.md` - scraper workflow setup and usage.
 - `booking-scraper-flow/SKILL.md` - skill package metadata and execution workflow.
@@ -366,11 +367,12 @@ Before editing, identify whether a file is source, generated output, dependency 
 
 Project-specific boundaries:
 
-- The root workspace is not a git repository. Do not run `git init` unless the user explicitly confirms.
-- `booking-scraper-flow/` is a nested git repository with its own `AGENTS.md`; follow it when working there.
+- The root workspace is a private GitHub repository at `https://github.com/krzkraw/holidai.git` on branch `main`.
+- `booking-scraper-flow/` is a private Git submodule at `https://github.com/krzkraw/booking-scraper-flow.git` with its own `AGENTS.md`; follow it when working there.
+- Commit and push root changes in the root repository. Commit and push nested scraper changes inside `booking-scraper-flow/` first, then update and commit the root submodule pointer.
 - Treat `booking-scraper-flow/examples/booking/` as reference/example data unless the user asks to regenerate examples.
 - Treat `gpt/sources/` as source material and previous report artifacts. Do not overwrite it unless explicitly updating the vacation-report source set.
-- Treat root `.DS_Store`, nested `.DS_Store`, and `booking-scraper-flow/scripts/__pycache__/` as generated/local artifacts.
+- Root `.DS_Store`, `gpt/.DS_Store`, nested `.DS_Store`, and `booking-scraper-flow/scripts/__pycache__/` were intentionally snapshotted during the initial private publish. Do not update them casually; if macOS rewrites them, avoid committing churn unless the user explicitly asks to refresh all files.
 
 ## Verification Commands
 
@@ -407,8 +409,9 @@ Update this section during bootstrap and later discovery.
 |-- AGENTS.md
 |-- README.md
 |-- .gitignore
+|-- .gitmodules
 |-- booking-scraper-flow/
-|   |-- .git/
+|   |-- .git/                  # submodule Git metadata, never version directly
 |   |-- .gitignore
 |   |-- AGENTS.md
 |   |-- README.md
