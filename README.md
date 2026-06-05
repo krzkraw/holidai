@@ -13,13 +13,13 @@ No root package manifest, dependency lockfile, build system, test runner, or lin
 
 ## Setup
 
-Clone this private repository with its private submodule:
+Clone the public root repository:
 
 ```bash
-git clone --recurse-submodules https://github.com/krzkraw/holidai.git
+git clone https://github.com/krzkraw/holidai.git
 ```
 
-If the repository was cloned without submodules, initialize them afterward:
+If you also need the private `booking-scraper-flow` submodule and have access to it, initialize it afterward:
 
 ```bash
 git submodule update --init --recursive
@@ -100,7 +100,7 @@ gemini/2026-holidai-v2.html
 
 ## Repository Notes
 
-The root workspace is a private GitHub repository:
+The root workspace is a public GitHub repository:
 
 - `origin`: `https://github.com/krzkraw/holidai.git`
 - default branch: `main`

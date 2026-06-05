@@ -337,7 +337,7 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
 
 - `README.md` - root workspace overview, setup, project map, and important commands.
 - `AGENTS.md` - root operating contract.
-- `.gitmodules` - private submodule configuration for `booking-scraper-flow/`.
+- `.gitmodules` - submodule configuration for `booking-scraper-flow/`.
 - `.github/workflows/deploy-pages.yml` - GitHub Pages deployment workflow for the root landing page plus the four published reports.
 - `index.html` - GitHub Pages landing page linking to the published OpenAI and Gemini reports.
 - `booking-scraper-flow/AGENTS.md` - nested contract for the Booking.com scraping flow.
@@ -369,7 +369,7 @@ Before editing, identify whether a file is source, generated output, dependency 
 
 Project-specific boundaries:
 
-- The root workspace is a private GitHub repository at `https://github.com/krzkraw/holidai.git` on branch `main`.
+- The root workspace is a public GitHub repository at `https://github.com/krzkraw/holidai.git` on branch `main`.
 - GitHub Pages for the root repository is deployed by a GitHub Actions workflow and publishes `index.html`, `gpt/ultimate-desktop.html`, `gpt/ultimate-mobile.html`, `gemini/2026-holidai-v1.html`, and `gemini/2026-holidai-v2.html`.
 - `booking-scraper-flow/` is a private Git submodule at `https://github.com/krzkraw/booking-scraper-flow.git` with its own `AGENTS.md`; follow it when working there.
 - Commit and push root changes in the root repository. Commit and push nested scraper changes inside `booking-scraper-flow/` first, then update and commit the root submodule pointer.
