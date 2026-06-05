@@ -27,6 +27,12 @@ git submodule update --init --recursive
 
 For static report review, no setup is required. Open the HTML files directly in a browser.
 
+Published Pages entry point:
+
+```text
+https://krzkraw.github.io/holidai/
+```
+
 For the Booking.com scraper flow, install `agent-browser` and use Python 3:
 
 ```bash
@@ -57,10 +63,11 @@ python3 booking-scraper-flow/scripts/consolidate.py <path-to-booking-directory>
 Review final report artifacts:
 
 ```text
+index.html
 gpt/ultimate-desktop.html
 gpt/ultimate-mobile.html
-gemini/system_por_wnawczy.html
-gemini/wielkie_por_wnanie_r_dziemnomorskie_2026.html
+gemini/2026-holidai-v1.html
+gemini/2026-holidai-v2.html
 ```
 
 ## Project Structure
@@ -71,6 +78,8 @@ gemini/wielkie_por_wnanie_r_dziemnomorskie_2026.html
 |-- README.md
 |-- .gitignore
 |-- .gitmodules
+|-- .github/workflows/deploy-pages.yml
+|-- index.html
 |-- booking-scraper-flow/
 |   |-- AGENTS.md
 |   |-- README.md
@@ -78,7 +87,8 @@ gemini/wielkie_por_wnanie_r_dziemnomorskie_2026.html
 |   |-- scripts/
 |   `-- examples/booking/
 |-- gemini/
-|   `-- *.html
+|   |-- 2026-holidai-v1.html
+|   `-- 2026-holidai-v2.html
 `-- gpt/
     |-- AGENTS.md
     |-- README.md
@@ -94,6 +104,8 @@ The root workspace is a private GitHub repository:
 
 - `origin`: `https://github.com/krzkraw/holidai.git`
 - default branch: `main`
+- GitHub Pages will publish from a GitHub Actions workflow
+- expected site URL: `https://krzkraw.github.io/holidai/`
 
 The nested `booking-scraper-flow/` directory is included as a private Git submodule:
 

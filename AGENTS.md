@@ -338,6 +338,8 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
 - `README.md` - root workspace overview, setup, project map, and important commands.
 - `AGENTS.md` - root operating contract.
 - `.gitmodules` - private submodule configuration for `booking-scraper-flow/`.
+- `.github/workflows/deploy-pages.yml` - GitHub Pages deployment workflow for the root landing page plus the four published reports.
+- `index.html` - GitHub Pages landing page linking to the published OpenAI and Gemini reports.
 - `booking-scraper-flow/AGENTS.md` - nested contract for the Booking.com scraping flow.
 - `booking-scraper-flow/README.md` - scraper workflow setup and usage.
 - `booking-scraper-flow/SKILL.md` - skill package metadata and execution workflow.
@@ -368,6 +370,7 @@ Before editing, identify whether a file is source, generated output, dependency 
 Project-specific boundaries:
 
 - The root workspace is a private GitHub repository at `https://github.com/krzkraw/holidai.git` on branch `main`.
+- GitHub Pages for the root repository is deployed by a GitHub Actions workflow and publishes `index.html`, `gpt/ultimate-desktop.html`, `gpt/ultimate-mobile.html`, `gemini/2026-holidai-v1.html`, and `gemini/2026-holidai-v2.html`.
 - `booking-scraper-flow/` is a private Git submodule at `https://github.com/krzkraw/booking-scraper-flow.git` with its own `AGENTS.md`; follow it when working there.
 - Commit and push root changes in the root repository. Commit and push nested scraper changes inside `booking-scraper-flow/` first, then update and commit the root submodule pointer.
 - Treat `booking-scraper-flow/examples/booking/` as reference/example data unless the user asks to regenerate examples.
@@ -397,7 +400,7 @@ python3 booking-scraper-flow/scripts/scrape_booking.py <path-to-file-containing-
 python3 booking-scraper-flow/scripts/consolidate.py <path-to-booking-directory>
 
 # Static report smoke test:
-# Open gpt/ultimate-desktop.html, gpt/ultimate-mobile.html, and relevant gemini/*.html in a browser.
+# Open index.html, gpt/ultimate-desktop.html, gpt/ultimate-mobile.html, and relevant gemini/*.html in a browser.
 ```
 
 ## Project Map
@@ -410,6 +413,10 @@ Update this section during bootstrap and later discovery.
 |-- README.md
 |-- .gitignore
 |-- .gitmodules
+|-- .github/
+|   `-- workflows/
+|       `-- deploy-pages.yml
+|-- index.html
 |-- booking-scraper-flow/
 |   |-- .git/                  # submodule Git metadata, never version directly
 |   |-- .gitignore
@@ -421,8 +428,8 @@ Update this section during bootstrap and later discovery.
 |   |   `-- consolidate.py
 |   `-- examples/booking/         # reference scraped output and country summaries
 |-- gemini/
-|   |-- system_por_wnawczy.html
-|   `-- wielkie_por_wnanie_r_dziemnomorskie_2026.html
+|   |-- 2026-holidai-v1.html
+|   `-- 2026-holidai-v2.html
 `-- gpt/
     |-- AGENTS.md
     |-- README.md
