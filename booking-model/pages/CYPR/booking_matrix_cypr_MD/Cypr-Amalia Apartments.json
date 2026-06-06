@@ -1,0 +1,253 @@
+{
+  "title": "Cypr - Amalia Apartments",
+  "country": "Cypr",
+  "propertyName": "Amalia Apartments",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.04067862611854,
+    "longitude": 32.386043071746826
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/871032307.jpg?k=d0e29449d39a5883cb1264890a6d0a6cc9a1c4b82f6ff3d3144f0c6236ee3fc2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/871033380.jpg?k=741ec0b64b1573c8ac661735bf683ff63bebcda20f5c405bb0345c559022e768&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/602629248.jpg?k=a108cad81618939ee847d35a96093efb02940beb2dde05ab3a5ee6a2019bef7c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/871817279.jpg?k=7c58a81e028d06ae18a9ac6727bfa7cdade55f44fe10c7e6399d4af3af45e425&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/872323955.jpg?k=9c9f28d02245ae7e969ce0c52eb4859d967a5a7752832b1327856e9330b13b04&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/116178520.jpg?k=76bae316ee6d2e7c61f9919758c2207ccdeda5dd9474f3f4377c1175716eb45e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/871815712.jpg?k=225bf56356f742d64719a9647b6719b4ea421f6b79a8380caed9d0fabe72cb80&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/873612091.jpg?k=58a0fb0687eeeb7f043b2310a09bd71b5cb5da0201cb7b44b7460ecedc0a78c8&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-b.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/De.png"
+  ],
+  "description": "Obiekt Amalia Apartments oferuje sezonowy odkryty basen, ogród oraz różne opcje zakwaterowania, w których zapewniono klimatyzację, patio i bezpłatne Wi-Fi. Odległość ważnych miejsc od obiektu: Plaża Latsi – kilka kroków od obiektu. Na terenie obiektu znajduje się prywatny parking.\n\nKażda opcja zakwaterowania ma taras i wyposażona jest w telewizor z płaskim ekranem oraz pralkę. We wszystkich opcjach znajduje się kuchnia z pełnym wyposażeniem, w tym lodówką, jak również część wypoczynkowa z rozkładaną sofą oraz prywatna łazienka z prysznicem i suszarką do włosów. Wyposażenie obejmuje również piekarnik, mikrofalówkę, płytę kuchenną i czajnik.\n\nNa terenie obiektu Amalia Apartments znajduje się sprzęt do grillowania.\n\nOdległość ważnych miejsc od obiektu: Zoo w Pafos – 30 km, Klub golfowy Minthis Hill – 35 km. Lotnisko Lotnisko Pafos znajduje się 48 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,4.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3054,
+      "raw": "3054 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 4199,
+      "raw": "4199 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 5344,
+      "raw": "5344 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ apartamentu",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz apartament"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "5 938 zł <br> Cena 5 938 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 16 lipca 2026 <br> • <br> Nie płacisz nic do 14 lipca 2026",
+        "Wybierz pokoje <br> 0 <br> 1          (5 938 zł)"
+      ],
+      [
+        "Apartament z 1 sypialnią - 1. piętro <br>  Został nam 1 <br> 1 rozkładana sofa  i 1 duże łóżko podwójne  <br> 1 apartament na wyłączność <br> 70 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Widok na punkt orientacyjny <br> Widok na miasto <br> Basen z widokiem <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 879 zł <br> Cena 5 879 zł <br> Zawiera opłaty i podatki",
+        "Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (5 879 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 532 zł <br> Cena 6 532 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 16 lipca 2026 <br> • <br> Nie płacisz nic do 14 lipca 2026",
+        "Wybierz pokoje <br> 0 <br> 1          (6 532 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ apartamentu | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz apartament |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 5 938 zł <br> Cena 5 938 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 16 lipca 2026 <br> • <br> Nie płacisz nic do 14 lipca 2026 | Wybierz pokoje <br> 0 <br> 1          (5 938 zł) |\n| Apartament z 1 sypialnią - 1. piętro <br>  Został nam 1 <br> 1 rozkładana sofa  i 1 duże łóżko podwójne  <br> 1 apartament na wyłączność <br> 70 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Widok na punkt orientacyjny <br> Widok na miasto <br> Basen z widokiem <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 879 zł <br> Cena 5 879 zł <br> Zawiera opłaty i podatki | Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (5 879 zł) |\n| Maksymalna liczba osób: 2 | 6 532 zł <br> Cena 6 532 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 16 lipca 2026 <br> • <br> Nie płacisz nic do 14 lipca 2026 | Wybierz pokoje <br> 0 <br> 1          (6 532 zł) |"
+  },
+  "review": {
+    "score": 8.2,
+    "count": 157
+  },
+  "comments": [
+    {
+      "author": "Adrian",
+      "text": "„Lokalizacja, wielkość apartamentu, kontakt z właścicielem”"
+    },
+    {
+      "author": "Adrian",
+      "text": "„Lokalizacja, wielkość apartamentu, kontakt z właścicielem”"
+    },
+    {
+      "author": "Adrian",
+      "text": "„Lokalizacja, wielkość apartamentu, kontakt z właścicielem”"
+    },
+    {
+      "author": "Baldowski",
+      "text": "„Wszystko było jak należy. Super położony obiekt, nasz apartament dwupoziomowy i przestronny. Na wyjściu z apartamentu, z jednej strony morze, z...”"
+    },
+    {
+      "author": "Baldowski",
+      "text": "„Wszystko było jak należy. Super położony obiekt, nasz apartament dwupoziomowy i przestronny. Na wyjściu z apartamentu, z jednej strony morze, z...”"
+    },
+    {
+      "author": "Michał",
+      "text": "„Pięknie miejsce tuż przy plaży, na miejscu kort tenisowy, basen, ping pong (lata świetności ma już za sobą,ale nam do poodbijania piłeczki...”"
+    },
+    {
+      "author": "Michał",
+      "text": "„Pięknie miejsce tuż przy plaży, na miejscu kort tenisowy, basen, ping pong (lata świetności ma już za sobą,ale nam do poodbijania piłeczki...”"
+    },
+    {
+      "author": "Jacek",
+      "text": "„Super. Przyjechaliśmy późną nocą, klucz czekał w drzwiach w lodówce woda. Super właściciel miły, profesjonalista. Często pytał, czy wszystko jest w...”"
+    },
+    {
+      "author": "Jacek",
+      "text": "„Super. Przyjechaliśmy późną nocą, klucz czekał w drzwiach w lodówce woda. Super właściciel miły, profesjonalista. Często pytał, czy wszystko jest w...”"
+    },
+    {
+      "author": "Julita",
+      "text": "„Blisko do plaży, dostępny basen i kort tenisowy, pomocny właściciel. Dostępne są też pralki, ręczniki i wszystko co niezbędne. Apartament położony...”"
+    }
+  ],
+  "surroundingsRaw": "Opinie Gości\nZobacz dostępność\nOceniony na 8.2\n8,2\nOceniony jako bardzo dobry\nBardzo dobry · 157 opinii\nPrzeczytaj wszystkie opinie\nKategorie:\nPersonel\n9,0\nUdogodnienia\n7,8\nCzystość\n8,4\nKomfort\n8,2\nStosunek jakości do ceny\n8,2\nLokalizacja\n9,4\nBezpłatne WiFi\n9,0\nWybierz tematy, aby przeczytać opinie:\nLokalizacja\nPlaża\nBasen\nCzystość\nKuchnia\nZobacz, co najbardziej podobało się Gościom:\nA\nAdrian\nPolska\n„Lokalizacja, wielkość apartamentu, kontakt z właścicielem”\nWięcej informacji\nB\nBaldowski\nNiemcy\n„Wszystko było jak należy. Super położony obiekt, nasz apartament dwupoziomowy i przestronny. Na wyjściu z apartamentu, z jednej strony morze, z drugiej basen, praktycznie non stop pusty. Kort tenisowy również ok. Blisko do marketów oraz do portu....”\nWięcej informacji\nMichał\nPolska\n„Pięknie miejsce tuż przy plaży, na miejscu kort tenisowy, basen, ping pong (lata świetności ma już za sobą,ale nam do poodbijania piłeczki wystarczył), basen, z którego też chętnie korzystaliśmy. W pobliżu kilka restauracji. Przystanek autobusowy...”\nWięcej informacji\nJacek\nPolska\n„Super. Przyjechaliśmy późną nocą, klucz czekał w drzwiach w lodówce woda. Super właściciel miły, profesjonalista. Często pytał, czy wszystko jest w porządku, czy nam czegoś nie brakuje. na każdą potrzebę reagował natychmiast. Pościel, ręczniki...”\nWięcej informacji\nJ\nJulita\nPolska\n„Blisko do plaży, dostępny basen i kort tenisowy, pomocny właściciel. Dostępne są też pralki, ręczniki i wszystko co niezbędne. Apartament położony na uboczu, cicho i spokojnie, jest w pobliżu kilka restauracji gdzie można smacznie zjeść.”\nWięcej informacji\nM\nMarcin\nPolska\n„Blisko morza, fajny basen, darmowy kort tenisowy, duży apartament dwupoziomowy z tarasem z przodu i z tyłu,.szybkie wifi, sympatyczny właściciel, który szybko reaguje na prośby gości.”\nWięcej informacji\nN\nNektaria\nCypr\n„Apartament miał niesamowity widok, duży balkon i był bardzo czysty. Ponadto obiekt znajdował się w samym centrum Latchi.”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nJ\nJohn\nWielka Brytania\n„Spokojna lokalizacja, ale blisko miasta\nKomfortowy apartament z pięknym widokiem na morze na najwyższym piętrze i dużym tarasem zewnętrznym z wystarczającą ilością cienia\nBardzo blisko plaży i basen dobrej wielkości, czysty i ciepły”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nG\nGeorgios\nCypr\n„Lokalizacja była idealna. Nie ma potrzeby jechać na plażę samochodem, wystarczy iść pieszo.”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nM\nMichael\nWielka Brytania\n„Właściciel był na miejscu każdego dnia i bardzo szybko reagował na prośby i zapytania.\nDla nas lokalizacja była idealna, tuż przy plaży, w pobliżu dwóch niedrogich restauracji/barów i 10 minut spacerem do Latchi”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nPrzeczytaj wszystkie opinie",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Lokalizacja przy samej plaży",
+      "Pokoje rodzinne",
+      "Bezpłatny parking",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Plaża",
+      "Pralka",
+      "Telewizor z płaskim ekranem",
+      "Zwierzęta domowe są akceptowane",
+      "Klimatyzacja",
+      "Parking przy ulicy",
+      "Krzesełko dla dzieci",
+      "Stół",
+      "Środki czystości",
+      "Toster",
+      "Płyta kuchenna",
+      "Piekarnik",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Kuchenka mikrofalowa",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Długie łóżka (> 2 metry)",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Część jadalna",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Rozkładana sofa",
+      "Wieszak na ubrania",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Dźwiękoszczelność",
+      "Prywatne wejście",
+      "Sprzęt do prasowania",
+      "Żelazko",
+      "Dojście na wyższe piętra tylko schodami",
+      "Stół na świeżym powietrzu",
+      "Meble ogrodowe",
+      "Taras słoneczny",
+      "Grill",
+      "Sprzęt do grillowania",
+      "Patio",
+      "Taras",
+      "Ogród",
+      "Sezonowy",
+      "Brodzik",
+      "Leżaki lub krzesełka plażowe",
+      "Zestaw do parzenia kawy i herbaty",
+      "Sprzęt do tenisa",
+      "Piesze wycieczki",
+      "Poza obiektem",
+      "Wędkowanie",
+      "Poza obiektem",
+      "Kort tenisowy",
+      "Widok na wewnętrzny dziedziniec",
+      "Widok na miasto",
+      "Widok na punkt orientacyjny",
+      "Widok na góry",
+      "Widok na basen",
+      "Widok na ogród",
+      "Widok na morze",
+      "Widok",
+      "Wolnostojący",
+      "Możliwe wystawienie faktury",
+      "Zamykane szafki",
+      "Przechowalnia bagażu",
+      "Bramki zabezpieczające dla dzieci",
+      "Prasa do spodni",
+      "Pralnia",
+      "Część przeznaczona dla palących",
+      "Ogrzewanie",
+      "Pokoje dźwiękoszczelne",
+      "Gaśnice",
+      "Dostęp za pomocą kluczy",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Tak, pralka dostępna w pokoju/apartamencie oraz dostępna usługa prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Amalia Apartments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 13:00 do 00:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 05:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 16 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–1\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 13:00–16:00.\nZwierzęta\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Mogą obowiązywać dodatkowe opłaty.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 350 ft from Amalia Apartments. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "title": "Albania - Hotel Venera",
+  "country": "Albania",
+  "propertyName": "Hotel Venera",
+  "address": "",
+  "coordinates": {
+    "latitude": 39.874026,
+    "longitude": 20.003978
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/826143134.jpg?k=de510ee1c368dd7be4e0555a72e7f1f5d720685036cef639d705910a3f61b87d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/826142756.jpg?k=04dfa627b9613e6295657415445beb6a6adafba49297dafadabf564a0d5453c7&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/826142948.jpg?k=ce78c903b67def5aa4fc54766efc4f8b8aeea6a8dda428f4e2f154da2ef3c645&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/826142806.jpg?k=38e0c97b70369558817930c0efb2b960d87acd90824214288ff9f8fe49730b01&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/826143117.jpg?k=7aafaf15f836c6fd17e8d852654beacb53baa73c91151b772ae53d6bdbbf76d9&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/826143153.jpg?k=a89fd402e9dd7707cab3d71ff67cb6228071920fc7686b7ce66dde7f99a9ad9c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/826143133.jpg?k=6f864888c8543a6deafd89ac75d16f9aa7a0946ab117a326aa85448378ebb684&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/826142746.jpg?k=058518556a5c88b60b2a0ec2af8feb611a837ed325bf92c0aaa5aedae4620ad6&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://lh3.googleusercontent.com/a/ACg8ocI3-wQFxHTQmNt687nNAo5PmTr0lO8Fj0hRvgJsWG2F=s96-c",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-s.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/No.png"
+  ],
+  "description": "Obiekt Hotel Venera położony jest w miejscowości Saranda i mieści się w budynku z 2006 roku. Do dyspozycji Gości są pokoje z bezpłatnym Wi-Fi. Odległość ważnych miejsc od obiektu: Plaża miejska Saranda – 500 m.\n\nObiekt oddaje do dyspozycji Gości klimatyzowane pokoje, w których zapewniono biurko, ekspres do kawy, lodówkę, sejf, telewizor z płaskim ekranem oraz prywatną łazienkę z prysznicem. W każdym pokoju znajduje się prywatna łazienka z suszarką do włosów. Wybrane opcje zakwaterowania mają również balkon, a z innych roztacza się widok na miasto. Wszystkie opcje zakwaterowania wyposażone są w szafę.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,2.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 977,
+      "raw": "977 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 1344,
+      "raw": "1344 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 1710,
+      "raw": "1710 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Pokój Dwuosobowy z balkonem <br> 1 łóżko podwójne  <br> 16 m² <br> Balkon <br> Widok na miasto <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "2 494 zł <br> 1 796 zł  <br> Oryginalna cena 2 494 zł Aktualna cena 1 796 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa",
+        "Bezpłatne odwołanie przed 2 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (1 796 zł) <br> 2          (3 591 zł) <br> 3          (5 387 zł)"
+      ],
+      [
+        "Pokój typu Standard z 2 łóżkami pojedynczymi <br> 2 łóżka pojedyncze  <br> 20 m² <br> Balkon <br> Widok na miasto <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "2 494 zł <br> 1 995 zł  <br> Oryginalna cena 2 494 zł Aktualna cena 1 995 zł <br> Zawiera opłaty i podatki <br> 20% taniej <br> Oferta Sezonowa",
+        "Bezpłatne odwołanie przed 2 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (1 995 zł) <br> 2          (3 990 zł) <br> 3          (5 986 zł)"
+      ],
+      [
+        "Pokój Dwuosobowy z dodatkowym łóżkiem <br> 1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> 18 m² <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "2 969 zł <br> 2 375 zł  <br> Oryginalna cena 2 969 zł Aktualna cena 2 375 zł <br> Zawiera opłaty i podatki <br> 20% taniej <br> Oferta Sezonowa",
+        "Bezpłatne odwołanie przed 2 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> • <br> Zostały nam 2",
+        "Wybierz pokoje <br> 0 <br> 1          (2 375 zł) <br> 2          (4 750 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Pokój Dwuosobowy z balkonem <br> 1 łóżko podwójne  <br> 16 m² <br> Balkon <br> Widok na miasto <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 2 494 zł <br> 1 796 zł  <br> Oryginalna cena 2 494 zł Aktualna cena 1 796 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa | Bezpłatne odwołanie przed 2 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (1 796 zł) <br> 2          (3 591 zł) <br> 3          (5 387 zł) |\n| Pokój typu Standard z 2 łóżkami pojedynczymi <br> 2 łóżka pojedyncze  <br> 20 m² <br> Balkon <br> Widok na miasto <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 2 494 zł <br> 1 995 zł  <br> Oryginalna cena 2 494 zł Aktualna cena 1 995 zł <br> Zawiera opłaty i podatki <br> 20% taniej <br> Oferta Sezonowa | Bezpłatne odwołanie przed 2 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (1 995 zł) <br> 2          (3 990 zł) <br> 3          (5 986 zł) |\n| Pokój Dwuosobowy z dodatkowym łóżkiem <br> 1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> 18 m² <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 2 969 zł <br> 2 375 zł  <br> Oryginalna cena 2 969 zł Aktualna cena 2 375 zł <br> Zawiera opłaty i podatki <br> 20% taniej <br> Oferta Sezonowa | Bezpłatne odwołanie przed 2 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> • <br> Zostały nam 2 | Wybierz pokoje <br> 0 <br> 1          (2 375 zł) <br> 2          (4 750 zł) |"
+  },
+  "review": {
+    "score": 8.6,
+    "count": 96
+  },
+  "comments": [
+    {
+      "author": "Ewa",
+      "text": "„Super lokalizacja, bardzo wygodne łozka, dobra klimatyzacja, przemiła obsługa, dobre wifi”"
+    },
+    {
+      "author": "Ewa",
+      "text": "„Super lokalizacja, bardzo wygodne łozka, dobra klimatyzacja, przemiła obsługa, dobre wifi”"
+    },
+    {
+      "author": "Ewa",
+      "text": "„Super lokalizacja, bardzo wygodne łozka, dobra klimatyzacja, przemiła obsługa, dobre wifi”"
+    },
+    {
+      "author": "Monika",
+      "text": "„Lokalizacja na duży plus, blisko.do przystanku i na deptak”"
+    },
+    {
+      "author": "Monika",
+      "text": "„Lokalizacja na duży plus, blisko.do przystanku i na deptak”"
+    },
+    {
+      "author": "Svein-harald",
+      "text": "„I had a ok stay at Venera hotel. for me it is perfect to stay in the center of town. Room was ok.”"
+    },
+    {
+      "author": "Svein-harald",
+      "text": "„I had a ok stay at Venera hotel. for me it is perfect to stay in the center of town. Room was ok.”"
+    },
+    {
+      "author": "Llozhi",
+      "text": "„I’ve stayed at this hotel many times and it’s always a great experience. The two older gentlemen at the front desk are so kind and helpful,...”"
+    },
+    {
+      "author": "Llozhi",
+      "text": "„I’ve stayed at this hotel many times and it’s always a great experience. The two older gentlemen at the front desk are so kind and helpful,...”"
+    },
+    {
+      "author": "Orcun",
+      "text": "„Amazing people to stay, just 100 meter to sea. Everything was perfect :) Thank you :)”"
+    }
+  ],
+  "surroundingsRaw": "Brak szczegółowych informacji o otoczeniu.",
+  "amenities": {
+    "flatList": [
+      "Pokoje dla niepalących",
+      "Bezpłatne Wi-Fi",
+      "Prywatna łazienka",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Prysznic",
+      "Ekspres do kawy",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Kapcie",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Szafa lub garderoba",
+      "Stół",
+      "Środki czystości",
+      "Lodówka",
+      "Gniazdko koło łóżka",
+      "Wieszak na ubrania",
+      "Biurko",
+      "Kanały satelitarne",
+      "Telewizor",
+      "Codzienne sprzątanie",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Sejf",
+      "Wykładzina podłogowa",
+      "Dojście na wyższe piętra tylko schodami",
+      "angielski",
+      "włoski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Hotel Venera przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 11:00 do 14:00\nWymeldowanie\nOd 08:00 do 10:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 17 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nOsoba dorosła \n(Wiek: powyżej 18 lat)\nDodatkowe łóżko dostępne na życzenie\n€ 2 za osobę, za noc\n\nOpłaty za dodatkowe łóżka nie są wliczone w cenę całkowitą i należy je uiścić oddzielnie w trakcie pobytu.\n\nLiczba dozwolonych dodatkowych łóżek zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nŁóżeczka dziecięce nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z dodatkowych łóżek zależy od dostępności.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nZwierzęta\nZwierzęta nie są akceptowane.\nAkceptowane metody płatności\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 1,300 ft from Hotel Venera.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "partial",
+  "issues": [
+    "Missing surrounding details"
+  ],
+  "placeholders": [
+    "Brak szczegółowych informacji o otoczeniu.",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

@@ -53,4 +53,4 @@ Implement conversion from markdown files to serialized JSON files in `booking-mo
 
 ## Status
 
-- `planned`
+- `done`

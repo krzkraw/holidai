@@ -1,0 +1,173 @@
+{
+  "title": "Turcja - Yakut Apart Hotel",
+  "country": "Turcja",
+  "propertyName": "Yakut Apart Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 36.83319621810006,
+    "longitude": 28.64662757210246
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273634566.jpg?k=96b1cdc5119eb5b57b11d1443febcd2ec4d88d7284f68facf90d8af2830e3b43&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/4606990.jpg?k=2beff1375ac8bbca9a242687ab685b29b13706977c86cc753a180260b4295e1d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/68316091.jpg?k=d478fc2be4cbe873dfa5b2c448b180a22696441e409b0ef626e84b0ad3220c36&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/273634577.jpg?k=af5138219e0decf11f5a080010726152887c939cd01acc4dfac8cc3f1ea4fc63&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/19454711.jpg?k=50cb638a07548b826d8a79e5873545dd0117aa87b0b1b6231deaf45615bb46de&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/47896342.jpg?k=7dd6b9bdb76a675006d58bd5009e878eff2aca879ff9cf5c8516a45cba5064ac&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/47917411.jpg?k=aa0a94b905e1c828d29c144d6d0b55dc27c85c5682483576f5fdc5ae8d15cf3a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/47841435.jpg?k=b2ddeabb907bf98578b301cd5d00b099c9c2985e4f530acea87d4b8be12c14e5&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-d.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://graph.facebook.com/v2.9/2109832675948528/picture?type=square&height=64&width=64",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Lt.png"
+  ],
+  "description": "Obiekt Yakut Apart Hotel położony jest w odległości 400 m od centrum miejscowości Dalyan i oferuje sezonowy odkryty basen, ogród oraz różne opcje zakwaterowania, w których zapewniono klimatyzację i balkon. Odległość ważnych miejsc od obiektu: Sulungur Lake – 4,8 km. Obiekt zapewnia bezpłatne Wi-Fi we wszystkich pomieszczeniach.\n\nW każdej opcji zakwaterowania znajduje się kuchnia z pełnym wyposażeniem, w tym lodówką, jak również część wypoczynkowa z rozkładaną sofą, telewizor z płaskim ekranem oraz prywatna łazienka z wanną lub prysznicem. Wyposażenie obejmuje również płytę kuchenną i czajnik.\n\nOdległość ważnych miejsc od obiektu: Dalaman River – 26 km, Klub jachtowy Gocek – 33 km. Lotnisko Lotnisko Dalaman znajduje się 28 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,4.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 1733,
+      "raw": "1733 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 2378,
+      "raw": "2378 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 3008,
+      "raw": "3008 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 8.3,
+    "count": 134
+  },
+  "comments": [
+    {
+      "author": "Dorota",
+      "text": "„Pokój sprzątany w trakcie pobytu wymieniona pościel i ręczniki. Obiekt w spokojnej okolicy ale nie daleko do centrum. Właściciel bardzo pomocny....”"
+    },
+    {
+      "author": "Dorota",
+      "text": "„Pokój sprzątany w trakcie pobytu wymieniona pościel i ręczniki. Obiekt w spokojnej okolicy ale nie daleko do centrum. Właściciel bardzo pomocny....”"
+    },
+    {
+      "author": "Dorota",
+      "text": "„Pokój sprzątany w trakcie pobytu wymieniona pościel i ręczniki. Obiekt w spokojnej okolicy ale nie daleko do centrum. Właściciel bardzo pomocny....”"
+    },
+    {
+      "author": "Laura",
+      "text": "„It was calm and just 5 min from the centre - exactly what I wanted for my vacation”"
+    },
+    {
+      "author": "Laura",
+      "text": "„It was calm and just 5 min from the centre - exactly what I wanted for my vacation”"
+    },
+    {
+      "author": "Sam",
+      "text": "„Great little hotel/apartment. It's clean and comfortable."
+    },
+    {
+      "author": "Sam",
+      "text": "„Great little hotel/apartment. It's clean and comfortable."
+    },
+    {
+      "author": "Suzanne",
+      "text": "„The pool and balcony view was excellent and the host was very good”"
+    },
+    {
+      "author": "Suzanne",
+      "text": "„The pool and balcony view was excellent and the host was very good”"
+    },
+    {
+      "author": "Jenny",
+      "text": "„This is a lovely apartment with comfortable, clean rooms. The owner is cheerful, friendly and very helpful. It is only a very short walk to the...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Yakut Apart Hotel\nZobacz dostępność\nNajpopularniejsze udogodnienia\n2 baseny\nBezpłatne Wi-Fi\nPokoje dla niepalących\nBezpłatny parking\nPokoje rodzinne\nŚwietne na Twój pobyt\nPrywatna łazienka\nKuchnia\nBalkon\nBezpłatny parking\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking\nPokoje dla niepalących\nPokoje rodzinne\nParking na miejscu\nBezpłatny parking publiczny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nParking przy ulicy\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nPłyta kuchenna\nPrzybory kuchenne\nCzajnik elektryczny\nKuchnia\nLodówka\nAneks kuchenny\nSypialnia\nSzafa lub garderoba\nŁazienka\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nSalon\nSofa\nCzęść wypoczynkowa\nMedia/Technologia\nTelewizor z płaskim ekranem\nUdogodnienia w pokoju\nRozkładana sofa\nWieszak na ubrania\nOkolica\nBalkon\nOgród\n2 baseny\nBasen 1 – odkryty\nSezonowy\nLeżaki lub krzesełka plażowe\nBasen 2 – odkryty (dla dzieci)\nSezonowy\nOdpowiedni dla dzieci\nCentrum wellness\nBasen dla dzieci\nLeżaki lub krzesełka plażowe\nOkolica i widok\nWidok na basen\nWidok na ogród\nUsługi recepcji\nMożliwe wystawienie faktury\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nPokoje rodzinne\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nCzujnik dymu\nJęzyki\nangielski\nturecki",
+  "amenities": {
+    "flatList": [
+      "2 baseny",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Balkon",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Parking przy ulicy",
+      "Płyta kuchenna",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Szafa lub garderoba",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Rozkładana sofa",
+      "Wieszak na ubrania",
+      "Ogród",
+      "Sezonowy",
+      "Leżaki lub krzesełka plażowe",
+      "Odpowiedni dla dzieci",
+      "Basen dla dzieci",
+      "Widok na basen",
+      "Widok na ogród",
+      "Możliwe wystawienie faktury",
+      "Całkowity zakaz palenia",
+      "Gaśnice",
+      "Czujnik dymu",
+      "angielski",
+      "turecki"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Yakut Apart Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 13:00 do 23:30\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Dalyan riverfront (~0.8 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

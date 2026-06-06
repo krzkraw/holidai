@@ -1,0 +1,217 @@
+{
+  "title": "Cypr - Socrates Apartments",
+  "country": "Cypr",
+  "propertyName": "Socrates Apartments",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.0292693801447,
+    "longitude": 32.361586689949036
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/286912486.jpg?k=2e48cdb4f7b56ec9bb6540eb7e1d9c5b2f2d583b855de9ba81a9c97a9d9b126b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/286916585.jpg?k=2eff4240d433d7498c0968a767adcd3964682d2a0ac5c5891137ed7003976174&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/286912464.jpg?k=ec9df716f3d4492d4f9f79ae3fc6032175fad684bed54fa4dd046e997eb2b043&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/12322839.jpg?k=3fb3ff39ea1e75be8cc969a4795599f170b07b2a02861c8225163b1d15f519a7&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/286912463.jpg?k=8e645461d73f18f414424023588091e8c4cd5679f8204183eb6a7c02ea8ada1b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/286916577.jpg?k=aae34e1c005ef73ae9d1c34d70b1da5ed1a0ee456ee6ce70e8f3273c04c83a0a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/286912478.jpg?k=ee2a610f790e548ac0b818cef3efd1e77ca70f53e5dc6816b4c0614a370dba35&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/286916493.jpg?k=ecf92d6adf4cddd8f517f5e128e8d25e3afef3cd9cc6cb4ca8ca71c7a5a6c200&o=",
+    "https://graph.facebook.com/v2.9/2953096461631061/picture?type=square&height=64&width=64",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/No.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-k.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png"
+  ],
+  "description": "Obiekt Socrates Apartments oferuje odkryty basen, ogród i sprzęt do grillowania. Z okien roztacza się widok na góry. Odległość ważnych miejsc od obiektu: Zoo w Pafos – około 33 km. Na miejscu zapewniono balkon, stół do gry w ping ponga, bezpłatny prywatny parking oraz bezpłatne Wi-Fi.\n\nW apartamencie zapewniono sypialnię (1), łazienkę (1), pościel, ręczniki oraz kuchnię z pełnym wyposażeniem. Do dyspozycji Gości jest także telewizor z płaskim ekranem oraz taras z widokiem na morze.\n\nOdległość ważnych miejsc od obiektu: Klub golfowy Minthis Hill – 38 km, Grobowce Królewskie – 42 km. Lotnisko Lotnisko Pafos znajduje się 51 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,8.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2718,
+      "raw": "2718 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3703,
+      "raw": "3703 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 4711,
+      "raw": "4711 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 8.6,
+    "count": 132
+  },
+  "comments": [
+    {
+      "author": "Leszek",
+      "text": "„Ciche spokojne miejsce na wypoczynek z rodziną,Basen bardzo czysty i zadbany z leżakami, piękne plaże i okolice.Właściciel bardzo miły i służy...”"
+    },
+    {
+      "author": "Leszek",
+      "text": "„Ciche spokojne miejsce na wypoczynek z rodziną,Basen bardzo czysty i zadbany z leżakami, piękne plaże i okolice.Właściciel bardzo miły i służy...”"
+    },
+    {
+      "author": "Leszek",
+      "text": "„Ciche spokojne miejsce na wypoczynek z rodziną,Basen bardzo czysty i zadbany z leżakami, piękne plaże i okolice.Właściciel bardzo miły i służy...”"
+    },
+    {
+      "author": "Kamil",
+      "text": "„To był najlepszy nocleg, który mieliśmy na Cyprze - właściciel bardzo miły i pomocny. Apartament ma wszystko, co może być potrzebne, a widoki są...”"
+    },
+    {
+      "author": "Kamil",
+      "text": "„To był najlepszy nocleg, który mieliśmy na Cyprze - właściciel bardzo miły i pomocny. Apartament ma wszystko, co może być potrzebne, a widoki są...”"
+    },
+    {
+      "author": "Szymonidest",
+      "text": "„Świetna okolica. Przepiękny widok. Miły właściciel”"
+    },
+    {
+      "author": "Szymonidest",
+      "text": "„Świetna okolica. Przepiękny widok. Miły właściciel”"
+    },
+    {
+      "author": "Julia",
+      "text": "„Wonderful location in small Cypriot village Neo Chorio. Amazing view overlooking nothing but nature. Super close to Akamas trails. Our host George...”"
+    },
+    {
+      "author": "Julia",
+      "text": "„Wonderful location in small Cypriot village Neo Chorio. Amazing view overlooking nothing but nature. Super close to Akamas trails. Our host George...”"
+    },
+    {
+      "author": "Koralia",
+      "text": "„We had a great stay! The apartment was spacious and well-equipped, and George went above and beyond to make sure we were comfortable. He was...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Socrates Apartments\nŚwietne udogodnienia! Ocena: 8,2\nZobacz dostępność\nNajpopularniejsze udogodnienia\nOdkryty basen\nBezpłatne Wi-Fi\nPokoje dla niepalących\nPokoje rodzinne\nBezpłatny parking\nŚwietne na Twój pobyt\nPrywatna łazienka\nKuchnia\nBalkon\nBezpłatny parking\nBezpłatne Wi-Fi\nPralka\nTelewizor z płaskim ekranem\nKlimatyzacja\nTaras\nParking\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nStół\nŚrodki czystości\nToster\nPłyta kuchenna\nPiekarnik\nPrzybory kuchenne\nCzajnik elektryczny\nKuchnia\nPralka\nLodówka\nAneks kuchenny\nSypialnia\nPościel\nSzafa lub garderoba\nDługie łóżka (> 2 metry)\nŁazienka\nPapier toaletowy\nRęczniki\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nWanna\nSalon\nSofa\nCzęść wypoczynkowa\nMedia/Technologia\nTelewizor z płaskim ekranem\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nRozkładana sofa\nWieszak na ubrania\nPodłoga wyłożona kafelkami lub marmurem\nDźwiękoszczelność\nPrywatne wejście\nŻelazko\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nOkolica\nTaras słoneczny\nGrill\nSprzęt do grillowania\nBalkon\nTaras\nOgród\nOdkryty basen\nBezpłatnie!\nGodziny pracy\nOtwarty przez cały rok\nWstęp dla osób w każdym wieku\nBrodzik\nLeżaki lub krzesełka plażowe\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nPosiłki i napoje\nZestaw do parzenia kawy i herbaty\nRekreacja\nNurkowanie\nDodatkowa opłata\nPoza obiektem\nKajakarstwo\nDodatkowa opłata\nPoza obiektem\nWindsurfing\nDodatkowa opłata\nTenis stołowy\nOkolica i widok\nWidok na góry\nWidok na basen\nWidok na ogród\nWidok na morze\nWidok\nCechy budynku\nPrywatne mieszkanie w budynku\nWolnostojący\nUsługi recepcji\nMożliwe wystawienie faktury\nEkspresowe zameldowanie / wymeldowanie\nUsługi dla rodzin i oferta rozrywkowa\nBramki zabezpieczające dla dzieci\nUsługi sprzątania\nPralnia\nZaplecze biznesowe\nFaks / ksero\nRóżne\nCzęść przeznaczona dla palących\nKlimatyzacja\nDodatkowa opłata\nOgrzewanie\nPokoje rodzinne\nPokoje dla niepalących\nJęzyki\ngrecki\nangielski",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Pokoje rodzinne",
+      "Bezpłatny parking",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Balkon",
+      "Pralka",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Taras",
+      "Parking",
+      "Stół",
+      "Środki czystości",
+      "Toster",
+      "Płyta kuchenna",
+      "Piekarnik",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Długie łóżka (> 2 metry)",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Wanna",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Rozkładana sofa",
+      "Wieszak na ubrania",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Dźwiękoszczelność",
+      "Prywatne wejście",
+      "Żelazko",
+      "Dojście na wyższe piętra tylko schodami",
+      "Taras słoneczny",
+      "Grill",
+      "Sprzęt do grillowania",
+      "Ogród",
+      "Godziny pracy",
+      "Otwarty przez cały rok",
+      "Wstęp dla osób w każdym wieku",
+      "Brodzik",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Zestaw do parzenia kawy i herbaty",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Kajakarstwo",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Windsurfing",
+      "Dodatkowa opłata",
+      "Tenis stołowy",
+      "Widok na góry",
+      "Widok na basen",
+      "Widok na ogród",
+      "Widok na morze",
+      "Widok",
+      "Prywatne mieszkanie w budynku",
+      "Wolnostojący",
+      "Możliwe wystawienie faktury",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Bramki zabezpieczające dla dzieci",
+      "Pralnia",
+      "Faks / ksero",
+      "Część przeznaczona dla palących",
+      "Klimatyzacja",
+      "Dodatkowa opłata",
+      "Ogrzewanie",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Tak, pralka dostępna w pokoju/apartamencie oraz dostępna usługa prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Socrates Apartments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 18 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–1\nDodatkowe łóżko dostępne na życzenie\n€ 7 za dziecko, za noc\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\nWiek: powyżej 2 lat\nDodatkowe łóżko dostępne na życzenie\n€ 7 za osobę, za noc\n\nOpłaty za łóżeczka dziecięce i dodatkowe łóżka nie są wliczone w cenę całkowitą i należy je uiścić oddzielnie w trakcie pobytu.\n\nLiczba dozwolonych dodatkowych łóżek i łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nMożliwość skorzystania z łóżeczek dziecięcych i dodatkowych łóżek zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 00:00–08:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Latsi Beach: 2 mi; Ttakkas Bay Beach: 2.2 mi; Polis Municipal Beach: 2.7 mi; Fotiadis Gulf Beach: 5 mi",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

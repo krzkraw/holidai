@@ -2,6 +2,7 @@ import { mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 
 import { BookingModelConverter } from './application/booking-model-converter';
+import { PropertyPageConverter } from './application/property-page-converter';
 
 function printUsage(): void {
   console.error([
@@ -9,6 +10,8 @@ function printUsage(): void {
     '  bun run booking-model/src/cli.ts csv-to-ts <input.csv> <output.ts> [exportName]',
     '  bun run booking-model/src/cli.ts ts-to-csv <input.ts> <output.csv> [exportName]',
     '  bun run booking-model/src/cli.ts roundtrip <input.csv>',
+    '  bun run booking-model/src/cli.ts page-md-to-json <input.md> <output.json>',
+    '  bun run booking-model/src/cli.ts pages-md-to-json <input-markdown-root> <output-json-root>',
   ].join('\n'));
 }
 
@@ -19,6 +22,7 @@ async function ensureParentDirectory(filePath: string): Promise<void> {
 async function main(): Promise<number> {
   const [command, ...args] = process.argv.slice(2);
   const converter = new BookingModelConverter();
+  const propertyPageConverter = new PropertyPageConverter();
 
   if (!command) {
     printUsage();
@@ -65,6 +69,31 @@ async function main(): Promise<number> {
     }
 
     console.log(`Roundtrip identical for ${inputCsvPath}`);
+    return 0;
+  }
+
+  if (command === 'page-md-to-json') {
+    const [inputMarkdownPath, outputJsonPath] = args;
+    if (!inputMarkdownPath || !outputJsonPath) {
+      printUsage();
+      return 1;
+    }
+
+    await ensureParentDirectory(outputJsonPath);
+    await propertyPageConverter.markdownFileToJsonFile(inputMarkdownPath, outputJsonPath);
+    console.log(`Wrote page JSON to ${outputJsonPath}`);
+    return 0;
+  }
+
+  if (command === 'pages-md-to-json') {
+    const [inputMarkdownRoot, outputJsonRoot] = args;
+    if (!inputMarkdownRoot || !outputJsonRoot) {
+      printUsage();
+      return 1;
+    }
+
+    await propertyPageConverter.markdownTreeToJsonTree(inputMarkdownRoot, outputJsonRoot);
+    console.log(`Wrote page JSON tree to ${outputJsonRoot}`);
     return 0;
   }
 

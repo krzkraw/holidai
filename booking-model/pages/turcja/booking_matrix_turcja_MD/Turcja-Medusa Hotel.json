@@ -1,0 +1,242 @@
+{
+  "title": "Turcja - Medusa Hotel",
+  "country": "Turcja",
+  "propertyName": "Medusa Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 36.19685419459264,
+    "longitude": 29.645332396030426
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/210558616.jpg?k=1b1bcb4ce8cecd588c6ebd118937bf269a04d9d53efc68078d20d140df2c3e83&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/696656647.jpg?k=891b5aa84dd3009f7b8544218b54ca9073580e7c5422e7050cd747e1c4302baa&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/218478115.jpg?k=d30269f2f87c066f373bddf7942b9f60fbd64e5e906b1cf432deef1d6df25447&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/210558630.jpg?k=7608ba6dbda6e93cea769ef07ede7a8a1a2d0442cb143c2628132fcdaaccb821&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/124132680.jpg?k=4eb8e399c534db4c7fc58e0418e9f79a565c4ac9efa86aee28ea12c66f383450&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/218478391.jpg?k=5943e3285b9eac58c3939d388441b3622b99a81b0c0625f1bb7f613dc0987a65&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/226038470.jpg?k=137b7d8c5f6faed0ab30d7ee586f77a088b6d704b1a1f3cfbd10068031e1166e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/218478394.jpg?k=fbfb190a350b955d9967fd963c10c10bef24c21ab9c6a0991dd1d81f058e2178&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Ma.png",
+    "https://lh6.googleusercontent.com/-sUui5RIKIbs/AAAAAAAAAAI/AAAAAAAAAF0/2ttoNWG1HcA/s96-c/photo.jpg",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Za.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-t.png"
+  ],
+  "description": "Hotel Medusa położony jest w Kas, jednej z najpiękniejszych miejscowości na wybrzeżu Morza Śródziemnego. Oferuje on widoki na małą kamienistą plażę i znajduje się 100 metrów od centrum miasta.\n\nHotel Medusa zapewnia przyjemną i spokojną atmosferę. Wszystkie pokoje dysponują balkonem z widokiem na morze. Goście mogą także zrelaksować się w na tarasie w ogrodzie.\n\nSącząc koktajl w barze przy basenie można podziwiać zachodzące słońce. Personel biura informacji turystycznej chętnie udziela przydatnych informacji. Wrażeniami z pobytu można podzielić się z rodziną korzystając z bezpłatnego bezprzewodowego dostępu do Internetu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,3.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 4506,
+      "raw": "4506 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 6196,
+      "raw": "6196 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 7447,
+      "raw": "7447 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Pokój Dwuosobowy typu Deluxe z widokiem na morze <br> 1 duże łóżko podwójne  <br> 20 m² <br> Balkon <br> Widok na morze <br> Basen z widokiem <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 827 zł <br> 8 844 zł  <br> Oryginalna cena 9 827 zł Aktualna cena 8 844 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (8 844 zł) <br> 2        (17 689 zł) <br> 3        (26 533 zł)"
+      ],
+      [
+        "Apartament Rodzinny typu Suite z bocznym widokiem na morze <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> 25 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Widok na miasto <br> Basen z widokiem <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "11 056 zł <br> 9 950 zł  <br> Oryginalna cena 11 056 zł Aktualna cena 9 950 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (9 950 zł) <br> 2        (19 900 zł) <br> 3        (29 851 zł)"
+      ],
+      [
+        "Pokój trzyosobowy typu Superior z widokiem na morze <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> 30 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Widok na miasto <br> Basen z widokiem <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "12 284 zł <br> 11 056 zł  <br> Oryginalna cena 12 284 zł Aktualna cena 11 056 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostało nam 5",
+        "Wybierz pokoje <br> 0 <br> 1        (11 056 zł) <br> 2        (22 111 zł) <br> 3        (33 167 zł) <br> 4        (44 223 zł) <br> 5        (55 279 zł)"
+      ],
+      [
+        "Pokój rodzinny z widokiem na morze <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> Bezpłatne Wi-Fi",
+        "Maksymalna liczba osób: 2",
+        "11 635 zł <br> Cena 11 635 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Zostały nam 2",
+        "Wybierz pokoje <br> 0 <br> 1        (11 635 zł) <br> 2        (23 270 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Pokój Dwuosobowy typu Deluxe z widokiem na morze <br> 1 duże łóżko podwójne  <br> 20 m² <br> Balkon <br> Widok na morze <br> Basen z widokiem <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 9 827 zł <br> 8 844 zł  <br> Oryginalna cena 9 827 zł Aktualna cena 8 844 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (8 844 zł) <br> 2        (17 689 zł) <br> 3        (26 533 zł) |\n| Apartament Rodzinny typu Suite z bocznym widokiem na morze <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> 25 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Widok na miasto <br> Basen z widokiem <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 11 056 zł <br> 9 950 zł  <br> Oryginalna cena 11 056 zł Aktualna cena 9 950 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (9 950 zł) <br> 2        (19 900 zł) <br> 3        (29 851 zł) |\n| Pokój trzyosobowy typu Superior z widokiem na morze <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> \t1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> 30 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Widok na miasto <br> Basen z widokiem <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 12 284 zł <br> 11 056 zł  <br> Oryginalna cena 12 284 zł Aktualna cena 11 056 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostało nam 5 | Wybierz pokoje <br> 0 <br> 1        (11 056 zł) <br> 2        (22 111 zł) <br> 3        (33 167 zł) <br> 4        (44 223 zł) <br> 5        (55 279 zł) |\n| Pokój rodzinny z widokiem na morze <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> Bezpłatne Wi-Fi | Maksymalna liczba osób: 2 | 11 635 zł <br> Cena 11 635 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Zostały nam 2 | Wybierz pokoje <br> 0 <br> 1        (11 635 zł) <br> 2        (23 270 zł) |"
+  },
+  "review": {
+    "score": 7.8,
+    "count": 296
+  },
+  "comments": [
+    {
+      "author": "Bouziri",
+      "text": "„Budzenie się każdego ranka z widokiem na morze i jedzenie śniadania z tym widokiem wydawało się naprawdę nierealne. Atmosfera jest tak spokojna,...”"
+    },
+    {
+      "author": "Bouziri",
+      "text": "„Budzenie się każdego ranka z widokiem na morze i jedzenie śniadania z tym widokiem wydawało się naprawdę nierealne. Atmosfera jest tak spokojna,...”"
+    },
+    {
+      "author": "Bouziri",
+      "text": "„Budzenie się każdego ranka z widokiem na morze i jedzenie śniadania z tym widokiem wydawało się naprawdę nierealne. Atmosfera jest tak spokojna,...”"
+    },
+    {
+      "author": "Craig",
+      "text": "„A phenomenal view and stay at the Medusa hotel. We absolutely loved the view, and of course seaside access is wonderful. The staff were attentive...”"
+    },
+    {
+      "author": "Craig",
+      "text": "„A phenomenal view and stay at the Medusa hotel. We absolutely loved the view, and of course seaside access is wonderful. The staff were attentive...”"
+    },
+    {
+      "author": "Tatiana",
+      "text": "„Magnificent hotel right at the seaside area. I had a room with sea view. It was marvellous. Clean room, wonderful breakfast. Very welcome landlord...”"
+    },
+    {
+      "author": "Tatiana",
+      "text": "„Magnificent hotel right at the seaside area. I had a room with sea view. It was marvellous. Clean room, wonderful breakfast. Very welcome landlord...”"
+    },
+    {
+      "author": "Bonnie",
+      "text": "„We had the best stay at Medusa Hotel. The location is incredible, with the Medusa Hotel beach club right across the road, lounges and towels all...”"
+    },
+    {
+      "author": "Bonnie",
+      "text": "„We had the best stay at Medusa Hotel. The location is incredible, with the Medusa Hotel beach club right across the road, lounges and towels all...”"
+    },
+    {
+      "author": "Martin",
+      "text": "„Great location staff were friendly and helpful. Great sea view”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Medusa Hotel\nZobacz dostępność\nNajpopularniejsze udogodnienia\nOdkryty basen\nBezpłatne Wi-Fi\nPokoje dla niepalących\nLokalizacja przy samej plaży\nBezpłatny parking\nPokoje rodzinne\nBar\nPrywatna plaża\nŚniadanie\nŚwietne na Twój pobyt\nPlaża\nLokalizacja przy samej plaży\nBezpłatny parking\nBezpłatne Wi-Fi\nParking\nTransfer\nPokoje dla niepalących\nPokoje rodzinne\nBiuro informacji turystycznej\nOdkryty basen\nOkolica\nMeble ogrodowe\nLokalizacja przy samej plaży\nTaras słoneczny\nPrywatna plaża\nTaras\nOgród\nRekreacja\nPiesze wycieczki\nDodatkowa opłata\nPlaża\nNurkowanie z rurką\nDodatkowa opłata\nNurkowanie\nDodatkowa opłata\nPiesze wycieczki\nDodatkowa opłata\nPoza obiektem\nKajakarstwo\nDodatkowa opłata\nPokój gier\nPosiłki i napoje\nWino / szampan\nDodatkowa opłata\nŚniadanie w pokoju\nBar\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nParking przy ulicy\nUsługi recepcji\nIndywidualne zameldowanie / wymeldowanie\nUsługi konsjerża\nPrzechowalnia bagażu\nBiuro informacji turystycznej\nWymiana walut\nUsługi sprzątania\nCodzienne sprzątanie\nPralnia\nDodatkowa opłata\nZaplecze biznesowe\nFaks / ksero\nDodatkowa opłata\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nCzujnik dymu\nSystem alarmowy\nDostęp za pomocą karty\nDostęp za pomocą kluczy\nCałodobowa ochrona\nSejf\nOgólne\nTransfer\nDodatkowa opłata\nCzęść przeznaczona dla palących\nKlimatyzacja\nCałkowity zakaz palenia\nOgrzewanie\nWypożyczalnia samochodów\nPokoje dźwiękoszczelne\nWinda\nPokoje rodzinne\nPokoje dla niepalących\nOdkryty basen\nBezpłatnie!\nSezonowy\nRęczniki kąpielowe/plażowe\nLeżaki lub krzesełka plażowe\nCentrum wellness\nLeżaki lub krzesełka plażowe\nJęzyki\nniemiecki\nangielski\nturecki",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Lokalizacja przy samej plaży",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Bar",
+      "Prywatna plaża",
+      "Śniadanie",
+      "Plaża",
+      "Parking",
+      "Transfer",
+      "Biuro informacji turystycznej",
+      "Meble ogrodowe",
+      "Taras słoneczny",
+      "Taras",
+      "Ogród",
+      "Piesze wycieczki",
+      "Dodatkowa opłata",
+      "Nurkowanie z rurką",
+      "Dodatkowa opłata",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Piesze wycieczki",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Kajakarstwo",
+      "Dodatkowa opłata",
+      "Pokój gier",
+      "Wino / szampan",
+      "Dodatkowa opłata",
+      "Śniadanie w pokoju",
+      "Parking przy ulicy",
+      "Indywidualne zameldowanie / wymeldowanie",
+      "Usługi konsjerża",
+      "Przechowalnia bagażu",
+      "Wymiana walut",
+      "Codzienne sprzątanie",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Dodatkowa opłata",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "System alarmowy",
+      "Dostęp za pomocą karty",
+      "Dostęp za pomocą kluczy",
+      "Całodobowa ochrona",
+      "Sejf",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Część przeznaczona dla palących",
+      "Klimatyzacja",
+      "Całkowity zakaz palenia",
+      "Ogrzewanie",
+      "Wypożyczalnia samochodów",
+      "Pokoje dźwiękoszczelne",
+      "Winda",
+      "Sezonowy",
+      "Ręczniki kąpielowe/plażowe",
+      "Leżaki lub krzesełka plażowe",
+      "niemiecki",
+      "angielski",
+      "turecki"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Medusa Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nPobyt dzieci nie jest możliwy.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nZwierzęta\nZwierzęta nie są akceptowane.\nAkceptowane metody płatności\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Küçük Çakıl / Kaş (~0.2 km w linii prostej) (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Przeciętny, ocena obiektu jest poniżej 8.0.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

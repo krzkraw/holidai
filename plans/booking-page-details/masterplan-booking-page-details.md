@@ -55,6 +55,6 @@ The current `booking-model` can build `Booking` objects from CSV rows, but the m
 ## Status
 
 - `phase-1-page-model.md`: done
-- `phase-2-page-export.md`: pending
+- `phase-2-page-export.md`: done
 - `phase-3-page-enrichment.md`: pending
 - `phase-4-booking-integration.md`: pending

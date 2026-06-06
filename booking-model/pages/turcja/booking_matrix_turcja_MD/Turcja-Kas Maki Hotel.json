@@ -1,0 +1,324 @@
+{
+  "title": "Turcja - Kas Maki Hotel",
+  "country": "Turcja",
+  "propertyName": "Kas Maki Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 36.19657713513326,
+    "longitude": 29.64638650417328
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/6867447.jpg?k=661ca228a208c53c1c1c3a9a7e4cce053eae6eebf4338c2757ab05a4b318267f&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/471077525.jpg?k=b00df5e4dc16e08e300828040711f1b8a0751cb568bb1f221e401c5c02746db2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/18121522.jpg?k=58b85d1b26bb7b14de508cf43b0e4463915eecc8b65f8cf7e092cd8cbf63999c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/46061471.jpg?k=77c9deae6b13ce95b628fd63fb55b72a406ce10110c731dbeae7230b35c2b933&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/18121720.jpg?k=203cfeb261304eb736b4800cc37dfa10c26705f82348781d99c88ce1e42a58bd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/46061467.jpg?k=16f180eb2aafd54637d141508c16aba3c9dc0e7a99c20873f454316229ba2009&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/471078027.jpg?k=d334b63966a95492bf9bdbb00373b1c594711490d40f95f65ecfdd49f0accca9&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/18121496.jpg?k=4d57d54564f63c31f72858ca665decdddfbc6387615906cb487f1075326195c1&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-u.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/De.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-t.png",
+    "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50"
+  ],
+  "description": "Obiekt Kas Maki Hotel, usytuowany w miejscowości Kaş, oferuje ogród, bezpłatny prywatny parking, wspólny salon oraz taras. Odległość ważnych miejsc od obiektu: Plaża Little Pebble Beach – 400 m. W okolicy znajdują się ciekawe miejsca takie jak: Grobowce skalne w Myrze ( 25 km), Zatopione miasto Kekova ( 31 km), Kościół św. Mikołaja ( 44 km). Obiekt zapewnia całodobową recepcję, transfer lotniskowy, obsługę pokoju oraz bezpłatne Wi-Fi.\n\nW każdym pokoju w obiekcie znajduje się szafa, telewizor z płaskim ekranem oraz prywatna łazienka. Pościel i ręczniki są zapewnione. W prywatnej łazience zapewniono prysznic, bezpłatny zestaw kosmetyków i suszarkę do włosów. Pokoje wyposażone są w minibar.\n\nNa miejscu serwowane jest śniadanie w formie bufetu lub kontynentalne.\n\nW pobliżu obiektu Kas Maki Hotel znajdują się liczne atrakcje, takie jak Lykia Rock Tombs, Kas Ataturk Statue i Kas Yacht Marina.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2794,
+      "raw": "2794 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3715,
+      "raw": "3715 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 4635,
+      "raw": "4635 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "8 282 zł <br> 5 739 zł  <br> Oryginalna cena 8 282 zł Aktualna cena 5 739 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (5 739 zł) <br> 2        (11 479 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 688 zł <br> 4 635 zł  <br> Oryginalna cena 6 688 zł Aktualna cena 4 635 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (4 635 zł) <br> 2          (9 269 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "7 040 zł <br> 4 879 zł  <br> Oryginalna cena 7 040 zł Aktualna cena 4 879 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (4 879 zł) <br> 2          (9 757 zł)"
+      ],
+      [
+        "Pokój Trzyosobowy typu Economy <br>  Zostały nam 2 <br> 1 łóżko podwójne  i 1 łóżko piętrowe  <br> 17 m² <br> Balkon <br> Widok <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "8 273 zł <br> 5 733 zł  <br> Oryginalna cena 8 273 zł Aktualna cena 5 733 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (5 733 zł) <br> 2        (11 466 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 708 zł <br> 6 035 zł  <br> Oryginalna cena 8 708 zł Aktualna cena 6 035 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 035 zł) <br> 2        (12 069 zł)"
+      ],
+      [
+        "Pokój dwuosobowy <br>  Został nam 1 <br> 1 łóżko podwójne  <br> 16 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 303 zł <br> 6 447 zł  <br> Oryginalna cena 9 303 zł Aktualna cena 6 447 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 447 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "9 792 zł <br> 6 786 zł  <br> Oryginalna cena 9 792 zł Aktualna cena 6 786 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 786 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "7 907 zł <br> 5 480 zł  <br> Oryginalna cena 7 907 zł Aktualna cena 5 480 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (5 480 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 323 zł <br> 5 768 zł  <br> Oryginalna cena 8 323 zł Aktualna cena 5 768 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (5 768 zł)"
+      ],
+      [
+        "Pokój Dwuosobowy z widokiem na morze <br>  Zostały nam 4 <br> 1 łóżko podwójne  <br> 18 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 777 zł <br> 6 776 zł  <br> Oryginalna cena 9 777 zł Aktualna cena 6 776 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 776 zł) <br> 2        (13 551 zł) <br> 3        (20 327 zł) <br> 4        (27 103 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "10 291 zł <br> 7 132 zł  <br> Oryginalna cena 10 291 zł Aktualna cena 7 132 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 132 zł) <br> 2        (14 264 zł) <br> 3        (21 395 zł) <br> 4        (28 527 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 310 zł <br> 5 759 zł  <br> Oryginalna cena 8 310 zł Aktualna cena 5 759 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (5 759 zł) <br> 2        (11 518 zł) <br> 3        (17 277 zł) <br> 4        (23 036 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 748 zł <br> 6 062 zł  <br> Oryginalna cena 8 748 zł Aktualna cena 6 062 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 062 zł) <br> 2        (12 124 zł) <br> 3        (18 186 zł) <br> 4        (24 249 zł)"
+      ],
+      [
+        "Pokój rodzinny z bocznym widokiem na morze <br>  Zostały nam 4 <br> 1 łóżko podwójne  i 1 łóżko piętrowe  <br> 22 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "11 629 zł <br> 8 059 zł  <br> Oryginalna cena 11 629 zł Aktualna cena 8 059 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 059 zł) <br> 2        (16 118 zł) <br> 3        (24 177 zł) <br> 4        (32 236 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "12 241 zł <br> 8 483 zł  <br> Oryginalna cena 12 241 zł Aktualna cena 8 483 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 483 zł) <br> 2        (16 965 zł) <br> 3        (25 448 zł) <br> 4        (33 931 zł)"
+      ],
+      [
+        "Pokój rodzinny z widokiem na morze <br>  Zostały nam 4 <br> 1 łóżko podwójne  i 1 łóżko piętrowe  <br> 20 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "12 221 zł <br> 8 469 zł  <br> Oryginalna cena 12 221 zł Aktualna cena 8 469 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 469 zł) <br> 2        (16 938 zł) <br> 3        (25 407 zł) <br> 4        (33 875 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "12 864 zł <br> 8 915 zł  <br> Oryginalna cena 12 864 zł Aktualna cena 8 915 zł <br> Zawiera opłaty i podatki <br> 31% taniej",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 915 zł) <br> 2        (17 829 zł) <br> 3        (26 744 zł) <br> 4        (35 659 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 8 282 zł <br> 5 739 zł  <br> Oryginalna cena 8 282 zł Aktualna cena 5 739 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (5 739 zł) <br> 2        (11 479 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 688 zł <br> 4 635 zł  <br> Oryginalna cena 6 688 zł Aktualna cena 4 635 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (4 635 zł) <br> 2          (9 269 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 7 040 zł <br> 4 879 zł  <br> Oryginalna cena 7 040 zł Aktualna cena 4 879 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (4 879 zł) <br> 2          (9 757 zł) |\n| Pokój Trzyosobowy typu Economy <br>  Zostały nam 2 <br> 1 łóżko podwójne  i 1 łóżko piętrowe  <br> 17 m² <br> Balkon <br> Widok <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej | Maksymalna liczba osób: 2 | 8 273 zł <br> 5 733 zł  <br> Oryginalna cena 8 273 zł Aktualna cena 5 733 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (5 733 zł) <br> 2        (11 466 zł) |\n| Maksymalna liczba osób: 2 | 8 708 zł <br> 6 035 zł  <br> Oryginalna cena 8 708 zł Aktualna cena 6 035 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 035 zł) <br> 2        (12 069 zł) |\n| Pokój dwuosobowy <br>  Został nam 1 <br> 1 łóżko podwójne  <br> 16 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej | Maksymalna liczba osób: 2 | 9 303 zł <br> 6 447 zł  <br> Oryginalna cena 9 303 zł Aktualna cena 6 447 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 447 zł) |\n| Maksymalna liczba osób: 2 | 9 792 zł <br> 6 786 zł  <br> Oryginalna cena 9 792 zł Aktualna cena 6 786 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 786 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 7 907 zł <br> 5 480 zł  <br> Oryginalna cena 7 907 zł Aktualna cena 5 480 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (5 480 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 323 zł <br> 5 768 zł  <br> Oryginalna cena 8 323 zł Aktualna cena 5 768 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (5 768 zł) |\n| Pokój Dwuosobowy z widokiem na morze <br>  Zostały nam 4 <br> 1 łóżko podwójne  <br> 18 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej | Maksymalna liczba osób: 2 | 9 777 zł <br> 6 776 zł  <br> Oryginalna cena 9 777 zł Aktualna cena 6 776 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 776 zł) <br> 2        (13 551 zł) <br> 3        (20 327 zł) <br> 4        (27 103 zł) |\n| Maksymalna liczba osób: 2 | 10 291 zł <br> 7 132 zł  <br> Oryginalna cena 10 291 zł Aktualna cena 7 132 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 132 zł) <br> 2        (14 264 zł) <br> 3        (21 395 zł) <br> 4        (28 527 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 310 zł <br> 5 759 zł  <br> Oryginalna cena 8 310 zł Aktualna cena 5 759 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (5 759 zł) <br> 2        (11 518 zł) <br> 3        (17 277 zł) <br> 4        (23 036 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 748 zł <br> 6 062 zł  <br> Oryginalna cena 8 748 zł Aktualna cena 6 062 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 062 zł) <br> 2        (12 124 zł) <br> 3        (18 186 zł) <br> 4        (24 249 zł) |\n| Pokój rodzinny z bocznym widokiem na morze <br>  Zostały nam 4 <br> 1 łóżko podwójne  i 1 łóżko piętrowe  <br> 22 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej | Maksymalna liczba osób: 2 | 11 629 zł <br> 8 059 zł  <br> Oryginalna cena 11 629 zł Aktualna cena 8 059 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 059 zł) <br> 2        (16 118 zł) <br> 3        (24 177 zł) <br> 4        (32 236 zł) |\n| Maksymalna liczba osób: 2 | 12 241 zł <br> 8 483 zł  <br> Oryginalna cena 12 241 zł Aktualna cena 8 483 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 483 zł) <br> 2        (16 965 zł) <br> 3        (25 448 zł) <br> 4        (33 931 zł) |\n| Pokój rodzinny z widokiem na morze <br>  Zostały nam 4 <br> 1 łóżko podwójne  i 1 łóżko piętrowe  <br> 20 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Więcej | Maksymalna liczba osób: 2 | 12 221 zł <br> 8 469 zł  <br> Oryginalna cena 12 221 zł Aktualna cena 8 469 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 469 zł) <br> 2        (16 938 zł) <br> 3        (25 407 zł) <br> 4        (33 875 zł) |\n| Maksymalna liczba osób: 2 | 12 864 zł <br> 8 915 zł  <br> Oryginalna cena 12 864 zł Aktualna cena 8 915 zł <br> Zawiera opłaty i podatki <br> 31% taniej | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 15 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 915 zł) <br> 2        (17 829 zł) <br> 3        (26 744 zł) <br> 4        (35 659 zł) |"
+  },
+  "review": {
+    "score": 8.7,
+    "count": 33
+  },
+  "comments": [
+    {
+      "author": "Urszula",
+      "text": "„Personel bardzo przyjazny i pomocny. Śniadanie było smaczne. Lokalizacja bardzo dobra, blisko do głównej ulicy i małej plaży. Pokoik mały ale...”"
+    },
+    {
+      "author": "Urszula",
+      "text": "„Personel bardzo przyjazny i pomocny. Śniadanie było smaczne. Lokalizacja bardzo dobra, blisko do głównej ulicy i małej plaży. Pokoik mały ale...”"
+    },
+    {
+      "author": "Urszula",
+      "text": "„Personel bardzo przyjazny i pomocny. Śniadanie było smaczne. Lokalizacja bardzo dobra, blisko do głównej ulicy i małej plaży. Pokoik mały ale...”"
+    },
+    {
+      "author": "Tuba",
+      "text": "„Awesome breakfast buffet in a very nice garden with sea view."
+    },
+    {
+      "author": "Tuba",
+      "text": "„Awesome breakfast buffet in a very nice garden with sea view."
+    },
+    {
+      "author": "Talia",
+      "text": "„Really nice hotel! Was very clean, the staff were incredibly helpful and the breakfast was amazing."
+    },
+    {
+      "author": "Talia",
+      "text": "„Really nice hotel! Was very clean, the staff were incredibly helpful and the breakfast was amazing."
+    },
+    {
+      "author": "Lisa",
+      "text": "„beautiful location, very clean, very good varied traditional breakfast”"
+    },
+    {
+      "author": "Lisa",
+      "text": "„beautiful location, very clean, very good varied traditional breakfast”"
+    },
+    {
+      "author": "Kristina",
+      "text": "„All was good. The room is large and comfortable. Daily cleaning. Nice beautiful lobby and surrounding area around. The breakfast is very good, lots...”"
+    }
+  ],
+  "surroundingsRaw": "Obiekt Kas Maki Hotel, usytuowany w miejscowości Kaş, oferuje ogród, bezpłatny prywatny parking, wspólny salon oraz taras. Odległość ważnych miejsc od obiektu: Plaża Little Pebble Beach – 400 m. W okolicy znajdują się ciekawe miejsca takie jak: Grobowce skalne w Myrze ( 25 km), Zatopione miasto Kekova ( 31 km), Kościół św. Mikołaja ( 44 km). Obiekt zapewnia całodobową recepcję, transfer lotniskowy, obsługę pokoju oraz bezpłatne Wi-Fi.\n\nW każdym pokoju w obiekcie znajduje się szafa, telewizor z płaskim ekranem oraz prywatna łazienka. Pościel i ręczniki są zapewnione. W prywatnej łazience zapewniono prysznic, bezpłatny zestaw kosmetyków i suszarkę do włosów. Pokoje wyposażone są w minibar.\n\nNa miejscu serwowane jest śniadanie w formie bufetu lub kontynentalne.\n\nW pobliżu obiektu Kas Maki Hotel znajdują się liczne atrakcje, takie jak Lykia Rock Tombs, Kas Ataturk Statue i Kas Yacht Marina.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nTransfer lotniskowy\nLokalizacja przy samej plaży\nObsługa pokoju\nBezpłatny parking\nPokoje rodzinne\nPrywatna plaża\nŚniadanie\nTwoje nagrody na poziomie Genius 2\nTen obiekt oferuje nagrody Genius dla wybranych opcji:\n10% zniżki\nMa zastosowanie do ceny przed naliczeniem podatków i opłat\nDowiedz się więcej o programie Genius\nProgram lojalnościowy Booking.com",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Transfer lotniskowy",
+      "Lokalizacja przy samej plaży",
+      "Obsługa pokoju",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Prywatna plaża",
+      "Śniadanie",
+      "Prywatna łazienka",
+      "Balkon",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Widok",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Kapcie",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Taras słoneczny",
+      "Taras",
+      "Ogród",
+      "Czajnik elektryczny",
+      "Gniazdko koło łóżka",
+      "Wieszak na ubrania",
+      "Prywatna plaża",
+      "Dodatkowa opłata",
+      "Kanały satelitarne",
+      "Telefon",
+      "Telewizor",
+      "Wino / szampan",
+      "Dodatkowa opłata",
+      "Minibar",
+      "Parking w garażu",
+      "Przechowalnia bagażu",
+      "Biuro informacji turystycznej",
+      "Wymiana walut",
+      "Całodobowa recepcja",
+      "Usługa prasowania",
+      "Dodatkowa opłata",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Dodatkowa opłata",
+      "Sejf",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Czujnik tlenku węgla",
+      "Wspólna część rekreacyjna / sala TV",
+      "Całkowity zakaz palenia",
+      "Budzenie na życzenie",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Ogrzewanie",
+      "Wypożyczalnia samochodów",
+      "Winda",
+      "Sprzęt do prasowania",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Żelazko",
+      "Całość dostępna dla wózków inwalidzkich",
+      "Dojazd windą na wyższe piętra",
+      "angielski",
+      "turecki"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Kas Maki Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00\nWymeldowanie\nDo 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nZwierzęta\nZwierzęta nie są akceptowane.\nAkceptowane metody płatności\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Küçük Çakıl / Kaş (~0.3 km w linii prostej) (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

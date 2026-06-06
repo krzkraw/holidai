@@ -1,0 +1,298 @@
+{
+  "title": "Kreta - Melitti Lucent",
+  "country": "Kreta",
+  "propertyName": "Melitti Lucent",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.36744303964801,
+    "longitude": 24.502790653372926
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/623988327.jpg?k=edfb34b898ea556a045e17f75230e5812a6f85f5e54dbf984cc40b43228c34fa&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/685620548.jpg?k=97bc74fd32779d3bc11dcfc6fa63a20bc6912fc29e5ac664972d912818395448&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/685620407.jpg?k=7ceb702772459f08590bad31fd3c2bce13df6294a7a0b60fb0e1503e26831110&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/623988274.jpg?k=e298930c5a485bd6f2f507b5fab7d2a7737ef4a62534caa6cef7fcdce95fbbb7&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/173453876.jpg?k=6b6912af449273865c3218c841667df1d65c5f37db6e332c75c072a406517820&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/685620543.jpg?k=32eab859786371dbe780b78930dcaa590c769a0e2fe9d45b3893a3e7b49fae1c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/320778251.jpg?k=e36b60f7f42326525b9ceee0d82b817b8fbf83f5d5e086cc3e4803d3bbf8624e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/173459861.jpg?k=71987ac25959137b0d49fab38cc5e56287d67cea8511a5c1d0eb2af456565b4e&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "https://lh3.googleusercontent.com/a-/AAuE7mBvR7klkWjH0-eTbHFVTv3qvfOLrfmh08Xf1pp0"
+  ],
+  "description": "Hotel Melitti jest dogodnie zlokalizowany zaledwie kilka metrów od piaszczystej plaży w mieście Retimno, 2 km od samego serca Starego Miasta i słynnego portu weneckiego.\n\nTen nowoczesny hotel przy plaży oferuje połączenie typowo kreteńskiej gościnności z wysokimi standardami obsługi i znakomitymi udogodnieniami.\n\nDo dyspozycji gości jest 27 apartamentów oraz studiów z balkonem lub tarasem z widokiem na miasto, morze lub basen. W każdej opcji zakwaterowania znajduje się aneks kuchenny, sejf i telewizor.\n\nHotel Meliti udostępnia również odnowiony basen z bezpłatnymi parasolami i leżakami.\n\nObiekt usytuowany jest niedaleko zabytków oraz atrakcji kulturalnych i przyrodniczych na wyspie. Oddalony jest on o godzinę jazdy od Heraklionu oraz Chanii i stanowi doskonałą bazę wypadową do odkrywania uroków Krety.\n\nW sąsiedztwie hotelu znajdują się piekarnie, minimarkety, bary oraz restauracje. Od przystanku autobusowego dzieli obiekt zaledwie 80 metrów.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 8,2.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3358,
+      "raw": "3358 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 4617,
+      "raw": "4617 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 5876,
+      "raw": "5876 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "10 718 zł <br> 7 432 zł  <br> Oryginalna cena 10 718 zł Aktualna cena 7 432 zł <br> Zawiera opłaty i podatki <br> 31% taniej <br> Oferta Limitowana",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem",
+        "Wybierz pokoje <br> 0 <br> 1          (7 432 zł) <br> 2        (14 864 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 462 zł <br> 5 876 zł  <br> Oryginalna cena 8 462 zł Aktualna cena 5 876 zł <br> Zawiera opłaty i podatki <br> 31% taniej <br> Oferta Limitowana",
+        "Bardzo dobre śniadanie – 42 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem",
+        "Wybierz pokoje <br> 0 <br> 1          (5 876 zł) <br> 2        (11 752 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "9 214 zł <br> 6 395 zł  <br> Oryginalna cena 9 214 zł Aktualna cena 6 395 zł <br> Zawiera opłaty i podatki <br> 31% taniej <br> Oferta Limitowana",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem",
+        "Wybierz pokoje <br> 0 <br> 1          (6 395 zł) <br> 2        (12 789 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 10 718 zł <br> 7 432 zł  <br> Oryginalna cena 10 718 zł Aktualna cena 7 432 zł <br> Zawiera opłaty i podatki <br> 31% taniej <br> Oferta Limitowana | Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem | Wybierz pokoje <br> 0 <br> 1          (7 432 zł) <br> 2        (14 864 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 462 zł <br> 5 876 zł  <br> Oryginalna cena 8 462 zł Aktualna cena 5 876 zł <br> Zawiera opłaty i podatki <br> 31% taniej <br> Oferta Limitowana | Bardzo dobre śniadanie – 42 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem | Wybierz pokoje <br> 0 <br> 1          (5 876 zł) <br> 2        (11 752 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 9 214 zł <br> 6 395 zł  <br> Oryginalna cena 9 214 zł Aktualna cena 6 395 zł <br> Zawiera opłaty i podatki <br> 31% taniej <br> Oferta Limitowana | Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem | Wybierz pokoje <br> 0 <br> 1          (6 395 zł) <br> 2        (12 789 zł) |"
+  },
+  "review": {
+    "score": 8.5,
+    "count": 489
+  },
+  "comments": [
+    {
+      "author": "Ewa",
+      "text": "„Bardzo przyjemny mały hotel, czysto, wygodne łóżka, personel bardzo miły.”"
+    },
+    {
+      "author": "Ewa",
+      "text": "„Bardzo przyjemny mały hotel, czysto, wygodne łóżka, personel bardzo miły.”"
+    },
+    {
+      "author": "Ewa",
+      "text": "„Bardzo przyjemny mały hotel, czysto, wygodne łóżka, personel bardzo miły.”"
+    },
+    {
+      "author": "Ewelina",
+      "text": "„Duży, wygodny apartament z tarasem. Czysty i wyposażony w niezbędne rzeczy (aneks kuchenny). Darmowa kawa przy recepcji - super.”"
+    },
+    {
+      "author": "Ewelina",
+      "text": "„Duży, wygodny apartament z tarasem. Czysty i wyposażony w niezbędne rzeczy (aneks kuchenny). Darmowa kawa przy recepcji - super.”"
+    },
+    {
+      "author": "Andrii",
+      "text": "„Fajna lokalizacja, 3 min do plazy i restauracji, 5 min do sklepu. Dobre miejsce na odpoczynek z rodzina.”"
+    },
+    {
+      "author": "Andrii",
+      "text": "„Fajna lokalizacja, 3 min do plazy i restauracji, 5 min do sklepu. Dobre miejsce na odpoczynek z rodzina.”"
+    },
+    {
+      "author": "Justyna",
+      "text": "„Czystość, uprzejme sprzątaczki, lokalizacja, kameralny ale nie tłoczny basen”"
+    },
+    {
+      "author": "Justyna",
+      "text": "„Czystość, uprzejme sprzątaczki, lokalizacja, kameralny ale nie tłoczny basen”"
+    },
+    {
+      "author": "Olga",
+      "text": "„Swietna lokalizacja, blisko plazy oraz miejscowych restauracji. Piekne pokoje, czystosc, wyposazona kuchnia. Bardzo miły i pomocny personel.”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Melitti Lucent\nŚwietne udogodnienia! Ocena: 8,2\nZobacz dostępność\nNajpopularniejsze udogodnienia\nOdkryty basen\nBezpłatne Wi-Fi\nPokoje dla niepalących\nTransfer lotniskowy\nLokalizacja przy samej plaży\nPrywatny parking\nPokoje rodzinne\nBardzo dobre śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nAneks kuchenny\nPlaża\nLokalizacja przy samej plaży\nBezpłatne Wi-Fi\nZwierzęta domowe są akceptowane\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking\nTransfer lotniskowy\nParking na miejscu\nParking prywatny jest dostępny na miejscu (rezerwacja nie jest możliwa) w cenie € 15 za dzień.\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nStół\nPłyta kuchenna\nPrzybory kuchenne\nCzajnik elektryczny\nLodówka\nAneks kuchenny\nSypialnia\nPościel\nSzafa lub garderoba\nŁazienka\nPapier toaletowy\nRęczniki\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nPrysznic\nSalon\nCzęść jadalna\nCzęść wypoczynkowa\nBiurko\nMedia/Technologia\nTelewizor z płaskim ekranem\nKanały satelitarne\nRadio\nTelefon\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nSuszarka na ubrania\nWieszak na ubrania\nPrzyjazny alergikom\nPodłoga wyłożona kafelkami lub marmurem\nDźwiękoszczelność\nPrywatne wejście\nŻelazko\nZwierzęta\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Mogą obowiązywać dodatkowe opłaty.\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nOkolica\nMeble ogrodowe\nLokalizacja przy samej plaży\nStół na świeżym powietrzu\nTaras słoneczny\nTaras\nOdkryty basen\nBezpłatnie!\nGodziny pracy\nOtwarty przez cały rok\nWstęp dla osób w każdym wieku\nLeżaki lub krzesełka plażowe\nParasole przeciwsłoneczne\nCentrum wellness\nMasaż całego ciała\nMasaż stóp\nMasaż szyi\nMasaż pleców\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nMasaż\nDodatkowa opłata\nPosiłki i napoje\nAutomat z napojami\nZestaw do parzenia kawy i herbaty\nRekreacja\nLekcje gotowania\nDodatkowa opłata\nPoza obiektem\nWycieczka lub spacer po miejscowych zabytkach\nDodatkowa opłata\nWycieczki rowerowe\nDodatkowa opłata\nPiesze wycieczki\nDodatkowa opłata\nGalerie sztuki\nPoza obiektem\nPlaża\nPark wodny\nDodatkowa opłata\nPoza obiektem\nNurkowanie z rurką\nDodatkowa opłata\nPoza obiektem\nJazda konna\nDodatkowa opłata\nPoza obiektem\nNurkowanie\nDodatkowa opłata\nPoza obiektem\nJazda na rowerze\nPoza obiektem\nPiesze wycieczki\nDodatkowa opłata\nPoza obiektem\nKajakarstwo\nDodatkowa opłata\nPoza obiektem\nWindsurfing\nDodatkowa opłata\nPoza obiektem\nWędkowanie\nDodatkowa opłata\nPoza obiektem\nKort tenisowy\nDodatkowa opłata\nPoza obiektem\nTransport\nWynajem rowerów\nDodatkowa opłata\nTransfer\nDodatkowa opłata\nWypożyczalnia samochodów\nTransfer lotniskowy\nDodatkowa opłata\nUsługi recepcji\nMożliwe wystawienie faktury\nIndywidualne zameldowanie / wymeldowanie\nUsługi konsjerża\nPrzechowalnia bagażu\nBiuro informacji turystycznej\nEkspresowe zameldowanie / wymeldowanie\nUsługi sprzątania\nCodzienne sprzątanie\nPralnia\nDodatkowa opłata\nZaplecze biznesowe\nFaks / ksero\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nPokoje dla alergików\nOgrzewanie\nPokoje dźwiękoszczelne\nPokoje rodzinne\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nCzujnik dymu\nSystem alarmowy\nDostęp za pomocą karty\nSejf\nJęzyki\ngrecki\nangielski",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Transfer lotniskowy",
+      "Lokalizacja przy samej plaży",
+      "Prywatny parking",
+      "Pokoje rodzinne",
+      "Bardzo dobre śniadanie",
+      "Prywatna łazienka",
+      "Aneks kuchenny",
+      "Plaża",
+      "Zwierzęta domowe są akceptowane",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Stół",
+      "Płyta kuchenna",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Część jadalna",
+      "Część wypoczynkowa",
+      "Biurko",
+      "Kanały satelitarne",
+      "Radio",
+      "Telefon",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Przyjazny alergikom",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Dźwiękoszczelność",
+      "Prywatne wejście",
+      "Żelazko",
+      "Dojście na wyższe piętra tylko schodami",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Taras słoneczny",
+      "Taras",
+      "Godziny pracy",
+      "Otwarty przez cały rok",
+      "Wstęp dla osób w każdym wieku",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Masaż całego ciała",
+      "Masaż stóp",
+      "Masaż szyi",
+      "Masaż pleców",
+      "Masaż",
+      "Dodatkowa opłata",
+      "Automat z napojami",
+      "Zestaw do parzenia kawy i herbaty",
+      "Lekcje gotowania",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Wycieczka lub spacer po miejscowych zabytkach",
+      "Dodatkowa opłata",
+      "Wycieczki rowerowe",
+      "Dodatkowa opłata",
+      "Piesze wycieczki",
+      "Dodatkowa opłata",
+      "Galerie sztuki",
+      "Poza obiektem",
+      "Park wodny",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Nurkowanie z rurką",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Jazda konna",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Jazda na rowerze",
+      "Poza obiektem",
+      "Piesze wycieczki",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Kajakarstwo",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Windsurfing",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Wędkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Kort tenisowy",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wypożyczalnia samochodów",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Możliwe wystawienie faktury",
+      "Indywidualne zameldowanie / wymeldowanie",
+      "Usługi konsjerża",
+      "Przechowalnia bagażu",
+      "Biuro informacji turystycznej",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Codzienne sprzątanie",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Całkowity zakaz palenia",
+      "Pokoje dla alergików",
+      "Ogrzewanie",
+      "Pokoje dźwiękoszczelne",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "System alarmowy",
+      "Dostęp za pomocą karty",
+      "Sejf",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Melitti Lucent przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 3 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nGrupy\nW przypadku rezerwacji ponad 2 pokoi mogą obowiązywać inne zasady i dodatkowe opłaty.\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 22:00–09:00.\nZwierzęta\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Mogą obowiązywać dodatkowe opłaty.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Rethymno Beach (~1.1 km w linii prostej) (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

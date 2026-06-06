@@ -1,0 +1,234 @@
+{
+  "title": "Turcja - Dalyan Terrace Hotel",
+  "country": "Turcja",
+  "propertyName": "Dalyan Terrace Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 36.83215826600173,
+    "longitude": 28.638718128204346
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71440975.jpg?k=59c054367e9bbc7c68f4584614db0b5419d9dc1440bfd4fa59518e76cb07b54c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/50198387.jpg?k=f1604e88f2e37c47b6aa48bf8f0137c33eb164a24ee3a2037b8779d22569f703&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/50223523.jpg?k=006a487e5ff369a456e018e3ea176682841ace5e74a3269f3545a8871b123c44&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/50203188.jpg?k=2321f3c01c029e793643992639cb85ec17ea44879e9937c69fea80cb175ec725&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/50198416.jpg?k=d2bcf7ec3564bdfd6434043526ba4a35e33dbeb55d224cd3ad1b42e096b38968&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/50203266.jpg?k=e3addc8462741cccf0caba3de72f3c84d306a5039240e0a26b485f947fececa4&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/13584050.jpg?k=245ced222083cb3217e61fafef19b2ece81a5506c3d972bbab859530871b4ddc&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/50198375.jpg?k=42f24a54ef50012cffef617d52a9cb48a5e246c74017d96bf1cf3c674ac2a969&o=",
+    "https://xx.bstatic.com/xdata/images/xphoto/square64/128531010.jpg?k=caa54aef08917d5d6c2ac74dddb5978bc50ef883060c2e1b68b62d9c56952c82&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-k.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Au.png"
+  ],
+  "description": "Obiekt Dalyan Terrace Hotel, położony w centrum miejscowości Dalyan, oferuje ogród, wspólny salon, a także bar. Odległość ważnych miejsc od obiektu: Sulungur Lake – 5,3 km. W hotelu zapewniono bezpłatne Wi-Fi. W okolicy znajdują się ciekawe miejsca takie jak: Dalaman River ( 27 km), Klub jachtowy Gocek ( 34 km). Dla Gości zapewniono takie udogodnienia, jak obsługa pokoju i całodobowa recepcja. Personel służy także pomocą w wymianie walut.\n\nWszystkie opcje zakwaterowania są klimatyzowane i wyposażone w szafę oraz telewizor z płaskim ekranem. W każdej opcji zapewniono też prywatną łazienkę, pościel oraz taras z widokiem na góry. We wszystkich opcjach zakwaterowania w obiekcie znajduje się prywatna łazienka z prysznicem i bezpłatnym zestawem kosmetyków. Z wybranych pokoi roztacza się również widok na miasto. W każdym pokoju w obiekcie zapewniono część wypoczynkową.\n\nLotnisko Lotnisko Dalaman znajduje się 29 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,2.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 1832,
+      "raw": "1832 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 2519,
+      "raw": "2519 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 3207,
+      "raw": "3207 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Pokój Trzyosobowy typu Standard <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> \t3 łóżka pojedyncze  <br> 16 m² <br> Balkon <br> Widok na góry <br> Widok na miasto <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "4 157 zł <br> Cena 4 157 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie wliczone w cenę <br> Bezpłatne odwołanie rezerwacji przed 14:00 w dniu 16 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Zostało nam 5",
+        "Wybierz pokoje <br> 0 <br> 1          (4 157 zł) <br> 2          (8 313 zł) <br> 3        (12 470 zł) <br> 4        (16 627 zł) <br> 5        (20 783 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Pokój Trzyosobowy typu Standard <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> \t3 łóżka pojedyncze  <br> 16 m² <br> Balkon <br> Widok na góry <br> Widok na miasto <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 4 157 zł <br> Cena 4 157 zł <br> Zawiera opłaty i podatki | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie rezerwacji przed 14:00 w dniu 16 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Zostało nam 5 | Wybierz pokoje <br> 0 <br> 1          (4 157 zł) <br> 2          (8 313 zł) <br> 3        (12 470 zł) <br> 4        (16 627 zł) <br> 5        (20 783 zł) |"
+  },
+  "review": {
+    "score": 7.5,
+    "count": 216
+  },
+  "comments": [
+    {
+      "author": "Paul",
+      "text": "„Idealna lokalizacja w samym sercu Dalyan, wspaniałe widoki na rzekę i grobowce z tarasu śniadaniowego. Tylko minuta spacerem do rzeki, barów i...”"
+    },
+    {
+      "author": "Paul",
+      "text": "„Idealna lokalizacja w samym sercu Dalyan, wspaniałe widoki na rzekę i grobowce z tarasu śniadaniowego. Tylko minuta spacerem do rzeki, barów i...”"
+    },
+    {
+      "author": "Paul",
+      "text": "„Idealna lokalizacja w samym sercu Dalyan, wspaniałe widoki na rzekę i grobowce z tarasu śniadaniowego. Tylko minuta spacerem do rzeki, barów i...”"
+    },
+    {
+      "author": "Paul",
+      "text": "„Great location in the heart of Dalyan, breakfast on the roof terrace with fantastic views of the river and tombs”"
+    },
+    {
+      "author": "Paul",
+      "text": "„Great location in the heart of Dalyan, breakfast on the roof terrace with fantastic views of the river and tombs”"
+    },
+    {
+      "author": "Kathy",
+      "text": "„Close to delta with natural surrounds. Dalyan is magical.”"
+    },
+    {
+      "author": "Kathy",
+      "text": "„Close to delta with natural surrounds. Dalyan is magical.”"
+    },
+    {
+      "author": "Lei",
+      "text": "„Very welcoming and friendly owners and staff, but sadly did not get to try the breakfast."
+    },
+    {
+      "author": "Lei",
+      "text": "„Very welcoming and friendly owners and staff, but sadly did not get to try the breakfast."
+    },
+    {
+      "author": "Mária",
+      "text": "„good breakfast on the roof with view"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Dalyan Terrace Hotel\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nObsługa pokoju\nBezpłatny parking\nBar\nŚniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nBalkon\nBezpłatny parking\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nTaras\nParking\nPokoje dla niepalących\nObsługa pokoju\nŁazienka\nPapier toaletowy\nWanna lub prysznic\nKapcie\nPrywatna łazienka\nToaleta\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nPrysznic\nSypialnia\nPościel\nSzafa lub garderoba\nDługie łóżka (> 2 metry)\nWidok\nWidok na góry\nOkolica\nMeble ogrodowe\nStół na świeżym powietrzu\nTaras słoneczny\nBalkon\nTaras\nOgród\nKuchnia\nŚrodki czystości\nCzajnik elektryczny\nUdogodnienia w pokoju\nGniazdko koło łóżka\nSuszarka na ubrania\nWieszak na ubrania\nRekreacja\nNurkowanie\nDodatkowa opłata\nSalon\nCzęść wypoczynkowa\nMedia/Technologia\nTelewizor z płaskim ekranem\nKanały kablowe\nKanały satelitarne\nRadio\nTelewizor\nPosiłki i napoje\nŚniadanie w pokoju\nBar\nInternet\nWi-Fi jest dostępne w pokojach i jest bezpłatne.\nParking\nBezpłatny parking publiczny jest dostępny przy sąsiednich ulicach (nie jest konieczna rezerwacja).\nParking przy ulicy\nUsługi recepcji\nIndywidualne zameldowanie / wymeldowanie\nPrzechowalnia bagażu\nWymiana walut\nEkspresowe zameldowanie / wymeldowanie\nCałodobowa recepcja\nUsługi sprzątania\nCodzienne sprzątanie\nUsługa prasowania\nDodatkowa opłata\nPralnia\nDodatkowa opłata\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nCzujnik dymu\nSystem alarmowy\nDostęp za pomocą kluczy\nCałodobowa ochrona\nOgólne\nWspólna część rekreacyjna / sala TV\nAutomat z napojami\nPrzyjazny alergikom\nCzęść przeznaczona dla palących\nKlimatyzacja\nPokoje dla alergików\nMoskitiera\nBudzenie na życzenie\nPodłoga wyłożona kafelkami lub marmurem\nOgrzewanie\nDźwiękoszczelność\nPrywatne wejście\nObiady na wynos\nPokoje dźwiękoszczelne\nWentylator\nSprzęt do prasowania\nPokoje dla niepalących\nObsługa pokoju\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nCałość zlokalizowana na parterze\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nJęzyki\nangielski\nturecki",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Obsługa pokoju",
+      "Bezpłatny parking",
+      "Bar",
+      "Śniadanie",
+      "Prywatna łazienka",
+      "Balkon",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Taras",
+      "Parking",
+      "Papier toaletowy",
+      "Wanna lub prysznic",
+      "Kapcie",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Długie łóżka (> 2 metry)",
+      "Widok na góry",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Taras słoneczny",
+      "Ogród",
+      "Środki czystości",
+      "Czajnik elektryczny",
+      "Gniazdko koło łóżka",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Część wypoczynkowa",
+      "Kanały kablowe",
+      "Kanały satelitarne",
+      "Radio",
+      "Telewizor",
+      "Śniadanie w pokoju",
+      "Parking przy ulicy",
+      "Indywidualne zameldowanie / wymeldowanie",
+      "Przechowalnia bagażu",
+      "Wymiana walut",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Całodobowa recepcja",
+      "Codzienne sprzątanie",
+      "Usługa prasowania",
+      "Dodatkowa opłata",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "System alarmowy",
+      "Dostęp za pomocą kluczy",
+      "Całodobowa ochrona",
+      "Wspólna część rekreacyjna / sala TV",
+      "Automat z napojami",
+      "Przyjazny alergikom",
+      "Część przeznaczona dla palących",
+      "Pokoje dla alergików",
+      "Moskitiera",
+      "Budzenie na życzenie",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Ogrzewanie",
+      "Dźwiękoszczelność",
+      "Prywatne wejście",
+      "Obiady na wynos",
+      "Pokoje dźwiękoszczelne",
+      "Wentylator",
+      "Sprzęt do prasowania",
+      "Dojście na wyższe piętra tylko schodami",
+      "Całość zlokalizowana na parterze",
+      "Parasole przeciwsłoneczne",
+      "Leżaki lub krzesełka plażowe",
+      "angielski",
+      "turecki"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Dalyan Terrace Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 12:00\nWymeldowanie\nDo 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–5\nDodatkowe łóżko dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych dodatkowych łóżek zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nŁóżeczka dziecięce nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z dodatkowych łóżek zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nZwierzęta\nZwierzęta nie są akceptowane.\nAkceptowane metody płatności\nKarta bankowa\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Dalyan riverfront (~0.1 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Przeciętny, ocena obiektu jest poniżej 8.0.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

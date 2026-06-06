@@ -1,0 +1,544 @@
+{
+  "title": "Cypr - Akamanthea Holiday Village",
+  "country": "Cypr",
+  "propertyName": "Akamanthea Holiday Village",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.03725711764811,
+    "longitude": 32.41227641701698
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/514480151.jpg?k=454c89e8721000df3edc74ba0bc271f43379a0cdec3151ad51f9b6461de82d5f&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/514480931.jpg?k=c3e4f415968a991430bff32fe5da0149c4ec18fe5fedbcf9a76c4b5d5cb86a77&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/729855632.jpg?k=005d0969b348cb03d0d251262e6798e85fbaac76c4be7f8ac25cffb72c7648ce&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/514478927.jpg?k=a8b00320a0615a0ca128915011e361a72bad4173b42346e041db368f4341a0ab&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/514480691.jpg?k=38b27f3f3f88d2cf46024eb4a053c68678c467884312abad00aa65003a62b393&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/514479430.jpg?k=871c471758c9354b229931f3b05583c46d4201918abe267ccee903151dcbf824&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/514478729.jpg?k=33d741cdf8b3b057bc51b8d86b2bab80648c0b2d2bf4d64d784f125194ac06fd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/729856085.jpg?k=c7b2a66275521f84a8f1953ce22e53bbf449fe90a05b4305a1885d84b2283278&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-t.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-g.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Cn.png"
+  ],
+  "description": "Ośrodek Akamanthea Holiday Village usytuowany jest 10 minut spacerem od plaży. Dysponuje on siłownią, sauną, jacuzzi i basenami. Wszystkie nowoczesne apartamenty wyposażone są w klimatyzację i telewizję satelitarną.\n\nNa terenie ośrodka Akamanthea Village znajduje się również bar przy odkrytym basenie, który oferuje szeroki wybór napojów i koktajli.\n\nPosiłkiem z restauracji Goście mogą się delektować na werandzie z widokiem na Morze Śródziemne. Serwowane są tu specjały kuchni europejskiej i dania cypryjskie. Restauracja oferuje także pełne śniadanie angielskie.\n\nŁaźnie Afrodyty znajdują się 7 km od ośrodka.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,0.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": null,
+      "raw": "TBD PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": null,
+      "raw": "TBD PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": null,
+      "raw": "TBD PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Rodzaj zakwaterowania",
+      "Liczba gości",
+      "Cena za 8 nocy",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "5 972 zł <br> Cena 5 972 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 972 zł) <br> 2        (11 944 zł) <br> 3        (17 916 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 447 zł <br> Cena 6 447 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 447 zł) <br> 2        (12 894 zł) <br> 3        (19 341 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 058 zł <br> Cena 7 058 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 058 zł) <br> 2        (14 116 zł) <br> 3        (21 174 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "3 980 zł <br> Cena 3 980 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (3 980 zł) <br> 2          (7 960 zł) <br> 3        (11 941 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 625 zł <br> Cena 4 625 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (4 625 zł) <br> 2          (9 250 zł) <br> 3        (13 875 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 862 zł <br> Cena 4 862 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (4 862 zł) <br> 2          (9 725 zł) <br> 3        (14 587 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 168 zł <br> Cena 5 168 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 168 zł) <br> 2        (10 336 zł) <br> 3        (15 504 zł)"
+      ],
+      [
+        "Superior Studio Apartment Sea View <br>  Zostały nam 4 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 łóżko podwójne  <br> 1 studio na wyłączność <br> 30 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 022 zł <br> Cena 5 022 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 022 zł) <br> 2        (10 044 zł) <br> 3        (15 066 zł) <br> 4        (20 088 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 311 zł <br> Cena 6 311 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 311 zł) <br> 2        (12 623 zł) <br> 3        (18 934 zł) <br> 4        (25 246 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 786 zł <br> Cena 6 786 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 786 zł) <br> 2        (13 573 zł) <br> 3        (20 359 zł) <br> 4        (27 146 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 397 zł <br> Cena 7 397 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 397 zł) <br> 2        (14 794 zł) <br> 3        (22 192 zł) <br> 4        (29 589 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 269 zł <br> Cena 4 269 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (4 269 zł) <br> 2          (8 537 zł) <br> 3        (12 806 zł) <br> 4        (17 075 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 913 zł <br> Cena 4 913 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (4 913 zł) <br> 2          (9 827 zł) <br> 3        (14 740 zł) <br> 4        (19 653 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 151 zł <br> Cena 5 151 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 151 zł) <br> 2        (10 302 zł) <br> 3        (15 453 zł) <br> 4        (20 604 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 456 zł <br> Cena 5 456 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 456 zł) <br> 2        (10 913 zł) <br> 3        (16 369 zł) <br> 4        (21 825 zł)"
+      ],
+      [
+        "Superior One Bedroom Apartment with Pool & Garden View <br>  Został nam 1 <br> Sypialnia 1: 1 łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na basen <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 192 zł <br> Cena 5 192 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 192 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 481 zł <br> Cena 6 481 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 481 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 956 zł <br> Cena 6 956 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 956 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 567 zł <br> Cena 7 567 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 567 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 413 zł <br> Cena 4 413 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (4 413 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 058 zł <br> Cena 5 058 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 058 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 295 zł <br> Cena 5 295 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 295 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 600 zł <br> Cena 5 600 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 600 zł)"
+      ],
+      [
+        "Superior One Bedroom Apartment Side Sea View <br>  Zostały nam 2 <br> Sypialnia 1: 1 łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 361 zł <br> Cena 5 361 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 361 zł) <br> 2        (10 723 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 651 zł <br> Cena 6 651 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 651 zł) <br> 2        (13 301 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 126 zł <br> Cena 7 126 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 126 zł) <br> 2        (14 251 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 737 zł <br> Cena 7 737 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 737 zł) <br> 2        (15 473 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 557 zł <br> Cena 4 557 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (4 557 zł) <br> 2          (9 114 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 202 zł <br> Cena 5 202 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 202 zł) <br> 2        (10 404 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 439 zł <br> Cena 5 439 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 439 zł) <br> 2        (10 879 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 745 zł <br> Cena 5 745 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 745 zł) <br> 2        (11 489 zł)"
+      ],
+      [
+        "Superior One Bedroom Apartment Sea View <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 531 zł <br> Cena 5 531 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 531 zł) <br> 2        (11 062 zł) <br> 3        (16 593 zł) <br> 4        (22 124 zł) <br> 5        (27 655 zł) <br> 6        (33 186 zł) <br> 7        (38 717 zł) <br> 8        (44 248 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 820 zł <br> Cena 6 820 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 820 zł) <br> 2        (13 641 zł) <br> 3        (20 461 zł) <br> 4        (27 281 zł) <br> 5        (34 102 zł) <br> 6        (40 922 zł) <br> 7        (47 743 zł) <br> 8        (54 563 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 295 zł <br> Cena 7 295 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 295 zł) <br> 2        (14 591 zł) <br> 3        (21 886 zł) <br> 4        (29 182 zł) <br> 5        (36 477 zł) <br> 6        (43 772 zł) <br> 7        (51 068 zł) <br> 8        (58 363 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 906 zł <br> Cena 7 906 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 906 zł) <br> 2        (15 812 zł) <br> 3        (23 719 zł) <br> 4        (31 625 zł) <br> 5        (39 531 zł) <br> 6        (47 437 zł) <br> 7        (55 343 zł) <br> 8        (63 250 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 701 zł <br> Cena 4 701 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (4 701 zł) <br> 2          (9 403 zł) <br> 3        (14 104 zł) <br> 4        (18 805 zł) <br> 5        (23 506 zł) <br> 6        (28 208 zł) <br> 7        (32 909 zł) <br> 8        (37 610 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 346 zł <br> Cena 5 346 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 346 zł) <br> 2        (10 692 zł) <br> 3        (16 038 zł) <br> 4        (21 384 zł) <br> 5        (26 730 zł) <br> 6        (32 076 zł) <br> 7        (37 422 zł) <br> 8        (42 768 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 584 zł <br> Cena 5 584 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 584 zł) <br> 2        (11 167 zł) <br> 3        (16 751 zł) <br> 4        (22 334 zł) <br> 5        (27 918 zł) <br> 6        (33 501 zł) <br> 7        (39 085 zł) <br> 8        (44 668 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 889 zł <br> Cena 5 889 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 889 zł) <br> 2        (11 778 zł) <br> 3        (17 667 zł) <br> 4        (23 556 zł) <br> 5        (29 445 zł) <br> 6        (35 334 zł) <br> 7        (41 222 zł) <br> 8        (47 111 zł)"
+      ],
+      [
+        "Superior Two Bedroom Apartment Garden View <br>  Zostały nam 2 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Sypialnia 2: 1 łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 60 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "7 329 zł <br> Cena 7 329 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 329 zł) <br> 2        (14 659 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 804 zł <br> Cena 7 804 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 804 zł) <br> 2        (15 609 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 415 zł <br> Cena 8 415 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (8 415 zł) <br> 2        (16 830 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 040 zł <br> Cena 6 040 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 040 zł) <br> 2        (12 080 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 134 zł <br> Cena 5 134 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 134 zł) <br> 2        (10 268 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 779 zł <br> Cena 5 779 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 779 zł) <br> 2        (11 557 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 016 zł <br> Cena 6 016 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 016 zł) <br> 2        (12 032 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 322 zł <br> Cena 6 322 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 322 zł) <br> 2        (12 643 zł)"
+      ],
+      [
+        "Superior Two Bedroom Apartment Side Sea View <br>  Został nam 1 <br> Sypialnia 1: 1 łóżko podwójne  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 60 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "7 669 zł <br> Cena 7 669 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 669 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 144 zł <br> Cena 8 144 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (8 144 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 754 zł <br> Cena 8 754 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (8 754 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 379 zł <br> Cena 6 379 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 379 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 422 zł <br> Cena 5 422 zł <br> Zawiera opłaty i podatki",
+        "Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 422 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 067 zł <br> Cena 6 067 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 067 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 305 zł <br> Cena 6 305 zł <br> Zawiera opłaty i podatki",
+        "Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 305 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 610 zł <br> Cena 6 610 zł <br> Zawiera opłaty i podatki",
+        "All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 610 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 8 nocy | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 5 972 zł <br> Cena 5 972 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 972 zł) <br> 2        (11 944 zł) <br> 3        (17 916 zł) |\n| Maksymalna liczba osób: 2 | 6 447 zł <br> Cena 6 447 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 447 zł) <br> 2        (12 894 zł) <br> 3        (19 341 zł) |\n| Maksymalna liczba osób: 2 | 7 058 zł <br> Cena 7 058 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 058 zł) <br> 2        (14 116 zł) <br> 3        (21 174 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 3 980 zł <br> Cena 3 980 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (3 980 zł) <br> 2          (7 960 zł) <br> 3        (11 941 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 625 zł <br> Cena 4 625 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 625 zł) <br> 2          (9 250 zł) <br> 3        (13 875 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 862 zł <br> Cena 4 862 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 862 zł) <br> 2          (9 725 zł) <br> 3        (14 587 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 168 zł <br> Cena 5 168 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 168 zł) <br> 2        (10 336 zł) <br> 3        (15 504 zł) |\n| Superior Studio Apartment Sea View <br>  Zostały nam 4 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 łóżko podwójne  <br> 1 studio na wyłączność <br> 30 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 022 zł <br> Cena 5 022 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 022 zł) <br> 2        (10 044 zł) <br> 3        (15 066 zł) <br> 4        (20 088 zł) |\n| Maksymalna liczba osób: 2 | 6 311 zł <br> Cena 6 311 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 311 zł) <br> 2        (12 623 zł) <br> 3        (18 934 zł) <br> 4        (25 246 zł) |\n| Maksymalna liczba osób: 2 | 6 786 zł <br> Cena 6 786 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 786 zł) <br> 2        (13 573 zł) <br> 3        (20 359 zł) <br> 4        (27 146 zł) |\n| Maksymalna liczba osób: 2 | 7 397 zł <br> Cena 7 397 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 397 zł) <br> 2        (14 794 zł) <br> 3        (22 192 zł) <br> 4        (29 589 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 269 zł <br> Cena 4 269 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 269 zł) <br> 2          (8 537 zł) <br> 3        (12 806 zł) <br> 4        (17 075 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 913 zł <br> Cena 4 913 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 913 zł) <br> 2          (9 827 zł) <br> 3        (14 740 zł) <br> 4        (19 653 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 151 zł <br> Cena 5 151 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 151 zł) <br> 2        (10 302 zł) <br> 3        (15 453 zł) <br> 4        (20 604 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 456 zł <br> Cena 5 456 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 456 zł) <br> 2        (10 913 zł) <br> 3        (16 369 zł) <br> 4        (21 825 zł) |\n| Superior One Bedroom Apartment with Pool & Garden View <br>  Został nam 1 <br> Sypialnia 1: 1 łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na basen <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 192 zł <br> Cena 5 192 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 192 zł) |\n| Maksymalna liczba osób: 2 | 6 481 zł <br> Cena 6 481 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 481 zł) |\n| Maksymalna liczba osób: 2 | 6 956 zł <br> Cena 6 956 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 956 zł) |\n| Maksymalna liczba osób: 2 | 7 567 zł <br> Cena 7 567 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 567 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 413 zł <br> Cena 4 413 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 413 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 058 zł <br> Cena 5 058 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 058 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 295 zł <br> Cena 5 295 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 295 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 600 zł <br> Cena 5 600 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 600 zł) |\n| Superior One Bedroom Apartment Side Sea View <br>  Zostały nam 2 <br> Sypialnia 1: 1 łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 361 zł <br> Cena 5 361 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 361 zł) <br> 2        (10 723 zł) |\n| Maksymalna liczba osób: 2 | 6 651 zł <br> Cena 6 651 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 651 zł) <br> 2        (13 301 zł) |\n| Maksymalna liczba osób: 2 | 7 126 zł <br> Cena 7 126 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 126 zł) <br> 2        (14 251 zł) |\n| Maksymalna liczba osób: 2 | 7 737 zł <br> Cena 7 737 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 737 zł) <br> 2        (15 473 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 557 zł <br> Cena 4 557 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 557 zł) <br> 2          (9 114 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 202 zł <br> Cena 5 202 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 202 zł) <br> 2        (10 404 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 439 zł <br> Cena 5 439 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 439 zł) <br> 2        (10 879 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 745 zł <br> Cena 5 745 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 745 zł) <br> 2        (11 489 zł) |\n| Superior One Bedroom Apartment Sea View <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 531 zł <br> Cena 5 531 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 531 zł) <br> 2        (11 062 zł) <br> 3        (16 593 zł) <br> 4        (22 124 zł) <br> 5        (27 655 zł) <br> 6        (33 186 zł) <br> 7        (38 717 zł) <br> 8        (44 248 zł) |\n| Maksymalna liczba osób: 2 | 6 820 zł <br> Cena 6 820 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 820 zł) <br> 2        (13 641 zł) <br> 3        (20 461 zł) <br> 4        (27 281 zł) <br> 5        (34 102 zł) <br> 6        (40 922 zł) <br> 7        (47 743 zł) <br> 8        (54 563 zł) |\n| Maksymalna liczba osób: 2 | 7 295 zł <br> Cena 7 295 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 295 zł) <br> 2        (14 591 zł) <br> 3        (21 886 zł) <br> 4        (29 182 zł) <br> 5        (36 477 zł) <br> 6        (43 772 zł) <br> 7        (51 068 zł) <br> 8        (58 363 zł) |\n| Maksymalna liczba osób: 2 | 7 906 zł <br> Cena 7 906 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 906 zł) <br> 2        (15 812 zł) <br> 3        (23 719 zł) <br> 4        (31 625 zł) <br> 5        (39 531 zł) <br> 6        (47 437 zł) <br> 7        (55 343 zł) <br> 8        (63 250 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 701 zł <br> Cena 4 701 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 701 zł) <br> 2          (9 403 zł) <br> 3        (14 104 zł) <br> 4        (18 805 zł) <br> 5        (23 506 zł) <br> 6        (28 208 zł) <br> 7        (32 909 zł) <br> 8        (37 610 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 346 zł <br> Cena 5 346 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 346 zł) <br> 2        (10 692 zł) <br> 3        (16 038 zł) <br> 4        (21 384 zł) <br> 5        (26 730 zł) <br> 6        (32 076 zł) <br> 7        (37 422 zł) <br> 8        (42 768 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 584 zł <br> Cena 5 584 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 584 zł) <br> 2        (11 167 zł) <br> 3        (16 751 zł) <br> 4        (22 334 zł) <br> 5        (27 918 zł) <br> 6        (33 501 zł) <br> 7        (39 085 zł) <br> 8        (44 668 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 889 zł <br> Cena 5 889 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 889 zł) <br> 2        (11 778 zł) <br> 3        (17 667 zł) <br> 4        (23 556 zł) <br> 5        (29 445 zł) <br> 6        (35 334 zł) <br> 7        (41 222 zł) <br> 8        (47 111 zł) |\n| Superior Two Bedroom Apartment Garden View <br>  Zostały nam 2 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Sypialnia 2: 1 łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 60 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 7 329 zł <br> Cena 7 329 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 329 zł) <br> 2        (14 659 zł) |\n| Maksymalna liczba osób: 2 | 7 804 zł <br> Cena 7 804 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 804 zł) <br> 2        (15 609 zł) |\n| Maksymalna liczba osób: 2 | 8 415 zł <br> Cena 8 415 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (8 415 zł) <br> 2        (16 830 zł) |\n| Maksymalna liczba osób: 2 | 6 040 zł <br> Cena 6 040 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 040 zł) <br> 2        (12 080 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 134 zł <br> Cena 5 134 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 134 zł) <br> 2        (10 268 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 779 zł <br> Cena 5 779 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 779 zł) <br> 2        (11 557 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 016 zł <br> Cena 6 016 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 016 zł) <br> 2        (12 032 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 322 zł <br> Cena 6 322 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 322 zł) <br> 2        (12 643 zł) |\n| Superior Two Bedroom Apartment Side Sea View <br>  Został nam 1 <br> Sypialnia 1: 1 łóżko podwójne  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 60 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Wanna <br> Klimatyzacja <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 7 669 zł <br> Cena 7 669 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 669 zł) |\n| Maksymalna liczba osób: 2 | 8 144 zł <br> Cena 8 144 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (8 144 zł) |\n| Maksymalna liczba osób: 2 | 8 754 zł <br> Cena 8 754 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (8 754 zł) |\n| Maksymalna liczba osób: 2 | 6 379 zł <br> Cena 6 379 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 379 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 422 zł <br> Cena 5 422 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie kontynentalne <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 422 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 067 zł <br> Cena 6 067 zł <br> Zawiera opłaty i podatki | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 067 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 305 zł <br> Cena 6 305 zł <br> Zawiera opłaty i podatki | Śniadanie, obiad i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 305 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 610 zł <br> Cena 6 610 zł <br> Zawiera opłaty i podatki | All-Inclusive <br> Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 610 zł) |"
+  },
+  "review": {
+    "score": 7.6,
+    "count": 164
+  },
+  "comments": [
+    {
+      "author": "Tosemjo",
+      "text": "„Zieleń wokół apartamentu, bardzo miła i pomocna obsługa, informacje.turystyczne i wiedzą na temat regionu, nocne kompiele w basenie , gazowana woda...”"
+    },
+    {
+      "author": "Tosemjo",
+      "text": "„Zieleń wokół apartamentu, bardzo miła i pomocna obsługa, informacje.turystyczne i wiedzą na temat regionu, nocne kompiele w basenie , gazowana woda...”"
+    },
+    {
+      "author": "Tosemjo",
+      "text": "„Zieleń wokół apartamentu, bardzo miła i pomocna obsługa, informacje.turystyczne i wiedzą na temat regionu, nocne kompiele w basenie , gazowana woda...”"
+    },
+    {
+      "author": "Gang",
+      "text": "„We had a wonderful stay at this hotel. The sunset by the swimming pool was absolutely beautiful, the room was  spotless and clean. The biggest...”"
+    },
+    {
+      "author": "Gang",
+      "text": "„We had a wonderful stay at this hotel. The sunset by the swimming pool was absolutely beautiful, the room was  spotless and clean. The biggest...”"
+    },
+    {
+      "author": "Paul",
+      "text": "„Excellent breakfast."
+    },
+    {
+      "author": "Paul",
+      "text": "„Excellent breakfast."
+    },
+    {
+      "author": "Nicoletta",
+      "text": "„From the moment we arrived at Akamanthea Holiday Village, we felt warmly welcomed and immediately at ease. Our accommodation was spacious and...”"
+    },
+    {
+      "author": "Nicoletta",
+      "text": "„From the moment we arrived at Akamanthea Holiday Village, we felt warmly welcomed and immediately at ease. Our accommodation was spacious and...”"
+    },
+    {
+      "author": "Izzet",
+      "text": "„It’s a family business and is run exceptionally. The location is perfect. 5 min drive to the town Polis or Latchia. The owners, staff are all...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Akamanthea Holiday Village\nZobacz dostępność\nNajpopularniejsze udogodnienia\n2 baseny\nBezpłatne Wi-Fi\nPokoje dla niepalących\nUdogodnienia dla niepełnosprawnych\nPokoje rodzinne\nRestauracja\nBezpłatny parking\nBar\nŚniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nAneks kuchenny\nBezpłatny parking\nBalkon\nBezpłatne Wi-Fi\nKlimatyzacja\nParking\nWanna\nWidok\nUdogodnienia dla niepełnosprawnych\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nPłyta kuchenna\nPrzybory kuchenne\nCzajnik elektryczny\nLodówka\nAneks kuchenny\nSypialnia\nPościel\nŁazienka\nPapier toaletowy\nRęczniki\nPrywatna łazienka\nToaleta\nWanna\nSalon\nCzęść jadalna\nSofa\nCzęść wypoczynkowa\nMedia/Technologia\nKanały satelitarne\nTelefon\nTelewizor\nUdogodnienia w pokoju\nRozkładana sofa\nPodłoga wyłożona kafelkami lub marmurem\nPrywatne wejście\nOkolica\nMeble ogrodowe\nSprzęt do grillowania\nBalkon\nTaras\nOgród\nPomieszczenia ogólnodostępne\nPokój gier\n2 baseny\nBasen 1 – kryty\nBasen 2 – odkryty\nBar przy basenie\nLeżaki lub krzesełka plażowe\nParasole przeciwsłoneczne\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nSauna\nPosiłki i napoje\nAutomat z przekąskami\nAutomat z napojami\nObiady na wynos\nBar\nRestauracja\nRekreacja\nTenis stołowy\nBilard\nOkolica i widok\nWidok\nUsługi recepcji\nPrzechowalnia bagażu\nWymiana walut\nCałodobowa recepcja\nUsługi dla rodzin i oferta rozrywkowa\nPlac zabaw dla dzieci\nZaplecze biznesowe\nFaks / ksero\nZaplecze bankietowe / konferencyjne\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nOgrzewanie\nWinda\nPokoje rodzinne\nUdogodnienia dla niepełnosprawnych\nPokoje dla niepalących\nBezpieczeństwo\nMonitoring w pomieszczeniach ogólnodostępnych\nSejf\nJęzyki\ngrecki\nangielski\nfrancuski\nrosyjski",
+  "amenities": {
+    "flatList": [
+      "2 baseny",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Udogodnienia dla niepełnosprawnych",
+      "Pokoje rodzinne",
+      "Restauracja",
+      "Bezpłatny parking",
+      "Bar",
+      "Śniadanie",
+      "Prywatna łazienka",
+      "Aneks kuchenny",
+      "Balkon",
+      "Klimatyzacja",
+      "Parking",
+      "Wanna",
+      "Widok",
+      "Płyta kuchenna",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Pościel",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Część jadalna",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Kanały satelitarne",
+      "Telefon",
+      "Telewizor",
+      "Rozkładana sofa",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Prywatne wejście",
+      "Meble ogrodowe",
+      "Sprzęt do grillowania",
+      "Taras",
+      "Ogród",
+      "Pokój gier",
+      "Bar przy basenie",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Sauna",
+      "Automat z przekąskami",
+      "Automat z napojami",
+      "Obiady na wynos",
+      "Tenis stołowy",
+      "Bilard",
+      "Przechowalnia bagażu",
+      "Wymiana walut",
+      "Całodobowa recepcja",
+      "Plac zabaw dla dzieci",
+      "Faks / ksero",
+      "Zaplecze bankietowe / konferencyjne",
+      "Całkowity zakaz palenia",
+      "Ogrzewanie",
+      "Winda",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Sejf",
+      "grecki",
+      "angielski",
+      "francuski",
+      "rosyjski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Akamanthea Holiday Village przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nKarty akceptowane w tym obiekcie\nGotówka nie jest akceptowana\nPalenie tytoniu\nPalenie jest zabronione.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 1,300 ft from Akamanthea Holiday Village.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Przeciętny, ocena obiektu jest poniżej 8.0.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "title": "Turcja - Hamarat Otel",
+  "country": "Turcja",
+  "propertyName": "Hamarat Otel",
+  "address": "",
+  "coordinates": {
+    "latitude": 36.198373675131705,
+    "longitude": 29.61365282535553
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585341599.jpg?k=09ed6ec0dc40f7e88d2816953d597522601d1b51792dbf253ddd83b56177cf19&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/261683269.jpg?k=ac20b7bfa407df483587d90c40e9ed00462f7f29d0b1594222e996b65ea4f238&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/585341591.jpg?k=a8281a28f0ee9bea8095be29d7ee2f289d552652f742509db1e6829f85fd27d2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/268478575.jpg?k=e2f50917a291db58474d4a82830849685442389713568d7cbd0c9fe2bbd229c2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/738686164.jpg?k=a6034c0d0b66bf652002a066a654c7b4573197c991829acd44c2c5b5783bec86&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/99400558.jpg?k=eee7cedcf681df873efee3a31d64864cccac6613f24d706d6f2f96fc043e9408&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/738686008.jpg?k=e4a3c5e53e2af327c595092843475da59749e5cd05e2ecd15f84d83dc0fa02fd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/280081368.jpg?k=1e7ff5a73cd57af76d0ac9f5cb7dba1217c809f9333c9e81cf304467bec9dbf4&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-c.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Kg.png",
+    "https://lh3.googleusercontent.com/--aZGq7eL2zI/AAAAAAAAAAI/AAAAAAAAAMs/z6M7mII6jfk/photo.jpg?sz=50",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Ee.png"
+  ],
+  "description": "Oferta obiektu Hamarat Otel położonego w miejscowości Kaş obejmuje ogród, wspólny salon, taras oraz bezpłatne Wi-Fi we wszystkich pomieszczeniach. Oferta obiektu obejmuje usługę konsjerża. Na miejscu znajduje się również restauracja. Dla Gości zapewniono takie udogodnienia, jak wspólna kuchnia i całodobowa recepcja. Personel służy także pomocą w wymianie walut.\n\nW każdym pokoju znajduje się prywatna łazienka. Wybrane opcje zakwaterowania mają również balkon, a z innych roztacza się widok na morze. W każdej opcji zakwaterowania w obiekcie zapewniono prywatną łazienkę.\n\nNa miejscu serwowane jest śniadanie kontynentalne lub halal.\n\nW miejscowości Kaş i okolicy Goście obiektu mogą uprawiać rozmaite sporty, takie jak wędkarstwo.\n\nOdległość ważnych miejsc od obiektu: Plaża Ince Bogaz Cinar – niecały kilometr, Grobowce skalne w Myrze – 28 km.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3634,
+      "raw": "3634 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 5678,
+      "raw": "5678 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 6916,
+      "raw": "6916 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 645 zł <br> 6 916 zł  <br> Oryginalna cena 8 645 zł Aktualna cena 6 916 zł <br> Zawiera opłaty i podatki <br> 20% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 916 zł) <br> 2        (13 833 zł)"
+      ],
+      [
+        "Pokój z 2 łóżkami pojedynczymi i balkonem z widokiem na morze <br>  Został nam 1 <br> 2 łóżka pojedyncze  <br> 17 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 729 zł <br> 7 783 zł  <br> Oryginalna cena 9 729 zł Aktualna cena 7 783 zł <br> Zawiera opłaty i podatki <br> 20% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 783 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 645 zł <br> 6 916 zł  <br> Oryginalna cena 8 645 zł Aktualna cena 6 916 zł <br> Zawiera opłaty i podatki <br> 20% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 916 zł)"
+      ],
+      [
+        "Pokój trzyosobowy typu Comfort z widokiem na morze <br> 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> 27 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "11 097 zł <br> 8 878 zł  <br> Oryginalna cena 11 097 zł Aktualna cena 8 878 zł <br> Zawiera opłaty i podatki <br> 20% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (8 878 zł) <br> 2        (17 755 zł) <br> 3        (26 633 zł)"
+      ],
+      [
+        "Pokój Dwuosobowy typu Superior z widokiem na morze i balkonem <br>  Został nam 1 <br> 1 łóżko podwójne  <br> 30 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "11 097 zł <br> 8 878 zł  <br> Oryginalna cena 11 097 zł Aktualna cena 8 878 zł <br> Zawiera opłaty i podatki <br> 20% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 878 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 013 zł <br> 8 011 zł  <br> Oryginalna cena 10 013 zł Aktualna cena 8 011 zł <br> Zawiera opłaty i podatki <br> 20% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 011 zł)"
+      ],
+      [
+        "Pokój dwuosobowy typu Deluxe z balkonem i widokiem na morze <br>  Zostały nam 2 <br> 1 duże łóżko podwójne  <br> 49 m² <br> Prywatna łazienka <br> Bezpłatne Wi-Fi",
+        "Maksymalna liczba osób: 2",
+        "13 626 zł <br> 10 901 zł  <br> Oryginalna cena 13 626 zł Aktualna cena 10 901 zł <br> Zawiera opłaty i podatki <br> 20% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1        (10 901 zł) <br> 2        (21 802 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "12 542 zł <br> 10 100 zł  <br> Oryginalna cena 12 542 zł Aktualna cena 10 100 zł <br> Zawiera opłaty i podatki <br> 19% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1        (10 100 zł) <br> 2        (20 201 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 645 zł <br> 6 916 zł  <br> Oryginalna cena 8 645 zł Aktualna cena 6 916 zł <br> Zawiera opłaty i podatki <br> 20% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 916 zł) <br> 2        (13 833 zł) |\n| Pokój z 2 łóżkami pojedynczymi i balkonem z widokiem na morze <br>  Został nam 1 <br> 2 łóżka pojedyncze  <br> 17 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 9 729 zł <br> 7 783 zł  <br> Oryginalna cena 9 729 zł Aktualna cena 7 783 zł <br> Zawiera opłaty i podatki <br> 20% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 783 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 645 zł <br> 6 916 zł  <br> Oryginalna cena 8 645 zł Aktualna cena 6 916 zł <br> Zawiera opłaty i podatki <br> 20% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 916 zł) |\n| Pokój trzyosobowy typu Comfort z widokiem na morze <br> 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> 27 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 11 097 zł <br> 8 878 zł  <br> Oryginalna cena 11 097 zł Aktualna cena 8 878 zł <br> Zawiera opłaty i podatki <br> 20% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (8 878 zł) <br> 2        (17 755 zł) <br> 3        (26 633 zł) |\n| Pokój Dwuosobowy typu Superior z widokiem na morze i balkonem <br>  Został nam 1 <br> 1 łóżko podwójne  <br> 30 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 11 097 zł <br> 8 878 zł  <br> Oryginalna cena 11 097 zł Aktualna cena 8 878 zł <br> Zawiera opłaty i podatki <br> 20% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 878 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 013 zł <br> 8 011 zł  <br> Oryginalna cena 10 013 zł Aktualna cena 8 011 zł <br> Zawiera opłaty i podatki <br> 20% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 011 zł) |\n| Pokój dwuosobowy typu Deluxe z balkonem i widokiem na morze <br>  Zostały nam 2 <br> 1 duże łóżko podwójne  <br> 49 m² <br> Prywatna łazienka <br> Bezpłatne Wi-Fi | Maksymalna liczba osób: 2 | 13 626 zł <br> 10 901 zł  <br> Oryginalna cena 13 626 zł Aktualna cena 10 901 zł <br> Zawiera opłaty i podatki <br> 20% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (10 901 zł) <br> 2        (21 802 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 12 542 zł <br> 10 100 zł  <br> Oryginalna cena 12 542 zł Aktualna cena 10 100 zł <br> Zawiera opłaty i podatki <br> 19% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (10 100 zł) <br> 2        (20 201 zł) |"
+  },
+  "review": {
+    "score": 8.6,
+    "count": 304
+  },
+  "comments": [
+    {
+      "author": "Cholponai",
+      "text": "„Pobyt w tym hotelu był bardzo spokojny i relaksujący. Panowała cisza, a widoki były absolutnie oszałamiające."
+    },
+    {
+      "author": "Cholponai",
+      "text": "„Pobyt w tym hotelu był bardzo spokojny i relaksujący. Panowała cisza, a widoki były absolutnie oszałamiające."
+    },
+    {
+      "author": "Cholponai",
+      "text": "„Pobyt w tym hotelu był bardzo spokojny i relaksujący. Panowała cisza, a widoki były absolutnie oszałamiające."
+    },
+    {
+      "author": "Victoria",
+      "text": "„The view is magical, rooms are spaceous and the staff of the hotel is amazing.”"
+    },
+    {
+      "author": "Victoria",
+      "text": "„The view is magical, rooms are spaceous and the staff of the hotel is amazing.”"
+    },
+    {
+      "author": "Emily",
+      "text": "„The staff were so friendly and really looked after us, lots of little touches like a free fruit plate brought over while we were sunbathing. The...”"
+    },
+    {
+      "author": "Emily",
+      "text": "„The staff were so friendly and really looked after us, lots of little touches like a free fruit plate brought over while we were sunbathing. The...”"
+    },
+    {
+      "author": "Carey-anne",
+      "text": "„The rooms were very comfy with lovely views over the ocean seeing the islands in the distance, the pool was awesome with sun or shade depending on...”"
+    },
+    {
+      "author": "Carey-anne",
+      "text": "„The rooms were very comfy with lovely views over the ocean seeing the islands in the distance, the pool was awesome with sun or shade depending on...”"
+    },
+    {
+      "author": "Madison",
+      "text": "„We had such a great stay here, didn’t catch the hosts name but he served us for breakfast and dinner and was super funny and looked after us well....”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Hamarat Otel\nŚwietne udogodnienia! Ocena: 8,5\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nTransfer lotniskowy\nRestauracja\nBezpłatny parking\nPokoje rodzinne\nWyjątkowe śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nBezpłatny parking\nBezpłatne Wi-Fi\nParking\nTransfer lotniskowy\nRestauracja\nPokoje dla niepalących\nPokoje rodzinne\nSprzęt do grillowania\nWindsurfing\nŁazienka\nPrywatna łazienka\nOkolica\nMeble ogrodowe\nSprzęt do grillowania\nDodatkowa opłata\nTaras\nOgród\nKuchnia\nWspólna kuchnia\nRekreacja\nNurkowanie z rurką\nDodatkowa opłata\nPoza obiektem\nNurkowanie\nDodatkowa opłata\nPoza obiektem\nWindsurfing\nDodatkowa opłata\nPoza obiektem\nWędkowanie\nPoza obiektem\nPosiłki i napoje\nOwoce\nDodatkowa opłata\nWino / szampan\nDodatkowa opłata\nBufet z potrawami dla dzieci\nPosiłki dla dzieci\nRestauracja\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nParking\nBezpłatny parking publiczny jest dostępny przy sąsiednich ulicach (nie jest konieczna rezerwacja).\nParking przy ulicy\nTransport\nBilety transportu publicznego\nDodatkowa opłata\nUsługi recepcji\nZamykane szafki\nUsługi konsjerża\nPrzechowalnia bagażu\nBiuro informacji turystycznej\nWymiana walut\nEkspresowe zameldowanie / wymeldowanie\nCałodobowa recepcja\nUsługi sprzątania\nCodzienne sprzątanie\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nCzujnik dymu\nDostęp za pomocą kluczy\nSejf\nOgólne\nTransfer\nDodatkowa opłata\nWspólna część rekreacyjna / sala TV\nCzęść przeznaczona dla palących\nKlimatyzacja\nOgrzewanie\nPokoje dźwiękoszczelne\nPokoje rodzinne\nTransfer lotniskowy\nDodatkowa opłata\nPokoje dla niepalących\nCentrum wellness\nParasole przeciwsłoneczne\nJęzyki\nangielski\nturecki",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Transfer lotniskowy",
+      "Restauracja",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Wyjątkowe śniadanie",
+      "Prywatna łazienka",
+      "Parking",
+      "Sprzęt do grillowania",
+      "Windsurfing",
+      "Meble ogrodowe",
+      "Sprzęt do grillowania",
+      "Dodatkowa opłata",
+      "Taras",
+      "Ogród",
+      "Wspólna kuchnia",
+      "Nurkowanie z rurką",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Windsurfing",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Wędkowanie",
+      "Poza obiektem",
+      "Owoce",
+      "Dodatkowa opłata",
+      "Wino / szampan",
+      "Dodatkowa opłata",
+      "Bufet z potrawami dla dzieci",
+      "Posiłki dla dzieci",
+      "Parking przy ulicy",
+      "Bilety transportu publicznego",
+      "Dodatkowa opłata",
+      "Zamykane szafki",
+      "Usługi konsjerża",
+      "Przechowalnia bagażu",
+      "Biuro informacji turystycznej",
+      "Wymiana walut",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Całodobowa recepcja",
+      "Codzienne sprzątanie",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "Dostęp za pomocą kluczy",
+      "Sejf",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wspólna część rekreacyjna / sala TV",
+      "Część przeznaczona dla palących",
+      "Klimatyzacja",
+      "Ogrzewanie",
+      "Pokoje dźwiękoszczelne",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Parasole przeciwsłoneczne",
+      "angielski",
+      "turecki"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Hamarat Otel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00 do 21:30\nWymeldowanie\nOd 08:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci powyżej lat 15 są mile widziane\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nZwierzęta\nZwierzęta nie są akceptowane.\nKarty akceptowane w tym hotelu\nGotówka nie jest akceptowana",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Küçük Çakıl / Kaş (~2.7 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii D — charakter: natura / klify / baza wypadowa. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

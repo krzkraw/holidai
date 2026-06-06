@@ -1,0 +1,345 @@
+{
+  "title": "Cypr - Capital Coast Resort And Spa",
+  "country": "Cypr",
+  "propertyName": "Capital Coast Resort And Spa",
+  "address": "",
+  "coordinates": {
+    "latitude": 34.78229810149298,
+    "longitude": 32.404325008392334
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/62386918.jpg?k=9c0358530fd858dae4870f19fe21c425994806a949309bf2a6dbfcfadcda246f&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/18888840.jpg?k=5189ce200ffa50e20714e791ed0e5a237b5dc808e2e8ec7d964899b567ba7b39&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/18889613.jpg?k=c8117df5e91ddbbc630dc1deeac16dd2e9520a68015afe3b522526565ef4c3bf&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/18919731.jpg?k=9e09448e2af88bd96402db9959fefc04ae632351b5de0a530424fb94e4023990&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/18925829.jpg?k=142dae854e355dc84264bfd56b04f431efcb07742f937de0ae1f2f0b0d00fb8e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/4563094.jpg?k=7852c34eae99e74698cbf37a24e1ac28731c79079ebcf6dce11e904fed2d00c8&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/18888464.jpg?k=fc4f25da4160b18a0c48a9c907460e19e3de6bc197adce7195b1f22f90b210c3&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/18931660.jpg?k=1367f30bf43ef5c5307eb3d4fff3461abf1c0edfaccd76b91df36dbc95fc35da&o=",
+    "https://lh5.googleusercontent.com/-W-JXng51DFs/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckfvZWYKS4qjXptUL_2rJ2FwI28kw/s96-c/photo.jpg",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://graph.facebook.com/v2.9/3124328750977890/picture?type=square&height=64&width=64",
+    "https://graph.facebook.com/v2.9/325665850391033/picture?type=square&height=64&width=64"
+  ],
+  "description": "Hotel Capital Coast Resort And Spa znajduje się w mieście Pafos. Oferuje on luksusowe pokoje i apartamenty. Ten położony przy plaży ośrodek dysponuje spa z wanną z hydromasażem, łaźnią turecką, sauną i gabinetem masażu.\n\nWszystkie opcje zakwaterowania są jasne, eleganckie i nowocześnie urządzone. W niektórych z nich znajduje się w pełni wyposażona kuchnia z piekarnikiem i zmywarką do naczyń. Do dyspozycji Gości jest też duża część dzienna z telewizorem z płaskim ekranem i dostępem do kanałów satelitarnych oraz odtwarzaczem DVD.\n\nRestauracja w obiekcie Capital Coast Resort and Spa serwuje dania tradycyjne oraz potrawy kuchni międzynarodowej. Na miejscu znajduje się bar przy odkrytym basenie i bar na dachu, z którego roztacza się piękny widok na Morze Śródziemne. Codziennie rano jest podawane certyfikowane śniadanie cypryjskie.\n\nOśrodek oferuje 2 baseny, siłownię ze sprzętem do treningu wysiłkowego oraz kort tenisowy. Na pobliskiej plaży panują doskonałe warunki do nurkowania z rurką i akwalungiem.\n\nW przypadku pobytów na co najmniej 3 noce hotel oferuje bezpłatny transfer z międzynarodowego lotniska w Pafos i z powrotem. Transfer z/do portu lotniczego Larnaka jest dostępny za dodatkową opłatą.\n\nGoście, którzy chcieliby skorzystać z transferu z lotniska, są proszeni o przesłanie personelowi obiektu szczegółowych informacji dotyczących lotu najpóźniej na 2 dni przed przybyciem na miejsce. Dane kontaktowe znajdują się w potwierdzeniu rezerwacji.\n\nObiekt Capital Coast Resort And Spa usytuowany jest w odległości zaledwie 650 metrów od Grobowców Królewskich. Z obiektu można w kilka minut dojechać do 4 okolicznych pól golfowych.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 8,8.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nPokaż więcej",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 4886,
+      "raw": "4886 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 6719,
+      "raw": "6719 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 8551,
+      "raw": "8551 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "12 470 zł <br> 11 223 zł  <br> Oryginalna cena 12 470 zł Aktualna cena 11 223 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (11 223 zł) <br> 2        (22 446 zł) <br> 3        (33 669 zł) <br> 4        (44 892 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 986 zł <br> 9 887 zł  <br> Oryginalna cena 10 986 zł Aktualna cena 9 887 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 887 zł) <br> 2        (19 774 zł) <br> 3        (29 661 zł) <br> 4        (39 548 zł)"
+      ],
+      [
+        "Pokój Dwuosobowy/Pokój typu Twin Comfort z transferem lotniskowym <br>  Zostały nam 2 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 łóżko podwójne  <br> Pokój <br> 23 m² <br> Balkon <br> Widok <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 501 zł <br> 8 551 zł  <br> Oryginalna cena 9 501 zł Aktualna cena 8 551 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (8 551 zł) <br> 2        (17 102 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "12 470 zł <br> 11 223 zł  <br> Oryginalna cena 12 470 zł Aktualna cena 11 223 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (11 223 zł) <br> 2        (22 446 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 986 zł <br> 9 887 zł  <br> Oryginalna cena 10 986 zł Aktualna cena 9 887 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 887 zł) <br> 2        (19 774 zł)"
+      ],
+      [
+        "Pokój typu Standard z widokiem na morze <br>  Zostały nam 4 <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko podwójne  <br> \t2 łóżka pojedyncze  <br> Pokój <br> 23 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "10 392 zł <br> 9 353 zł  <br> Oryginalna cena 10 392 zł Aktualna cena 9 353 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 353 zł) <br> 2        (18 705 zł) <br> 3        (28 058 zł) <br> 4        (37 410 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "13 361 zł <br> 12 025 zł  <br> Oryginalna cena 13 361 zł Aktualna cena 12 025 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (12 025 zł) <br> 2        (24 049 zł) <br> 3        (36 074 zł) <br> 4        (48 099 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "11 876 zł <br> 10 689 zł  <br> Oryginalna cena 11 876 zł Aktualna cena 10 689 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (10 689 zł) <br> 2        (21 377 zł) <br> 3        (32 066 zł) <br> 4        (42 754 zł)"
+      ],
+      [
+        "Apartament typu Superior Suite <br>  Zostało nam 6 <br> 1 łóżko podwójne  i 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "10 689 zł <br> 9 620 zł  <br> Oryginalna cena 10 689 zł Aktualna cena 9 620 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 620 zł) <br> 2        (19 240 zł) <br> 3        (28 859 zł) <br> 4        (38 479 zł) <br> 5        (48 099 zł) <br> 6        (57 719 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "13 658 zł <br> 12 292 zł  <br> Oryginalna cena 13 658 zł Aktualna cena 12 292 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (12 292 zł) <br> 2        (24 584 zł) <br> 3        (36 876 zł) <br> 4        (49 168 zł) <br> 5        (61 460 zł) <br> 6        (73 752 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "12 173 zł <br> 10 956 zł  <br> Oryginalna cena 12 173 zł Aktualna cena 10 956 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (10 956 zł) <br> 2        (21 912 zł) <br> 3        (32 868 zł) <br> 4        (43 823 zł) <br> 5        (54 779 zł) <br> 6        (65 735 zł)"
+      ],
+      [
+        "Apartament typu Comfort z transferem lotniskowym <br>  Zostało nam 6 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  i 1 rozkładana sofa  <br> \t1 łóżko podwójne  i 1 rozkładana sofa  <br> Pokój <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "10 689 zł <br> 9 620 zł  <br> Oryginalna cena 10 689 zł Aktualna cena 9 620 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 620 zł) <br> 2        (19 240 zł) <br> 3        (28 859 zł) <br> 4        (38 479 zł) <br> 5        (48 099 zł) <br> 6        (57 719 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "13 658 zł <br> 12 292 zł  <br> Oryginalna cena 13 658 zł Aktualna cena 12 292 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (12 292 zł) <br> 2        (24 584 zł) <br> 3        (36 876 zł) <br> 4        (49 168 zł) <br> 5        (61 460 zł) <br> 6        (73 752 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "12 173 zł <br> 10 956 zł  <br> Oryginalna cena 12 173 zł Aktualna cena 10 956 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (10 956 zł) <br> 2        (21 912 zł) <br> 3        (32 868 zł) <br> 4        (43 823 zł) <br> 5        (54 779 zł) <br> 6        (65 735 zł)"
+      ],
+      [
+        "Apartament typu Superior Suite z widokiem na morze <br>  Zostało nam 5 <br> 1 łóżko podwójne  i 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "11 579 zł <br> 10 421 zł  <br> Oryginalna cena 11 579 zł Aktualna cena 10 421 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (10 421 zł) <br> 2        (20 843 zł) <br> 3        (31 264 zł) <br> 4        (41 686 zł) <br> 5        (52 107 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "14 548 zł <br> 13 094 zł  <br> Oryginalna cena 14 548 zł Aktualna cena 13 094 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (13 094 zł) <br> 2        (26 187 zł) <br> 3        (39 281 zł) <br> 4        (52 374 zł) <br> 5        (65 468 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "13 064 zł <br> 11 757 zł  <br> Oryginalna cena 13 064 zł Aktualna cena 11 757 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (11 757 zł) <br> 2        (23 515 zł) <br> 3        (35 272 zł) <br> 4        (47 030 zł) <br> 5        (58 787 zł)"
+      ],
+      [
+        "Apartament typu Suite z 2 sypialniami i widokiem na okolicę <br>  Zostały nam 2 <br> Sypialnia 1: 1 łóżko podwójne  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> Salon: 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 80 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "27 909 zł <br> 25 118 zł  <br> Oryginalna cena 27 909 zł Aktualna cena 25 118 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (25 118 zł) <br> 2        (50 237 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "24 940 zł <br> 22 446 zł  <br> Oryginalna cena 24 940 zł Aktualna cena 22 446 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (22 446 zł) <br> 2        (44 892 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "26 425 zł <br> 23 782 zł  <br> Oryginalna cena 26 425 zł Aktualna cena 23 782 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (23 782 zł) <br> 2        (47 564 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 12 470 zł <br> 11 223 zł  <br> Oryginalna cena 12 470 zł Aktualna cena 11 223 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (11 223 zł) <br> 2        (22 446 zł) <br> 3        (33 669 zł) <br> 4        (44 892 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 986 zł <br> 9 887 zł  <br> Oryginalna cena 10 986 zł Aktualna cena 9 887 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 887 zł) <br> 2        (19 774 zł) <br> 3        (29 661 zł) <br> 4        (39 548 zł) |\n| Pokój Dwuosobowy/Pokój typu Twin Comfort z transferem lotniskowym <br>  Zostały nam 2 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 łóżko podwójne  <br> Pokój <br> 23 m² <br> Balkon <br> Widok <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 9 501 zł <br> 8 551 zł  <br> Oryginalna cena 9 501 zł Aktualna cena 8 551 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (8 551 zł) <br> 2        (17 102 zł) |\n| Maksymalna liczba osób: 2 | 12 470 zł <br> 11 223 zł  <br> Oryginalna cena 12 470 zł Aktualna cena 11 223 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (11 223 zł) <br> 2        (22 446 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 986 zł <br> 9 887 zł  <br> Oryginalna cena 10 986 zł Aktualna cena 9 887 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 887 zł) <br> 2        (19 774 zł) |\n| Pokój typu Standard z widokiem na morze <br>  Zostały nam 4 <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko podwójne  <br> \t2 łóżka pojedyncze  <br> Pokój <br> 23 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 10 392 zł <br> 9 353 zł  <br> Oryginalna cena 10 392 zł Aktualna cena 9 353 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 353 zł) <br> 2        (18 705 zł) <br> 3        (28 058 zł) <br> 4        (37 410 zł) |\n| Maksymalna liczba osób: 2 | 13 361 zł <br> 12 025 zł  <br> Oryginalna cena 13 361 zł Aktualna cena 12 025 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (12 025 zł) <br> 2        (24 049 zł) <br> 3        (36 074 zł) <br> 4        (48 099 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 11 876 zł <br> 10 689 zł  <br> Oryginalna cena 11 876 zł Aktualna cena 10 689 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (10 689 zł) <br> 2        (21 377 zł) <br> 3        (32 066 zł) <br> 4        (42 754 zł) |\n| Apartament typu Superior Suite <br>  Zostało nam 6 <br> 1 łóżko podwójne  i 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 10 689 zł <br> 9 620 zł  <br> Oryginalna cena 10 689 zł Aktualna cena 9 620 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 620 zł) <br> 2        (19 240 zł) <br> 3        (28 859 zł) <br> 4        (38 479 zł) <br> 5        (48 099 zł) <br> 6        (57 719 zł) |\n| Maksymalna liczba osób: 2 | 13 658 zł <br> 12 292 zł  <br> Oryginalna cena 13 658 zł Aktualna cena 12 292 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (12 292 zł) <br> 2        (24 584 zł) <br> 3        (36 876 zł) <br> 4        (49 168 zł) <br> 5        (61 460 zł) <br> 6        (73 752 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 12 173 zł <br> 10 956 zł  <br> Oryginalna cena 12 173 zł Aktualna cena 10 956 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (10 956 zł) <br> 2        (21 912 zł) <br> 3        (32 868 zł) <br> 4        (43 823 zł) <br> 5        (54 779 zł) <br> 6        (65 735 zł) |\n| Apartament typu Comfort z transferem lotniskowym <br>  Zostało nam 6 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  i 1 rozkładana sofa  <br> \t1 łóżko podwójne  i 1 rozkładana sofa  <br> Pokój <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 10 689 zł <br> 9 620 zł  <br> Oryginalna cena 10 689 zł Aktualna cena 9 620 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 620 zł) <br> 2        (19 240 zł) <br> 3        (28 859 zł) <br> 4        (38 479 zł) <br> 5        (48 099 zł) <br> 6        (57 719 zł) |\n| Maksymalna liczba osób: 2 | 13 658 zł <br> 12 292 zł  <br> Oryginalna cena 13 658 zł Aktualna cena 12 292 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (12 292 zł) <br> 2        (24 584 zł) <br> 3        (36 876 zł) <br> 4        (49 168 zł) <br> 5        (61 460 zł) <br> 6        (73 752 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 12 173 zł <br> 10 956 zł  <br> Oryginalna cena 12 173 zł Aktualna cena 10 956 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (10 956 zł) <br> 2        (21 912 zł) <br> 3        (32 868 zł) <br> 4        (43 823 zł) <br> 5        (54 779 zł) <br> 6        (65 735 zł) |\n| Apartament typu Superior Suite z widokiem na morze <br>  Zostało nam 5 <br> 1 łóżko podwójne  i 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 11 579 zł <br> 10 421 zł  <br> Oryginalna cena 11 579 zł Aktualna cena 10 421 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (10 421 zł) <br> 2        (20 843 zł) <br> 3        (31 264 zł) <br> 4        (41 686 zł) <br> 5        (52 107 zł) |\n| Maksymalna liczba osób: 2 | 14 548 zł <br> 13 094 zł  <br> Oryginalna cena 14 548 zł Aktualna cena 13 094 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (13 094 zł) <br> 2        (26 187 zł) <br> 3        (39 281 zł) <br> 4        (52 374 zł) <br> 5        (65 468 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 13 064 zł <br> 11 757 zł  <br> Oryginalna cena 13 064 zł Aktualna cena 11 757 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (11 757 zł) <br> 2        (23 515 zł) <br> 3        (35 272 zł) <br> 4        (47 030 zł) <br> 5        (58 787 zł) |\n| Apartament typu Suite z 2 sypialniami i widokiem na okolicę <br>  Zostały nam 2 <br> Sypialnia 1: 1 łóżko podwójne  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> Salon: 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 80 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Zmywarka <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 27 909 zł <br> 25 118 zł  <br> Oryginalna cena 27 909 zł Aktualna cena 25 118 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (25 118 zł) <br> 2        (50 237 zł) |\n| Maksymalna liczba osób: 2 | 24 940 zł <br> 22 446 zł  <br> Oryginalna cena 24 940 zł Aktualna cena 22 446 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (22 446 zł) <br> 2        (44 892 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 26 425 zł <br> 23 782 zł  <br> Oryginalna cena 26 425 zł Aktualna cena 23 782 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (23 782 zł) <br> 2        (47 564 zł) |"
+  },
+  "review": {
+    "score": 7.8,
+    "count": 970
+  },
+  "comments": [
+    {
+      "author": "Janosik",
+      "text": "„Wszytko dobrze ,świetna lokalizacja ,piękny widok w hotelu, przestrzenny hotel,śniadania dobre”"
+    },
+    {
+      "author": "Janosik",
+      "text": "„Wszytko dobrze ,świetna lokalizacja ,piękny widok w hotelu, przestrzenny hotel,śniadania dobre”"
+    },
+    {
+      "author": "Janosik",
+      "text": "„Wszytko dobrze ,świetna lokalizacja ,piękny widok w hotelu, przestrzenny hotel,śniadania dobre”"
+    },
+    {
+      "author": "Emilia",
+      "text": "„Super hotel, obsługa, codzienne sprzątanie. Baseny z czyściutka woda na zewnątrz i wewnątrz, transfer na lotnisko idealny. Plus to Lidl nie daleko...”"
+    },
+    {
+      "author": "Emilia",
+      "text": "„Super hotel, obsługa, codzienne sprzątanie. Baseny z czyściutka woda na zewnątrz i wewnątrz, transfer na lotnisko idealny. Plus to Lidl nie daleko...”"
+    },
+    {
+      "author": "Emilia",
+      "text": "„Cudowna lokalizacja, widoki. Basen wewnętrzny dla nas na duży plus, blisko Lidl :) śniadanie ok, każdy znajdzie coś dla siebie."
+    },
+    {
+      "author": "Emilia",
+      "text": "„Cudowna lokalizacja, widoki. Basen wewnętrzny dla nas na duży plus, blisko Lidl :) śniadanie ok, każdy znajdzie coś dla siebie."
+    },
+    {
+      "author": "Ania",
+      "text": "„Super lokalizacja dobre śniadania miła obsługa basen kryty na plus , market wewnątrz hotelu , MEGA PLUS ZA TRANSFER Z /NA LOTNISKO ,codziennie...”"
+    },
+    {
+      "author": "Ania",
+      "text": "„Super lokalizacja dobre śniadania miła obsługa basen kryty na plus , market wewnątrz hotelu , MEGA PLUS ZA TRANSFER Z /NA LOTNISKO ,codziennie...”"
+    },
+    {
+      "author": "Jacek",
+      "text": "„Przepyszne, urozmaicone śniadania, pokoje sprzątane codziennie, w hotelu czysto, aczkolwiek widać , że wymaga delikatnych poprawek, personel super!”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Capital Coast Resort And Spa\nZobacz dostępność\nNajpopularniejsze udogodnienia\n2 baseny\nTransfer lotniskowy\nBezpłatne Wi-Fi\nPokoje dla niepalących\nUdogodnienia dla niepełnosprawnych\nLokalizacja przy samej plaży\nCentrum fitness\nRestauracja\nBar\nDobre śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nBezpłatny parking\nPlaża\nLokalizacja przy samej plaży\nBezpłatne Wi-Fi\nKlimatyzacja\nParking\nTransfer lotniskowy (bezpłatny)\nCentrum fitness\nUdogodnienia dla niepełnosprawnych\nŁazienka\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nSypialnia\nSzafa lub garderoba\nOkolica\nLokalizacja przy samej plaży\nTaras słoneczny\nTaras\nOgród\nKuchnia\nCzajnik elektryczny\nLodówka\nNarty\nPrzechowalnia nart\nRekreacja\nWynajem rowerów\nDodatkowa opłata\nPlaża\nNurkowanie z rurką\nNurkowanie\nPiesze wycieczki\nPokój gier\nNarciarstwo\nWędkowanie\nPole golfowe (w promieniu 3 km)\nMedia/Technologia\nKanały satelitarne\nTelefon\nTelewizor\nPosiłki i napoje\nSpecjalne potrawy dietetyczne (na życzenie)\nBar\nRestauracja\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nUsługi recepcji\nIndywidualne zameldowanie / wymeldowanie\nPrzechowalnia bagażu\nBiuro informacji turystycznej\nWymiana walut\nEkspresowe zameldowanie / wymeldowanie\nCałodobowa recepcja\nUsługi dla rodzin i oferta rozrywkowa\nOpieka nad dziećmi\nUsługi sprzątania\nUsługa prasowania\nPralnia chemiczna\nPralnia\nZaplecze biznesowe\nFaks / ksero\nZaplecze bankietowe / konferencyjne\nBezpieczeństwo\nSejf\nOgólne\nKlimatyzacja\nOgrzewanie\nPrywatne wejście\nWypożyczalnia samochodów\nWinda\nPokoje rodzinne\nSprzęt do prasowania\nUdogodnienia dla niepełnosprawnych\nTransfer lotniskowy\nDodatkowa opłata\nPokoje dla niepalących\nŻelazko\n2 baseny\nBasen 1 – kryty\nOtwarty przez cały rok\nBasen 2 – odkryty\nOtwarty przez cały rok\nCentrum wellness\nŁaźnia turecka / parowa\nWanna z hydromasażem / jacuzzi\nMasaż\nCentrum fitness\nSauna\nJęzyki\nniemiecki\ngrecki\nangielski\nfrancuski\nrosyjski\nturecki",
+  "amenities": {
+    "flatList": [
+      "2 baseny",
+      "Transfer lotniskowy",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Udogodnienia dla niepełnosprawnych",
+      "Lokalizacja przy samej plaży",
+      "Centrum fitness",
+      "Restauracja",
+      "Bar",
+      "Dobre śniadanie",
+      "Prywatna łazienka",
+      "Bezpłatny parking",
+      "Plaża",
+      "Klimatyzacja",
+      "Parking",
+      "Transfer lotniskowy (bezpłatny)",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Szafa lub garderoba",
+      "Taras słoneczny",
+      "Taras",
+      "Ogród",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Przechowalnia nart",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Nurkowanie z rurką",
+      "Nurkowanie",
+      "Piesze wycieczki",
+      "Pokój gier",
+      "Narciarstwo",
+      "Wędkowanie",
+      "Pole golfowe (w promieniu 3 km)",
+      "Kanały satelitarne",
+      "Telefon",
+      "Telewizor",
+      "Specjalne potrawy dietetyczne (na życzenie)",
+      "Indywidualne zameldowanie / wymeldowanie",
+      "Przechowalnia bagażu",
+      "Biuro informacji turystycznej",
+      "Wymiana walut",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Całodobowa recepcja",
+      "Opieka nad dziećmi",
+      "Usługa prasowania",
+      "Pralnia chemiczna",
+      "Pralnia",
+      "Faks / ksero",
+      "Zaplecze bankietowe / konferencyjne",
+      "Sejf",
+      "Ogrzewanie",
+      "Prywatne wejście",
+      "Wypożyczalnia samochodów",
+      "Winda",
+      "Pokoje rodzinne",
+      "Sprzęt do prasowania",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Żelazko",
+      "Otwarty przez cały rok",
+      "Łaźnia turecka / parowa",
+      "Wanna z hydromasażem / jacuzzi",
+      "Masaż",
+      "Sauna",
+      "niemiecki",
+      "grecki",
+      "angielski",
+      "francuski",
+      "rosyjski",
+      "turecki"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Capital Coast Resort And Spa przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00\nWymeldowanie\nDo 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nZwierzęta\nZwierzęta nie są akceptowane.\nAkceptowane metody płatności\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 650 ft from Capital Coast Resort And Spa. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Przeciętny, ocena obiektu jest poniżej 8.0.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

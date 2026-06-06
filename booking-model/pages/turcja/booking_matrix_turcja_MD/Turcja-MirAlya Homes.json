@@ -1,0 +1,175 @@
+{
+  "title": "Turcja - MirAlya Homes",
+  "country": "Turcja",
+  "propertyName": "MirAlya Homes",
+  "address": "",
+  "coordinates": {
+    "latitude": 36.6204325,
+    "longitude": 29.1097284
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869065491.jpg?k=e9294637204be13fb05e16d9261ba10c97ebde118003ee35868d6e99d3685d74&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/869065493.jpg?k=c2c6ee88c2e4d8a237d565e6f1e5bfef1958fae43f72e5a360e49cda51a9696a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/869065495.jpg?k=2f8badd2537fb8ba80f892adc5371c6f9973f817432168ed2729e8c71d97dada&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/869065494.jpg?k=9dee6d2e60f311ebaee56f8bcde6904e5b8ac588c26330e020d97fb9aca6ff87&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/869065481.jpg?k=46d8b563c3839a577562e1a0d54c4cd44f4ef165df01f88b511dc54c58bb961e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/444789597.jpg?k=d2a832799699ddab81db7ec6f35406d53b484cb68ea9a8b23f123e6bccdd8805&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/444757835.jpg?k=f54b1886092d90fd5573e403a078f9100047adb456985b38e277003f54ae74d1&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/308135189.jpg?k=635e240a0539c77f49f895604a5419c22cd8c2fc9a043082210687c56e90c2a4&o=",
+    "https://lh3.googleusercontent.com/a/AEdFTp7GgYiAevQXoR1hyUGiTI1guPXpC_8b1UofODyV=s96-c",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://lh3.googleusercontent.com/a/ACg8ocL1p6PnFJoDXG4KyVmumjHqrQArd3l5aj-bMCZ_gMs7I9qmAA=s96-c",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Fi.png"
+  ],
+  "description": "Obiekt MirAlya Homes znajduje się w samym sercu miejscowości Fethiye i zapewnia bezpłatne Wi-Fi, klimatyzację, a także czajnik oraz mikrofalówkę. Odległość ważnych miejsc od obiektu: Przystań Ece Saray – niecały kilometr. Apartament znajduje się w budynku z 2021 roku. W okolicy znajdują się ciekawe miejsca takie jak: Dolina Motyli ( 24 km), Saklikent National Park ( 47 km).\n\nOferta apartamentu obejmuje sypialnię (1), salon, aneks kuchenny z pełnym wyposażeniem, w tym lodówką i ekspresem do kawy, a także łazienkę (1) z prysznicem oraz suszarką do włosów. W apartamencie zapewniono ręczniki i pościel.\n\nW pobliżu obiektu MirAlya Homes znajdują się liczne atrakcje, takie jak Port w Fethiye, Ancient Rock Tombs i Grobowce skalne Telmessos. Lotnisko Lotnisko Dalaman znajduje się 56 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 10,0.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2044,
+      "raw": "2044 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 2811,
+      "raw": "2811 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 3577,
+      "raw": "3577 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 8.3,
+    "count": 73
+  },
+  "comments": [
+    {
+      "author": "Małgorzata",
+      "text": "„Przyjemne i komfortowe miejsce. W dodatku bardzo mili i pomocni właściciele. Bardzo polecam :)”"
+    },
+    {
+      "author": "Małgorzata",
+      "text": "„Przyjemne i komfortowe miejsce. W dodatku bardzo mili i pomocni właściciele. Bardzo polecam :)”"
+    },
+    {
+      "author": "Małgorzata",
+      "text": "„Przyjemne i komfortowe miejsce. W dodatku bardzo mili i pomocni właściciele. Bardzo polecam :)”"
+    },
+    {
+      "author": "Olli",
+      "text": "„Really nice apartment in a great location. Was great to have a washing machine”"
+    },
+    {
+      "author": "Olli",
+      "text": "„Really nice apartment in a great location. Was great to have a washing machine”"
+    },
+    {
+      "author": "Nick",
+      "text": "„The location in the old town was excellent. There are many eateries and sundries in close walking distance, even a barber across the road. The...”"
+    },
+    {
+      "author": "Nick",
+      "text": "„The location in the old town was excellent. There are many eateries and sundries in close walking distance, even a barber across the road. The...”"
+    },
+    {
+      "author": "Enyana",
+      "text": "„The owner was really friendly and helpful. The wifi and AC worked well. The room had a kitchen with all of the appliances you’d need. The room was...”"
+    },
+    {
+      "author": "Enyana",
+      "text": "„The owner was really friendly and helpful. The wifi and AC worked well. The room had a kitchen with all of the appliances you’d need. The room was...”"
+    },
+    {
+      "author": "Robertson",
+      "text": "„We had a fabulous stay in Fethiye - the location is great. It was easy to walk into the old town and explore and there are lots of restaurants and...”"
+    }
+  ],
+  "surroundingsRaw": "Obiekt MirAlya Homes znajduje się w samym sercu miejscowości Fethiye i zapewnia bezpłatne Wi-Fi, klimatyzację, a także czajnik oraz mikrofalówkę. Odległość ważnych miejsc od obiektu: Przystań Ece Saray – niecały kilometr. Apartament znajduje się w budynku z 2021 roku. W okolicy znajdują się ciekawe miejsca takie jak: Dolina Motyli ( 24 km), Saklikent National Park ( 47 km).\n\nOferta apartamentu obejmuje sypialnię (1), salon, aneks kuchenny z pełnym wyposażeniem, w tym lodówką i ekspresem do kawy, a także łazienkę (1) z prysznicem oraz suszarką do włosów. W apartamencie zapewniono ręczniki i pościel.\n\nW pobliżu obiektu MirAlya Homes znajdują się liczne atrakcje, takie jak Port w Fethiye, Ancient Rock Tombs i Grobowce skalne Telmessos. Lotnisko Lotnisko Dalaman znajduje się 56 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 10,0.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje rodzinne\nTwoje nagrody na poziomie Genius 2\nTen obiekt oferuje nagrody Genius dla wybranych opcji:\n15% zniżki\nMa zastosowanie do ceny przed naliczeniem podatków i opłat\nDowiedz się więcej o programie Genius\nProgram lojalnościowy Booking.com",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje rodzinne",
+      "Prywatna łazienka",
+      "Aneks kuchenny",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Prysznic",
+      "Ekspres do kawy",
+      "Kanały kablowe",
+      "Stół",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Kuchenka mikrofalowa",
+      "Lodówka",
+      "Pościel",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Sofa",
+      "Biurko",
+      "Kanały satelitarne",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Wieszak na ubrania",
+      "Moskitiera",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Żelazko",
+      "Zestaw do parzenia kawy i herbaty",
+      "Całkowity zakaz palenia",
+      "Ogrzewanie",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "System alarmowy",
+      "Dostęp za pomocą kluczy",
+      "angielski",
+      "turecki"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": false,
+      "evidence": [
+        "Obiekt nie deklaruje pralki w udogodnieniach, ale goście w opiniach wspominają, że pralka jest dostępna."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt MirAlya Homes przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 23:30\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 00:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatności poprzez Booking.com\nBooking.com pobiera od Ciebie płatność za pobyt w imieniu obiektu. Pamiętaj, by wziąć ze sobą pieniądze do wykorzystania na dodatkowe usługi.\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 22:00–09:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Çalış Beach / Fethiye (~4.3 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

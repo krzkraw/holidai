@@ -1,0 +1,252 @@
+{
+  "title": "Kreta - Thalassa Apartments",
+  "country": "Kreta",
+  "propertyName": "Thalassa Apartments",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.503238417988406,
+    "longitude": 23.705178201198578
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/109925838.jpg?k=863bd88b1516fc96fac557c59a4e846066c94ae5469e8bf59c12ac72f09a4180&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/141507411.jpg?k=0819f553d7b0757591bda2a729fa27628da8187b828fd9eb39d806309b623e1e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/309381590.jpg?k=5b86a89ecb17adaa928566ef24670ed3744b7296c75bce1d3390b5199e6152a9&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/309438705.jpg?k=71a000e33685e1a7e80f41eda8ea66f76ec4305042af1ea6e8a2f42c0bc5b43c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/309456949.jpg?k=b36d1dd54f835cd117dcc0bf7a9098970030c7492760dc629217f2f633bf22aa&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/98629614.jpg?k=ba912e55c2ce8007213bf7204137a3acf4a238359e66a54bac0433c340635cb6&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/309427138.jpg?k=9ba1d96db8c9d7bcf0656f09bac8abb39b838614c10faaccd41c897b05fdd316&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/309381573.jpg?k=28e509a26418a07dfbd4d51ceb114acd79cd98397bcb5d35c859373cb79c24c6&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-b.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-k.png"
+  ],
+  "description": "Hotel ten jest usytuowany tuż przy plaży, zaledwie 5 km od miejscowości Kissamos. Oferuje on klimatyzowane apartamenty z własnym wyżywieniem, bezpłatne WiFi oraz bezpłatne leżaki i parasole na plaży. Dla dzieci przygotowano plac zabaw.\n\nApartamenty wyposażone są w kuchenkę, czajnik, ekspres do kawy, lodówkę i stół. W każdym z nich mieści się też łazienka z zestawem kosmetyków i suszarką do włosów. Z okien apartamentów roztacza się widok na morze lub ogród.\n\nGoście mogą samodzielnie przyrządzać posiłki lub udać się do oddalonej o 5 minut jazdy miejscowości Kissamos, gdzie działają liczne tawerny serwujące tradycyjne greckie specjały. Na miejscu znajduje się również sprzęt do grillowania.\n\nHotel położony jest 32 km od miasta Chania oraz 38 km od miejskiego portu. Słynna plaża Falasarna oddalona jest o 17 km. Najbliższe duże miasto, Platanias, dzieli od obiektu 18 km. Personel recepcji służy pomocą w wypożyczeniu samochodów i rowerów.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,4.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2273,
+      "raw": "2273 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3062,
+      "raw": "3062 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 3851,
+      "raw": "3851 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Rodzaj zakwaterowania",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "4 148 zł <br> Cena 4 148 zł <br> Zawiera opłaty i podatki",
+        "Oferta częściowo zwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (4 148 zł)"
+      ],
+      [
+        "Apartament z 1 sypialnią - 1. piętro <br>  Został nam 1 <br> Sypialnia 1: 1 bardzo duże łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 35 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej <br> Największy dostępny apartament",
+        "Maksymalna liczba osób: 2",
+        "4 869 zł <br> Cena 4 869 zł <br> Zawiera opłaty i podatki",
+        "Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (4 869 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "5 166 zł <br> Cena 5 166 zł <br> Zawiera opłaty i podatki",
+        "Oferta częściowo zwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (5 166 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 4 148 zł <br> Cena 4 148 zł <br> Zawiera opłaty i podatki | Oferta częściowo zwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (4 148 zł) |\n| Apartament z 1 sypialnią - 1. piętro <br>  Został nam 1 <br> Sypialnia 1: 1 bardzo duże łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 35 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej <br> Największy dostępny apartament | Maksymalna liczba osób: 2 | 4 869 zł <br> Cena 4 869 zł <br> Zawiera opłaty i podatki | Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (4 869 zł) |\n| Maksymalna liczba osób: 2 | 5 166 zł <br> Cena 5 166 zł <br> Zawiera opłaty i podatki | Oferta częściowo zwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (5 166 zł) |"
+  },
+  "review": {
+    "score": 9.5,
+    "count": 168
+  },
+  "comments": [
+    {
+      "author": "Anna",
+      "text": "„Dziękuję serdecznie przemiłym właścicielom za możliwość pobytu w Thalassa Apartments."
+    },
+    {
+      "author": "Anna",
+      "text": "„Dziękuję serdecznie przemiłym właścicielom za możliwość pobytu w Thalassa Apartments."
+    },
+    {
+      "author": "Anna",
+      "text": "„Dziękuję serdecznie przemiłym właścicielom za możliwość pobytu w Thalassa Apartments."
+    },
+    {
+      "author": "Barbara",
+      "text": "„Piękny widok z balkonu. Gospodarz uprzejmy. Dobra baza wypadowa. Czysto.”"
+    },
+    {
+      "author": "Barbara",
+      "text": "„Piękny widok z balkonu. Gospodarz uprzejmy. Dobra baza wypadowa. Czysto.”"
+    },
+    {
+      "author": "Konrad",
+      "text": "„Świetny kamerlany hotel posiadający wszystko co potrzebne, w bardzo dobrej lokalizacji, właściciele są wspaniali, pomagają we wszystkim przez co...”"
+    },
+    {
+      "author": "Konrad",
+      "text": "„Świetny kamerlany hotel posiadający wszystko co potrzebne, w bardzo dobrej lokalizacji, właściciele są wspaniali, pomagają we wszystkim przez co...”"
+    },
+    {
+      "author": "Aleksandra",
+      "text": "„Fantastyczne miejsce prowadzone przez cudowne osoby! Zostaliśmy bardzo mile przywitani oraz mogliśmy liczyć na wsparcie przez cały pobyt....”"
+    },
+    {
+      "author": "Aleksandra",
+      "text": "„Fantastyczne miejsce prowadzone przez cudowne osoby! Zostaliśmy bardzo mile przywitani oraz mogliśmy liczyć na wsparcie przez cały pobyt....”"
+    },
+    {
+      "author": "Kazimierz",
+      "text": "„Lokalizacja super nad samym morzem Okolica cicha,spokojna Dla nas rewelacja-blisko do fantastycznych miejsc na zachodniej części Krety,Gospodarz...”"
+    }
+  ],
+  "surroundingsRaw": "Przegląd\nInformacje o apartamentach i ceny\nUdogodnienia\nZasady pobytu\nWażne informacje prawne\nOpinie gości (168)\nSzukaj\nCel podróży / nazwa obiektu:\nOd\n16\nwrzesień 2026\nczerwiec 2026\nlipiec 2026\nsierpień 2026\nwrzesień 2026\npaździernik 2026\nlistopad 2026\ngrudzień 2026\nstyczeń 2027\nluty 2027\nmarzec 2027\nkwiecień 2027\nmaj 2027\nczerwiec 2027\nlipiec 2027\nsierpień 2027\nwrzesień 2027\n16, środa\n1, wtorek\n2, środa\n3, czwartek\n4, piątek\n5, sobota\n6, niedziela\n7, poniedziałek\n8, wtorek\n9, środa\n10, czwartek\n11, piątek\n12, sobota\n13, niedziela\n14, poniedziałek\n15, wtorek\n16, środa\n17, czwartek\n18, piątek\n19, sobota\n20, niedziela\n21, poniedziałek\n22, wtorek\n23, środa\n24, czwartek\n25, piątek\n26, sobota\n27, niedziela\n28, poniedziałek\n29, wtorek\n30, środa\nśroda 16 września 2026\nDo\n30\nwrzesień 2026\nczerwiec 2026\nlipiec 2026\nsierpień 2026\nwrzesień 2026\npaździernik 2026\nlistopad 2026\ngrudzień 2026\nstyczeń 2027\nluty 2027\nmarzec 2027\nkwiecień 2027\nmaj 2027\nczerwiec 2027\nlipiec 2027\nsierpień 2027\nwrzesień 2027\n30, środa\n1, wtorek\n2, środa\n3, czwartek\n4, piątek\n5, sobota\n6, niedziela\n7, poniedziałek\n8, wtorek\n9, środa\n10, czwartek\n11, piątek\n12, sobota\n13, niedziela\n14, poniedziałek\n15, wtorek\n16, środa\n17, czwartek\n18, piątek\n19, sobota\n20, niedziela\n21, poniedziałek\n22, wtorek\n23, środa\n24, czwartek\n25, piątek\n26, sobota\n27, niedziela\n28, poniedziałek\n29, wtorek\n30, środa\nśroda 30 września 2026\nPobyt na 2 tygodnie\n2 dorosłych · 0 dzieci · 1 pokój\nPodróżuję służbowo\nSzukaj\nWidok mapy\n \nZarezerwuj pobyt w apartamencie\nPrzy plaży\nThalassa Apartments\nDrapania Beach Kissamos , Kisamos, 73400, Grecja\nDoskonała lokalizacja – oceniona na 9.6/10!(ocena na podstawie 168 opinii)\nOcena dodana przez Gości po powrocie z obiektu Thalassa Apartments.\n–Doskonała lokalizacja – pokaż mapę\n+255 zdjęć\nOceniony na 9.5\n9,5\nOceniony jako wyjątkowy\nWyjątkowy\n168 opinii\nCo podobało się gościom, którzy się tu zatrzymali\n„Dziękuję serdecznie przemiłym właścicielom za możliwość pobytu w Thalassa Apartments.\nObiekt posiada wszystko, czego potrzebuje turysta i jeszcze...”\nAnnaPolska\n„Piękny widok z balkonu. Gospodarz uprzejmy. Dobra baza wypadowa. Czysto.”\nBarbaraPolska\n„Świetny kamerlany hotel posiadający wszystko co potrzebne, w bardzo dobrej lokalizacji, właściciele są wspaniali, pomagają we wszystkim przez co...”\nKonradPolska\n„Fantastyczne miejsce prowadzone przez cudowne osoby! Zostaliśmy bardzo mile przywitani oraz mogliśmy liczyć na wsparcie przez cały pobyt....”\nAleksandraPolska\n„Lokalizacja super nad samym morzem Okolica cicha,spokojna Dla nas rewelacja-blisko do fantastycznych miejsc na zachodniej części Krety,Gospodarz...”\nKazimierzPolska\n„Super miejsce, świetna lokalizacja, cisza i spokój. Pokoje sprzątane na bieżąco oraz wymieniane ręczniki. Bardzo dobrze się tam czuliśmy.”\nJoannaNiemcy\n„We were received wirh a lot of attention. Everything is done to please customers. Really an excellent place to stay”\nYannigKanada\n„GREAT bed--the most comfortable, by far, of any we slept on in Greece.\nAll we needed to be comfortable, along with some lovely welcome gifts, and...”\nKimKanada\n„We loved everything from the beach really closer to the apartment to the cats all around (the specific one EL DIABLO/BRUFOLO)\nThe owner of the...”\nTamaraWłochy\n„There was everything what we needs and owner is very kind and generous.”\nUmutNiemcy\nPersonel\t9,8\nApartamenty\nbezpłatny parking na terenie obiektu\nBezpłatne Wi-Fi\nTransfer lotniskowy\nPokoje rodzinne\nKuchnia\nPokoje dla niepalących\nSprzęt do grillowania\nKlimatyzacja\nOdkryty basen",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Transfer lotniskowy",
+      "Lokalizacja przy samej plaży",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Stół",
+      "Ekspres do kawy",
+      "Toster",
+      "Płyta kuchenna",
+      "Piekarnik",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Długie łóżka (> 2 metry)",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Bidet",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Część jadalna",
+      "Biurko",
+      "Kanały satelitarne",
+      "Odtwarzacz CD",
+      "Odtwarzacz DVD",
+      "Telefon",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Prywatne wejście",
+      "Sprzęt do prasowania",
+      "Żelazko",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Grill",
+      "Sprzęt do grillowania",
+      "Patio",
+      "Taras",
+      "Ogród",
+      "Otwarty przez cały rok",
+      "Wstęp dla osób w każdym wieku",
+      "Basen ze słoną wodą",
+      "Brodzik",
+      "Zabawki do wody",
+      "Ręczniki kąpielowe/plażowe",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Zestaw do parzenia kawy i herbaty",
+      "Widok na ogród",
+      "Prywatne mieszkanie w budynku",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wypożyczalnia samochodów",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Możliwe wystawienie faktury",
+      "Indywidualne zameldowanie / wymeldowanie",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Plac zabaw dla dzieci",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Ogrzewanie",
+      "Pokoje dźwiękoszczelne",
+      "Gaśnice",
+      "Czujnik dymu",
+      "Dostęp za pomocą kluczy",
+      "Sejf",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak oficjalnej pralki w pokoju, ale goście wspomnieli o pralce w opiniach, a obiekt świadczy usługę prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Thalassa Apartments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00 do 23:30\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 06:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 18 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nAkceptowane metody płatności\nGotówka\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Kissamos Telonio Beach (~4.1 km w linii prostej) (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

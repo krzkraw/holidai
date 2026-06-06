@@ -1,0 +1,230 @@
+{
+  "title": "Albania - LOOKOUT Apartments",
+  "country": "Albania",
+  "propertyName": "LOOKOUT Apartments",
+  "address": "",
+  "coordinates": {
+    "latitude": 39.8565162867459,
+    "longitude": 20.0202858274511
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/643985957.jpg?k=d42eff8310465074c5b0592781faaa4becd61836b0d09aac632e59e205e201f0&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/634334946.jpg?k=52b712c95bc4194001d4eda18aeead3ff29fcdc5721bf070335284c76f6f0c7b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/398591041.jpg?k=cf9279e6de61d32e8fca2af9e93f9dd1b1bab730e537aa2227a8063792f32b0c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/398571651.jpg?k=0e4c4f9f472b61b26fdfdee6482da8245a204a992a67c378f4de056cfa8859a3&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/398591109.jpg?k=88157b600f9116eabf70912a1bfda237f0a73413ced920c71390048e2fdb418b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/398591175.jpg?k=635774ebe0734826c1e937e6eb86e56690c9edfec061814ad6b4126b9688eccd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/398571670.jpg?k=9170e5f245f0695f6f5e0404a6621f9740b92a9b6f0e5cc506492cd5795ca5aa&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/398571645.jpg?k=127dc7e7244acedeefdb21b1412d0263e193f1a0fbc2fba2aa8919661b28857b&o=",
+    "https://graph.facebook.com/v2.9/1070875756257941/picture?type=square&height=64&width=64",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-s.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/It.png"
+  ],
+  "description": "Obiekt LOOKOUT Apartments znajduje się w miejscowości Saranda i oferuje bezpłatne Wi-Fi, bezpłatny prywatny parking oraz widok na góry. Odległość ważnych miejsc od obiektu: Plaża Santa Quaranta – 1,1 km.\n\nW obiekcie zapewniono część wypoczynkową z telewizorem z płaskim ekranem z dostępem do kanałów satelitarnych, kuchnię z pełnym wyposażeniem, w tym lodówką i mikrofalówką, a także prywatną łazienkę z prysznicem oraz bezpłatnym zestawem kosmetyków. Do dyspozycji Gości jest też balkon, a z okien roztacza się widok na morze. Wyposażenie obejmuje także płytę kuchenną, toster, ekspres do kawy i czajnik.\n\nOdległość ważnych miejsc od obiektu: Ancient Fanoti – 47 km.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2651,
+      "raw": "2651 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3605,
+      "raw": "3605 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 4560,
+      "raw": "4560 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Apartament typu Deluxe Suite z widokiem na morze <br> Sypialnia 1: 1 bardzo duże łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 60 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na góry <br> Widok na miasto <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej <br> Największy dostępny apartament",
+        "Maksymalna liczba osób: 2",
+        "5 463 zł <br> Cena 5 463 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 463 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Apartament typu Deluxe Suite z widokiem na morze <br> Sypialnia 1: 1 bardzo duże łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 60 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na góry <br> Widok na miasto <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej <br> Największy dostępny apartament | Maksymalna liczba osób: 2 | 5 463 zł <br> Cena 5 463 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 463 zł) |"
+  },
+  "review": {
+    "score": 9.6,
+    "count": 291
+  },
+  "comments": [
+    {
+      "author": "Hania",
+      "text": "„Ładny duży apartament, nowoczesny, dobre wyposażenie, widok na morze z balkonu”"
+    },
+    {
+      "author": "Hania",
+      "text": "„Ładny duży apartament, nowoczesny, dobre wyposażenie, widok na morze z balkonu”"
+    },
+    {
+      "author": "Hania",
+      "text": "„Ładny duży apartament, nowoczesny, dobre wyposażenie, widok na morze z balkonu”"
+    },
+    {
+      "author": "Stefania",
+      "text": "„Absolutely stunning, new apartment with the best sunset view. Great for a relaxing stay in the city without being in the middle of the loud city...”"
+    },
+    {
+      "author": "Stefania",
+      "text": "„Absolutely stunning, new apartment with the best sunset view. Great for a relaxing stay in the city without being in the middle of the loud city...”"
+    },
+    {
+      "author": "Yogith",
+      "text": "„Fantastic stay of our trip! Enjoyed every bit of it!! Balcony had a very good view of the sea! Very spacious apartment! Luxury indeed”"
+    },
+    {
+      "author": "Yogith",
+      "text": "„Fantastic stay of our trip! Enjoyed every bit of it!! Balcony had a very good view of the sea! Very spacious apartment! Luxury indeed”"
+    },
+    {
+      "author": "Hatice",
+      "text": "„Exceptionally modern and beautiful appartment."
+    },
+    {
+      "author": "Hatice",
+      "text": "„Exceptionally modern and beautiful appartment."
+    },
+    {
+      "author": "Polina",
+      "text": "„Everything about our stay was amazing. The friendly staff greeted us at the front and showed us around, gave great recommendations. Our room was...”"
+    }
+  ],
+  "surroundingsRaw": "Opinie Gości\nZobacz dostępność\nOceniony na 9.6\n9,6\nOceniony jako wyjątkowy\nWyjątkowy · 291 opinii\nPrzeczytaj wszystkie opinie\nKategorie:\nPersonel\n9,8\nUdogodnienia\n9,7\nCzystość\n9,8\nKomfort\n9,8\nStosunek jakości do ceny\n9,4\nLokalizacja\n9,4\nBezpłatne WiFi\n10\nWybierz tematy, aby przeczytać opinie:\nWidok\nCzystość\nBalkon\nLokalizacja\nPlaża\nZobacz, co najbardziej podobało się Gościom:\nHania\nPolska\n„Ładny duży apartament, nowoczesny, dobre wyposażenie, widok na morze z balkonu”\nWięcej informacji\nS\nStefania\nWłochy\n„Absolutnie oszałamiający, nowy apartament z najpiękniejszym widokiem na zachód słońca. Idealne miejsce na relaksujący pobyt w mieście, ale bez konieczności przebywania w samym środku głośnego centrum, a jednocześnie wystarczająco blisko, by...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nY\nYogith\nWielka Brytania\n„Fantastyczny pobyt podczas naszej podróży! Podobało mi się wszystko!! Z balkonu roztaczał się piękny widok na morze! Bardzo przestronne mieszkanie! Prawdziwy luksus”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nHatice\nBelgia\n„Wyjątkowo nowoczesny i piękny apartament.\nWidok jest magiczny. Naprawdę wyjątkowe.”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nPolina\nAustralia\n„Wszystko podczas naszego pobytu było niesamowite. Przyjazna obsługa przywitała nas na miejscu, oprowadziła po okolicy i dała świetne rekomendacje. Nasz pokój był niezwykle przestronny i miał piękny balkon z widokiem na wodę. Super wygodne łóżko,...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nB\nBaihui\nChiny\n„Najlepszy widok w Sarandzie! Bardzo blisko publicznej plaży, bardzo cicho w nocy, bardzo blisko rynku, bardzo miły gospodarz, wspaniałe doświadczenie! A nawet umiemy gotować! Jeśli znów przyjedziemy do Sarandy, na pewno znów zarezerwujemy tu nocleg.”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nKersti\nEstonia\n„Trochę daleko od centrum, co ostatecznie okazało się dobrym rozwiązaniem, bo w centrum jest dość głośno. W pobliżu znajduje się wiele kawiarni, sklepów i plaż. W pokoju słychać hałas z ulicy, jednak w nocy jest dość cicho. Apartament jest duży,...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nAbdelalim\nPolska\n„Dom jest absolutnie niesamowity! Oferuje zapierające dech w piersiach widoki i jest na najwyższym poziomie — jest tam wszystko, czego możesz potrzebować. Parking znajduje się tuż przed domem, podobnie jak plaża! Do centrum miasta można dojechać...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nHui\nWielka Brytania\n„Cudowny pobyt z idealnym widokiem na Sarandę i zachód słońca. Wszystkie udogodnienia były świetne”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nR\nRazi\nWielka Brytania\n„Przestronny apartament z dwiema sypialniami, dwiema łazienkami i dużą przestrzenią mieszkalną.\nŁadny balkon.\nBezpłatny parking na miejscu.\nSmart TV w obu sypialniach i salonie.\nKlimatyzacja we wszystkich pomieszczeniach.\nGospodarz...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nPrzeczytaj wszystkie opinie",
+  "amenities": {
+    "flatList": [
+      "Pokoje dla niepalących",
+      "Lokalizacja przy samej plaży",
+      "Pokoje rodzinne",
+      "Bezpłatne Wi-Fi",
+      "Bezpłatny parking",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Balkon",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Parking dla osób niepełnosprawnych",
+      "Stół",
+      "Ekspres do kawy",
+      "Środki czystości",
+      "Toster",
+      "Płyta kuchenna",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Kuchenka mikrofalowa",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Kapcie",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Biurko",
+      "Serwis z filmami online (np. Netflix)",
+      "Kanały kablowe",
+      "Kanały satelitarne",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Rozkładana sofa",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Przyjazny alergikom",
+      "Moskitiera",
+      "Drewniana podłoga lub parkiet",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Dźwiękoszczelność",
+      "Sprzęt do prasowania",
+      "Żelazko",
+      "Całość dostępna dla wózków inwalidzkich",
+      "Dojazd windą na wyższe piętra",
+      "Meble ogrodowe",
+      "Widok na wewnętrzny dziedziniec",
+      "Widok na góry",
+      "Widok na morze",
+      "Widok",
+      "Prywatne mieszkanie w budynku",
+      "Możliwe wystawienie faktury",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Pokoje dla alergików",
+      "Ogrzewanie",
+      "Pokoje dźwiękoszczelne",
+      "Winda",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "System alarmowy",
+      "Dostęp za pomocą karty",
+      "Czujnik tlenku węgla",
+      "Sejf",
+      "grecki",
+      "angielski",
+      "włoski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt LOOKOUT Apartments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 23:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 05:00 do 10:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nMniej niż 1 rok\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 23:00–07:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 350 ft from LOOKOUT Apartments. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

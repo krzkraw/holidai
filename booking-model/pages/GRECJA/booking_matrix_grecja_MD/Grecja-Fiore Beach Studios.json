@@ -1,0 +1,209 @@
+{
+  "title": "Grecja - Fiore Beach Studios",
+  "country": "Grecja",
+  "propertyName": "Fiore Beach Studios",
+  "address": "",
+  "coordinates": {
+    "latitude": 37.74259553070687,
+    "longitude": 20.95370185390493
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/105287761.jpg?k=d4ca25709bca6b720219025d9650f28ec406f845652b59da51e4ae5188ebf071&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/104575656.jpg?k=f86cec588564da26eb4f7ffc09033f14bb408d879b0b95b767ffc5741b5a9e23&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/104856645.jpg?k=fcaeb10ff5be7c66cdda0e3484b8bd9c391b2ca6b196124eb5b46c94122a11c9&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/23909808.jpg?k=03dcfe8f4beb9dc59747d8aa77dc2b82c2fab662fc233e16623b47e3d0a2addf&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/41991173.jpg?k=0476f3dc1569363d365c16852d1bf28f6244d56b7a204dc3a42279ca270a926a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/104607472.jpg?k=d419687a4712b8462d0b5018c4a5a9ae6298f78f548342c3056f94af1ea66721&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/104854129.jpg?k=bd28aee531422b19f936dca026b2eabbf948ef60b506b6641719a3a3d297cca5&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/104854145.jpg?k=44b2e620256bee1ab9658fbcc60af000ea1f6aa58a691581e6a9fab11fd85a90&o=",
+    "https://graph.facebook.com/v2.9/1792984084052666/picture?type=square&height=64&width=64",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-j.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png"
+  ],
+  "description": "Obiekt Fiore Beach Studios usytuowany jest w zielonej okolicy przy zacisznej plaży w miejscowości Vasilikos i oddaje do dyspozycji Gości restaurację oraz bar. Oferuje on zakwaterowanie bez wyżywienia w apartamencie z balkonem lub tarasem z widokiem na Morze Jońskie. Miasto Zakintos oddalone jest od obiektu o zaledwie 7 km.\n\nW każdym apartamencie i studiu mieści się aneks kuchenny lub kuchnia z przyborami kuchennymi i lodówką. Apartamenty obejmują również jadalnię, telewizor z płaskim ekranem, klimatyzację i sejf. W niektórych apartamentach Goście mogą bezpłatnie korzystać z WiFi.\n\nBar na plaży, z którego roztacza się widok na zadbane ogrody, zaprasza na napoje, kawę, koktajle i lekkie posiłki. Śniadanie, lunch i kolacja serwowane są w restauracji, która specjalizuje się w daniach kuchni greckiej.\n\nDzieci mogą korzystać z bezpiecznego placu zabaw. Do dyspozycji Gości jest też część wypoczynkowa w ogrodzie.\n\nSupermarket oraz główna droga biegnąca wzdłuż wybrzeża oddalone są od obiektu o 700 metrów. Personel obiektu służy pomocą w wypożyczeniu samochodu, którym można dojechać na oddaloną o 5 km plażę Gerakas. Port w Zakintos położony jest 8 km, a lotnisko w Zakintos – 10 km od budynku. Na miejscu usytuowany jest bezpłatny parking prywatny.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,2.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nPokaż więcej",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3427,
+      "raw": "3427 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 4711,
+      "raw": "4711 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 5996,
+      "raw": "5996 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 650 zł <br> 5 996 zł  <br> Oryginalna cena 6 650 zł Aktualna cena 5 996 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Dobre śniadanie – 55 zł <br> Oferta częściowo zwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (5 996 zł)"
+      ]
+    ],
+    "raw": "| Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 650 zł <br> 5 996 zł  <br> Oryginalna cena 6 650 zł Aktualna cena 5 996 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie – 55 zł <br> Oferta częściowo zwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (5 996 zł) |"
+  },
+  "review": {
+    "score": 8.9,
+    "count": 221
+  },
+  "comments": [
+    {
+      "author": "Agnieszka",
+      "text": "„Wspaniali gospodarze i bardzo kameralną lokalizacja tuz przy samym brzegu morza."
+    },
+    {
+      "author": "Agnieszka",
+      "text": "„Wspaniali gospodarze i bardzo kameralną lokalizacja tuz przy samym brzegu morza."
+    },
+    {
+      "author": "Agnieszka",
+      "text": "„Wspaniali gospodarze i bardzo kameralną lokalizacja tuz przy samym brzegu morza."
+    },
+    {
+      "author": "Jacek",
+      "text": "„Niesamowity Właściciel , bardzo serdeczny, czuliśmy się jak w domu . Przepyszne jedzenie , pyszne wino. Codziennie świeże ręczniki i sprzątany...”"
+    },
+    {
+      "author": "Jacek",
+      "text": "„Niesamowity Właściciel , bardzo serdeczny, czuliśmy się jak w domu . Przepyszne jedzenie , pyszne wino. Codziennie świeże ręczniki i sprzątany...”"
+    },
+    {
+      "author": "Mónika",
+      "text": "„Beautiful place, very nice hosts, we took a weekend there in May so there was no crowd and we enjoyed the tranquility..”"
+    },
+    {
+      "author": "Mónika",
+      "text": "„Beautiful place, very nice hosts, we took a weekend there in May so there was no crowd and we enjoyed the tranquility..”"
+    },
+    {
+      "author": "Adrian",
+      "text": "„Brilliant location, clean and comfortable beds, all the comfort of home and amazing beach!”"
+    },
+    {
+      "author": "Adrian",
+      "text": "„Brilliant location, clean and comfortable beds, all the comfort of home and amazing beach!”"
+    },
+    {
+      "author": "Angela",
+      "text": "„This property is an absolute gem. If you luv to be by the see this stop is so beautiful."
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Fiore Beach Studios\nŚwietne udogodnienia! Ocena: 8,8\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nLokalizacja przy samej plaży\nObsługa pokoju\nRestauracja\nBezpłatny parking\nPokoje rodzinne\nBar\nŚniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nLokalizacja przy samej plaży\nPlaża\nBezpłatne Wi-Fi\nBezpłatny parking\nZwierzęta domowe są akceptowane\nParking\nRestauracja\nPokoje rodzinne\nObsługa pokoju\nParking na miejscu\nBezpłatny parking publiczny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nPłyta kuchenna\nCzajnik elektryczny\nLodówka\nSypialnia\nPościel\nSzafa lub garderoba\nŁazienka\nPapier toaletowy\nRęczniki\nRęczniki / pościel (dostępne za dodatkową opłatą)\nPrywatna łazienka\nSuszarka do włosów\nPrysznic\nMedia/Technologia\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nWieszak na ubrania\nPodłoga wyłożona kafelkami lub marmurem\nZwierzęta\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Bez dodatkowych opłat.\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nOkolica\nMeble ogrodowe\nLokalizacja przy samej plaży\nStół na świeżym powietrzu\nTaras słoneczny\nTaras\nOgród\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nPosiłki i napoje\nKawiarnia na miejscu\nSpecjalne potrawy dietetyczne (na życzenie)\nBar przekąskowy\nObiady na wynos\nŚniadanie w pokoju\nBar\nObsługa pokoju\nRestauracja\nRekreacja\nPlaża\nJazda konna\nDodatkowa opłata\nNurkowanie\nDodatkowa opłata\nPiesze wycieczki\nKort tenisowy\nDodatkowa opłata\nOkolica i widok\nWidok na morze\nTransport\nWypożyczalnia samochodów\nUsługi recepcji\nMożliwe wystawienie faktury\nBiuro informacji turystycznej\nEkspresowe zameldowanie / wymeldowanie\nUsługi dla rodzin i oferta rozrywkowa\nKlub dla dzieci\nPlac zabaw\nRóżne\nKlimatyzacja\nOgrzewanie\nPokoje rodzinne\nBezpieczeństwo\nGaśnice\nDostęp za pomocą karty\nSejf\nJęzyki\ngrecki\nangielski",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Lokalizacja przy samej plaży",
+      "Obsługa pokoju",
+      "Restauracja",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Bar",
+      "Śniadanie",
+      "Prywatna łazienka",
+      "Plaża",
+      "Zwierzęta domowe są akceptowane",
+      "Parking",
+      "Płyta kuchenna",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Ręczniki / pościel (dostępne za dodatkową opłatą)",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Wieszak na ubrania",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Dojście na wyższe piętra tylko schodami",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Taras słoneczny",
+      "Taras",
+      "Ogród",
+      "Parasole przeciwsłoneczne",
+      "Leżaki lub krzesełka plażowe",
+      "Kawiarnia na miejscu",
+      "Specjalne potrawy dietetyczne (na życzenie)",
+      "Bar przekąskowy",
+      "Obiady na wynos",
+      "Śniadanie w pokoju",
+      "Jazda konna",
+      "Dodatkowa opłata",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Piesze wycieczki",
+      "Kort tenisowy",
+      "Dodatkowa opłata",
+      "Widok na morze",
+      "Wypożyczalnia samochodów",
+      "Możliwe wystawienie faktury",
+      "Biuro informacji turystycznej",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Klub dla dzieci",
+      "Plac zabaw",
+      "Klimatyzacja",
+      "Ogrzewanie",
+      "Gaśnice",
+      "Dostęp za pomocą karty",
+      "Sejf",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Fiore Beach Studios przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 13:30 do 23:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 07:30 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 3 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nKarty akceptowane w tym obiekcie\nGotówka nie jest akceptowana\nZwierzęta\nBezpłatnie!\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Bez dodatkowych opłat.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 150 ft from Fiore Beach Studios. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

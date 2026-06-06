@@ -1,0 +1,150 @@
+{
+  "title": "Kreta - Villa Katerina",
+  "country": "Kreta",
+  "propertyName": "Villa Katerina",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.5131117,
+    "longitude": 24.0098143
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/675236023.jpg?k=f970a107389cc78c07d41b14aba7b8de7de404e38e98b205fec0e680905c1332&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/532116167.jpg?k=77d287471a8f5254bfcaa4380ef4700747571bb5fc39e41569c62e60e9784764&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/808610973.jpg?k=4d3d0a873e0940c21080d5a5b874a49048ebfa7474e6f8e1da04a68360f8e13e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/546508644.jpg?k=3428041058513536cf78a8955fcab561464f16112d25473f30226d3042dc88dd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/808610446.jpg?k=a5beba76e65963d90c4a706ebb0c8c97c4093108fae3f53faec859d82af818bd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/526093609.jpg?k=0ee09c673826096fde7cd234650b32caf3dc01bf001bd7f9b132aa4b2e06340d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/525217239.jpg?k=8a0bc47807aa4959992b5b9de5048e8b383550bc5285cfa1428f360f367dc7e2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/808599353.jpg?k=0111224b096aad3e2360fb0d2247e908f2cdbc4cff1651f1e086851de7350a04&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-k.png",
+    "https://lh3.googleusercontent.com/a/AATXAJyVE0YWgtIPzW56wpC__a9NoNhr-JFmMFKLF9IC=s96-c"
+  ],
+  "description": "Obiekt Villa Katerina położony jest w znakomitej lokalizacji w miejscowości Chania i oferuje ogród oraz bezpłatne Wi-Fi. W pobliżu znajduje się: Plaża Paralia Nea Chora, Synagoga Etz Chaim i Galeria Miejska w Chanii.\n\nWyposażenie niektórych opcji zakwaterowania obejmuje klimatyzację, telewizor z płaskim ekranem oraz pralkę. W niektórych opcjach znajduje się też kuchnia z ekspresem do kawy.\n\nObiekt Villa Katerina oferuje wypożyczalnię samochodów.\n\nW pobliżu obiektu Villa Katerina znajdują się liczne atrakcje, takie jak Kościół św. Anargyri, Stary Port Wenecki w Chanii i Plac Mitropoleos. Lotnisko Lotnisko Chania znajduje się 14 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,7.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2952,
+      "raw": "2952 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 4059,
+      "raw": "4059 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 5166,
+      "raw": "5166 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 9.4,
+    "count": 296
+  },
+  "comments": [
+    {
+      "author": "Kamila",
+      "text": "„Bardzo komfortowy i zadbany pokój z w pełni wyposażonym aneksem kuchennym, który przewyższył nasze oczekiwania. Świetna lokalizacja. Blisko dworca,...”"
+    },
+    {
+      "author": "Kamila",
+      "text": "„Bardzo komfortowy i zadbany pokój z w pełni wyposażonym aneksem kuchennym, który przewyższył nasze oczekiwania. Świetna lokalizacja. Blisko dworca,...”"
+    },
+    {
+      "author": "Kamila",
+      "text": "„Bardzo komfortowy i zadbany pokój z w pełni wyposażonym aneksem kuchennym, który przewyższył nasze oczekiwania. Świetna lokalizacja. Blisko dworca,...”"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Lokalizacja super, bardzo blisko na plażę i do centrum. Obsługa znakomita , codziennie sprzątanie, Wymiana ręczników codziennie, zmiana pościeli...”"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Lokalizacja super, bardzo blisko na plażę i do centrum. Obsługa znakomita , codziennie sprzątanie, Wymiana ręczników codziennie, zmiana pościeli...”"
+    },
+    {
+      "author": "Karol",
+      "text": "„Właścicielka po prostu fenomenalna. Czuliśmy się świetnie zaopiekowani. Udogodnienia, lokalizacja i całokształt absolutny top. Wrócimy na pewno, a...”"
+    },
+    {
+      "author": "Karol",
+      "text": "„Właścicielka po prostu fenomenalna. Czuliśmy się świetnie zaopiekowani. Udogodnienia, lokalizacja i całokształt absolutny top. Wrócimy na pewno, a...”"
+    },
+    {
+      "author": "Kamila",
+      "text": "„Apartment posiada cale wyposazenie przydatne podczas dłuższego pobytu. Można zrobić śniadanie i je w przyjemnych warunkach zjeść. Obsługa bardzo...”"
+    },
+    {
+      "author": "Kamila",
+      "text": "„Apartment posiada cale wyposazenie przydatne podczas dłuższego pobytu. Można zrobić śniadanie i je w przyjemnych warunkach zjeść. Obsługa bardzo...”"
+    },
+    {
+      "author": "Monika",
+      "text": "„Wspaniały pobyt. Mieszkanie piękne, czyste, dobrze wyposażone. Codziennie sprzątnięte mieszkanie, czyste reczniki. Pani gospodyni przemiła,...”"
+    }
+  ],
+  "surroundingsRaw": "Obiekt Villa Katerina położony jest w znakomitej lokalizacji w miejscowości Chania i oferuje ogród oraz bezpłatne Wi-Fi. W pobliżu znajduje się: Plaża Paralia Nea Chora, Synagoga Etz Chaim i Galeria Miejska w Chanii.\n\nWyposażenie niektórych opcji zakwaterowania obejmuje klimatyzację, telewizor z płaskim ekranem oraz pralkę. W niektórych opcjach znajduje się też kuchnia z ekspresem do kawy.\n\nObiekt Villa Katerina oferuje wypożyczalnię samochodów.\n\nW pobliżu obiektu Villa Katerina znajdują się liczne atrakcje, takie jak Kościół św. Anargyri, Stary Port Wenecki w Chanii i Plac Mitropoleos. Lotnisko Lotnisko Chania znajduje się 14 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,7.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPralnia\nAtuty obiektu\nIdealny na pobyt na 2 tygodnie!\n\nTen obiekt położony jest w najlepiej ocenianej dzielnicy w Chanii i otrzymuje wysokie oceny za lokalizację (9,7)\n\nZarezerwuj teraz\nZapisz obiekt",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pralnia",
+      "Prywatna łazienka",
+      "Plaża",
+      "Biuro informacji turystycznej",
+      "Meble ogrodowe",
+      "Ogród",
+      "Wypożyczalnia samochodów",
+      "Możliwe wystawienie faktury",
+      "Klimatyzacja",
+      "Całkowity zakaz palenia",
+      "Gaśnice",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak oficjalnej pralki w pokoju, ale goście wspomnieli o pralce w opiniach, a obiekt świadczy usługę prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Villa Katerina przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:30 do 22:30\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 07:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci powyżej lat 10 są mile widziane\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatność tylko gotówką\nTen obiekt akceptuje wyłącznie płatność gotówką.\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Nea Chora Beach / Chania (~0.2 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

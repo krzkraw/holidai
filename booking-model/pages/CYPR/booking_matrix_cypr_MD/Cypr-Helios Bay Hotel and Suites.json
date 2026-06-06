@@ -1,0 +1,481 @@
+{
+  "title": "Cypr - Helios Bay Hotel and Suites",
+  "country": "Cypr",
+  "propertyName": "Helios Bay Hotel and Suites",
+  "address": "",
+  "coordinates": {
+    "latitude": 34.81114310721519,
+    "longitude": 32.39586532115936
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/265597917.jpg?k=1a2b4153e17b46d8ff6f7301bb24c446bf51c7b2d1a24304420cfe4b1c7d9c14&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/247713818.jpg?k=419436534fc848caa9deb05db72fe7ee4324d9f02d9c043cb48ce2debda6ac46&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/535128343.jpg?k=0546a8e25fb2b6a892d540da67a3f074d32130abf24c556eddaced4463d33eb0&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/121348023.jpg?k=3f4651282b6c1ebc42a1e11df3a2c2ef76f43a1fd62068c33a35e4fdcc908a4d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/232402794.jpg?k=67ae47c8db39bb9a19673f9fc0b7b5f855f855ed3262251fa828f5a804f2531c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/66000114.jpg?k=be6bf3add677de3434b8d9c856d145020b22173105e219d0408d515f913efb62&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/121348035.jpg?k=aeaef8b3bdb3f026433e4cd8d2234ed402251681894c650fa190ad450b155745&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/246681104.jpg?k=bcf6aeeed95f8c185b3fa33a2a80d64b965a0542866e578011d474a9755cad9e&o=",
+    "https://lh5.googleusercontent.com/-rfhsV3P1vNI/AAAAAAAAAAI/AAAAAAAAAC0/AMZuucljs8DQcQtV_b065Fhzp-RY70MqrQ/s96-c/photo.jpg",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://graph.facebook.com/v2.9/4299518040288331/picture?type=square&height=64&width=64",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-j.png"
+  ],
+  "description": "Hotel Helios Bay usytuowany jest pomiędzy Zatoką Koralową i miastem Pafos, w odległości zaledwie 100 metrów od piaszczystej plaży. Obiekt oferuje odkryty basen z barem, siłownię oraz saunę na miejscu. Dojazd taksówką z hotelu do Pafos zajmuje niecałe 10 minut.\n\nHotel Helios Bay udostępnia Gościom apartamenty, apartamenty typu studio oraz wille z 2 sypialniami z wyżywieniem we własnym zakresie. Wnętrza willi i apartamentów urządzone zostały w tradycyjnym, cypryjskim stylu. Goście mają w nich do dyspozycji klimatyzację, ogrzewanie, w pełni wyposażony aneks kuchenny, łazienkę oraz prywatny balkon lub patio.\n\nW wolnej chwili można zrelaksować się na umeblowanych tarasach słonecznych w otoczeniu rozległych ogrodów. Orzeźwiające napoje i koktajle serwowane są w barze w części wypoczynkowej lub w barze przekąskowym przy basenie. Dla dzieci przygotowano oddzielny basen oraz plac zabaw. W pomieszczeniach ogólnodostępnych Goście mogą korzystać z bezpłatnego bezprzewodowego dostępu do Internetu.\n\nWielojęzyczny personel całodobowej recepcji chętnie pomoże Gościom wypożyczyć samochód, rower lub motor. Hotel oferuje również usługę opieki nad dziećmi oraz bezpłatne łóżeczka dziecięce.\n\nRodzinny hotel Helios Bay wyróżnia się dogodną lokalizacją tuż obok przystanku autobusowego, kilka minut spacerem od restauracji i sklepów. Obiekt oddalony jest o zaledwie 4 km od centrum Pafos i 5 km od Zatoki Koralowej. Hotel udostępnia Gościom bezpłatny odkryty parking.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,0.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nPokaż więcej",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3529,
+      "raw": "3529 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 4852,
+      "raw": "4852 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 6176,
+      "raw": "6176 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Rodzaj zakwaterowania",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz apartament"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "6 829 zł <br> Cena 6 829 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 829 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 126 zł <br> Cena 7 126 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (7 126 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 779 zł <br> Cena 7 779 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 779 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 651 zł <br> Cena 6 651 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (6 651 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "7 304 zł <br> Cena 7 304 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 304 zł)"
+      ],
+      [
+        "Apartament typu Superior Suite z 1 sypialnią i bocznym widokiem na morze <br>  Został nam 1 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 2 rozkładane sofy  <br> 1 prywatny apartament typu suite <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "6 948 zł <br> 6 253 zł  <br> Oryginalna cena 6 948 zł Aktualna cena 6 253 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 253 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 779 zł <br> 7 001 zł  <br> Oryginalna cena 7 779 zł Aktualna cena 7 001 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 001 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 005 zł <br> 7 204 zł  <br> Oryginalna cena 8 005 zł Aktualna cena 7 204 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 204 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 836 zł <br> 7 952 zł  <br> Oryginalna cena 8 836 zł Aktualna cena 7 952 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 952 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "7 476 zł <br> 6 728 zł  <br> Oryginalna cena 7 476 zł Aktualna cena 6 728 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 728 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 307 zł <br> 7 477 zł  <br> Oryginalna cena 8 307 zł Aktualna cena 7 477 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 477 zł)"
+      ],
+      [
+        "Apartament z 1 sypialnią i bocznym widokiem na morze <br>  Zostały nam 3 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Widok na basen <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "6 354 zł <br> Cena 6 354 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (6 354 zł) <br> 2        (12 708 zł) <br> 3        (19 061 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 126 zł <br> Cena 7 126 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 126 zł) <br> 2        (14 251 zł) <br> 3        (21 377 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 304 zł <br> Cena 7 304 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (7 304 zł) <br> 2        (14 608 zł) <br> 3        (21 912 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 076 zł <br> Cena 8 076 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (8 076 zł) <br> 2        (16 152 zł) <br> 3        (24 228 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "6 829 zł <br> Cena 6 829 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (6 829 zł) <br> 2        (13 658 zł) <br> 3        (20 487 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "7 601 zł <br> Cena 7 601 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 601 zł) <br> 2        (15 202 zł) <br> 3        (22 802 zł)"
+      ],
+      [
+        "Apartament typu Superior z 1 sypialnią i widokiem na morze <br>  Został nam 1 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "6 948 zł <br> Cena 6 948 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (6 948 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 720 zł <br> Cena 7 720 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 720 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 898 zł <br> Cena 7 898 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (7 898 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 670 zł <br> Cena 8 670 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (8 670 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "7 423 zł <br> Cena 7 423 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (7 423 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 195 zł <br> Cena 8 195 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (8 195 zł)"
+      ],
+      [
+        "Pokój rodzinny (2 osoby dorosłe + 2 dzieci) <br>  Został nam 1 <br> 2 łóżka pojedyncze  i 2 rozkładane sofy  <br> Pokój <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "6 948 zł <br> Cena 6 948 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (6 948 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "7 720 zł <br> Cena 7 720 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (7 720 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "8 848 zł <br> Cena 8 848 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (8 848 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "9 620 zł <br> Cena 9 620 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 620 zł)"
+      ],
+      [
+        "Willa typu Superior z 2 sypialniami <br>  Został nam 1 <br> 2 łóżka pojedyncze  i 2 rozkładane sofy  i 1 duże łóżko podwójne  <br> 1 willa na wyłączność <br> 70 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "10 926 zł <br> Cena 10 926 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1        (10 926 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "12 233 zł <br> Cena 12 233 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (12 233 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "9 976 zł <br> Cena 9 976 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (9 976 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "11 282 zł <br> Cena 11 282 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (11 282 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 451 zł <br> Cena 10 451 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1        (10 451 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "11 757 zł <br> Cena 11 757 zł <br> Zawiera opłaty i podatki",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (11 757 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz apartament |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 6 829 zł <br> Cena 6 829 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 829 zł) |\n| Maksymalna liczba osób: 2 | 7 126 zł <br> Cena 7 126 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (7 126 zł) |\n| Maksymalna liczba osób: 2 | 7 779 zł <br> Cena 7 779 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 779 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 651 zł <br> Cena 6 651 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (6 651 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 7 304 zł <br> Cena 7 304 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 304 zł) |\n| Apartament typu Superior Suite z 1 sypialnią i bocznym widokiem na morze <br>  Został nam 1 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 2 rozkładane sofy  <br> 1 prywatny apartament typu suite <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 6 948 zł <br> 6 253 zł  <br> Oryginalna cena 6 948 zł Aktualna cena 6 253 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 253 zł) |\n| Maksymalna liczba osób: 2 | 7 779 zł <br> 7 001 zł  <br> Oryginalna cena 7 779 zł Aktualna cena 7 001 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 001 zł) |\n| Maksymalna liczba osób: 2 | 8 005 zł <br> 7 204 zł  <br> Oryginalna cena 8 005 zł Aktualna cena 7 204 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 204 zł) |\n| Maksymalna liczba osób: 2 | 8 836 zł <br> 7 952 zł  <br> Oryginalna cena 8 836 zł Aktualna cena 7 952 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 952 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 7 476 zł <br> 6 728 zł  <br> Oryginalna cena 7 476 zł Aktualna cena 6 728 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 728 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 307 zł <br> 7 477 zł  <br> Oryginalna cena 8 307 zł Aktualna cena 7 477 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 477 zł) |\n| Apartament z 1 sypialnią i bocznym widokiem na morze <br>  Zostały nam 3 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Widok na basen <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 6 354 zł <br> Cena 6 354 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (6 354 zł) <br> 2        (12 708 zł) <br> 3        (19 061 zł) |\n| Maksymalna liczba osób: 2 | 7 126 zł <br> Cena 7 126 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 126 zł) <br> 2        (14 251 zł) <br> 3        (21 377 zł) |\n| Maksymalna liczba osób: 2 | 7 304 zł <br> Cena 7 304 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (7 304 zł) <br> 2        (14 608 zł) <br> 3        (21 912 zł) |\n| Maksymalna liczba osób: 2 | 8 076 zł <br> Cena 8 076 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (8 076 zł) <br> 2        (16 152 zł) <br> 3        (24 228 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 829 zł <br> Cena 6 829 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (6 829 zł) <br> 2        (13 658 zł) <br> 3        (20 487 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 7 601 zł <br> Cena 7 601 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 601 zł) <br> 2        (15 202 zł) <br> 3        (22 802 zł) |\n| Apartament typu Superior z 1 sypialnią i widokiem na morze <br>  Został nam 1 <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Widok na basen <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 6 948 zł <br> Cena 6 948 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (6 948 zł) |\n| Maksymalna liczba osób: 2 | 7 720 zł <br> Cena 7 720 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 720 zł) |\n| Maksymalna liczba osób: 2 | 7 898 zł <br> Cena 7 898 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (7 898 zł) |\n| Maksymalna liczba osób: 2 | 8 670 zł <br> Cena 8 670 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (8 670 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 7 423 zł <br> Cena 7 423 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (7 423 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 195 zł <br> Cena 8 195 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (8 195 zł) |\n| Pokój rodzinny (2 osoby dorosłe + 2 dzieci) <br>  Został nam 1 <br> 2 łóżka pojedyncze  i 2 rozkładane sofy  <br> Pokój <br> 42 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 6 948 zł <br> Cena 6 948 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (6 948 zł) |\n| Maksymalna liczba osób: 2 | 7 720 zł <br> Cena 7 720 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (7 720 zł) |\n| Maksymalna liczba osób: 2 | 8 848 zł <br> Cena 8 848 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (8 848 zł) |\n| Maksymalna liczba osób: 2 | 9 620 zł <br> Cena 9 620 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 620 zł) |\n| Willa typu Superior z 2 sypialniami <br>  Został nam 1 <br> 2 łóżka pojedyncze  i 2 rozkładane sofy  i 1 duże łóżko podwójne  <br> 1 willa na wyłączność <br> 70 m² <br> Prywatna kuchnia <br> Łazienka w pokoju <br> Balkon <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 10 926 zł <br> Cena 10 926 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1        (10 926 zł) |\n| Maksymalna liczba osób: 2 | 12 233 zł <br> Cena 12 233 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (12 233 zł) |\n| Maksymalna liczba osób: 2 | 9 976 zł <br> Cena 9 976 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (9 976 zł) |\n| Maksymalna liczba osób: 2 | 11 282 zł <br> Cena 11 282 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie – 34 zł <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (11 282 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 451 zł <br> Cena 10 451 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1        (10 451 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 11 757 zł <br> Cena 11 757 zł <br> Zawiera opłaty i podatki | Bardzo dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (11 757 zł) |"
+  },
+  "review": {
+    "score": 8.8,
+    "count": 774
+  },
+  "comments": [
+    {
+      "author": "Jakub",
+      "text": "„Miła i pomocna obsługa, czystość oraz bliskość morza.”"
+    },
+    {
+      "author": "Jakub",
+      "text": "„Miła i pomocna obsługa, czystość oraz bliskość morza.”"
+    },
+    {
+      "author": "Jakub",
+      "text": "„Miła i pomocna obsługa, czystość oraz bliskość morza.”"
+    },
+    {
+      "author": "Artur",
+      "text": "„Kapitalne patio dzielące hotel od ulicy. Kilka metrów do basenu i piękny widok z tarasu śniadaniowego i basenu na morze. Super ścieżka prowadząca z...”"
+    },
+    {
+      "author": "Artur",
+      "text": "„Kapitalne patio dzielące hotel od ulicy. Kilka metrów do basenu i piękny widok z tarasu śniadaniowego i basenu na morze. Super ścieżka prowadząca z...”"
+    },
+    {
+      "author": "Jarosław",
+      "text": "„W hotelu bardzo cicho. Personel miły, pomocny. Śniadania bardzo dobre. Zawsze jakieś jajko w postaci jajecznicy jajek na twardo lub sadzone. Dwa...”"
+    },
+    {
+      "author": "Jarosław",
+      "text": "„W hotelu bardzo cicho. Personel miły, pomocny. Śniadania bardzo dobre. Zawsze jakieś jajko w postaci jajecznicy jajek na twardo lub sadzone. Dwa...”"
+    },
+    {
+      "author": "Marek",
+      "text": "„Widok z balkonu na morze, apartament bez uwag... obsługa sprzątająca, Pani z Kongo.. bardzo miła, Pani w recepcji również, pozdrawiamy”"
+    },
+    {
+      "author": "Marek",
+      "text": "„Widok z balkonu na morze, apartament bez uwag... obsługa sprzątająca, Pani z Kongo.. bardzo miła, Pani w recepcji również, pozdrawiamy”"
+    },
+    {
+      "author": "Czerny",
+      "text": "„Hotel ładny, czysty, obsługa miła i życzliwa, śniadania dobre, każdy znajdzie coś dla siebie. Hotel blisko do morza, lecz wybrzeże skaliste, do...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Helios Bay Hotel and Suites\nŚwietne udogodnienia! Ocena: 8,6\nZobacz dostępność\nNajpopularniejsze udogodnienia\n2 baseny\nTransfer lotniskowy\nBezpłatne Wi-Fi\nPokoje dla niepalących\nUdogodnienia dla niepełnosprawnych\nLokalizacja przy samej plaży\nCentrum fitness\nPokoje rodzinne\nBar\nBardzo dobre śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nBezpłatny parking\nPlaża\nLokalizacja przy samej plaży\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking\nWanna\nTransfer lotniskowy\nŁazienka\nPapier toaletowy\nRęczniki\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nWanna\nPrysznic\nSypialnia\nPościel\nSzafa lub garderoba\nOkolica\nMeble ogrodowe\nLokalizacja przy samej plaży\nTaras słoneczny\nOgród\nKuchnia\nKrzesełko dla dzieci\nStół\nToster\nCzajnik elektryczny\nLodówka\nUdogodnienia w pokoju\nGniazdko koło łóżka\nRozkładana sofa\nSuszarka na ubrania\nŁóżko polowe\nWieszak na ubrania\nRekreacja\nWynajem rowerów\nDodatkowa opłata\nWydarzenia sportowe na żywo (relacja na żywo)\nPlaża\nNurkowanie z rurką\nDodatkowa opłata\nJazda konna\nDodatkowa opłata\nPoza obiektem\nNurkowanie\nDodatkowa opłata\nJazda na rowerze\nWindsurfing\nDodatkowa opłata\nTenis stołowy\nBilard\nDodatkowa opłata\nPlac zabaw dla dzieci\nPokój gier\nWędkowanie\nDodatkowa opłata\nPole golfowe (w promieniu 3 km)\nDodatkowa opłata\nSalon\nCzęść jadalna\nSofa\nCzęść wypoczynkowa\nMedia/Technologia\nTelewizor z płaskim ekranem\nKanały satelitarne\nTelefon\nTelewizor\nPosiłki i napoje\nWino / szampan\nDodatkowa opłata\nBar przekąskowy\nBar\nInternet\nWi-Fi jest dostępne w pokojach i jest bezpłatne.\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nParking dla osób niepełnosprawnych\nUsługi recepcji\nMożliwe wystawienie faktury\nZamykane szafki\nBankomat na terenie obiektu\nPrzechowalnia bagażu\nBiuro informacji turystycznej\nWymiana walut\nEkspresowe zameldowanie / wymeldowanie\nCałodobowa recepcja\nUsługi dla rodzin i oferta rozrywkowa\nOpieka nad dziećmi\nDodatkowa opłata\nPlac zabaw\nUsługi sprzątania\nCodzienne sprzątanie\nUsługa prasowania\nDodatkowa opłata\nPralnia chemiczna\nDodatkowa opłata\nPralnia\nDodatkowa opłata\nZaplecze biznesowe\nFaks / ksero\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nCzujnik dymu\nDostęp za pomocą kluczy\nCałodobowa ochrona\nSejf\nDodatkowa opłata\nOgólne\nTransfer\nDodatkowa opłata\nDostawa artykułów spożywczych\nWspólna część rekreacyjna / sala TV\nKlimatyzacja\nBudzenie na życzenie\nPodłoga wyłożona kafelkami lub marmurem\nOgrzewanie\nPrywatne wejście\nWypożyczalnia samochodów\nPokoje dźwiękoszczelne\nPokoje rodzinne\nUdogodnienia dla niepełnosprawnych\nTransfer lotniskowy\nDodatkowa opłata\nPokoje dla niepalących\nUdogodnienia dla niepełnosprawnych\nCałość zlokalizowana na parterze\n2 baseny\nBasen 1 – odkryty\nBezpłatnie!\nOtwarty przez cały rok\nWstęp dla osób w każdym wieku\nBasen z widokiem\nBrodzik\nRęczniki kąpielowe/plażowe\nBar przy basenie\nLeżaki lub krzesełka plażowe\nParasole przeciwsłoneczne\nBasen 2 – odkryty (dla dzieci)\nBezpłatnie!\nOtwarty przez cały rok\nOdpowiedni dla dzieci\nCentrum wellness\nBasen dla dzieci\nFitness\nFotel do masażu\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nCentrum fitness\nSauna\nDodatkowa opłata\nJęzyki\nniemiecki\ngrecki\nangielski\nrumuński\nrosyjski",
+  "amenities": {
+    "flatList": [
+      "2 baseny",
+      "Transfer lotniskowy",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Udogodnienia dla niepełnosprawnych",
+      "Lokalizacja przy samej plaży",
+      "Centrum fitness",
+      "Pokoje rodzinne",
+      "Bar",
+      "Bardzo dobre śniadanie",
+      "Prywatna łazienka",
+      "Bezpłatny parking",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Wanna",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Meble ogrodowe",
+      "Taras słoneczny",
+      "Ogród",
+      "Krzesełko dla dzieci",
+      "Stół",
+      "Toster",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Gniazdko koło łóżka",
+      "Rozkładana sofa",
+      "Suszarka na ubrania",
+      "Łóżko polowe",
+      "Wieszak na ubrania",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Wydarzenia sportowe na żywo (relacja na żywo)",
+      "Nurkowanie z rurką",
+      "Dodatkowa opłata",
+      "Jazda konna",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Jazda na rowerze",
+      "Windsurfing",
+      "Dodatkowa opłata",
+      "Tenis stołowy",
+      "Bilard",
+      "Dodatkowa opłata",
+      "Plac zabaw dla dzieci",
+      "Pokój gier",
+      "Wędkowanie",
+      "Dodatkowa opłata",
+      "Pole golfowe (w promieniu 3 km)",
+      "Dodatkowa opłata",
+      "Część jadalna",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Kanały satelitarne",
+      "Telefon",
+      "Telewizor",
+      "Wino / szampan",
+      "Dodatkowa opłata",
+      "Bar przekąskowy",
+      "Parking dla osób niepełnosprawnych",
+      "Możliwe wystawienie faktury",
+      "Zamykane szafki",
+      "Bankomat na terenie obiektu",
+      "Przechowalnia bagażu",
+      "Biuro informacji turystycznej",
+      "Wymiana walut",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Całodobowa recepcja",
+      "Opieka nad dziećmi",
+      "Dodatkowa opłata",
+      "Plac zabaw",
+      "Codzienne sprzątanie",
+      "Usługa prasowania",
+      "Dodatkowa opłata",
+      "Pralnia chemiczna",
+      "Dodatkowa opłata",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "Dostęp za pomocą kluczy",
+      "Całodobowa ochrona",
+      "Sejf",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Dostawa artykułów spożywczych",
+      "Wspólna część rekreacyjna / sala TV",
+      "Budzenie na życzenie",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Ogrzewanie",
+      "Prywatne wejście",
+      "Wypożyczalnia samochodów",
+      "Pokoje dźwiękoszczelne",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Całość zlokalizowana na parterze",
+      "Otwarty przez cały rok",
+      "Wstęp dla osób w każdym wieku",
+      "Basen z widokiem",
+      "Brodzik",
+      "Ręczniki kąpielowe/plażowe",
+      "Bar przy basenie",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Odpowiedni dla dzieci",
+      "Basen dla dzieci",
+      "Fitness",
+      "Fotel do masażu",
+      "Sauna",
+      "Dodatkowa opłata",
+      "niemiecki",
+      "grecki",
+      "angielski",
+      "rumuński",
+      "rosyjski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Helios Bay Hotel and Suites przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 9 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nZwierzęta\nZwierzęta nie są akceptowane.\nGrupy\nW przypadku rezerwacji ponad 3 pokoi mogą obowiązywać inne zasady i dodatkowe opłaty.\nAkceptowane metody płatności\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 2,300 ft from Helios Bay Hotel and Suites. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

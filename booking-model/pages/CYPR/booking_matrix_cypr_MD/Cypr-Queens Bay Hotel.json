@@ -1,0 +1,286 @@
+{
+  "title": "Cypr - Queens Bay Hotel",
+  "country": "Cypr",
+  "propertyName": "Queens Bay Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 34.82739811485496,
+    "longitude": 32.39002883434296
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/612899257.jpg?k=63d4dce29a1ecb71ca68bfa625e7be70f49e87ac9b1d7c411fcdb93acd3d7709&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/261209786.jpg?k=0796f547437a91d2126f54ef8ceab55974a56c77dfc190f4772dcb7132ac6962&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/211930230.jpg?k=6a2c08ff62793175066192a42cdebba9a19d1718c8d541187debca9404560917&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/612651901.jpg?k=dd688d8d57ef5d68526b3d785b15a8f98a37a000896438863ed706a14c552ba2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/167493093.jpg?k=a103a0d1416dc83372a594c180c45cc703afe6ef676fa332ae99292d45772cd2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/612893073.jpg?k=bffefed93eab6f269dfc547ccd3a44315526aef3b715dc4965f4a202d025382a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/612896872.jpg?k=86d204cda71ad32a00dd67f8d14edbdaaa7fcb6b589ba928ab67addce1e59e5d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/167493109.jpg?k=4dac0a04c1882fabd8358ee3430b38b601a841db5d75dc7b7d80762f9cdbe02c&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-s.png",
+    "https://xx.bstatic.com/xdata/images/xphoto/square64/73440212.jpg?k=adcaeb95e6d01917888444caeb9a17c1e84c6a4201ac2f063186ac4050c7feeb&o=",
+    "https://lh3.googleusercontent.com/a/AATXAJzhG-CC4I1-rVWrw3Q3ZUWpH6UQiAx6eApkM2x3=s96-c"
+  ],
+  "description": "Hotel Queens Bay położony jest przy zacisznej zatoce i oferuje odkryte baseny, kort do padla oraz salę fitness z sauną. Jego rozległe ogrody rozciągają się aż do plaży. Na terenie całego obiektu zapewniono bezpłatne Wi-Fi.\n\nWszystkie pokoje są klimatyzowane i wyposażone w telewizor z dostępem do kanałów satelitarnych. Każdy z nich mieści prywatną łazienkę z suszarką do włosów\n\nNa miejscu dostępny jest taras przy basenie, z którego można podziwiać panoramiczny widok na morze i zachód słońca, sauna, pole do gry w bule, stół do ping ponga oraz strzelnica łucznicza.\n\nRestauracja Cassiopia oferuje szeroki wybór świeżych dań kuchni śródziemnomorskiej. Wieczorem w hotelowym barze goście mogą wypić drinka przy muzyce na żywo.\n\nMiejscowość Kissonerga oddalona jest od hotelu o 1,5 km, a dojazd do miasta Pafos zajmuje 10 minut. Hotel zlokalizowany jest w połowie drogi między starożytnymi Grobowcami Królewskimi i popularną Zatoką Koralową. Na miejscu dostępny jest bezpłatny parking.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,1.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 5586,
+      "raw": "5586 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 7611,
+      "raw": "7611 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 9690,
+      "raw": "9690 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "14 514 zł <br> 12 308 zł  <br> Oryginalna cena 14 514 zł Aktualna cena 12 308 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa",
+        "Śniadanie i kolacja wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026",
+        "Wybierz pokoje <br> 0 <br> 1        (12 308 zł) <br> 2        (24 617 zł) <br> 3        (36 925 zł) <br> 4        (49 233 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "11 427 zł <br> 9 690 zł  <br> Oryginalna cena 11 427 zł Aktualna cena 9 690 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa",
+        "Fantastyczne śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026",
+        "Wybierz pokoje <br> 0 <br> 1          (9 690 zł) <br> 2        (19 380 zł) <br> 3        (29 069 zł) <br> 4        (38 759 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "12 792 zł <br> 10 848 zł  <br> Oryginalna cena 12 792 zł Aktualna cena 10 848 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa",
+        "Śniadanie i kolacja wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026",
+        "Wybierz pokoje <br> 0 <br> 1        (10 848 zł) <br> 2        (21 696 zł) <br> 3        (32 544 zł) <br> 4        (43 392 zł)"
+      ],
+      [
+        "Pokój Rodzinny z widokiem na ląd (2 osoby dorosłe + 2 dzieci) <br>  Zostały nam 3 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 rozkładane sofy  i 1 duże łóżko podwójne  <br> \t2 łóżka pojedyncze  i 2 rozkładane sofy  <br> 31 m² <br> Balkon <br> Widok <br> Wanna <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "17 008 zł <br> 14 423 zł  <br> Oryginalna cena 17 008 zł Aktualna cena 14 423 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa",
+        "Fantastyczne śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026",
+        "Wybierz pokoje <br> 0 <br> 1        (14 423 zł) <br> 2        (28 846 zł) <br> 3        (43 270 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "21 521 zł <br> 18 250 zł  <br> Oryginalna cena 21 521 zł Aktualna cena 18 250 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa",
+        "Śniadanie i kolacja wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026",
+        "Wybierz pokoje <br> 0 <br> 1        (18 250 zł) <br> 2        (36 500 zł) <br> 3        (54 751 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 14 514 zł <br> 12 308 zł  <br> Oryginalna cena 14 514 zł Aktualna cena 12 308 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026 | Wybierz pokoje <br> 0 <br> 1        (12 308 zł) <br> 2        (24 617 zł) <br> 3        (36 925 zł) <br> 4        (49 233 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 11 427 zł <br> 9 690 zł  <br> Oryginalna cena 11 427 zł Aktualna cena 9 690 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa | Fantastyczne śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026 | Wybierz pokoje <br> 0 <br> 1          (9 690 zł) <br> 2        (19 380 zł) <br> 3        (29 069 zł) <br> 4        (38 759 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 12 792 zł <br> 10 848 zł  <br> Oryginalna cena 12 792 zł Aktualna cena 10 848 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026 | Wybierz pokoje <br> 0 <br> 1        (10 848 zł) <br> 2        (21 696 zł) <br> 3        (32 544 zł) <br> 4        (43 392 zł) |\n| Pokój Rodzinny z widokiem na ląd (2 osoby dorosłe + 2 dzieci) <br>  Zostały nam 3 <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 rozkładane sofy  i 1 duże łóżko podwójne  <br> \t2 łóżka pojedyncze  i 2 rozkładane sofy  <br> 31 m² <br> Balkon <br> Widok <br> Wanna <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 17 008 zł <br> 14 423 zł  <br> Oryginalna cena 17 008 zł Aktualna cena 14 423 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa | Fantastyczne śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026 | Wybierz pokoje <br> 0 <br> 1        (14 423 zł) <br> 2        (28 846 zł) <br> 3        (43 270 zł) |\n| Maksymalna liczba osób: 2 | 21 521 zł <br> 18 250 zł  <br> Oryginalna cena 21 521 zł Aktualna cena 18 250 zł <br> Zawiera opłaty i podatki <br> 15% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 7 września 2026 <br> • <br> Nie płacisz nic do 5 września 2026 | Wybierz pokoje <br> 0 <br> 1        (18 250 zł) <br> 2        (36 500 zł) <br> 3        (54 751 zł) |"
+  },
+  "review": {
+    "score": 9,
+    "count": 137
+  },
+  "comments": [
+    {
+      "author": "Weronika",
+      "text": "„Bardzo dobrze położony hotel przy pięknej zatoczce z zachodami słońca"
+    },
+    {
+      "author": "Weronika",
+      "text": "„Bardzo dobrze położony hotel przy pięknej zatoczce z zachodami słońca"
+    },
+    {
+      "author": "Weronika",
+      "text": "„Bardzo dobrze położony hotel przy pięknej zatoczce z zachodami słońca"
+    },
+    {
+      "author": "Szymon",
+      "text": "„Hotel w świetnej lokalizacji, czysto i ładnie! Przepiękny widok na morze z pokoju. Smaczne śniadania. Miła obsługa. Generalnie wszystko ok.”"
+    },
+    {
+      "author": "Szymon",
+      "text": "„Hotel w świetnej lokalizacji, czysto i ładnie! Przepiękny widok na morze z pokoju. Smaczne śniadania. Miła obsługa. Generalnie wszystko ok.”"
+    },
+    {
+      "author": "Ziel0ny",
+      "text": "„Położenie hotelu , widok z okna na morze, urozmaicone śniadania”"
+    },
+    {
+      "author": "Ziel0ny",
+      "text": "„Położenie hotelu , widok z okna na morze, urozmaicone śniadania”"
+    },
+    {
+      "author": "Karbowinska",
+      "text": "„Cudowne miejsce.Bardzo przemiła obsługa.pyszne jedzenie.znakomita atmosfera.Pokój komfortowy z bardzo wielkim i wygodnym łóżkiem.Z wielką...”"
+    },
+    {
+      "author": "Karbowinska",
+      "text": "„Cudowne miejsce.Bardzo przemiła obsługa.pyszne jedzenie.znakomita atmosfera.Pokój komfortowy z bardzo wielkim i wygodnym łóżkiem.Z wielką...”"
+    },
+    {
+      "author": "Bartlomiej",
+      "text": "„wsztsko bylo super. piekna okolica, piekne widoki, jedzenie super. Codziennie tematyczna kolacja. Pracuje tam Pani z Polski chyba ma na imie Ewa,...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Queens Bay Hotel\nŚwietne udogodnienia! Ocena: 9\nZobacz dostępność\nNajpopularniejsze udogodnienia\n3 baseny\nBezpłatne Wi-Fi\nPokoje dla niepalących\nSpa i centrum odnowy biologicznej\nLokalizacja przy samej plaży\nCentrum fitness\nObsługa pokoju\nzestaw do parzenia kawy i herbaty we wszystkich pokojach\nBar\nFantastyczne śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nBezpłatny parking\nPlaża\nLokalizacja przy samej plaży\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking\nCentrum fitness\nSpa i centrum odnowy biologicznej\nŁazienka\nPapier toaletowy\nRęczniki\nPrywatna łazienka\nToaleta\nSuszarka do włosów\nPrysznic\nSypialnia\nPościel\nSzafa lub garderoba\nOkolica\nMeble ogrodowe\nLokalizacja przy samej plaży\nTaras słoneczny\nTaras\nOgród\nKuchnia\nCzajnik elektryczny\nLodówka\nRekreacja\nWynajem rowerów\nDodatkowa opłata\nBingo\nDodatkowa opłata\nAerobik\nŁucznictwo\nWydarzenia sportowe na żywo (relacja na żywo)\nMuzyka na żywo\nWieczory tematyczne z kolacją\nDodatkowa opłata\nPlaża\nWieczorne rozrywki\nZespół animatorów\nRzutki\nKaraoke\nTenis stołowy\nBilard\nDodatkowa opłata\nPlac zabaw dla dzieci\nMedia/Technologia\nTelewizor z płaskim ekranem\nKanały satelitarne\nTelefon\nTelewizor\nPosiłki i napoje\nKawiarnia na miejscu\nWino / szampan\nDodatkowa opłata\nSpecjalne potrawy dietetyczne (na życzenie)\nBar przekąskowy\nBar\nRestauracja\nZestaw do parzenia kawy i herbaty\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (rezerwacja nie jest możliwa).\nParking dla osób niepełnosprawnych\nUsługi recepcji\nMożliwe wystawienie faktury\nPrzechowalnia bagażu\nWymiana walut\nCałodobowa recepcja\nUsługi sprzątania\nCodzienne sprzątanie\nPralnia chemiczna\nDodatkowa opłata\nPralnia\nDodatkowa opłata\nZaplecze biznesowe\nFaks / ksero\nDodatkowa opłata\nZaplecze bankietowe / konferencyjne\nDodatkowa opłata\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nCzujnik dymu\nDostęp za pomocą karty\nSejf\nOgólne\nWspólna część rekreacyjna / sala TV\nKlimatyzacja\nCałkowity zakaz palenia\nBudzenie na życzenie\nPodłoga wyłożona kafelkami lub marmurem\nWypożyczalnia samochodów\nWinda\nPokoje rodzinne\nPokoje dla niepalących\nObsługa pokoju\n3 baseny\nBasen 1 – odkryty\nBezpłatnie!\nGodziny pracy\nOtwarty przez cały rok\nWstęp dla osób w każdym wieku\nBasen 2 – odkryty (dla dzieci)\nBezpłatnie!\nOtwarty przez cały rok\nOdpowiedni dla dzieci\nBasen 3 – kryty\nBezpłatnie!\nOtwarty przez cały rok\nWstęp dla osób w każdym wieku\nCentrum wellness\nBasen dla dzieci\nMasaż całego ciała\nMasaż głowy\nMasaż stóp\nMasaż szyi\nMasaż pleców\nSalon spa / strefa relaksacyjna\nUdogodnienia spa\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nMasaż\nDodatkowa opłata\nSpa i centrum odnowy biologicznej\nDodatkowa opłata\nCentrum fitness\nJęzyki\nniemiecki\ngrecki\nangielski\nfrancuski\nrosyjski",
+  "amenities": {
+    "flatList": [
+      "3 baseny",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Spa i centrum odnowy biologicznej",
+      "Lokalizacja przy samej plaży",
+      "Centrum fitness",
+      "Obsługa pokoju",
+      "zestaw do parzenia kawy i herbaty we wszystkich pokojach",
+      "Bar",
+      "Fantastyczne śniadanie",
+      "Prywatna łazienka",
+      "Bezpłatny parking",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Meble ogrodowe",
+      "Taras słoneczny",
+      "Taras",
+      "Ogród",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Bingo",
+      "Dodatkowa opłata",
+      "Aerobik",
+      "Łucznictwo",
+      "Wydarzenia sportowe na żywo (relacja na żywo)",
+      "Muzyka na żywo",
+      "Wieczory tematyczne z kolacją",
+      "Dodatkowa opłata",
+      "Wieczorne rozrywki",
+      "Zespół animatorów",
+      "Rzutki",
+      "Karaoke",
+      "Tenis stołowy",
+      "Bilard",
+      "Dodatkowa opłata",
+      "Plac zabaw dla dzieci",
+      "Kanały satelitarne",
+      "Telefon",
+      "Telewizor",
+      "Kawiarnia na miejscu",
+      "Wino / szampan",
+      "Dodatkowa opłata",
+      "Specjalne potrawy dietetyczne (na życzenie)",
+      "Bar przekąskowy",
+      "Restauracja",
+      "Zestaw do parzenia kawy i herbaty",
+      "Parking dla osób niepełnosprawnych",
+      "Możliwe wystawienie faktury",
+      "Przechowalnia bagażu",
+      "Wymiana walut",
+      "Całodobowa recepcja",
+      "Codzienne sprzątanie",
+      "Pralnia chemiczna",
+      "Dodatkowa opłata",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Dodatkowa opłata",
+      "Zaplecze bankietowe / konferencyjne",
+      "Dodatkowa opłata",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "Dostęp za pomocą karty",
+      "Sejf",
+      "Wspólna część rekreacyjna / sala TV",
+      "Całkowity zakaz palenia",
+      "Budzenie na życzenie",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Wypożyczalnia samochodów",
+      "Winda",
+      "Pokoje rodzinne",
+      "Godziny pracy",
+      "Otwarty przez cały rok",
+      "Wstęp dla osób w każdym wieku",
+      "Odpowiedni dla dzieci",
+      "Basen dla dzieci",
+      "Masaż całego ciała",
+      "Masaż głowy",
+      "Masaż stóp",
+      "Masaż szyi",
+      "Masaż pleców",
+      "Salon spa / strefa relaksacyjna",
+      "Udogodnienia spa",
+      "Parasole przeciwsłoneczne",
+      "Leżaki lub krzesełka plażowe",
+      "Masaż",
+      "Dodatkowa opłata",
+      "Spa i centrum odnowy biologicznej",
+      "Dodatkowa opłata",
+      "niemiecki",
+      "grecki",
+      "angielski",
+      "francuski",
+      "rosyjski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Queens Bay Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–1\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych dodatkowych łóżek i łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nMożliwość skorzystania z łóżeczek dziecięcych i dodatkowych łóżek zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nZwierzęta\nZwierzęta nie są akceptowane.\nKarty akceptowane w tym hotelu\nGotówka nie jest akceptowana",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 1,000 ft from Queens Bay Hotel. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

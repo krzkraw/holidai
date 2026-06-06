@@ -1,0 +1,211 @@
+{
+  "title": "Cypr - C & A Hotel Apartments",
+  "country": "Cypr",
+  "propertyName": "C & A Hotel Apartments",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.036536301410024,
+    "longitude": 32.42783159483224
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/840987614.jpg?k=b3b0970f5012a2c79d6bd60b3022575d1c7b5e941cbf6b4caf9fa48ec33cef95&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/815850292.jpg?k=cfff6ffa118c7f134db9c168a7883af601da695fedfda1cb0b27114d3d515591&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/308388151.jpg?k=1a6957536577e88674a4651a0e6537725b1db408e9acfaf5b6a10d4808fefb91&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/718396622.jpg?k=77f769d217a98e0707838e07ba5fa577fa2016a133cc012b14baca8b9c6e549c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/815841321.jpg?k=4965bd33f66a2fa53979b07f80297c8c85953d85971a0ad17d8f4ed409e43f27&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/88079082.jpg?k=8b1aafe3fba72c50ece19b911b1d34f84d5d9224c1a44748b4b12a6da3e14a14&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/815849875.jpg?k=c439335f36471babd73baa7a84c4045cc2c441c0e9a1a100f7657f91e8b94498&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/308387903.jpg?k=1bf7605bdad4f3078758ffaf1c5e8c57deed685eda8d6c354c2f6e95f6bda029&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-m.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://lh3.googleusercontent.com/a/AItbvmlspRTTDAIb7Dt7Je9WCJDya_IAv_XomcjfO7Sp=s96-c",
+    "https://lh6.googleusercontent.com/-HJe4JmKU8uc/AAAAAAAAAAI/AAAAAAAAAAA/02DA0mW0VXY/photo.jpg"
+  ],
+  "description": "Obiekt C & A Hotel Apartments oferuje restaurację, odkryty basen, ogród i taras. Odległość ważnych miejsc od obiektu: Plaża Polis – 1,8 km. Obiekt zapewnia bezpłatne Wi-Fi we wszystkich pomieszczeniach.\n\nKażda opcja zakwaterowania wyposażona jest w klimatyzację, telewizor z płaskim ekranem i lodówkę. Do dyspozycji Gości jest też prywatna łazienka z prysznicem. Niektóre opcje zakwaterowania mają balkon lub patio z widokiem na miasto lub widokiem na basen.\n\nSerwowane jest śniadanie w formie bufetu lub kontynentalne.\n\nObiekt C & A Hotel Apartments oferuje wypożyczalnię samochodów.\n\nOdległość ważnych miejsc od obiektu: Zoo w Pafos – 28 km, Klub golfowy Minthis Hill – 31 km. Lotnisko Lotnisko Pafos znajduje się 43 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,1.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2669,
+      "raw": "2669 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3670,
+      "raw": "3670 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 4671,
+      "raw": "4671 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Rodzaj zakwaterowania",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Apartament z 1 sypialnią <br> 2 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 42 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na basen <br> Widok na miasto <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "7 052 zł <br> 6 346 zł  <br> Oryginalna cena 7 052 zł Aktualna cena 6 346 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 2",
+        "Wybierz pokoje <br> 0 <br> 1          (6 346 zł) <br> 2        (12 693 zł)"
+      ],
+      [
+        "Apartament z 2 sypialniami <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 140 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na basen <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "11 847 zł <br> 10 662 zł  <br> Oryginalna cena 11 847 zł Aktualna cena 10 662 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1",
+        "Wybierz pokoje <br> 0 <br> 1        (10 662 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Apartament z 1 sypialnią <br> 2 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 42 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na basen <br> Widok na miasto <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 7 052 zł <br> 6 346 zł  <br> Oryginalna cena 7 052 zł Aktualna cena 6 346 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 2 | Wybierz pokoje <br> 0 <br> 1          (6 346 zł) <br> 2        (12 693 zł) |\n| Apartament z 2 sypialniami <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 140 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na basen <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 11 847 zł <br> 10 662 zł  <br> Oryginalna cena 11 847 zł Aktualna cena 10 662 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1        (10 662 zł) |"
+  },
+  "review": {
+    "score": 8.9,
+    "count": 346
+  },
+  "comments": [
+    {
+      "author": "Marcin",
+      "text": "„Otrzymaliśmy duży i czysty pokój z bardzo dużą łazienką. Łóżko było wygodne, w pokoju była cisza( nie było słychać głosów z zewnątrz ani z...”"
+    },
+    {
+      "author": "Marcin",
+      "text": "„Otrzymaliśmy duży i czysty pokój z bardzo dużą łazienką. Łóżko było wygodne, w pokoju była cisza( nie było słychać głosów z zewnątrz ani z...”"
+    },
+    {
+      "author": "Marcin",
+      "text": "„Otrzymaliśmy duży i czysty pokój z bardzo dużą łazienką. Łóżko było wygodne, w pokoju była cisza( nie było słychać głosów z zewnątrz ani z...”"
+    },
+    {
+      "author": "Jakub",
+      "text": "„Bardzo przyjemne miejsce, stworzone przez ludzi z niepełnosprawnościami dla innych. Liczne udogodnienia, przemiły personel, dobre śniadania.”"
+    },
+    {
+      "author": "Jakub",
+      "text": "„Bardzo przyjemne miejsce, stworzone przez ludzi z niepełnosprawnościami dla innych. Liczne udogodnienia, przemiły personel, dobre śniadania.”"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Miły personel, przestronny pokój typu studio, obiekt przystosowany dla osób na wózkach, windy,szerokie drzwi, wózki elektryczne, dźwig przy...”"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Miły personel, przestronny pokój typu studio, obiekt przystosowany dla osób na wózkach, windy,szerokie drzwi, wózki elektryczne, dźwig przy...”"
+    },
+    {
+      "author": "Dawid",
+      "text": "„Miły i otwarty właściciel, lubiący kontakt z człowiekiem🙂”"
+    },
+    {
+      "author": "Dawid",
+      "text": "„Miły i otwarty właściciel, lubiący kontakt z człowiekiem🙂”"
+    },
+    {
+      "author": "Morrow",
+      "text": "„Fantastic hotel, staff were amazing and even met the owner who made his own homemade lemonade which was the best I've ever tasted”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie C & A Hotel Apartments\nŚwietne udogodnienia! Ocena: 8,9\nZobacz dostępność\nNajpopularniejsze udogodnienia\nOdkryty basen\nBezpłatne Wi-Fi\nPokoje dla niepalących\nUdogodnienia dla niepełnosprawnych\nPokoje rodzinne\nRestauracja\nBardzo dobre śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nKuchnia\nPlaża\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nWidok\nUdogodnienia dla niepełnosprawnych\nRestauracja\nPokoje dla niepalących\nParking\nParking nie jest dostępny.\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nStół\nPłyta kuchenna\nCzajnik elektryczny\nKuchnia\nKuchenka mikrofalowa\nLodówka\nSypialnia\nPościel\nŁazienka\nPapier toaletowy\nRęczniki\nPrywatna łazienka\nToaleta\nPrysznic\nSalon\nCzęść jadalna\nMedia/Technologia\nTelewizor z płaskim ekranem\nUdogodnienia dla niepełnosprawnych\nCałość dostępna dla wózków inwalidzkich\nDojście na wyższe piętra tylko schodami\nDojazd windą na wyższe piętra\nOkolica\nMeble ogrodowe\nStół na świeżym powietrzu\nTaras\nOgród\nOdkryty basen\nBezpłatnie!\nGodziny pracy\nOtwarty przez cały rok\nWstęp dla osób w każdym wieku\nBrodzik\nLeżaki lub krzesełka plażowe\nParasole przeciwsłoneczne\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nPosiłki i napoje\nRestauracja\nRekreacja\nPlaża\nOkolica i widok\nWidok\nTransport\nWypożyczalnia samochodów\nUsługi recepcji\nMożliwe wystawienie faktury\nRóżne\nNiska umywalka\nWysoka toaleta\nToaleta z uchwytami\nDostęp dla wózków inwalidzkich\nKlimatyzacja\nDodatkowa opłata\nOgrzewanie\nWinda\nPokoje rodzinne\nUdogodnienia dla niepełnosprawnych\nPokoje dla niepalących\nJęzyki\ngrecki\nangielski",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Udogodnienia dla niepełnosprawnych",
+      "Pokoje rodzinne",
+      "Restauracja",
+      "Bardzo dobre śniadanie",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Widok",
+      "Stół",
+      "Płyta kuchenna",
+      "Czajnik elektryczny",
+      "Kuchenka mikrofalowa",
+      "Lodówka",
+      "Pościel",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Prysznic",
+      "Część jadalna",
+      "Całość dostępna dla wózków inwalidzkich",
+      "Dojście na wyższe piętra tylko schodami",
+      "Dojazd windą na wyższe piętra",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Taras",
+      "Ogród",
+      "Godziny pracy",
+      "Otwarty przez cały rok",
+      "Wstęp dla osób w każdym wieku",
+      "Brodzik",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Wypożyczalnia samochodów",
+      "Możliwe wystawienie faktury",
+      "Niska umywalka",
+      "Wysoka toaleta",
+      "Toaleta z uchwytami",
+      "Dostęp dla wózków inwalidzkich",
+      "Klimatyzacja",
+      "Dodatkowa opłata",
+      "Ogrzewanie",
+      "Winda",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt C & A Hotel Apartments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 21:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 08:00 do 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 0.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

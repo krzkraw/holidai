@@ -1,0 +1,198 @@
+{
+  "title": "Kreta - Constantinos Studios",
+  "country": "Kreta",
+  "propertyName": "Constantinos Studios",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.51323567920414,
+    "longitude": 24.008239321410656
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/2093403.jpg?k=c7415e70c654b5fdf9564e031df53a84949411ab35ffb705e997cc48894d1a90&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/73778517.jpg?k=1fcb0a55bf278ec085647f3e563df087431a119436050b91701e5d0a01b79b4a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/2093405.jpg?k=e46edc88a52e74b0e0f97cf694f2ffb45b86e3cbfcbcf64c05a1fbba86a381a9&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/73779466.jpg?k=a6f3b94e4b8ac51034bbe1465e42248e0dd1a2428330cd9d2e42e4faacc5d329&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/73779411.jpg?k=3a44b731dd482539825b545b68914be18dde91d5f676c9fe130bf069cdad56db&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/2093398.jpg?k=62cb7a718bb23ad1a6732a0078f5527ec0041b56d79f7bb26cb3305a85634ec3&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/73778370.jpg?k=2f024d31c393353ef388dfa0827c0c8ece5453a62c8d9f4646e85dd70d500a5f&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/20797306.jpg?k=181ad6631351705e08297a63fcaf1f9b7f94477d1a381d9a0387c18f4a50b27e&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-m.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://lh3.googleusercontent.com/a/ACg8ocKSWI3Z41rMme3XQPBMp6h1y46zakqQv4n-h4kQ_cCkRC5UcZVmsg=s96-c",
+    "https://lh3.googleusercontent.com/a/ACg8ocIlZlgzqC1T6jvA2tMjZ5odYnX0QzFjrs6T2PC6jfhaAYcdHRM=s96-c"
+  ],
+  "description": "Obiekt Constantinos Studios oferuje taras oraz różne opcje zakwaterowania, w których zapewniono klimatyzację, balkon i bezpłatne Wi-Fi. Odległość ważnych miejsc od obiektu: Plaża Paralia Nea Chora – 300 m.\n\nObiekt Constantinos Studios oferuje wypożyczalnię samochodów.\n\nW pobliżu obiektu Constantinos Studios znajdują się liczne atrakcje, takie jak Synagoga Etz Chaim, Galeria Miejska w Chanii i Kościół św. Anargyri. Lotnisko Lotnisko Chania znajduje się 14 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2613,
+      "raw": "2613 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3561,
+      "raw": "3561 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 4509,
+      "raw": "4509 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Studio typu Standard <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 łóżko podwójne  <br> 1 studio na wyłączność <br> 18 m² <br> Balkon <br> Klimatyzacja <br> Prywatna łazienka <br> Więcej <br> Największy dostępny apartament",
+        "Maksymalna liczba osób: 2",
+        "5 310 zł <br> Cena 5 310 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 26 sierpnia 2026 <br> • <br> Nie płacisz nic do 24 sierpnia 2026 <br> • <br> Został nam 1",
+        "Wybierz pokoje <br> 0 <br> 1          (5 310 zł)"
+      ],
+      [
+        "Studio jednoosobowe <br> 1 łóżko pojedyncze  <br> 16 m² <br> Balkon <br> Klimatyzacja <br> Prywatna łazienka <br> Więcej",
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "4 509 zł <br> Cena 4 509 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 26 sierpnia 2026 <br> • <br> Nie płacisz nic do 24 sierpnia 2026 <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (4 509 zł) <br> 2          (9 017 zł) <br> 3        (13 526 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Studio typu Standard <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 łóżko podwójne  <br> 1 studio na wyłączność <br> 18 m² <br> Balkon <br> Klimatyzacja <br> Prywatna łazienka <br> Więcej <br> Największy dostępny apartament | Maksymalna liczba osób: 2 | 5 310 zł <br> Cena 5 310 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 26 sierpnia 2026 <br> • <br> Nie płacisz nic do 24 sierpnia 2026 <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (5 310 zł) |\n| Studio jednoosobowe <br> 1 łóżko pojedyncze  <br> 16 m² <br> Balkon <br> Klimatyzacja <br> Prywatna łazienka <br> Więcej | Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 4 509 zł <br> Cena 4 509 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 26 sierpnia 2026 <br> • <br> Nie płacisz nic do 24 sierpnia 2026 <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (4 509 zł) <br> 2          (9 017 zł) <br> 3        (13 526 zł) |"
+  },
+  "review": {
+    "score": 8.7,
+    "count": 596
+  },
+  "comments": [
+    {
+      "author": "Mateusz",
+      "text": "„Bardzo miły właściciel"
+    },
+    {
+      "author": "Mateusz",
+      "text": "„Bardzo miły właściciel"
+    },
+    {
+      "author": "Mateusz",
+      "text": "„Bardzo miły właściciel"
+    },
+    {
+      "author": "Sylwia",
+      "text": "„Świetna lokalizacja blisko plaży i blisko starego miasta i portu. Właściciel bardzo pomocny. Pomógł mi zaparkować samochód i wyniósł walizkę. Pokój...”"
+    },
+    {
+      "author": "Sylwia",
+      "text": "„Świetna lokalizacja blisko plaży i blisko starego miasta i portu. Właściciel bardzo pomocny. Pomógł mi zaparkować samochód i wyniósł walizkę. Pokój...”"
+    },
+    {
+      "author": "Monika",
+      "text": "„Znakomita lokalizacja, blisko zabytkowej części miasta i dwa kroki od plaży. Bardzo miły właściciel. Wygodne łóżko i balkon ze stolikiem.”"
+    },
+    {
+      "author": "Monika",
+      "text": "„Znakomita lokalizacja, blisko zabytkowej części miasta i dwa kroki od plaży. Bardzo miły właściciel. Wygodne łóżko i balkon ze stolikiem.”"
+    },
+    {
+      "author": "Arkadiusz",
+      "text": "„Bardzo fajne miejsce, wygodne łóżka, ekstra lokalizacja - blisko plaży, sklepików, jedzonka, dobrej kawy. Super miły właściciel z bardzo dobrą...”"
+    },
+    {
+      "author": "Arkadiusz",
+      "text": "„Bardzo fajne miejsce, wygodne łóżka, ekstra lokalizacja - blisko plaży, sklepików, jedzonka, dobrej kawy. Super miły właściciel z bardzo dobrą...”"
+    },
+    {
+      "author": "Cela",
+      "text": "„Bardzo życzliwa obsługa, świetny pokój w którym było wszystko nawet na dłuższy pobyt. Idealna lokalizacja, blisko do piaszczystej plaży. Będę...”"
+    }
+  ],
+  "surroundingsRaw": "Obiekt Constantinos Studios oferuje taras oraz różne opcje zakwaterowania, w których zapewniono klimatyzację, balkon i bezpłatne Wi-Fi. Odległość ważnych miejsc od obiektu: Plaża Paralia Nea Chora – 300 m.\n\nObiekt Constantinos Studios oferuje wypożyczalnię samochodów.\n\nW pobliżu obiektu Constantinos Studios znajdują się liczne atrakcje, takie jak Synagoga Etz Chaim, Galeria Miejska w Chanii i Kościół św. Anargyri. Lotnisko Lotnisko Chania znajduje się 14 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nTaras\nAtuty obiektu\nIdealny na pobyt na 2 tygodnie!\n\nTen obiekt położony jest w najlepiej ocenianej dzielnicy w Chanii i otrzymuje wysokie oceny za lokalizację (9,5)\n\nZarezerwuj teraz\nZapisz obiekt\n\nDostępność\nWyrównujemy ceny\nCeny przeliczono na PLN\nśr. 16 wrz. - śr. 30 wrz.\n2 dorosłych · 0 dzieci · 1 pokój\nZmień wyszukiwanie\nWybierz rodzaj pokoju i liczbę pokoi, które chcesz zarezerwować.\nTyp pokoju\tLiczba gości\t\n\n\n\n\nCena za 2 tygodnie\tTwoje opcje\tWybierz liczbę\nStudio typu Budget\nWybierz łóżko (w zależności od dostępności)\n\t2 łóżka pojedyncze \n\t1 łóżko podwójne \n1 studio na wyłączność\n16 m²\nBalkon\nKlimatyzacja\nPrywatna łazienka\nToaleta Wanna lub prysznic Gniazdko koło łóżka Lodówka Ogrzewanie Szafa lub garderoba Dojście na wyższe piętra tylko schodami Suszarka na ubrania Papier toaletowy Klimatyzacja obsługiwana indywidualnie dla każdego pokoju\n\t\nMaksymalna liczba osób: 2\n\t\n4 810 zł\nCena 4 810 zł\nZawiera opłaty i podatki\n\t\nBezpłatne odwołanie przed 26 sierpnia 2026\n•\nNie płacisz nic do 24 sierpnia 2026\n•\nZostały nam 3\n\t\nWybierz pokoje\n0\n1          (4 810 zł)\n2          (9 620 zł)\n3        (14 430 zł)\n\n\nStudio typu Standard\nWybierz łóżko (w zależności od dostępności)\n\t2 łóżka pojedyncze \n\t1 łóżko podwójne \n1 studio na wyłączność\n18 m²\nBalkon\nKlimatyzacja\nPrywatna łazienka\nWięcej\nNajwiększy dostępny apartament\n\t\nMaksymalna liczba osób: 2\n\t\n5 310 zł\nCena 5 310 zł\nZawiera opłaty i podatki\n\t\nBezpłatne odwołanie przed 26 sierpnia 2026\n•\nNie płacisz nic do 24 sierpnia 2026\n•\nZostał nam 1\n\t\nWybierz pokoje\n0\n1          (5 310 zł)\n\n\nStudio jednoosobowe\n1 łóżko pojedyncze \n16 m²\nBalkon\nKlimatyzacja\nPrywatna łazienka\nWięcej\n\t\nMaksymalna liczba osób: 1\nTylko dla 1 gościa\n\t\n4 509 zł\nCena 4 509 zł\nZawiera opłaty i podatki\n\t\nBezpłatne odwołanie przed 26 sierpnia 2026\n•\nNie płacisz nic do 24 sierpnia 2026\n•\nZostały nam 3\n\t\nWybierz pokoje\n0\n1          (4 509 zł)\n2          (9 017 zł)\n3        (13 526 zł)\n\t\nRezerwuję\nZajmuje to tylko 2 minuty\nOpłata nie zostanie jeszcze pobrana\nOpinie Gości\nZobacz dostępność\nOceniony na 8.7\n8,7\nOceniony jako fantastyczny\nFantastyczny · 596 opinii\nPrzeczytaj wszystkie opinie\nKategorie:\nPersonel\n9,3\nUdogodnienia\n8,3\nCzystość\n8,9\nKomfort\n8,7\nStosunek jakości do ceny\n9,0\nLokalizacja\n9,5\nBezpłatne WiFi\n6,7\nWybierz tematy, aby przeczytać opinie:\nLokalizacja\nPlaża\nPokój\nCzystość\nŁóżko\nZobacz, co najbardziej podobało się Gościom:\nM\nMateusz\nPolska\n„Bardzo miły właściciel\nPrzy piaszczystej plaży\nCzysto\nDuży pokój\nDuże łóżka\nAneks kuchenny\nDodatkowe ręczniki na plażę”\nWięcej informacji\nS\nSylwia\nPolska\n„Świetna lokalizacja blisko plaży i blisko starego miasta i portu. Właściciel bardzo pomocny. Pomógł mi zaparkować samochód i wyniósł walizkę. Pokój z balkonem. Widać było i morze i góry. Polecam ten adres!”\nWięcej informacji\nM\nMonika\nPolska\n„Znakomita lokalizacja, blisko zabytkowej części miasta i dwa kroki od plaży. Bardzo miły właściciel. Wygodne łóżko i balkon ze stolikiem.”\nWięcej informacji\nA\nArkadiusz\nPolska\n„Bardzo fajne miejsce, wygodne łóżka, ekstra lokalizacja - blisko plaży, sklepików, jedzonka, dobrej kawy. Super miły właściciel z bardzo dobrą znajomością angielskiego i chęcią pomocy - opowiedzenia o tym co zwiedzić czy gdzie zjeść.”\nWięcej informacji\nCela\nPolska\n„Bardzo życzliwa obsługa, świetny pokój w którym było wszystko nawet na dłuższy pobyt. Idealna lokalizacja, blisko do piaszczystej plaży. Będę tęsknić za tym miejscem :)”\nWięcej informacji\nPaweł\nPolska\n„Bardzo dobra lokalizacja bardzo blisko plaży i 10 minut piechotą od centrum miasta”\nWięcej informacji\nEwelina\nPolska\n„Świetna lokalizacja, przemiły właściciel, lodówka, balkon, kuchenka i dodatkowe udogodnienia np. darmowe ręczniki plażowe. Właściciel przyjął nas bardzo ciepło, wytłumaczył okolicę i atrakcje które rekomenduje.”\nWięcej informacji\nD\nDaria\nPolska\n„Świetna lokalizacja. Warunki bardzo dobre. A gospodarz jest bardzo miły i pomocny 😊”\nWięcej informacji\nC\nChristopher\nWielka Brytania\n„W pobliżu znajdowało się wiele piekarni, w których można było kupić wszystko, co potrzebne do przygotowania śniadania.\nWszystko, czego potrzebowałem, było w pokoju.\nświetna lokalizacja, kilka minut spacerem do plaży/restauracji.\nzaledwie krótki...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nIgas\nPolska\n„Bardzo ładne miejsce w świetnej lokalizacji! Mieszkanie miało idealną wielkość dla nas dwojga i miało balkon. Właściciel był wyjątkowo miły i bez problemu przyjął nasze późne przybycie. Zdecydowanie polecam pobyt w tym miejscu.”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nPrzeczytaj wszystkie opinie\nOcena jakości\nBooking.com ocenił jakość tego obiektu na 3/5 na podstawie takich czynników, jak udogodnienia, wielkość, lokalizacja i usługi.\nZyskaj więcej na każdej podróży służbowej\nTo łatwiejsze z Booking.com for Business. Rezerwuj i monitoruj podróże zespołu oraz zarządzaj nimi w jednym miejscu.\nAktywuj teraz całkowicie za darmo\nPytania podróżujących\nZobacz dostępność\nCzy na miejscu jest parking?\nCzy śniadanie jest serwowane?\nCzy na miejscu jest restauracja?\nCzy na miejscu jest spa?\nCzy na miejscu jest basen?\nNa jakich zasadach można korzystać z Wi-Fi?\nCzy mogę przyjechać ze zwierzęciem?\nCzy na miejscu można skorzystać z transferu lotniskowego?\nCzy na miejscu jest siłownia?\nCzy na miejscu są pokoje z balkonem?\nNadal szukasz?\nZadaj pytanie\n\nNa większość pytań mamy natychmiastową odpowiedź\n\nZobacz inne pytania (2)\nOtoczenie obiektu\nZobacz dostępność\nGoście lubią tę okolicę ze względu na:\nHistoria i kultura\nPosiłki i napoje\nWybrzeże morskie\nGościom bardzo podoba się okolica obiektu!\nDoskonała lokalizacja – pokaż mapę\nNajlepsze atrakcje\nSynagoga Etz Chaim\n950 m\nFolklore Museum of Chania\n950 m\nGaleria Miejska w Chanii\n950 m\nPlac Mitropoleos\n1 km\nTwierdza Firkas\n1,3 km\nMuzeum Eleftherios Venizelos\n3,1 km\nMuzeum Archeologiczne w Chanii\n3,3 km\nPlac w Platanias\n10 km\nStarożytna Aptera\n16 km\nBotanical Park & Gardens of Crete\n18 km\nRestauracje i kawiarnie\nKawiarnia/barBaralia Beach Bar\n150 m\nKawiarnia/barStelisia Rooms\n300 m\nKawiarnia/barDome Luxury Rooms\n900 m\nPlaże w okolicy\nPlaża Paralia Nea Chora\n300 m\nPlaża Paralia Kladissos\n650 m\nPlaża Chryssi Akti\n1,6 km\nPlaża Koum Kapi\n2 km\nPlaża Yannis\n2,5 km\nNajbliższe lotniska\nLotnisko Chania\n14 km\nWyświetlane są najkrótsze szacunkowe odległości do pokonania pieszo lub samochodem, rzeczywiste odległości mogą się różnić.\nUdogodnienia w obiekcie Constantinos Studios\nŚwietne udogodnienia! Ocena: 8,3\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nTaras\nŚwietne na Twój pobyt\nPrywatna łazienka\nBalkon\nPlaża\nBezpłatne Wi-Fi\nKlimatyzacja\nPokoje dla niepalących\nBiuro informacji turystycznej\nPrysznic\nPiesze wycieczki\nNurkowanie\nParking\nParking nie jest dostępny.\nInternet\nWi-Fi jest dostępne w pomieszczeniach ogólnodostępnych i jest bezpłatne.\nKuchnia\nLodówka\nSypialnia\nSzafa lub garderoba\nŁazienka\nPapier toaletowy\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nPrysznic\nUdogodnienia w pokoju\nGniazdko koło łóżka\nSuszarka na ubrania\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nOkolica\nMeble ogrodowe\nBalkon\nTaras\nRekreacja\nPlaża\nPark wodny\nDodatkowa opłata\nPoza obiektem\nNurkowanie\nDodatkowa opłata\nPoza obiektem\nPiesze wycieczki\nPoza obiektem\nTransport\nWypożyczalnia samochodów\nUsługi recepcji\nMożliwe wystawienie faktury\nBiuro informacji turystycznej\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nOgrzewanie\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nJęzyki\ngrecki\nangielski\nfrancuski\nZasady pobytu\nObiekt Constantinos Studios przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 13:00 do 00:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 07:00 do 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 18 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nDodatkowe łóżko dostępne na życzenie\nBezpłatnie\nWiek: powyżej 3 lat\nDodatkowe łóżko dostępne na życzenie\n€ 10 za osobę, za noc\n\nOpłaty za dodatkowe łóżka nie są wliczone w cenę całkowitą i należy je uiścić oddzielnie w trakcie pobytu.\n\nLiczba dozwolonych dodatkowych łóżek zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nŁóżeczka dziecięce nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z dodatkowych łóżek zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 23:00–09:00.\nZwierzęta\nZwierzęta nie są akceptowane.\nWażne informacje\nNiezbędne informacje dla gości tego obiektu\nZobacz dostępność\n\nW obiekcie obowiązuje zakaz organizowania wieczorów panieńskich, kawalerskich itp.\n\nCisza nocna obowiązuje w godzinach 23:00:00–09:00:00.\n\nNumer licencji: 1042K123K2834301\n\nInformacje prawne\nTym obiektem zarządza gospodarz profesjonalny. Ta klasyfikacja nie wpływa na podatki, w tym podatek VAT i inne „podatki pośrednie”, ale jest wymagana na mocy obowiązującego prawa konsumenckiego. Więcej informacji o gospodarzu znajdziesz tutaj: zobacz dane gospodarza.\nPodział obowiązków\nUmowa o świadczenie usług zakwaterowania zawarta za pośrednictwem Booking.com jest zawierana pomiędzy Tobą jako klientem oraz Dostawcą usług (tzn. gospodarzem prywatnym albo przedsiębiorcą). Dostawca usług, jako strona umowy, ponosi odpowiedzialność za należyte wykonanie usług. Booking.com prowadzi platformę internetową, na której osoby trzecie oferują swoje usługi (w tym usługi zakwaterowania) („Dostawcy usług”) i jedynie pośredniczy w zawarciu umowy między klientem a Dostawcą usług. Zatem Booking.com odpowiada za obowiązki związane z udostępnianiem swojej Platformy, a Dostawcy usług są odpowiedzialni za obowiązki związane z usługami zakwaterowania. Przykłady obowiązków Booking.com oraz obowiązków Dostawców usług znajdują się tutaj.\nCzęsto zadawane pytania na temat obiektu Constantinos Studios\nIlu gości może zatrzymać się w obiekcie Constantinos Studios?\nCzy w obiekcie Constantinos Studios dostępny jest balkon?\nJakie są godziny zameldowania i wymeldowania w obiekcie Constantinos Studios?\nIle sypialni znajduje się w obiekcie Constantinos Studios?\nIle kosztuje pobyt w obiekcie Constantinos Studios?\nCzy Constantinos Studios zapewnia jakieś atrakcje?\nJak daleko obiekt Constantinos Studios znajduje się od centrum miasta Chania?\nJak blisko plaży usytuowany jest obiekt Constantinos Studios?",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Taras",
+      "Prywatna łazienka",
+      "Balkon",
+      "Plaża",
+      "Klimatyzacja",
+      "Biuro informacji turystycznej",
+      "Prysznic",
+      "Piesze wycieczki",
+      "Nurkowanie",
+      "Lodówka",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Gniazdko koło łóżka",
+      "Suszarka na ubrania",
+      "Dojście na wyższe piętra tylko schodami",
+      "Meble ogrodowe",
+      "Park wodny",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Piesze wycieczki",
+      "Poza obiektem",
+      "Wypożyczalnia samochodów",
+      "Możliwe wystawienie faktury",
+      "Całkowity zakaz palenia",
+      "Ogrzewanie",
+      "Gaśnice",
+      "grecki",
+      "angielski",
+      "francuski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Constantinos Studios przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 13:00 do 00:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 07:00 do 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 18 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nDodatkowe łóżko dostępne na życzenie\nBezpłatnie\nWiek: powyżej 3 lat\nDodatkowe łóżko dostępne na życzenie\n€ 10 za osobę, za noc\n\nOpłaty za dodatkowe łóżka nie są wliczone w cenę całkowitą i należy je uiścić oddzielnie w trakcie pobytu.\n\nLiczba dozwolonych dodatkowych łóżek zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nŁóżeczka dziecięce nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z dodatkowych łóżek zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 23:00–09:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Nea Chora Beach / Chania (~0.1 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

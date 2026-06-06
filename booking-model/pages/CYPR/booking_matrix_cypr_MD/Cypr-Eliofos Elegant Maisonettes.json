@@ -1,0 +1,266 @@
+{
+  "title": "Cypr - Eliofos Elegant Maisonettes",
+  "country": "Cypr",
+  "propertyName": "Eliofos Elegant Maisonettes",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.03899424287029,
+    "longitude": 32.4090954958956
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97075833.jpg?k=6a562aeec7e95fbf799b86f431db4925a57d9a62f66f502bb599c23f7f81ac3a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/97076029.jpg?k=0e9878cf4b20e59e661fd056ddee9ea7b7fe247915636b61725cf1b6ff697400&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/97075980.jpg?k=d8348b4011e6e5418d4559df40f6a3f4ad11b068c958aa945523de572f468c3c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/582091153.jpg?k=8d21a930ef72f41e1db7016c3ead8919bdb95f142fffbb1dc7cdf7782eb058dd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/459205838.jpg?k=6ded9d219b348ddafab82fdd2e1aa62a15d912137fc76c7b1e34e971c1ff340a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/97075840.jpg?k=0d8559ae190e1eeccdaf196492632deaf0333a32fb0dd5d80f5e53b015b95139&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/97075988.jpg?k=c75e83042472d9ac49f6be557d3be979827ff8fd02e4a51ba73b6d064a58c5f9&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/97075974.jpg?k=71759de09b5b262b6d9ab1a0f8f9fa75478c253652eab6c1bdf1cc0dd1bb0729&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-m.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-p.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-e.png"
+  ],
+  "description": "Quietly located at Polis Chrysochous and surrounded by a well-tended garden, Eliofos Elegant Maisonettes offers air-conditioned maisonettes with a seating area. Akamas Peninsula is 15 km away and Latchi Village is a 5-minute drive.\n\nAll units at Eliofos include a well-equipped kitchenette with fridge, kitchenware and electric kettle. Every Maisonette features a  flat-screen smart TV and offers garden views. The private bathroom comes with a shower.\n\nAt a 3-minute walk, guests can find restaurants, bars and supermarkets. The Baths of Aphrodite are 5 km away. The municipal beach of Latchi lies within 150 metres and the camping is a 2-minute drive. Paphos International Airport is at a distance of 41 km. Free private parking is available on site.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2884,
+      "raw": "2884 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3966,
+      "raw": "3966 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 5047,
+      "raw": "5047 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ apartamentu",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz apartament"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "5 998 zł <br> Cena 5 998 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 998 zł) <br> 2        (11 995 zł) <br> 3        (17 993 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 522 zł <br> Cena 5 522 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 522 zł) <br> 2        (11 045 zł) <br> 3        (16 567 zł)"
+      ],
+      [
+        "Dwupoziomowy Apartament typu Standard <br> Sypialnia 1: 1 łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 60 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Widok na ogród <br> Widok na góry <br> Widok na punkt orientacyjny <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "6 294 zł <br> Cena 6 294 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 294 zł) <br> 2        (12 589 zł) <br> 3        (18 883 zł) <br> 4        (25 178 zł) <br> 5        (31 472 zł) <br> 6        (37 766 zł) <br> 7        (44 061 zł) <br> 8        (50 355 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "5 344 zł <br> Cena 5 344 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie – 34 zł <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 344 zł) <br> 2        (10 689 zł) <br> 3        (16 033 zł) <br> 4        (21 377 zł) <br> 5        (26 722 zł) <br> 6        (32 066 zł) <br> 7        (37 410 zł) <br> 8        (42 754 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "5 819 zł <br> Cena 5 819 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 819 zł) <br> 2        (11 639 zł) <br> 3        (17 458 zł) <br> 4        (23 277 zł) <br> 5        (29 097 zł) <br> 6        (34 916 zł) <br> 7        (40 736 zł) <br> 8        (46 555 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ apartamentu | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz apartament |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 5 998 zł <br> Cena 5 998 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 998 zł) <br> 2        (11 995 zł) <br> 3        (17 993 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 522 zł <br> Cena 5 522 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 522 zł) <br> 2        (11 045 zł) <br> 3        (16 567 zł) |\n| Dwupoziomowy Apartament typu Standard <br> Sypialnia 1: 1 łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 60 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Widok na ogród <br> Widok na góry <br> Widok na punkt orientacyjny <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Grill <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 6 294 zł <br> Cena 6 294 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 294 zł) <br> 2        (12 589 zł) <br> 3        (18 883 zł) <br> 4        (25 178 zł) <br> 5        (31 472 zł) <br> 6        (37 766 zł) <br> 7        (44 061 zł) <br> 8        (50 355 zł) |\n| Maksymalna liczba osób: 2 | 5 344 zł <br> Cena 5 344 zł <br> Zawiera opłaty i podatki | Dobre śniadanie – 34 zł <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 344 zł) <br> 2        (10 689 zł) <br> 3        (16 033 zł) <br> 4        (21 377 zł) <br> 5        (26 722 zł) <br> 6        (32 066 zł) <br> 7        (37 410 zł) <br> 8        (42 754 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 5 819 zł <br> Cena 5 819 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 15 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 819 zł) <br> 2        (11 639 zł) <br> 3        (17 458 zł) <br> 4        (23 277 zł) <br> 5        (29 097 zł) <br> 6        (34 916 zł) <br> 7        (40 736 zł) <br> 8        (46 555 zł) |"
+  },
+  "review": {
+    "score": 8.5,
+    "count": 392
+  },
+  "comments": [
+    {
+      "author": "Marta",
+      "text": "„Świetna lokalizacja, spokojna okolica, bardzo blisko do plaży. Niedaleko port Latchi. Blisko autem na półwysep Akamas, niedaleko przepiękny Las...”"
+    },
+    {
+      "author": "Marta",
+      "text": "„Świetna lokalizacja, spokojna okolica, bardzo blisko do plaży. Niedaleko port Latchi. Blisko autem na półwysep Akamas, niedaleko przepiękny Las...”"
+    },
+    {
+      "author": "Marta",
+      "text": "„Świetna lokalizacja, spokojna okolica, bardzo blisko do plaży. Niedaleko port Latchi. Blisko autem na półwysep Akamas, niedaleko przepiękny Las...”"
+    },
+    {
+      "author": "Przemysław",
+      "text": "„To cudowna lokalizacja, mini ogródek okazał się pięknym miejscem posiłków. Pomarańcze z ogrodu to cudo! Duży plus za kontakt z gospodarzami”"
+    },
+    {
+      "author": "Przemysław",
+      "text": "„To cudowna lokalizacja, mini ogródek okazał się pięknym miejscem posiłków. Pomarańcze z ogrodu to cudo! Duży plus za kontakt z gospodarzami”"
+    },
+    {
+      "author": "Ewelina",
+      "text": "„Super lokalizacja blisko plaży, z parkingiem, fajnym patio na zewnątrz.”"
+    },
+    {
+      "author": "Ewelina",
+      "text": "„Super lokalizacja blisko plaży, z parkingiem, fajnym patio na zewnątrz.”"
+    },
+    {
+      "author": "Agnieszka",
+      "text": "„Obiekt bardzo blisko plaży, cicho czysto, duży parking. Klimatyzacja, polecam :)”"
+    },
+    {
+      "author": "Agnieszka",
+      "text": "„Obiekt bardzo blisko plaży, cicho czysto, duży parking. Klimatyzacja, polecam :)”"
+    },
+    {
+      "author": "Marta",
+      "text": "„ładne apartamenty, przestrzeń przed domem, dostęp do pralki, bliskość do przystanku autobusowego. Można wybrać się do Pafos, Larnaki i Nikozji....”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Eliofos Elegant Maisonettes\nŚwietne udogodnienia! Ocena: 8\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nTransfer lotniskowy\nPokoje rodzinne\nBezpłatny parking\nDobre śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nKuchnia\nBezpłatny parking\nPlaża\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking\nTransfer lotniskowy\nWidok\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nParking przy ulicy\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nKrzesełko dla dzieci\nStół\nPłyta kuchenna\nPiekarnik\nPrzybory kuchenne\nCzajnik elektryczny\nKuchnia\nLodówka\nAneks kuchenny\nSypialnia\nPościel\nSzafa lub garderoba\nDługie łóżka (> 2 metry)\nŁazienka\nPapier toaletowy\nRęczniki\nRęczniki / pościel (dostępne za dodatkową opłatą)\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nPrysznic\nSalon\nCzęść jadalna\nSofa\nCzęść wypoczynkowa\nBiurko\nMedia/Technologia\nTelewizor z płaskim ekranem\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nRozkładana sofa\nSuszarka na ubrania\nWieszak na ubrania\nPrzyjazny alergikom\nPodłoga wyłożona kafelkami lub marmurem\nDźwiękoszczelność\nPrywatne wejście\nŻelazko\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nOkolica\nMeble ogrodowe\nStół na świeżym powietrzu\nGrill\nSprzęt do grillowania\nPatio\nOgród\nCentrum wellness\nLeżaki lub krzesełka plażowe\nPosiłki i napoje\nDostawa artykułów spożywczych\nDodatkowa opłata\nŚniadanie w pokoju\nRekreacja\nPlaża\nOkolica i widok\nWidok na punkt orientacyjny\nWidok na góry\nWidok na ogród\nWidok\nTransport\nWynajem rowerów\nDodatkowa opłata\nTransfer\nDodatkowa opłata\nWypożyczalnia samochodów\nTransfer lotniskowy\nDodatkowa opłata\nUsługi recepcji\nMożliwe wystawienie faktury\nIndywidualne zameldowanie / wymeldowanie\nPrzechowalnia bagażu\nEkspresowe zameldowanie / wymeldowanie\nUsługi dla rodzin i oferta rozrywkowa\nZatyczki zabezpieczające do gniazdek elektrycznych\nUsługi sprzątania\nPralnia chemiczna\nPralnia\nZaplecze biznesowe\nFaks / ksero\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nPokoje dla alergików\nPokoje dźwiękoszczelne\nPokoje rodzinne\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nDostęp za pomocą kluczy\nSejf\nJęzyki\ngrecki\nangielski\nrosyjski",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Transfer lotniskowy",
+      "Pokoje rodzinne",
+      "Bezpłatny parking",
+      "Dobre śniadanie",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Widok",
+      "Parking przy ulicy",
+      "Krzesełko dla dzieci",
+      "Stół",
+      "Płyta kuchenna",
+      "Piekarnik",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Długie łóżka (> 2 metry)",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Ręczniki / pościel (dostępne za dodatkową opłatą)",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Część jadalna",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Biurko",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Rozkładana sofa",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Przyjazny alergikom",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Dźwiękoszczelność",
+      "Prywatne wejście",
+      "Żelazko",
+      "Dojście na wyższe piętra tylko schodami",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Grill",
+      "Sprzęt do grillowania",
+      "Patio",
+      "Ogród",
+      "Leżaki lub krzesełka plażowe",
+      "Dostawa artykułów spożywczych",
+      "Dodatkowa opłata",
+      "Śniadanie w pokoju",
+      "Widok na punkt orientacyjny",
+      "Widok na góry",
+      "Widok na ogród",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wypożyczalnia samochodów",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Możliwe wystawienie faktury",
+      "Indywidualne zameldowanie / wymeldowanie",
+      "Przechowalnia bagażu",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Zatyczki zabezpieczające do gniazdek elektrycznych",
+      "Pralnia chemiczna",
+      "Pralnia",
+      "Faks / ksero",
+      "Całkowity zakaz palenia",
+      "Pokoje dla alergików",
+      "Pokoje dźwiękoszczelne",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Dostęp za pomocą kluczy",
+      "Sejf",
+      "grecki",
+      "angielski",
+      "rosyjski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak oficjalnej pralki w pokoju, ale goście wspomnieli o pralce w opiniach, a obiekt świadczy usługę prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Eliofos Elegant Maisonettes przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00 do 23:30\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 08:00 do 10:30\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 22:00–10:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 350 ft from Eliofos Elegant Maisonettes.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

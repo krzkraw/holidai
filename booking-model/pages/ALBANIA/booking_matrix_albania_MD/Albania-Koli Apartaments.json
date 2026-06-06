@@ -1,0 +1,175 @@
+{
+  "title": "Albania - Koli Apartaments",
+  "country": "Albania",
+  "propertyName": "Koli Apartaments",
+  "address": "",
+  "coordinates": {
+    "latitude": 39.875123628187,
+    "longitude": 20.009086231891
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/563394528.jpg?k=a2e9a17ede6e1cd6e133c87f29bf547915f21239d6255d0c68c16f73157f0bd3&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/563394531.jpg?k=0429fb3b1a206e86838052ea8c42039a7d4aae11e586d2abce19b749d1e77754&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/563394530.jpg?k=7b3055cef873efa804c86f44d0a9565e7ba76d94fb4383dc02747ac41f7b33c1&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/563394529.jpg?k=759479166bd242cd8c1bdaca3f39d431b73e9f9513f00f0fdee15ce398a63108&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/563394527.jpg?k=2bedc5bb43a224c6c558632e1807928341ec823852d1e4dda9533a42d7ff9823&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/563381547.jpg?k=9cdf26277cb215b8794184e91aca7a1a6ed998069b9a8b5ec7408f4f09ddd736&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/563394533.jpg?k=0a4cf81a3b0e6ac1760245dc2d9e16d2f1afb4dda33685787bd64cd04706fb0a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/563394524.jpg?k=489898c9d4ad84cc509b8ed2c52dd6333d735566c87ec357c8b4773e7e9da6a3&o=",
+    "https://xx.bstatic.com/xdata/images/xphoto/square64/56288094.jpg?k=cf8e64638b2b70ed013d04a041382c3fd365d9e45043a233e1a18be7bc174cf2&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://graph.facebook.com/v2.9/1261940637597178/picture?type=square&height=64&width=64",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-b.png"
+  ],
+  "description": "Obiekt Koli Apartaments oferuje różne opcje zakwaterowania, w których zapewniono klimatyzację, patio i bezpłatne Wi-Fi. Odległość ważnych miejsc od obiektu: Plaża miejska Saranda – 200 m.\n\nW obiekcie zapewniono część wypoczynkową z telewizorem z płaskim ekranem, kuchnię z pełnym wyposażeniem, w tym lodówką i płytą kuchenną, a także prywatną łazienkę z prysznicem oraz bezpłatnym zestawem kosmetyków. Do dyspozycji Gości jest też balkon, a z okien roztacza się widok na miasto. Wyposażenie obejmuje także toster i czajnik.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,9.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 848,
+      "raw": "848 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 1166,
+      "raw": "1166 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 1485,
+      "raw": "1485 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 8.4,
+    "count": 83
+  },
+  "comments": [
+    {
+      "author": "Grzegorz",
+      "text": "„Dobry stosunek jakości do ceny - do dyspozycji cale mieszkanie za świetne pieniądze"
+    },
+    {
+      "author": "Grzegorz",
+      "text": "„Dobry stosunek jakości do ceny - do dyspozycji cale mieszkanie za świetne pieniądze"
+    },
+    {
+      "author": "Grzegorz",
+      "text": "„Dobry stosunek jakości do ceny - do dyspozycji cale mieszkanie za świetne pieniądze"
+    },
+    {
+      "author": "Natalia",
+      "text": "„Koli, to duży apartament, w dobrej lokalizacji. Przy porcie, blisko znajduje się plaża, centrum, pronenada."
+    },
+    {
+      "author": "Natalia",
+      "text": "„Koli, to duży apartament, w dobrej lokalizacji. Przy porcie, blisko znajduje się plaża, centrum, pronenada."
+    },
+    {
+      "author": "Bianka",
+      "text": "„Koli was really friendly, he picked us up from the bus station. The flat was very spacious and comfortable: big sofas, kitchentable, two balconies...”"
+    },
+    {
+      "author": "Bianka",
+      "text": "„Koli was really friendly, he picked us up from the bus station. The flat was very spacious and comfortable: big sofas, kitchentable, two balconies...”"
+    },
+    {
+      "author": "Amelie",
+      "text": "„Very neat and well located appartment. Easy booking :) thank you”"
+    },
+    {
+      "author": "Amelie",
+      "text": "„Very neat and well located appartment. Easy booking :) thank you”"
+    },
+    {
+      "author": "Lewis",
+      "text": "„Many rooms and facilities with a huge bathroom, even has 2 balconies! It's in the centre of Sarande, a beautiful city!”"
+    }
+  ],
+  "surroundingsRaw": "Przegląd\nInformacje o apartamentach i ceny\nUdogodnienia\nZasady pobytu\nWażne informacje prawne\nOpinie gości (83)\nSzukaj\nCel podróży / nazwa obiektu:\nOd\n16\nwrzesień 2026\nczerwiec 2026\nlipiec 2026\nsierpień 2026\nwrzesień 2026\npaździernik 2026\nlistopad 2026\ngrudzień 2026\nstyczeń 2027\nluty 2027\nmarzec 2027\nkwiecień 2027\nmaj 2027\nczerwiec 2027\nlipiec 2027\nsierpień 2027\nwrzesień 2027\n16, środa\n1, wtorek\n2, środa\n3, czwartek\n4, piątek\n5, sobota\n6, niedziela\n7, poniedziałek\n8, wtorek\n9, środa\n10, czwartek\n11, piątek\n12, sobota\n13, niedziela\n14, poniedziałek\n15, wtorek\n16, środa\n17, czwartek\n18, piątek\n19, sobota\n20, niedziela\n21, poniedziałek\n22, wtorek\n23, środa\n24, czwartek\n25, piątek\n26, sobota\n27, niedziela\n28, poniedziałek\n29, wtorek\n30, środa\nśroda 16 września 2026\nDo\n30\nwrzesień 2026\nczerwiec 2026\nlipiec 2026\nsierpień 2026\nwrzesień 2026\npaździernik 2026\nlistopad 2026\ngrudzień 2026\nstyczeń 2027\nluty 2027\nmarzec 2027\nkwiecień 2027\nmaj 2027\nczerwiec 2027\nlipiec 2027\nsierpień 2027\nwrzesień 2027\n30, środa\n1, wtorek\n2, środa\n3, czwartek\n4, piątek\n5, sobota\n6, niedziela\n7, poniedziałek\n8, wtorek\n9, środa\n10, czwartek\n11, piątek\n12, sobota\n13, niedziela\n14, poniedziałek\n15, wtorek\n16, środa\n17, czwartek\n18, piątek\n19, sobota\n20, niedziela\n21, poniedziałek\n22, wtorek\n23, środa\n24, czwartek\n25, piątek\n26, sobota\n27, niedziela\n28, poniedziałek\n29, wtorek\n30, środa\nśroda 30 września 2026\nPobyt na 2 tygodnie\n2 dorosłych · 0 dzieci · 1 pokój\nPodróżuję służbowo\nSzukaj\nWidok mapy\n \nZarezerwuj pobyt w apartamencie\nKoli Apartaments\nRruga Onhezmi, 9701 Saranda, Albania\nDoskonała lokalizacja – oceniona na 9.4/10!(ocena na podstawie 81 opinii)\nOcena dodana przez Gości po powrocie z obiektu Koli Apartaments.\n–Doskonała lokalizacja – pokaż mapę\n+8 zdjęć\nOceniony na 8.4\n8,4\nOceniony jako bardzo dobry\nBardzo dobry\n83 opinii\nCo podobało się gościom, którzy się tu zatrzymali\n„Dobry stosunek jakości do ceny - do dyspozycji cale mieszkanie za świetne pieniądze\n\nWygodnie i czysto\n\nDobry kontakt z właściecielem”\nGrzegorzPolska\n„Koli, to duży apartament, w dobrej lokalizacji. Przy porcie, blisko znajduje się plaża, centrum, pronenada.\nW pobliżu mnóstwo przeróżnych lokali,...”\nNataliaPolska\n„Koli was really friendly, he picked us up from the bus station. The flat was very spacious and comfortable: big sofas, kitchentable, two balconies...”\nBiankaNiemcy\n„Very neat and well located appartment. Easy booking :) thank you”\nAmelieFrancja\n„Many rooms and facilities with a huge bathroom, even has 2 balconies! It's in the centre of Sarande, a beautiful city!”\nLewisAlbania\n„- a chic apartment, ultra-central, very close to everything (beach, supermarket, restaurants), equipped with everything we needed\n- the host was...”\nAlinRumunia\n„Very clean and spacious and owner was accommodating and friendly. Great facilities, two big rooms and a nice living room and a big balcony.”\nMillieIrlandia\n„Great location right in town. Everything is very accessible by foot. Great restaurants and markets just steps away. Really clean and the host...”\nRyderKanada\n„Great location, walkable to anything you may need and host was very friendly. Perfect for a short stay in a budget friendly place to be able to...”\nBriannaAustralia\n„Good location,valuable for the price,everything close at hand.”\nElonaAlbania\nDoskonała lokalizacja!\t9,4\nApartamenty\nBezpłatne Wi-Fi\nPokoje rodzinne\nKuchnia\nPokoje dla niepalących\nKlimatyzacja\nBalkon\nPrywatna łazienka\nWidok\nPrysznic",
+  "amenities": {
+    "flatList": [
+      "Pokoje dla niepalących",
+      "Pokoje rodzinne",
+      "Bezpłatne Wi-Fi",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Balkon",
+      "Pralka",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Widok",
+      "Stół",
+      "Toster",
+      "Płyta kuchenna",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Kapcie",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Część jadalna",
+      "Część wypoczynkowa",
+      "Gniazdko koło łóżka",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Ogrzewanie",
+      "Żelazko",
+      "Stół na świeżym powietrzu",
+      "Meble ogrodowe",
+      "Patio",
+      "Zestaw do parzenia kawy i herbaty",
+      "Widok na miasto",
+      "Całkowity zakaz palenia",
+      "grecki",
+      "angielski",
+      "włoski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": false,
+      "evidence": [
+        "Tak, pralka dostępna w pokoju/apartamencie."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Koli Apartaments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 00:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 07:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 350 ft from Koli Apartaments.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

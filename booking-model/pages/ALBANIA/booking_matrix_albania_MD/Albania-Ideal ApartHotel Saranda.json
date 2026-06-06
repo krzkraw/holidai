@@ -1,0 +1,84 @@
+{
+  "title": "Albania - Ideal ApartHotel Saranda",
+  "country": "Albania",
+  "propertyName": "Ideal ApartHotel Saranda",
+  "address": "",
+  "coordinates": null,
+  "imageUrls": [],
+  "description": "Brak danych z powodu błędu lub CAPTCHA.",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": null,
+      "raw": "TBD PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": null,
+      "raw": "TBD PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": null,
+      "raw": "TBD PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Brak danych."
+  },
+  "review": {
+    "score": null,
+    "count": 0
+  },
+  "comments": [],
+  "surroundingsRaw": "Brak danych.",
+  "amenities": {
+    "flatList": [
+      "Brak szczegółowych udogodnień."
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Brak danych.",
+    "importantInfoRaw": "Brak danych."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 1,300 ft from Ideal ApartHotel Saranda.",
+    "**Prywatna łazienka:** Niepotwierdzona w udogodnieniach.",
+    "**Stosunek ceny do jakości:** Trudno ocenić (brak ocen na Booking.com).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "blocked",
+  "issues": [
+    "Blocked or CAPTCHA page"
+  ],
+  "placeholders": [
+    "Brak widocznych zdjęć z siatki.",
+    "Brak danych z powodu błędu lub CAPTCHA.",
+    "Brak danych.",
+    "Brak widocznych opinii.",
+    "Brak szczegółowych udogodnień."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "title": "Grecja - Kuris Studios & Apartments",
+  "country": "Grecja",
+  "propertyName": "Kuris Studios & Apartments",
+  "address": "",
+  "coordinates": {
+    "latitude": 37.726642426456735,
+    "longitude": 20.98794204001024
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465509375.jpg?k=1ce755ca104873a749cdc302cc9e2bb4c956f76b42d9a28efd0a0037374b068f&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/279611450.jpg?k=91e0b943f119adc08faa0fd3cd4018df840e2f717c7c205980ac1852cfa627fc&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/279622658.jpg?k=3977ba7df4f2299828e4d040d8e4f8d8f214aa1631cc4e5dcc3df1f7524bf085&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/279621850.jpg?k=f403e1c87affd52a1a47e480546dd0acb7804f551e380a99c9d92fe7693a3941&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/352661240.jpg?k=b99f7ec398bb8ca009f5840fa4bfc7b9685c79f6606b227ed86683ffce7e6853&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/279624487.jpg?k=aa7bc0a4406d1e1c9e01ee36c037f89c9ee769fb93778116653a71cf3e2a6530&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/279623094.jpg?k=964ebb61354e335956d6b6aa3c505d5f7f003e243a5dcd964fd507b92707bc9e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/279621891.jpg?k=bae5d7b32ba3cfb50c90865515aa4f1347b0752830e53a4406243f077752929a&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-g.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-s.png",
+    "https://lh6.googleusercontent.com/-kwQABmVSmbY/AAAAAAAAAAI/AAAAAAAAAAA/AI6yGXxQvrF7h0vfQyrU3vxQSTuSDB4EbQ/s96-c/photo.jpg"
+  ],
+  "description": "Obiekt Kuris Studios & Apartments znajduje się w miejscowości Vasilikos i oferuje bezpłatne Wi-Fi, bezpłatny prywatny parking oraz widok na ogród. Odległość ważnych miejsc od obiektu: Plaża Agios Nikolaos – kilka kroków od obiektu.\n\nWyposażenie wszystkich opcji zakwaterowania obejmuje klimatyzację i telewizor z płaskim ekranem. Do dyspozycji Gości jest też taras oraz prywatna łazienka z prysznicem i suszarką do włosów. Do dyspozycji Gości jest aneks kuchenny z pełnym wyposażeniem, w tym lodówką i czajnikiem.\n\nOkolica cieszy się popularnością wśród miłośników trekkingu. Na terenie obiektu Kuris Studios & Apartments dostępny jest również ogród.\n\nOdległość ważnych miejsc od obiektu: Port Zakintos – 13 km, Kościół św. Dionizosa – 14 km. Lotnisko Międzynarodowe lotnisko Zakintos znajduje się 17 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 1934,
+      "raw": "1934 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 2659,
+      "raw": "2659 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 3385,
+      "raw": "3385 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ apartamentu",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz apartament"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "3 385 zł <br> Cena 3 385 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (3 385 zł)"
+      ],
+      [
+        "Apartament typu studio <br>  Został nam 1 <br> 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> 1 apartament na wyłączność <br> 25 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "3 682 zł <br> Cena 3 682 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (3 682 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "3 385 zł <br> Cena 3 385 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (3 385 zł)"
+      ],
+      [
+        "Apartament z 2 sypialniami i widokiem na ogród <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej <br> Największy dostępny apartament",
+        "Maksymalna liczba osób: 2",
+        "6 354 zł <br> Cena 6 354 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Został nam 1",
+        "Wybierz pokoje <br> 0 <br> 1          (6 354 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ apartamentu | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz apartament |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 3 385 zł <br> Cena 3 385 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (3 385 zł) |\n| Apartament typu studio <br>  Został nam 1 <br> 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> 1 apartament na wyłączność <br> 25 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 3 682 zł <br> Cena 3 682 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (3 682 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 3 385 zł <br> Cena 3 385 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (3 385 zł) |\n| Apartament z 2 sypialniami i widokiem na ogród <br> Sypialnia 1: 2 łóżka pojedyncze  <br> Sypialnia 2: 2 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na ogród <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej <br> Największy dostępny apartament | Maksymalna liczba osób: 2 | 6 354 zł <br> Cena 6 354 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 29 sierpnia 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (6 354 zł) |"
+  },
+  "review": {
+    "score": 9.3,
+    "count": 123
+  },
+  "comments": [
+    {
+      "author": "Grzegorz",
+      "text": "„Bardzo sympatyczna i pomocna obsługa. Kameralnie i blisko do plaży. Po prostu udane wakacje w pięknym miejscu!”"
+    },
+    {
+      "author": "Grzegorz",
+      "text": "„Bardzo sympatyczna i pomocna obsługa. Kameralnie i blisko do plaży. Po prostu udane wakacje w pięknym miejscu!”"
+    },
+    {
+      "author": "Grzegorz",
+      "text": "„Bardzo sympatyczna i pomocna obsługa. Kameralnie i blisko do plaży. Po prostu udane wakacje w pięknym miejscu!”"
+    },
+    {
+      "author": "Sabina",
+      "text": "„Everything was perfect. Denia and Svietlana are wonderful people, very helpul, friendly. Accomodation is very nice, comforbable, very clean,...”"
+    },
+    {
+      "author": "Sabina",
+      "text": "„Everything was perfect. Denia and Svietlana are wonderful people, very helpul, friendly. Accomodation is very nice, comforbable, very clean,...”"
+    },
+    {
+      "author": "Hazel",
+      "text": "„Very clean studio. Basic, but everything worked. Balcony with retractable sunshade, which was very useful. Very close to fantastic beaches. Nice...”"
+    },
+    {
+      "author": "Hazel",
+      "text": "„Very clean studio. Basic, but everything worked. Balcony with retractable sunshade, which was very useful. Very close to fantastic beaches. Nice...”"
+    },
+    {
+      "author": "Liz",
+      "text": "„Extremely clean and quiet. Lovely courtyard, very close to the beach.”"
+    },
+    {
+      "author": "Liz",
+      "text": "„Extremely clean and quiet. Lovely courtyard, very close to the beach.”"
+    },
+    {
+      "author": "Belinda",
+      "text": "„Perfect quiet location, away from big tourist hotels."
+    }
+  ],
+  "surroundingsRaw": "Obiekt Kuris Studios & Apartments znajduje się w miejscowości Vasilikos i oferuje bezpłatne Wi-Fi, bezpłatny prywatny parking oraz widok na ogród. Odległość ważnych miejsc od obiektu: Plaża Agios Nikolaos – kilka kroków od obiektu.\n\nWyposażenie wszystkich opcji zakwaterowania obejmuje klimatyzację i telewizor z płaskim ekranem. Do dyspozycji Gości jest też taras oraz prywatna łazienka z prysznicem i suszarką do włosów. Do dyspozycji Gości jest aneks kuchenny z pełnym wyposażeniem, w tym lodówką i czajnikiem.\n\nOkolica cieszy się popularnością wśród miłośników trekkingu. Na terenie obiektu Kuris Studios & Apartments dostępny jest również ogród.\n\nOdległość ważnych miejsc od obiektu: Port Zakintos – 13 km, Kościół św. Dionizosa – 14 km. Lotnisko Międzynarodowe lotnisko Zakintos znajduje się 17 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nBezpłatny parking\nPokoje rodzinne\nAtuty obiektu\nIdealny na pobyt na 2 tygodnie!\n\nŚwietna lokalizacja: wysoko oceniana przez Gości (9,7)\n\nApartamenty obejmujące:\n\nTaras\n\nWidok na wewnętrzny dziedziniec\n\nWidok na ogród\n\nWidok na spokojną ulicę\n\nbezpłatny prywatny parking dostępny na miejscu\n\nZarezerwuj teraz\nZapisz obiekt",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Prywatna łazienka",
+      "Aneks kuchenny",
+      "Balkon",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Taras",
+      "Parking",
+      "Parking przy ulicy",
+      "Krzesełko dla dzieci",
+      "Stół",
+      "Płyta kuchenna",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Długie łóżka (> 2 metry)",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Wieszak na ubrania",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Prywatne wejście",
+      "Żelazko",
+      "Dojście na wyższe piętra tylko schodami",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Taras słoneczny",
+      "Ogród",
+      "Wino / szampan",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Piesze wycieczki",
+      "Poza obiektem",
+      "Budzenie na życzenie",
+      "Widok na wewnętrzny dziedziniec",
+      "Widok na ogród",
+      "Widok",
+      "Prywatne mieszkanie w budynku",
+      "Wolnostojący",
+      "Przechowalnia bagażu",
+      "Całkowity zakaz palenia",
+      "grecki",
+      "angielski",
+      "rosyjski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Kuris Studios & Apartments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 17:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 09:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 18 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–1\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\nWiek: 2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\nDodatkowe łóżko dostępne na życzenie\n€ 7 za dziecko, za noc\nWiek: 3–17\nDodatkowe łóżko dostępne na życzenie\n€ 7 za dziecko, za noc\n\nOpłaty za łóżeczka dziecięce i dodatkowe łóżka nie są wliczone w cenę całkowitą i należy je uiścić oddzielnie w trakcie pobytu.\n\nLiczba dozwolonych dodatkowych łóżek i łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nMożliwość skorzystania z łóżeczek dziecięcych i dodatkowych łóżek zależy od dostępności.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 15:00–23:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 150 ft from Kuris Studios & Apartments.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

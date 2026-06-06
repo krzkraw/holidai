@@ -1,0 +1,257 @@
+{
+  "title": "Kreta - Oasis Guesthouse",
+  "country": "Kreta",
+  "propertyName": "Oasis Guesthouse",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.492970756972,
+    "longitude": 24.0062534809113
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/338401138.jpg?k=e20a8179ca685b9dbcf2286cb7083f3bf7de6a15e6ceb34fc1b67b1c64d45066&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/8943100.jpg?k=9d11d9249caff6d7b4f66d349e6be4f0e4942eaf8cdf4deb0d6e28f6ced668b9&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/9076844.jpg?k=18c04f945d232756fc42d97ebea919abdf3fd4cede597200c710e7703f5f015a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/8943116.jpg?k=ffe9059aa7c9268fdcb5e447845f44a5edc99926785afa83d6fb4b4baaedb8f8&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/8943123.jpg?k=54509f90dba04ac819b0d4a05551df31f0e6e680d41b762f5d8469654bb5d930&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/262063335.jpg?k=79eb7b0b220482e3895be37a845134d8668aa2787a22acf341cc39cd138accc3&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/9069382.jpg?k=73ae71fee1f0bcc39f48cce06ced5ec6d566dc3f5691c0717d673bebed2d5c5c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/8943103.jpg?k=3551b41cc8168b1fbaf2ca70102e45217761afef77878fbf5e8c0cc221d3e620&o=",
+    "https://graph.facebook.com/v2.9/2457872740916821/picture?type=square&height=64&width=64",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://graph.facebook.com/v2.9/1828539250872283/picture?type=square&height=64&width=64",
+    "https://lh4.googleusercontent.com/-iFTt5ySt5Sk/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnp9yKb4ZAhD-urZKu_bMACNlmDFQ/s96-c/photo.jpg"
+  ],
+  "description": "Pensjonat Oasis położony jest 1,5 od miasteczka Perivolia i 2,5 km od centrum Chanii. Oferuje on basen z tarasem i bar przekąskowy. Obiekt składa się z budynku z XVI wieku oraz 2 nowoczesnych budynków otoczonych bujnym ogrodem z palmami i drzewami cytrusowymi.\n\nKlimatyzowane pokoje w pensjonacie Oasis dysponują balkonem lub patio z widokiem na góry, ogród lub basen. Pokoje urządzone zostały w tradycyjnym stylu i wyposażone są w łóżka z ramą z drewna lub kutego żelaza, a także w lodówkę, telewizor i radio. Pokoje obejmują również łazienkę z prysznicem lub wanną.\n\nCodziennie rano w jadalni serwowane jest śniadanie w formie bufetu, przyrządzane ze świeżych składników. Restauracja zaprasza na tradycyjne dania kuchni kreteńskiej i lokalne wina. Bar przekąskowy przy basenie przez cały dzień serwuje świeże soki i orzeźwiające koktajle.\n\nDo dyspozycji Gości jest ponadto bezpłatny bezprzewodowy dostęp do Internetu w pomieszczeniach ogólnodostępnych i bezpłatny parking. Personel recepcji chętnie pomaga w wypożyczeniu samochodu lub roweru.\n\nPensjonat Oasis usytuowany jest 7 km od portu w mieście Suda i 15 km od międzynarodowego lotniska w Chanii. Odległość od kurortu Platanias wynosi 12 km, a od słynnej plaży Falassarna - 41 km.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 8,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3074,
+      "raw": "3074 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 4212,
+      "raw": "4212 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 5350,
+      "raw": "5350 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "5 684 zł <br> Cena 5 684 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 684 zł)"
+      ],
+      [
+        "Pokój trzyosobowy typu Superior <br>  Został nam 1 <br> 3 łóżka pojedyncze  <br> 20 m² <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 517 zł <br> Cena 5 517 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem",
+        "Wybierz pokoje <br> 0 <br> 1          (5 517 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "5 862 zł <br> Cena 5 862 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (5 862 zł)"
+      ],
+      [
+        "Pokój czteroosobowy typu Deluxe <br>  Został nam 1 <br> 2 łóżka pojedyncze  i 2 rozkładane sofy  <br> 40 m² <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 980 zł <br> Cena 5 980 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem",
+        "Wybierz pokoje <br> 0 <br> 1          (5 980 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "6 354 zł <br> Cena 6 354 zł <br> Zawiera opłaty i podatki",
+        "Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (6 354 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 5 684 zł <br> Cena 5 684 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 684 zł) |\n| Pokój trzyosobowy typu Superior <br>  Został nam 1 <br> 3 łóżka pojedyncze  <br> 20 m² <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 517 zł <br> Cena 5 517 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem | Wybierz pokoje <br> 0 <br> 1          (5 517 zł) |\n| Maksymalna liczba osób: 2 | 5 862 zł <br> Cena 5 862 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (5 862 zł) |\n| Pokój czteroosobowy typu Deluxe <br>  Został nam 1 <br> 2 łóżka pojedyncze  i 2 rozkładane sofy  <br> 40 m² <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 980 zł <br> Cena 5 980 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Możliwość zmiany terminu w razie zmiany planów <br> Oferta bezzwrotna <br> • <br> Zapłać obiektowi przed przyjazdem | Wybierz pokoje <br> 0 <br> 1          (5 980 zł) |\n| Maksymalna liczba osób: 2 | 6 354 zł <br> Cena 6 354 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Obejmuje 1 miejsce parkingowe i szybkie łącze internetowe <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 354 zł) |"
+  },
+  "review": {
+    "score": 8.6,
+    "count": 750
+  },
+  "comments": [
+    {
+      "author": "Angelika",
+      "text": "„Bardzo miła obsługa, zwłaszcza starsze małżeństwo (chyba właściciele) i porozmawiali każdego dnia zapytali jak się czujemy oraz Panie na śniadaniem...”"
+    },
+    {
+      "author": "Angelika",
+      "text": "„Bardzo miła obsługa, zwłaszcza starsze małżeństwo (chyba właściciele) i porozmawiali każdego dnia zapytali jak się czujemy oraz Panie na śniadaniem...”"
+    },
+    {
+      "author": "Angelika",
+      "text": "„Bardzo miła obsługa, zwłaszcza starsze małżeństwo (chyba właściciele) i porozmawiali każdego dnia zapytali jak się czujemy oraz Panie na śniadaniem...”"
+    },
+    {
+      "author": "Daria",
+      "text": "„Wspaniały basen, śniadania naprawdę okey, wszystko wystarczające, pokoje w fajnym klimacie, codziennie sprzątane, ładna posesja, obsługa bardzo...”"
+    },
+    {
+      "author": "Daria",
+      "text": "„Wspaniały basen, śniadania naprawdę okey, wszystko wystarczające, pokoje w fajnym klimacie, codziennie sprzątane, ładna posesja, obsługa bardzo...”"
+    },
+    {
+      "author": "Klim",
+      "text": "„Ładne miejsce z klimatem, miła obsługa, codziennie sprzątane pokoje, smaczne śniadanie, bardzo dobry stosunek jakości do ceny :)”"
+    },
+    {
+      "author": "Klim",
+      "text": "„Ładne miejsce z klimatem, miła obsługa, codziennie sprzątane pokoje, smaczne śniadanie, bardzo dobry stosunek jakości do ceny :)”"
+    },
+    {
+      "author": "Marcin",
+      "text": "„Sympatyczni właściciele. Mila obsluga. Czysto! Pokoje sprzątane. Ręczniki i pościel wymieniane bardzo, bardzo często. A sok wyciskany z pomarańczy...”"
+    },
+    {
+      "author": "Marcin",
+      "text": "„Sympatyczni właściciele. Mila obsluga. Czysto! Pokoje sprzątane. Ręczniki i pościel wymieniane bardzo, bardzo często. A sok wyciskany z pomarańczy...”"
+    },
+    {
+      "author": "Sylwia",
+      "text": "„Bardzo sympatyczne miejsce i obsługa, przyjemny basen, czysty. Śniadanka bardzo smaczne, szczególnie świeżo wyciskany sok z pomarańczy. Hotel na...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Oasis Guesthouse\nŚwietne udogodnienia! Ocena: 8,4\nZobacz dostępność\nNajpopularniejsze udogodnienia\nOdkryty basen\nBezpłatne Wi-Fi\nPokoje dla niepalących\nTransfer lotniskowy\nBezpłatny parking\nPokoje rodzinne\nTaras\nBar\nDobre śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nBezpłatny parking\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking\nTransfer lotniskowy\nMiejsce na piknik\nPokoje dla niepalących\nPokoje rodzinne\nŁazienka\nPapier toaletowy\nRęczniki\nWanna lub prysznic\nPrywatna łazienka\nSypialnia\nPościel\nSzafa lub garderoba\nBudzik\nOkolica\nMiejsce na piknik\nMeble ogrodowe\nTaras słoneczny\nTaras\nOgród\nKuchnia\nLodówka\nUdogodnienia w pokoju\nGniazdko koło łóżka\nSalon\nBiurko\nMedia/Technologia\nTelewizor z płaskim ekranem\nKanały satelitarne\nRadio\nTelefon\nTelewizor\nPosiłki i napoje\nKawiarnia na miejscu\nWino / szampan\nDodatkowa opłata\nSpecjalne potrawy dietetyczne (na życzenie)\nBar przekąskowy\nBar\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nParking przy ulicy\nParking dla osób niepełnosprawnych\nUsługi recepcji\nMożliwe wystawienie faktury\nPrzechowalnia bagażu\nBiuro informacji turystycznej\nEkspresowe zameldowanie / wymeldowanie\nUsługi dla rodzin i oferta rozrywkowa\nGry planszowe / puzzle\nUsługi sprzątania\nCodzienne sprzątanie\nZaplecze biznesowe\nFaks / ksero\nDodatkowa opłata\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nCzujnik dymu\nSystem alarmowy\nDostęp za pomocą kluczy\nSejf\nDodatkowa opłata\nOgólne\nTransfer\nDodatkowa opłata\nWspólna część rekreacyjna / sala TV\nCzęść przeznaczona dla palących\nKlimatyzacja\nCałkowity zakaz palenia\nOgrzewanie\nDźwiękoszczelność\nWypożyczalnia samochodów\nObiady na wynos\nPokoje dźwiękoszczelne\nPokoje rodzinne\nTransfer lotniskowy\nDodatkowa opłata\nPokoje dla niepalących\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nOdkryty basen\nBezpłatnie!\nGodziny pracy\nSezonowy\nWstęp dla osób w każdym wieku\nBasen bez krawędzi\nMały basen\nBrodzik\nBar przy basenie\nLeżaki lub krzesełka plażowe\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nJęzyki\ngrecki\nangielski\nfrancuski\nwłoski",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Transfer lotniskowy",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Taras",
+      "Bar",
+      "Dobre śniadanie",
+      "Prywatna łazienka",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Miejsce na piknik",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Budzik",
+      "Meble ogrodowe",
+      "Taras słoneczny",
+      "Ogród",
+      "Lodówka",
+      "Gniazdko koło łóżka",
+      "Biurko",
+      "Kanały satelitarne",
+      "Radio",
+      "Telefon",
+      "Telewizor",
+      "Kawiarnia na miejscu",
+      "Wino / szampan",
+      "Dodatkowa opłata",
+      "Specjalne potrawy dietetyczne (na życzenie)",
+      "Bar przekąskowy",
+      "Parking przy ulicy",
+      "Parking dla osób niepełnosprawnych",
+      "Możliwe wystawienie faktury",
+      "Przechowalnia bagażu",
+      "Biuro informacji turystycznej",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Gry planszowe / puzzle",
+      "Codzienne sprzątanie",
+      "Faks / ksero",
+      "Dodatkowa opłata",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "System alarmowy",
+      "Dostęp za pomocą kluczy",
+      "Sejf",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wspólna część rekreacyjna / sala TV",
+      "Część przeznaczona dla palących",
+      "Całkowity zakaz palenia",
+      "Ogrzewanie",
+      "Dźwiękoszczelność",
+      "Wypożyczalnia samochodów",
+      "Obiady na wynos",
+      "Pokoje dźwiękoszczelne",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Dojście na wyższe piętra tylko schodami",
+      "Godziny pracy",
+      "Sezonowy",
+      "Wstęp dla osób w każdym wieku",
+      "Basen bez krawędzi",
+      "Mały basen",
+      "Brodzik",
+      "Bar przy basenie",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "grecki",
+      "angielski",
+      "francuski",
+      "włoski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Oasis Guesthouse przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00 do 21:30\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 08:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\n€ 5 za dziecko, za noc\n\nOpłaty za łóżeczka dziecięce nie są wliczone w cenę całkowitą i należy je uiścić oddzielnie w trakcie pobytu.\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nZwierzęta\nZwierzęta nie są akceptowane.\nKarty akceptowane w tym hotelu\nGotówka nie jest akceptowana",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Nea Chora Beach / Chania (~2.3 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

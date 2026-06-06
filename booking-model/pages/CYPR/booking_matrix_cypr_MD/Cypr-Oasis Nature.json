@@ -1,0 +1,183 @@
+{
+  "title": "Cypr - Oasis Nature",
+  "country": "Cypr",
+  "propertyName": "Oasis Nature",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.042809,
+    "longitude": 32.43049
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/461695260.jpg?k=7192728570c0409fcc784e03a6eb15f6001a07b76a4d034c10585e54be2e5692&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/414728268.jpg?k=3e55aeabe4b55eb00c2d080c757b4672946c5d8c48eb624d14c9cadeacc445f1&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/414728783.jpg?k=39eb4bb23ed5f26e9a1029ef21b38c7fdac5c9c6de60b21b1a9ae29c6077196b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/414729734.jpg?k=a64e063c4d0b346c916b7b78753d36ec285837f519af2d256a0b1d499fb68bb7&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/413941996.jpg?k=c20d32fd833ec321e71df1a209d3a0b98581711fb9195cd705dc8f07bedff638&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/461694703.jpg?k=26506bcd0c9774c7fea0fa91488c5629bed5f93a19eada9dc05a22456ae8606b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/414728135.jpg?k=7d970dea42668e1ccb548a7f65a10960243b8bb482e1564bf7f5ea46a6fb1802&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/461694243.jpg?k=163d2b165119fad2efeb67dc39ebbcd5a131db5c0a419b5f1db0497e420be352&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://graph.facebook.com/v2.9/10156930990678630/picture?type=square&height=64&width=64",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png",
+    "https://lh3.googleusercontent.com/a/AATXAJyRhK1iC_B63LQUHZY_a0H38Mt6mo6UvhG0rvd4=s96-c"
+  ],
+  "description": "Obiekt Oasis Nature, położony w miejscowości Polis Chrysochous, oferuje bezpłatne Wi-Fi, klimatyzację oraz ogród. Odległość ważnych miejsc od obiektu: Plaża Polis – 1,8 km, Zoo w Pafos – 29 km. Goście mogą podziwiać widok na ogród. W okolicy znajdują się ciekawe miejsca takie jak: Klub golfowy Minthis Hill ( 31 km), Teatr Markideio ( 36 km).\n\nW apartamencie zapewniono taras, kilka sypialni (2), salon z telewizorem z płaskim ekranem, kuchnię ze standardowym wyposażeniem, takim jak lodówka i piekarnik, a także łazienkę (1) z wanną. Goście mogą podziwiać widok na góry. W apartamencie zapewniono ręczniki i pościel.\n\nOdległość ważnych miejsc od obiektu: Plac Octovriou 28 – 37 km, Grobowce Królewskie – 38 km. Lotnisko Lotnisko Pafos znajduje się 44 km od obiektu.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3924,
+      "raw": "3924 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 5210,
+      "raw": "5210 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 6508,
+      "raw": "6508 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 8.5,
+    "count": 19
+  },
+  "comments": [
+    {
+      "author": "Marcin",
+      "text": "„Mili gospodarze, cicha i spokojna okolica, przestronne mieszkanie, gaj cytrusowy :)”"
+    },
+    {
+      "author": "Marcin",
+      "text": "„Mili gospodarze, cicha i spokojna okolica, przestronne mieszkanie, gaj cytrusowy :)”"
+    },
+    {
+      "author": "Marcin",
+      "text": "„Mili gospodarze, cicha i spokojna okolica, przestronne mieszkanie, gaj cytrusowy :)”"
+    },
+    {
+      "author": "Sergey",
+      "text": "„We had a lovely stay in this flat! It was very clean and spacious, with everything you might need for a comfortable visit. It’s quiet and peaceful,...”"
+    },
+    {
+      "author": "Sergey",
+      "text": "„We had a lovely stay in this flat! It was very clean and spacious, with everything you might need for a comfortable visit. It’s quiet and peaceful,...”"
+    },
+    {
+      "author": "Tatiana",
+      "text": "„Friendly and attentive hosts and private athmosphere of the place. Cozy and spatious apartment in a wonderful location.”"
+    },
+    {
+      "author": "Tatiana",
+      "text": "„Friendly and attentive hosts and private athmosphere of the place. Cozy and spatious apartment in a wonderful location.”"
+    },
+    {
+      "author": "Roswitha",
+      "text": "„We absolutely appreciated the calm location in the nature and the comfort. The family was so nice and friendly. The dog is very lovely. We had 3...”"
+    },
+    {
+      "author": "Roswitha",
+      "text": "„We absolutely appreciated the calm location in the nature and the comfort. The family was so nice and friendly. The dog is very lovely. We had 3...”"
+    },
+    {
+      "author": "Leanne",
+      "text": "„Absolutely beautiful property in a wonderful location, it had everything you need. Spacious and so clean! The full time residents had a little...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Oasis Nature\nŚwietne udogodnienia! Ocena: 8,1\nZobacz dostępność\nNajpopularniejsze udogodnienia\nPodstawowe bezpłatne Wi-Fi (10 Mb/s)\nPokoje dla niepalących\nPokoje rodzinne\nBezpłatny parking\nŚwietne na Twój pobyt\nPrywatna łazienka\nKuchnia\nBezpłatny parking\nPlaża\nBezpłatne Wi-Fi\nPralka\nTelewizor z płaskim ekranem\nKlimatyzacja\nTaras\nParking\nParking na miejscu\nBezpłatny parking publiczny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nInternet\nPodstawowe bezpłatne Wi-Fi 10 Mb/s. Odpowiednie do streamingu treści i prowadzenia wideorozmów. Test prędkości wykonany przez gospodarza.\nKuchnia\nStół\nEkspres do kawy\nToster\nPiekarnik\nPrzybory kuchenne\nCzajnik elektryczny\nKuchnia\nPralka\nKuchenka mikrofalowa\nLodówka\nAneks kuchenny\nSypialnia\nPościel\nSzafa lub garderoba\nŁazienka\nPapier toaletowy\nRęczniki\nPrywatna łazienka\nToaleta\nWanna\nSalon\nCzęść jadalna\nSofa\nCzęść wypoczynkowa\nMedia/Technologia\nSerwis z filmami online (np. Netflix)\nTelewizor z płaskim ekranem\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nSuszarka na ubrania\nPrywatne wejście\nUdogodnienia dla niepełnosprawnych\nCałość zlokalizowana na parterze\nOkolica\nStół na świeżym powietrzu\nMeble ogrodowe\nTaras\nOgród\nPosiłki i napoje\nZestaw do parzenia kawy i herbaty\nRekreacja\nPlaża\nOkolica i widok\nWidok na punkt orientacyjny\nWidok na góry\nWidok na ogród\nCechy budynku\nWolnostojący\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nPokoje rodzinne\nPokoje dla niepalących\nJęzyki\nangielski",
+  "amenities": {
+    "flatList": [
+      "Podstawowe bezpłatne Wi-Fi (10 Mb/s)",
+      "Pokoje dla niepalących",
+      "Pokoje rodzinne",
+      "Bezpłatny parking",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Plaża",
+      "Bezpłatne Wi-Fi",
+      "Pralka",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Taras",
+      "Parking",
+      "Stół",
+      "Ekspres do kawy",
+      "Toster",
+      "Piekarnik",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Kuchenka mikrofalowa",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Wanna",
+      "Część jadalna",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Serwis z filmami online (np. Netflix)",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Suszarka na ubrania",
+      "Prywatne wejście",
+      "Całość zlokalizowana na parterze",
+      "Stół na świeżym powietrzu",
+      "Meble ogrodowe",
+      "Ogród",
+      "Zestaw do parzenia kawy i herbaty",
+      "Widok na punkt orientacyjny",
+      "Widok na góry",
+      "Widok na ogród",
+      "Wolnostojący",
+      "Całkowity zakaz palenia",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": false,
+      "evidence": [
+        "Tak, pralka dostępna w pokoju/apartamencie."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Oasis Nature przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 00:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDostępne 24 godziny na dobę\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatności poprzez Booking.com\nBooking.com pobiera od Ciebie płatność za pobyt w imieniu obiektu. Pamiętaj, by wziąć ze sobą pieniądze do wykorzystania na dodatkowe usługi.\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 0.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

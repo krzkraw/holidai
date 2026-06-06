@@ -1,0 +1,217 @@
+{
+  "title": "Cypr - Ariadne Apartments",
+  "country": "Cypr",
+  "propertyName": "Ariadne Apartments",
+  "address": "",
+  "coordinates": {
+    "latitude": 34.76410427253862,
+    "longitude": 32.41060674190521
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/369841227.jpg?k=939ce402c8dcaa80b64b37b3f468202c71f91eabaeed14146588a767e8b62f59&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/464303685.jpg?k=a4764d941a695e22bf907cebf0216d18f92c54aea36b3837c5684c9c8ce4b6dd&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/464048284.jpg?k=115b827575fce291183640551ffea6aa9f1e8bcb321e263036c49126396ff43d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/406743571.jpg?k=d66e25cefe5bdd65f301d76d3677d34912f6b861e8e39187b975fa1cbdefa7d5&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/463318627.jpg?k=796a7a897c0d7248818b461e533e9242b9d41e57b197b52042c581a61d9fe282&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/369843504.jpg?k=ad4db9f403ea6d8234cd3e06f5b9a4b26cdba4957ff92f1748d523d2cd7ed4a8&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/464969601.jpg?k=64522ba737cf61ff4e1022f0e6fd6487a1870851410cc89df983ff6c38978d98&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/369838435.jpg?k=3292ae6c24755c5e6fb6cc6699d5313aa30065ad44d9c5c4e4d3c85f1e8fa5b2&o=",
+    "https://lh3.googleusercontent.com/a-/ACNPEu95gT25OM0CNX1umsKXnUnWzRqT5mzskKPzCFTl=s96-c",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-w.png",
+    "https://graph.facebook.com/v2.9/1596894590650992/picture?type=square&height=64&width=64"
+  ],
+  "description": "Obiekt Ariadne Apartments znajduje się w Pafos, 400 metrów od latarni morskiej i 200 metrów od centrum handlowego Kings Avenue Mall. We wszystkich pomieszczeniach można korzystać z bezpłatnego WiFi.\n\nDo dyspozycji Gości są apartamenty z częścią wypoczynkową. W każdym z nich mieści się także aneks kuchenny z płytą kuchenną, kuchenką mikrofalową, lodówką i czajnikiem. Apartamenty obejmują ponadto łazienkę z wanną lub prysznicem. Pościel jest zapewniona.\n\nObiekt Ariadne Apartments położony jest 1,3 km od Grobowców Królewskich oraz 1,6 km od placu 28 Octovriou. Odległość od międzynarodowego lotniska w Pafos wynosi 9 km.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2474,
+      "raw": "2474 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 3401,
+      "raw": "3401 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 5153,
+      "raw": "5153 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 8.3,
+    "count": 185
+  },
+  "comments": [
+    {
+      "author": "Agnieszka",
+      "text": "„Super miejsce w centrum ale jednak na uboczu. Cichutko i piękny widok.”"
+    },
+    {
+      "author": "Agnieszka",
+      "text": "„Super miejsce w centrum ale jednak na uboczu. Cichutko i piękny widok.”"
+    },
+    {
+      "author": "Agnieszka",
+      "text": "„Super miejsce w centrum ale jednak na uboczu. Cichutko i piękny widok.”"
+    },
+    {
+      "author": "Weronika",
+      "text": "„Na ogromny plus bardzo pomocna i miła obsługa, która bardzo szybko odpowiada na wiadomości i reaguje w przypadku problemu. Okolica bardzo spokojna,...”"
+    },
+    {
+      "author": "Weronika",
+      "text": "„Na ogromny plus bardzo pomocna i miła obsługa, która bardzo szybko odpowiada na wiadomości i reaguje w przypadku problemu. Okolica bardzo spokojna,...”"
+    },
+    {
+      "author": "Sandra",
+      "text": "„Super lokalizacja, 8 minut do plaży, 15 minut do promenady. Z apartamentu widać było morze, cichą okolica, 2 minuty obok jest pub, można zagrać w...”"
+    },
+    {
+      "author": "Sandra",
+      "text": "„Super lokalizacja, 8 minut do plaży, 15 minut do promenady. Z apartamentu widać było morze, cichą okolica, 2 minuty obok jest pub, można zagrać w...”"
+    },
+    {
+      "author": "Przemyslaw",
+      "text": "„Świetna lokalizacja. Blisko przystanku autobusowego, z którego wszędzie można było dojechać. Widok na morze i piękne zachody słońca. Duże...”"
+    },
+    {
+      "author": "Przemyslaw",
+      "text": "„Świetna lokalizacja. Blisko przystanku autobusowego, z którego wszędzie można było dojechać. Widok na morze i piękne zachody słońca. Duże...”"
+    },
+    {
+      "author": "Witold",
+      "text": "„Super miejscówka, w bocznej, cichej uliczce. Wyposażenie zgodne z opisem"
+    }
+  ],
+  "surroundingsRaw": "Przegląd\nInformacje o apartamentach i ceny\nUdogodnienia\nZasady pobytu\nWażne informacje prawne\nOpinie gości (185)\nSzukaj\nCel podróży / nazwa obiektu:\nOd\n14\nwrzesień 2026\nczerwiec 2026\nlipiec 2026\nsierpień 2026\nwrzesień 2026\npaździernik 2026\nlistopad 2026\ngrudzień 2026\nstyczeń 2027\nluty 2027\nmarzec 2027\nkwiecień 2027\nmaj 2027\nczerwiec 2027\nlipiec 2027\nsierpień 2027\nwrzesień 2027\n14, poniedziałek\n1, wtorek\n2, środa\n3, czwartek\n4, piątek\n5, sobota\n6, niedziela\n7, poniedziałek\n8, wtorek\n9, środa\n10, czwartek\n11, piątek\n12, sobota\n13, niedziela\n14, poniedziałek\n15, wtorek\n16, środa\n17, czwartek\n18, piątek\n19, sobota\n20, niedziela\n21, poniedziałek\n22, wtorek\n23, środa\n24, czwartek\n25, piątek\n26, sobota\n27, niedziela\n28, poniedziałek\n29, wtorek\n30, środa\nponiedziałek 14 września 2026\nDo\n28\nwrzesień 2026\nczerwiec 2026\nlipiec 2026\nsierpień 2026\nwrzesień 2026\npaździernik 2026\nlistopad 2026\ngrudzień 2026\nstyczeń 2027\nluty 2027\nmarzec 2027\nkwiecień 2027\nmaj 2027\nczerwiec 2027\nlipiec 2027\nsierpień 2027\nwrzesień 2027\n28, poniedziałek\n1, wtorek\n2, środa\n3, czwartek\n4, piątek\n5, sobota\n6, niedziela\n7, poniedziałek\n8, wtorek\n9, środa\n10, czwartek\n11, piątek\n12, sobota\n13, niedziela\n14, poniedziałek\n15, wtorek\n16, środa\n17, czwartek\n18, piątek\n19, sobota\n20, niedziela\n21, poniedziałek\n22, wtorek\n23, środa\n24, czwartek\n25, piątek\n26, sobota\n27, niedziela\n28, poniedziałek\n29, wtorek\n30, środa\nponiedziałek 28 września 2026\nPobyt na 2 tygodnie\n2 dorosłych · 0 dzieci · 1 pokój\nPodróżuję służbowo\nSzukaj\nWidok mapy\n \nZarezerwuj pobyt w apartamencie\nPrzy plaży\nAriadne Apartments\nParmenionos Street, Kato Paphos, 8545 Pafos, Cypr\nDoskonała lokalizacja – oceniona na 9.6/10!(ocena na podstawie 183 opinii)\nOcena dodana przez Gości po powrocie z obiektu Ariadne Apartments.\n–Doskonała lokalizacja – pokaż mapę\n+57 zdjęć\nOceniony na 8.3\n8,3\nOceniony jako bardzo dobry\nBardzo dobry\n185 opinii\nCo podobało się gościom, którzy się tu zatrzymali\n„Super miejsce w centrum ale jednak na uboczu. Cichutko i piękny widok.”\nAgnieszkaPolska\n„Na ogromny plus bardzo pomocna i miła obsługa, która bardzo szybko odpowiada na wiadomości i reaguje w przypadku problemu. Okolica bardzo spokojna,...”\nWeronikaPolska\n„Super lokalizacja, 8 minut do plaży, 15 minut do promenady. Z apartamentu widać było morze, cichą okolica, 2 minuty obok jest pub, można zagrać w...”\nSandraPolska\n„Świetna lokalizacja. Blisko przystanku autobusowego, z którego wszędzie można było dojechać. Widok na morze i piękne zachody słońca. Duże...”\nPrzemyslawPolska\n„Super miejscówka, w bocznej, cichej uliczce. Wyposażenie zgodne z opisem\nZ pokoju (204) widok na morze, latarnię morską i stanowiska...”\nWitoldPolska\n„Piękny widok z okna, super lokalizacja - blisko do centrum, a przy tym cicho.”\nJoannaPolska\n„Piękny apartament, blisko morza, w kuchni wszystko co potrzeba do ugotowania jedzenia”\nIgaPolska\n„apartament w rzeczywistości wyglądał lepiej niż na zdjęciach, bardzo dobra lokalizacja - wszędzie blisko, na około dużo kotków”\nKwelaPolska\n„Super położenie, w zasadzie wszędzie blisko (plaża, kafejki i bary, przystanek autobusowy, centrum handlowe). Piękny widok na plażę (zachody...”\nAndrzejPolska\n„Bardzo korzystna lokalizacja. Do wszystkich atrakcji było blisko.”\nTomaszPolska\nDoskonała lokalizacja!\t9,6\nApartamenty\nbezpłatny parking na terenie obiektu\nBezpłatne Wi-Fi\nKuchnia\nTransfer lotniskowy\nPokoje rodzinne\nPokoje dla niepalących\nKlimatyzacja\nBalkon\nWidok na morze",
+  "amenities": {
+    "flatList": [
+      "Transfer lotniskowy",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Lokalizacja przy samej plaży",
+      "Pokoje rodzinne",
+      "Bezpłatny parking",
+      "Ogrzewanie",
+      "Ogród",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Plaża",
+      "Pralka",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Parking przy ulicy",
+      "Parking dla osób niepełnosprawnych",
+      "Stół",
+      "Toster",
+      "Płyta kuchenna",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Część jadalna",
+      "Sofa",
+      "Część wypoczynkowa",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Rozkładana sofa",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Dojście na wyższe piętra tylko schodami",
+      "Meble ogrodowe",
+      "Dostawa artykułów spożywczych",
+      "Dodatkowa opłata",
+      "Park wodny",
+      "Poza obiektem",
+      "Minigolf",
+      "Dodatkowa opłata",
+      "Jazda konna",
+      "Poza obiektem",
+      "Nurkowanie",
+      "Poza obiektem",
+      "Piesze wycieczki",
+      "Poza obiektem",
+      "Wędkowanie",
+      "Poza obiektem",
+      "Pole golfowe (w promieniu 3 km)",
+      "Dodatkowa opłata",
+      "Prywatne mieszkanie w budynku",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wypożyczalnia samochodów",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Możliwe wystawienie faktury",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Codzienne sprzątanie",
+      "Dodatkowa opłata",
+      "Usługa prasowania",
+      "Dodatkowa opłata",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Dodatkowa opłata",
+      "Sklep na miejscu",
+      "Fryzjer / salon piękności",
+      "Całkowity zakaz palenia",
+      "Gaśnice",
+      "Dostęp za pomocą kluczy",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Tak, pralka dostępna w pokoju/apartamencie oraz dostępna usługa prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Ariadne Apartments przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 16:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 10:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZasady dotyczące zniszczeń\nJeśli dokonasz zniszczeń lub uszkodzeń w obiekcie w trakcie pobytu, możesz zostać poproszony o wniesienie opłaty do € 100 po wymeldowaniu zgodnie z zasadami dotyczącymi zniszczeń obowiązującymi w tym obiekcie.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 3 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatności poprzez Booking.com\nBooking.com pobiera od Ciebie płatność za pobyt w imieniu obiektu. Pamiętaj, by wziąć ze sobą pieniądze do wykorzystania na dodatkowe usługi.\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 23:00–07:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 1,000 ft from Ariadne Apartments. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

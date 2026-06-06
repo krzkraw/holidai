@@ -1,0 +1,256 @@
+{
+  "title": "Kreta - Nautilus Bay Hotel",
+  "country": "Kreta",
+  "propertyName": "Nautilus Bay Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.49968790356618,
+    "longitude": 23.64984154701233
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/4916571.jpg?k=30f90ceec2bd780060c31e2c87b18b6472889baea050c34c5da5be2863773330&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/149483321.jpg?k=cc091d875946901c0c810cbdcc5b69c4d4773eb5a0e38c43aa7bf683b7103ee3&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/24423906.jpg?k=ece0d11cbaeaa3476cc70b58e3592c76d1db052a518018e942acedaa31ef7acb&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/605943229.jpg?k=24f5717f97960e79821b09c498fc35cbcaa98c9f1ca78a229d8e49f3515c6a7c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/24424577.jpg?k=ca25fe57a9671a4ccfecc7ab778116a4e3eb30b41bc19306236fd745ec563302&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/24425867.jpg?k=1c702c89002b5499af1edd48164299e3e71edd950e1bc6a6e15255517b74a70c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/4975249.jpg?k=96f849116349dd19773971ee683109844ed9d1a9783e57c7f82c8f0531fcbecf&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/24423904.jpg?k=518071b5d154d44e79a5b11534e5c6690294f169c843abde4fe7c45dcf4c8552&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-m.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://graph.facebook.com/v2.9/10217967783856841/picture?type=square&height=64&width=64",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-t.png"
+  ],
+  "description": "Hotel Nautilus Bay urządzony jest we współczesnym stylu i oferuje odkryty basen oraz taras słoneczny. Jest on dogodnie usytuowany w samym sercu miejscowości Kissamos, przy piaszczystej plaży Plaka.\n\nOferuje on zakwaterowanie w jasnych, przestronnych studiach i apartamentach, które dysponują umeblowanym balkonem i wyposażone są w duże okna z widokiem na Morze Śródziemne oraz góry. Wszystkie studia i apartamenty obejmują jadalnię oraz salon z telewizorem z płaskim ekranem.\n\nHotel Nautilus Bay oferuje restaurację i bar. W okolicy obiektu mieści się wiele restauracji i kawiarni. Za dodatkową opłatą organizowane są wycieczki do laguny Balos i na wyspę Gramvousa.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,0.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 4106,
+      "raw": "4106 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 5561,
+      "raw": "5561 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 7567,
+      "raw": "7567 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Rodzaj zakwaterowania",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "9 348 zł <br> Cena 9 348 zł <br> Zawiera opłaty i podatki",
+        "Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 348 zł)"
+      ],
+      [
+        "Apartament z bocznym widokiem na morze <br>  Został nam 1 <br> Sypialnia 1: 1 duże łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na basen <br> Widok na góry <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 111 zł <br> Cena 9 111 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1          (9 111 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "10 892 zł <br> Cena 10 892 zł <br> Zawiera opłaty i podatki",
+        "Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (10 892 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 9 348 zł <br> Cena 9 348 zł <br> Zawiera opłaty i podatki | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 348 zł) |\n| Apartament z bocznym widokiem na morze <br>  Został nam 1 <br> Sypialnia 1: 1 duże łóżko podwójne  <br> Salon: 2 rozkładane sofy  <br> 1 apartament na wyłączność <br> 45 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na basen <br> Widok na góry <br> Klimatyzacja <br> Patio <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Taras <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 9 111 zł <br> Cena 9 111 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (9 111 zł) |\n| Maksymalna liczba osób: 2 | 10 892 zł <br> Cena 10 892 zł <br> Zawiera opłaty i podatki | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (10 892 zł) |"
+  },
+  "review": {
+    "score": 9,
+    "count": 588
+  },
+  "comments": [
+    {
+      "author": "Marek",
+      "text": "„Dziękujemy ❤️ Cudownie spędzony czas w super komfortowych warunkach obiekt utrzymany w idealnej czystości ( codzienne sprzątanie pokoi)super basen z...”"
+    },
+    {
+      "author": "Marek",
+      "text": "„Dziękujemy ❤️ Cudownie spędzony czas w super komfortowych warunkach obiekt utrzymany w idealnej czystości ( codzienne sprzątanie pokoi)super basen z...”"
+    },
+    {
+      "author": "Marek",
+      "text": "„Dziękujemy ❤️ Cudownie spędzony czas w super komfortowych warunkach obiekt utrzymany w idealnej czystości ( codzienne sprzątanie pokoi)super basen z...”"
+    },
+    {
+      "author": "Ewelina",
+      "text": "„Położenie hotelu , obsługa i bardzo dobra atmosfera”"
+    },
+    {
+      "author": "Ewelina",
+      "text": "„Położenie hotelu , obsługa i bardzo dobra atmosfera”"
+    },
+    {
+      "author": "Tomasz",
+      "text": "„Lokalizacja, wielkość hotelu (kameralny), bardzo duży i przestronny pokój, bliskość do plaży, możliwość kontaktu w języku polskim, atmosfera i...”"
+    },
+    {
+      "author": "Tomasz",
+      "text": "„Lokalizacja, wielkość hotelu (kameralny), bardzo duży i przestronny pokój, bliskość do plaży, możliwość kontaktu w języku polskim, atmosfera i...”"
+    },
+    {
+      "author": "Rafal",
+      "text": "„Wszystko. Czystość , personel, Pani Izabela jest niesamowita”"
+    },
+    {
+      "author": "Rafal",
+      "text": "„Wszystko. Czystość , personel, Pani Izabela jest niesamowita”"
+    },
+    {
+      "author": "Gruszkiewicz",
+      "text": "„Swietna lokalizacja, przemiła obsługa, bardzo czysto, cicho, spokojnie, bardzo dobre śniadanie, pizza na poziomie najlepszych włoskich."
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Nautilus Bay Hotel\nŚwietne udogodnienia! Ocena: 9\nZobacz dostępność\nNajpopularniejsze udogodnienia\nOdkryty basen\nBezpłatne Wi-Fi\nPokoje dla niepalących\nLokalizacja przy samej plaży\nObsługa pokoju\nRestauracja\nBezpłatny parking\nBar\nPrywatna plaża\nZnakomite śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nAneks kuchenny\nBalkon\nPlaża\nLokalizacja przy samej plaży\nBezpłatny parking\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nTaras\nParking na miejscu\nBezpłatny parking publiczny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nParking przy ulicy\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nStół\nŚrodki czystości\nPłyta kuchenna\nPrzybory kuchenne\nLodówka\nAneks kuchenny\nSypialnia\nPościel\nSzafa lub garderoba\nŁazienka\nPapier toaletowy\nRęczniki\nPrywatna łazienka\nToaleta\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nWanna\nSalon\nCzęść jadalna\nCzęść wypoczynkowa\nBiurko\nMedia/Technologia\nTelewizor z płaskim ekranem\nKanały satelitarne\nRadio\nTelefon\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nWieszak na ubrania\nPrzyjazny alergikom\nPodłoga wyłożona kafelkami lub marmurem\nDźwiękoszczelność\nOgrzewanie\nUdogodnienia dla niepełnosprawnych\nDojazd windą na wyższe piętra\nOkolica\nMeble ogrodowe\nLokalizacja przy samej plaży\nStół na świeżym powietrzu\nTaras słoneczny\nPrywatna plaża\nPatio\nBalkon\nTaras\nOgród\nPomieszczenia ogólnodostępne\nWspólna część rekreacyjna / sala TV\nOdkryty basen\nBezpłatnie!\nOtwarty przez cały rok\nWstęp dla osób w każdym wieku\nBrodzik\nRęczniki kąpielowe/plażowe\nBar przy basenie\nLeżaki lub krzesełka plażowe\nParasole przeciwsłoneczne\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nMasaż\nDodatkowa opłata\nPosiłki i napoje\nBar przekąskowy\nObiady na wynos\nŚniadanie w pokoju\nBar\nObsługa pokoju\nRestauracja\nRekreacja\nPlaża\nSprzęt do tenisa\nNurkowanie\nDodatkowa opłata\nUsługi dodatkowe\nBudzenie na życzenie\nBudzenie na życzenie / budzik\nOkolica i widok\nWidok na góry\nWidok na morze\nWidok\nCechy budynku\nPrywatne mieszkanie w budynku\nTransport\nWynajem rowerów\nDodatkowa opłata\nTransfer\nDodatkowa opłata\nWypożyczalnia samochodów\nUsługi recepcji\nMożliwe wystawienie faktury\nUsługi sprzątania\nCodzienne sprzątanie\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nPokoje dźwiękoszczelne\nWinda\nPokoje rodzinne\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nSejf\nJęzyki\nniemiecki\ngrecki\nangielski\npolski\nBrakuje Ci jakichś informacji?\nTak\n/Nie",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Lokalizacja przy samej plaży",
+      "Obsługa pokoju",
+      "Restauracja",
+      "Bezpłatny parking",
+      "Bar",
+      "Prywatna plaża",
+      "Znakomite śniadanie",
+      "Prywatna łazienka",
+      "Aneks kuchenny",
+      "Balkon",
+      "Plaża",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Taras",
+      "Parking przy ulicy",
+      "Stół",
+      "Środki czystości",
+      "Płyta kuchenna",
+      "Przybory kuchenne",
+      "Lodówka",
+      "Pościel",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Wanna",
+      "Część jadalna",
+      "Część wypoczynkowa",
+      "Biurko",
+      "Kanały satelitarne",
+      "Radio",
+      "Telefon",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Wieszak na ubrania",
+      "Przyjazny alergikom",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Dźwiękoszczelność",
+      "Ogrzewanie",
+      "Dojazd windą na wyższe piętra",
+      "Meble ogrodowe",
+      "Stół na świeżym powietrzu",
+      "Taras słoneczny",
+      "Patio",
+      "Ogród",
+      "Wspólna część rekreacyjna / sala TV",
+      "Otwarty przez cały rok",
+      "Wstęp dla osób w każdym wieku",
+      "Brodzik",
+      "Ręczniki kąpielowe/plażowe",
+      "Bar przy basenie",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Masaż",
+      "Dodatkowa opłata",
+      "Bar przekąskowy",
+      "Obiady na wynos",
+      "Śniadanie w pokoju",
+      "Sprzęt do tenisa",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Budzenie na życzenie",
+      "Budzenie na życzenie / budzik",
+      "Widok na góry",
+      "Widok na morze",
+      "Widok",
+      "Prywatne mieszkanie w budynku",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wypożyczalnia samochodów",
+      "Możliwe wystawienie faktury",
+      "Codzienne sprzątanie",
+      "Całkowity zakaz palenia",
+      "Pokoje dźwiękoszczelne",
+      "Winda",
+      "Pokoje rodzinne",
+      "Gaśnice",
+      "Sejf",
+      "niemiecki",
+      "grecki",
+      "angielski",
+      "polski"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Nautilus Bay Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00 do 23:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 08:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 3 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nAkceptowane metody płatności\nGotówka\nPalenie tytoniu\nPalenie jest zabronione.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Mavros Molos / Kissamos (~0.2 km w linii prostej) (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

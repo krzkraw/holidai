@@ -1,0 +1,338 @@
+{
+  "title": "Kreta - Galini Beach Hotel",
+  "country": "Kreta",
+  "propertyName": "Galini Beach Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.49744309391282,
+    "longitude": 23.66176128387451
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/219422141.jpg?k=f3d5046d10ee89df2c4b58e54f7174bd6223e5da10185788a56ef50dd7c1dfd3&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/694462477.jpg?k=77cb926902c9eb190979fe2fca5ed39866e86e52eafaf5d49c6f851482166f81&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/538894595.jpg?k=3a77fbf1eb62614f527760496681603e923e9dd85af52c089c2eb1e456ade6b7&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/517361512.jpg?k=16c36a0937819eec58b3e9c3dee92e5f427c426a4161e80f1ffd7af8a09b8d49&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/523865105.jpg?k=eac4c69100231978f94e45a71f88d8e4461a7a3f4115e0ef9d29f4483906950c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/708055860.jpg?k=8a38fb94a6e257e8c3800cff16e8a6015c191aabf770938673ae7494f21e36ed&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/60079227.jpg?k=90744edc1d12146d937aaf78c257284c114f2c50d197deaa9b524d97b85b0d3e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/219422148.jpg?k=8077602eba88315b528285343f81e6b879858729a5920abbcbc4cc1f44fac1ce&o=",
+    "https://lh3.googleusercontent.com/a/AATXAJz5C60LVZa2bvI_ajBR4HfHG26U_PJRyz1NJmXH=s96-c",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://lh5.googleusercontent.com/-KaJmnGyawMo/AAAAAAAAAAI/AAAAAAAAACY/ItH9TsCQhh0/photo.jpg?sz=50",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-r.png"
+  ],
+  "description": "Rodzinny hotel Galini Beach jest położony na terenie o powierzchni 4000 m2 nad zatoką Kissamos. Na miejscu Goście mogą bezpłatnie korzystać z leżaków i parasoli. Z obiektu roztacza się piękny widok na morze. W obiekcie są dostępne nowoczesne udogodnienia i panuje typowo grecka, gościnna atmosfera.\n\nPokoje są wyposażone w klimatyzację, telewizor i lodówkę oraz dysponują balkonem.\n\nDzień można rozpocząć od obfitego i pysznego śniadania, a następnie zrelaksować się na plaży nad błękitnym morzem. Z hotelowego tarasu można podziwiać zachody słońca.\n\nGalini Beach Hotel jest usytuowany w spokojnej okolicy, zaledwie 5 minut spacerem od sklepów, restauracji i kawiarni. W kilka minut można dojechać z obiektu do wspaniałych plaż, takich jak Falasarna, Balos Lagoon i Elafonisi.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,2.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 3601,
+      "raw": "3601 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 4951,
+      "raw": "4951 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 6302,
+      "raw": "6302 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Pokój Dwuosobowy z 1 lub 2 łóżkami <br>  Zostało nam 7 <br>  Wyższe piętro <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 duże łóżko podwójne  <br> 20 m² <br> Balkon <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 145 zł <br> 7 024 zł  <br> Oryginalna cena 9 145 zł Aktualna cena 7 024 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 024 zł) <br> 2        (14 047 zł) <br> 3        (21 071 zł) <br> 4        (28 094 zł) <br> 5        (35 118 zł) <br> 6        (42 142 zł) <br> 7        (49 165 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "9 263 zł <br> 7 114 zł  <br> Oryginalna cena 9 263 zł Aktualna cena 7 114 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 114 zł) <br> 2        (14 229 zł) <br> 3        (21 343 zł) <br> 4        (28 458 zł) <br> 5        (35 572 zł) <br> 6        (42 687 zł) <br> 7        (49 801 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "10 332 zł <br> 7 932 zł  <br> Oryginalna cena 10 332 zł Aktualna cena 7 932 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 932 zł) <br> 2        (15 864 zł) <br> 3        (23 796 zł) <br> 4        (31 729 zł) <br> 5        (39 661 zł) <br> 6        (47 593 zł) <br> 7        (55 525 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "10 451 zł <br> 8 023 zł  <br> Oryginalna cena 10 451 zł Aktualna cena 8 023 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 023 zł) <br> 2        (16 046 zł) <br> 3        (24 069 zł) <br> 4        (32 092 zł) <br> 5        (40 115 zł) <br> 6        (48 138 zł) <br> 7        (56 161 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 848 zł <br> 6 796 zł  <br> Oryginalna cena 8 848 zł Aktualna cena 6 796 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 796 zł) <br> 2        (13 593 zł) <br> 3        (20 389 zł) <br> 4        (27 186 zł) <br> 5        (33 982 zł) <br> 6        (40 779 zł) <br> 7        (47 575 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 967 zł <br> 6 887 zł  <br> Oryginalna cena 8 967 zł Aktualna cena 6 887 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 887 zł) <br> 2        (13 775 zł) <br> 3        (20 662 zł) <br> 4        (27 549 zł) <br> 5        (34 437 zł) <br> 6        (41 324 zł) <br> 7        (48 211 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 035 zł <br> 7 705 zł  <br> Oryginalna cena 10 035 zł Aktualna cena 7 705 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 705 zł) <br> 2        (15 410 zł) <br> 3        (23 115 zł) <br> 4        (30 820 zł) <br> 5        (38 525 zł) <br> 6        (46 230 zł) <br> 7        (53 935 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 154 zł <br> 7 796 zł  <br> Oryginalna cena 10 154 zł Aktualna cena 7 796 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 796 zł) <br> 2        (15 592 zł) <br> 3        (23 388 zł) <br> 4        (31 183 zł) <br> 5        (38 979 zł) <br> 6        (46 775 zł) <br> 7        (54 571 zł)"
+      ],
+      [
+        "Pokój dwuosobowy typu Standard z 1 lub 2 łóżkami i bocznym widokiem na morze <br>  Został nam 1 <br>  Wyższe piętro <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 duże łóżko podwójne  <br> 20 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "9 263 zł <br> 7 114 zł  <br> Oryginalna cena 9 263 zł Aktualna cena 7 114 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 114 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "9 620 zł <br> 7 387 zł  <br> Oryginalna cena 9 620 zł Aktualna cena 7 387 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 387 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "10 451 zł <br> 8 023 zł  <br> Oryginalna cena 10 451 zł Aktualna cena 8 023 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 023 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "10 807 zł <br> 8 296 zł  <br> Oryginalna cena 10 807 zł Aktualna cena 8 296 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 296 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "8 967 zł <br> 6 887 zł  <br> Oryginalna cena 8 967 zł Aktualna cena 6 887 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (6 887 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "9 323 zł <br> 7 160 zł  <br> Oryginalna cena 9 323 zł Aktualna cena 7 160 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 160 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 154 zł <br> 7 796 zł  <br> Oryginalna cena 10 154 zł Aktualna cena 7 796 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (7 796 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "10 510 zł <br> 8 068 zł  <br> Oryginalna cena 10 510 zł Aktualna cena 8 068 zł <br> Zawiera opłaty i podatki <br> 23% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 068 zł)"
+      ],
+      [
+        "Pokój Dwuosobowy z widokiem na morze <br>  Został nam 1 <br>  Wyższe piętro <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 duże łóżko podwójne  <br> \t2 łóżka pojedyncze  <br> 20 m² <br> Balkon <br> Widok <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "11 045 zł <br> 9 952 zł  <br> Oryginalna cena 11 045 zł Aktualna cena 9 952 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1          (9 952 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "11 401 zł <br> 10 273 zł  <br> Oryginalna cena 11 401 zł Aktualna cena 10 273 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (10 273 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "12 233 zł <br> 11 021 zł  <br> Oryginalna cena 12 233 zł Aktualna cena 11 021 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online",
+        "Wybierz pokoje <br> 0 <br> 1        (11 021 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 2",
+        "12 589 zł <br> 11 342 zł  <br> Oryginalna cena 12 589 zł Aktualna cena 11 342 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie",
+        "Wybierz pokoje <br> 0 <br> 1        (11 342 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Pokój Dwuosobowy z 1 lub 2 łóżkami <br>  Zostało nam 7 <br>  Wyższe piętro <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 duże łóżko podwójne  <br> 20 m² <br> Balkon <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 9 145 zł <br> 7 024 zł  <br> Oryginalna cena 9 145 zł Aktualna cena 7 024 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 024 zł) <br> 2        (14 047 zł) <br> 3        (21 071 zł) <br> 4        (28 094 zł) <br> 5        (35 118 zł) <br> 6        (42 142 zł) <br> 7        (49 165 zł) |\n| Maksymalna liczba osób: 2 | 9 263 zł <br> 7 114 zł  <br> Oryginalna cena 9 263 zł Aktualna cena 7 114 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 114 zł) <br> 2        (14 229 zł) <br> 3        (21 343 zł) <br> 4        (28 458 zł) <br> 5        (35 572 zł) <br> 6        (42 687 zł) <br> 7        (49 801 zł) |\n| Maksymalna liczba osób: 2 | 10 332 zł <br> 7 932 zł  <br> Oryginalna cena 10 332 zł Aktualna cena 7 932 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 932 zł) <br> 2        (15 864 zł) <br> 3        (23 796 zł) <br> 4        (31 729 zł) <br> 5        (39 661 zł) <br> 6        (47 593 zł) <br> 7        (55 525 zł) |\n| Maksymalna liczba osób: 2 | 10 451 zł <br> 8 023 zł  <br> Oryginalna cena 10 451 zł Aktualna cena 8 023 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 023 zł) <br> 2        (16 046 zł) <br> 3        (24 069 zł) <br> 4        (32 092 zł) <br> 5        (40 115 zł) <br> 6        (48 138 zł) <br> 7        (56 161 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 848 zł <br> 6 796 zł  <br> Oryginalna cena 8 848 zł Aktualna cena 6 796 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 796 zł) <br> 2        (13 593 zł) <br> 3        (20 389 zł) <br> 4        (27 186 zł) <br> 5        (33 982 zł) <br> 6        (40 779 zł) <br> 7        (47 575 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 967 zł <br> 6 887 zł  <br> Oryginalna cena 8 967 zł Aktualna cena 6 887 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 887 zł) <br> 2        (13 775 zł) <br> 3        (20 662 zł) <br> 4        (27 549 zł) <br> 5        (34 437 zł) <br> 6        (41 324 zł) <br> 7        (48 211 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 035 zł <br> 7 705 zł  <br> Oryginalna cena 10 035 zł Aktualna cena 7 705 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 705 zł) <br> 2        (15 410 zł) <br> 3        (23 115 zł) <br> 4        (30 820 zł) <br> 5        (38 525 zł) <br> 6        (46 230 zł) <br> 7        (53 935 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 154 zł <br> 7 796 zł  <br> Oryginalna cena 10 154 zł Aktualna cena 7 796 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 796 zł) <br> 2        (15 592 zł) <br> 3        (23 388 zł) <br> 4        (31 183 zł) <br> 5        (38 979 zł) <br> 6        (46 775 zł) <br> 7        (54 571 zł) |\n| Pokój dwuosobowy typu Standard z 1 lub 2 łóżkami i bocznym widokiem na morze <br>  Został nam 1 <br>  Wyższe piętro <br> Wybierz łóżko (w zależności od dostępności) <br> \t2 łóżka pojedyncze  <br> \t1 duże łóżko podwójne  <br> 20 m² <br> Balkon <br> Widok na morze <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 9 263 zł <br> 7 114 zł  <br> Oryginalna cena 9 263 zł Aktualna cena 7 114 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 114 zł) |\n| Maksymalna liczba osób: 2 | 9 620 zł <br> 7 387 zł  <br> Oryginalna cena 9 620 zł Aktualna cena 7 387 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 387 zł) |\n| Maksymalna liczba osób: 2 | 10 451 zł <br> 8 023 zł  <br> Oryginalna cena 10 451 zł Aktualna cena 8 023 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 023 zł) |\n| Maksymalna liczba osób: 2 | 10 807 zł <br> 8 296 zł  <br> Oryginalna cena 10 807 zł Aktualna cena 8 296 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 296 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 8 967 zł <br> 6 887 zł  <br> Oryginalna cena 8 967 zł Aktualna cena 6 887 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 887 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 9 323 zł <br> 7 160 zł  <br> Oryginalna cena 9 323 zł Aktualna cena 7 160 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 160 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 154 zł <br> 7 796 zł  <br> Oryginalna cena 10 154 zł Aktualna cena 7 796 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 796 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 10 510 zł <br> 8 068 zł  <br> Oryginalna cena 10 510 zł Aktualna cena 8 068 zł <br> Zawiera opłaty i podatki <br> 23% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 068 zł) |\n| Pokój Dwuosobowy z widokiem na morze <br>  Został nam 1 <br>  Wyższe piętro <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 duże łóżko podwójne  <br> \t2 łóżka pojedyncze  <br> 20 m² <br> Balkon <br> Widok <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 11 045 zł <br> 9 952 zł  <br> Oryginalna cena 11 045 zł Aktualna cena 9 952 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie – 51 zł <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (9 952 zł) |\n| Maksymalna liczba osób: 2 | 11 401 zł <br> 10 273 zł  <br> Oryginalna cena 11 401 zł Aktualna cena 10 273 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie – 51 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (10 273 zł) |\n| Maksymalna liczba osób: 2 | 12 233 zł <br> 11 021 zł  <br> Oryginalna cena 12 233 zł Aktualna cena 11 021 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1        (11 021 zł) |\n| Maksymalna liczba osób: 2 | 12 589 zł <br> 11 342 zł  <br> Oryginalna cena 12 589 zł Aktualna cena 11 342 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bardzo dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 9 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1        (11 342 zł) |"
+  },
+  "review": {
+    "score": 8.9,
+    "count": 759
+  },
+  "comments": [
+    {
+      "author": "Sierpień",
+      "text": "„Wszystko . Przemiła obsługa , super pokój , pyszne śniadania , 7 minut spacerem od centrum .”"
+    },
+    {
+      "author": "Sierpień",
+      "text": "„Wszystko . Przemiła obsługa , super pokój , pyszne śniadania , 7 minut spacerem od centrum .”"
+    },
+    {
+      "author": "Sierpień",
+      "text": "„Wszystko . Przemiła obsługa , super pokój , pyszne śniadania , 7 minut spacerem od centrum .”"
+    },
+    {
+      "author": "Karolina",
+      "text": "„Miła obsługa, pyszne, domowe śniadania, spokojna, rodzinna atmosfera”"
+    },
+    {
+      "author": "Karolina",
+      "text": "„Miła obsługa, pyszne, domowe śniadania, spokojna, rodzinna atmosfera”"
+    },
+    {
+      "author": "Radosław",
+      "text": "„Cisza ,spokój, blisko plaży, obsluga hotelu bardzo miła i pomocna.”"
+    },
+    {
+      "author": "Radosław",
+      "text": "„Cisza ,spokój, blisko plaży, obsluga hotelu bardzo miła i pomocna.”"
+    },
+    {
+      "author": "Tomi",
+      "text": "„Peaceful location with small walk from central restaurants, nice sea view from balcony. Fridge in room was nice extra. good breakfast”"
+    },
+    {
+      "author": "Tomi",
+      "text": "„Peaceful location with small walk from central restaurants, nice sea view from balcony. Fridge in room was nice extra. good breakfast”"
+    },
+    {
+      "author": "Luana",
+      "text": "„We had a great stay! The hotel staff is extremely welcoming and helpful, we felt right at home! The hotel is located right on the beach and...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Galini Beach Hotel\nŚwietne udogodnienia! Ocena: 8,9\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nLokalizacja przy samej plaży\nBezpłatny parking\nPokoje rodzinne\nPrywatna plaża\nBardzo dobre śniadanie\nŚwietne na Twój pobyt\nPrywatna łazienka\nBalkon\nPlaża\nLokalizacja przy samej plaży\nBezpłatny parking\nBezpłatne Wi-Fi\nZwierzęta domowe są akceptowane\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking\nŁazienka\nPapier toaletowy\nRęczniki\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nSuszarka do włosów\nPrysznic\nSypialnia\nPościel\nWidok\nWidok\nOkolica\nLokalizacja przy samej plaży\nMeble ogrodowe\nTaras słoneczny\nPrywatna plaża\nBalkon\nTaras\nKuchnia\nCzajnik elektryczny\nLodówka\nUdogodnienia w pokoju\nGniazdko koło łóżka\nZwierzęta\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Mogą obowiązywać dodatkowe opłaty.\nRekreacja\nWynajem rowerów\nDodatkowa opłata\nWydarzenia sportowe na żywo (relacja na żywo)\nLekcje gotowania\nDodatkowa opłata\nPoza obiektem\nWycieczki rowerowe\nDodatkowa opłata\nPiesze wycieczki\nDodatkowa opłata\nPlaża\nNurkowanie\nDodatkowa opłata\nPiesze wycieczki\nDodatkowa opłata\nMedia/Technologia\nTelewizor z płaskim ekranem\nKanały satelitarne\nTelewizor\nPosiłki i napoje\nSpecjalne potrawy dietetyczne (na życzenie)\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nParking na miejscu\nBezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nParking dla osób niepełnosprawnych\nUsługi\nCodzienne sprzątanie\nWspólna część rekreacyjna / sala TV\nAutomat z napojami\nUsługi konsjerża\nPrzechowalnia bagażu\nFaks / ksero\nWypożyczalnia samochodów\nObiady na wynos\nUsługi recepcji\nMożliwe wystawienie faktury\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nMonitoring w pomieszczeniach ogólnodostępnych\nDostęp za pomocą kluczy\nSejf\nOgólne\nKlimatyzacja\nCałkowity zakaz palenia\nOgrzewanie\nWinda\nPokoje rodzinne\nPokoje dla niepalących\nUdogodnienia dla niepełnosprawnych\nDojazd windą na wyższe piętra\nCentrum wellness\nParasole przeciwsłoneczne\nLeżaki lub krzesełka plażowe\nJęzyki\ngrecki\nangielski\nfrancuski\nwłoski\nrumuński",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Lokalizacja przy samej plaży",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Prywatna plaża",
+      "Bardzo dobre śniadanie",
+      "Prywatna łazienka",
+      "Balkon",
+      "Plaża",
+      "Zwierzęta domowe są akceptowane",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Pościel",
+      "Widok",
+      "Meble ogrodowe",
+      "Taras słoneczny",
+      "Taras",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Gniazdko koło łóżka",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Wydarzenia sportowe na żywo (relacja na żywo)",
+      "Lekcje gotowania",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Wycieczki rowerowe",
+      "Dodatkowa opłata",
+      "Piesze wycieczki",
+      "Dodatkowa opłata",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Kanały satelitarne",
+      "Telewizor",
+      "Specjalne potrawy dietetyczne (na życzenie)",
+      "Parking dla osób niepełnosprawnych",
+      "Codzienne sprzątanie",
+      "Wspólna część rekreacyjna / sala TV",
+      "Automat z napojami",
+      "Usługi konsjerża",
+      "Przechowalnia bagażu",
+      "Faks / ksero",
+      "Wypożyczalnia samochodów",
+      "Obiady na wynos",
+      "Możliwe wystawienie faktury",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Dostęp za pomocą kluczy",
+      "Sejf",
+      "Całkowity zakaz palenia",
+      "Ogrzewanie",
+      "Winda",
+      "Dojazd windą na wyższe piętra",
+      "Parasole przeciwsłoneczne",
+      "Leżaki lub krzesełka plażowe",
+      "grecki",
+      "angielski",
+      "francuski",
+      "włoski",
+      "rumuński"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki i usług prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Galini Beach Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 15:00 do 22:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 07:00 do 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 12 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–1\nDodatkowe łóżko dostępne na życzenie\nBezpłatnie\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\nWiek: 2–11\nDodatkowe łóżko dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych dodatkowych łóżek i łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nMożliwość skorzystania z łóżeczek dziecięcych i dodatkowych łóżek zależy od dostępności.\n\nOgraniczenie wiekowe\nMinimalny wiek osoby meldującej się to 18 lat\nZwierzęta\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Mogą obowiązywać dodatkowe opłaty.\nGrupy\nW przypadku rezerwacji ponad 3 pokoi mogą obowiązywać inne zasady i dodatkowe opłaty.\nAkceptowane metody płatności\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Kissamos Telonio Beach (~0.1 km w linii prostej) (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

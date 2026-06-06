@@ -1,0 +1,175 @@
+{
+  "title": "Cypr - Harbour No4",
+  "country": "Cypr",
+  "propertyName": "Harbour No4",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.040734451003324,
+    "longitude": 32.395174081867516
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/833909483.jpg?k=46d10fc3648587a6d5b7e1a10c55a023dff8d06b0515efdf9675196110483e81&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/833909563.jpg?k=f66caf7e2f32dd28d8f32347b657510b34da3ce5541434c4dcb34a7a67f3adce&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/833909585.jpg?k=7519075feff62de7865c370693ec0dfe2112c914bd8ff04ceab623f89157c3bf&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/833909557.jpg?k=534988d2040f5e359cf4721ccee306aa5e852d88291fb0ac42ad98f32eb0f002&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/833909550.jpg?k=5c4fdcff95a9fb67f88ada9ba1573ae97275a70c75060abfb341dd06aadbad9b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/833909573.jpg?k=06382ad89095498a39f6bb6a542724c08e4e74e7d9826501e365896bfcfbc987&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/833909583.jpg?k=07d5a910dbdfcc71b2123ee5b5e2cefcda8a66fe8644baa3ac225ad13456f7db&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/833909548.jpg?k=2703b9a57ca4653bc4c4459f8e7ad20b39794e647bbd9c7cb42d22ca37c81c5c&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-m.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Cy.png",
+    "https://lh3.googleusercontent.com/a-/ALV-UjUohCofRoB8MHIjSQT47BkORKtueOUewgjXgQXgXb-E-wTYhw=s96-c",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Fr.png"
+  ],
+  "description": "Obiekt Harbour No4 położony jest w miejscowości Polis Chrysochous i oferuje bezpłatne Wi-Fi oraz klimatyzację. Odległość ważnych miejsc od obiektu: Plaża Latsi – 200 m, Zoo w Pafos – 29 km. Goście mogą podziwiać widok na morze. W okolicy znajdują się ciekawe miejsca takie jak: Klub golfowy Minthis Hill ( 33 km), Grobowce Królewskie ( 38 km).\n\nW apartamencie do dyspozycji gości przygotowano balkon, kilka sypialni (2), salon oraz kuchnię z doskonałym wyposażeniem, w tym lodówką i zmywarką. Goście mają do dyspozycji telewizor z płaskim ekranem.\n\nOdległość ważnych miejsc od obiektu: Teatr Markideio – 39 km, Centrum handlowe Kings Avenue Mall – 40 km. Lotnisko Lotnisko Pafos znajduje się 48 km od obiektu.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 5090,
+      "raw": "5090 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 6999,
+      "raw": "6999 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 8907,
+      "raw": "8907 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 9.3,
+    "count": 4
+  },
+  "comments": [
+    {
+      "author": "Maria",
+      "text": "„Lokalizacja. Widok na marinę był piękny, mimo że trzeba było patrzeć przez dach sąsiedniego budynku”"
+    },
+    {
+      "author": "Maria",
+      "text": "„Lokalizacja. Widok na marinę był piękny, mimo że trzeba było patrzeć przez dach sąsiedniego budynku”"
+    },
+    {
+      "author": "Maria",
+      "text": "„Lokalizacja. Widok na marinę był piękny, mimo że trzeba było patrzeć przez dach sąsiedniego budynku”"
+    },
+    {
+      "author": "Andrew",
+      "text": "„The location in Latchi and the view over the harbour."
+    },
+    {
+      "author": "Andrew",
+      "text": "„The location in Latchi and the view over the harbour."
+    },
+    {
+      "author": "Natalija",
+      "text": "„The apartment is spacious, the view is dreamy and the location couldn't be better, you're right at the Latchi Harbour. You have boats to rent right...”"
+    },
+    {
+      "author": "Natalija",
+      "text": "„The apartment is spacious, the view is dreamy and the location couldn't be better, you're right at the Latchi Harbour. You have boats to rent right...”"
+    },
+    {
+      "author": "Jane",
+      "text": "„Мы отдыхали с детьми. Нам все очень понравилось. В номере было чисто, уютно, комфортно! Кухня полностью оборудована, есть все необходимое. Мебель и...”"
+    },
+    {
+      "author": "Jane",
+      "text": "„Мы отдыхали с детьми. Нам все очень понравилось. В номере было чисто, уютно, комфортно! Кухня полностью оборудована, есть все необходимое. Мебель и...”"
+    },
+    {
+      "author": "",
+      "text": "„Lokalizacja. Widok na marinę był piękny, mimo że trzeba było patrzeć przez dach sąsiedniego budynku”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Harbour No4\nŚwietne udogodnienia! Ocena: 9,4\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nBezpłatny parking\nŚwietne na Twój pobyt\nKuchnia\nBalkon\nBezpłatny parking\nBezpłatne Wi-Fi\nPralka\nTelewizor z płaskim ekranem\nZwierzęta domowe są akceptowane\nKlimatyzacja\nParking\nWidok\nParking\nBezpłatny parking publiczny jest dostępny przy sąsiednich ulicach (nie jest konieczna rezerwacja).\nInternet\nWi-Fi jest dostępne w całym obiekcie i jest bezpłatne.\nKuchnia\nStół\nEkspres do kawy\nŚrodki czystości\nToster\nPrzybory kuchenne\nCzajnik elektryczny\nKuchnia\nPralka\nZmywarka\nLodówka\nSypialnia\nSzafa lub garderoba\nŁazienka\nPapier toaletowy\nRęczniki\nSuszarka do włosów\nSalon\nSofa\nMedia/Technologia\nSerwis z filmami online (np. Netflix)\nTelewizor z płaskim ekranem\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nRozkładana sofa\nSuszarka na ubrania\nSprzęt do prasowania\nŻelazko\nZwierzęta\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Bez dodatkowych opłat.\nOkolica\nMeble ogrodowe\nBalkon\nOkolica i widok\nWidok na morze\nWidok\nCechy budynku\nPrywatne mieszkanie w budynku\nRóżne\nCzęść przeznaczona dla palących\nKlimatyzacja\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nSejf\nJęzyki\ngrecki\nangielski",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Bezpłatny parking",
+      "Kuchnia",
+      "Balkon",
+      "Pralka",
+      "Telewizor z płaskim ekranem",
+      "Zwierzęta domowe są akceptowane",
+      "Klimatyzacja",
+      "Parking",
+      "Widok",
+      "Stół",
+      "Ekspres do kawy",
+      "Środki czystości",
+      "Toster",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Zmywarka",
+      "Lodówka",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Suszarka do włosów",
+      "Sofa",
+      "Serwis z filmami online (np. Netflix)",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Rozkładana sofa",
+      "Suszarka na ubrania",
+      "Sprzęt do prasowania",
+      "Żelazko",
+      "Meble ogrodowe",
+      "Widok na morze",
+      "Prywatne mieszkanie w budynku",
+      "Część przeznaczona dla palących",
+      "Gaśnice",
+      "Sejf",
+      "grecki",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": false,
+      "evidence": [
+        "Tak, pralka dostępna w pokoju/apartamencie."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Harbour No4 przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 23:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 00:00 do 10:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 18 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nZwierzęta\nBezpłatnie!\nZwierzęta są akceptowane po uzgodnieniu z obiektem. Bez dodatkowych opłat.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 650 ft from Harbour No4.",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

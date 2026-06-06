@@ -1,0 +1,277 @@
+{
+  "title": "Turcja - Dove Apart Hotel",
+  "country": "Turcja",
+  "propertyName": "Dove Apart Hotel",
+  "address": "",
+  "coordinates": {
+    "latitude": 36.65864299427641,
+    "longitude": 29.116864800453186
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/844571696.jpg?k=28d5e32ed9c76008fd603ce1be6e721fec7e43c7c3ae6861e456121ebef10755&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/850693444.jpg?k=7418b31a360a0421d9c7b83edec28033f8ad954494f9bc3286fd7fc6ccf5c390&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/850693446.jpg?k=d9f1c15ecd6a3d073ade4c083be3998bb535ddb309bcded00d4c054402288936&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/263837641.jpg?k=a7c1f4f49dd32609680f96f8030bed08c0fbdcbe9a2c8b4eeec3b36a5ebbcb1f&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/850693793.jpg?k=06fb22db29b04ee60aae25097593039606242edea14dd21ed3608faddb51ab88&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/850693731.jpg?k=06619ff9bf35e03e9ab18eceba61a82596ff6439fd91d562b4d4aff490edd58b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/95252822.jpg?k=1975b24d3184a95e199296ccb51368c4923464aee002196ca1f0df9feb212cce&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/850693442.jpg?k=8a7c6a45c139538f22155162078a7fc9aacc0d0ada45c77609ca007fd157187f&o=",
+    "https://graph.facebook.com/v2.9/10218978945573485/picture?type=square&height=64&width=64",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-m.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png"
+  ],
+  "description": "Położony zaledwie 5 minut spacerem od plaży Calis hotel Dove Apart oferuje odkryty basen, basen dla dzieci oraz bezpłatne leżaki i parasole przy basenie. Do dyspozycji Gości są klimatyzowane pokoje z balkonem.\n\nKażdy pokój zapewnia łazienkę i bezpłatny bezprzewodowy dostęp do Internetu. W niektórych pokojach znajduje się kuchnia wyposażona w przybory do gotowania.\n\nDoskonałym miejscem na relaks w hotelu Dove Apart jest bar. Goście mogą zamówić jedzenie i napoje przy basenie. Codziennie rano w lokalu serwowane jest śniadanie tureckie i angielskie.\n\nZaledwie spacer dzieli hotel od wielu restauracji, barów, sklepów i targów. Dojazd do plaży Ölüdeniz zajmuje 30 minut. Odległość od lotniska Dalaman wynosi 47 km.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 8,6.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 1850,
+      "raw": "1850 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 2543,
+      "raw": "2543 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 3237,
+      "raw": "3237 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Rodzaj zakwaterowania",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz liczbę"
+    ],
+    "rows": [
+      [
+        "Pokój trzyosobowy <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> \t3 łóżka pojedyncze  <br> Pokój <br> 16 m² <br> Balkon <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "4 640 zł <br> 3 666 zł  <br> Oryginalna cena 4 640 zł Aktualna cena 3 666 zł <br> Zawiera opłaty i podatki <br> 21% taniej",
+        "Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (3 666 zł) <br> 2          (7 332 zł) <br> 3        (10 997 zł) <br> 4        (14 663 zł) <br> 5        (18 329 zł) <br> 6        (21 995 zł) <br> 7        (25 660 zł) <br> 8        (29 326 zł) <br> 9        (32 992 zł) <br> 10        (36 658 zł)"
+      ],
+      [
+        "Apartament typu Studio z widokiem na ogród <br> 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> 1 studio na wyłączność <br> 16 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "4 627 zł <br> 4 118 zł  <br> Oryginalna cena 4 627 zł Aktualna cena 4 118 zł <br> Zawiera opłaty i podatki <br> 11% taniej",
+        "Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1",
+        "Wybierz pokoje <br> 0 <br> 1          (4 118 zł)"
+      ],
+      [
+        "Apartament – parter <br> 4 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 22 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Zmywarka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "5 217 zł <br> 4 643 zł  <br> Oryginalna cena 5 217 zł Aktualna cena 4 643 zł <br> Zawiera opłaty i podatki <br> 11% taniej",
+        "Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1",
+        "Wybierz pokoje <br> 0 <br> 1          (4 643 zł)"
+      ],
+      [
+        "Apartament z 2 sypialniami i widokiem na basen <br> Sypialnia 1: 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> Sypialnia 2: 1 łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na basen <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "8 254 zł <br> 7 346 zł  <br> Oryginalna cena 8 254 zł Aktualna cena 7 346 zł <br> Zawiera opłaty i podatki <br> 11% taniej",
+        "Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1",
+        "Wybierz pokoje <br> 0 <br> 1          (7 346 zł)"
+      ],
+      [
+        "Apartament z 2 sypialniami i widokiem na ogród <br> Sypialnia 1: 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> Sypialnia 2: 1 łóżko podwójne  <br> 1 apartament na wyłączność <br> 22 m² <br> Prywatny aneks kuchenny <br> Łazienka w pokoju <br> Balkon <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "8 678 zł <br> 7 724 zł  <br> Oryginalna cena 8 678 zł Aktualna cena 7 724 zł <br> Zawiera opłaty i podatki <br> 11% taniej",
+        "Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1",
+        "Wybierz pokoje <br> 0 <br> 1          (7 724 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Pokój trzyosobowy <br> Wybierz łóżko (w zależności od dostępności) <br> \t1 łóżko pojedyncze  i 1 łóżko podwójne  <br> \t3 łóżka pojedyncze  <br> Pokój <br> 16 m² <br> Balkon <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 4 640 zł <br> 3 666 zł  <br> Oryginalna cena 4 640 zł Aktualna cena 3 666 zł <br> Zawiera opłaty i podatki <br> 21% taniej | Bezpłatne śniadanie Genius <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (3 666 zł) <br> 2          (7 332 zł) <br> 3        (10 997 zł) <br> 4        (14 663 zł) <br> 5        (18 329 zł) <br> 6        (21 995 zł) <br> 7        (25 660 zł) <br> 8        (29 326 zł) <br> 9        (32 992 zł) <br> 10        (36 658 zł) |\n| Apartament typu Studio z widokiem na ogród <br> 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> 1 studio na wyłączność <br> 16 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 4 627 zł <br> 4 118 zł  <br> Oryginalna cena 4 627 zł Aktualna cena 4 118 zł <br> Zawiera opłaty i podatki <br> 11% taniej | Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (4 118 zł) |\n| Apartament – parter <br> 4 łóżka pojedyncze  <br> 1 apartament na wyłączność <br> 22 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Zmywarka <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 5 217 zł <br> 4 643 zł  <br> Oryginalna cena 5 217 zł Aktualna cena 4 643 zł <br> Zawiera opłaty i podatki <br> 11% taniej | Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (4 643 zł) |\n| Apartament z 2 sypialniami i widokiem na basen <br> Sypialnia 1: 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> Sypialnia 2: 1 łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 46 m² <br> Prywatna kuchnia <br> Prywatna łazienka <br> Balkon <br> Widok na basen <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 8 254 zł <br> 7 346 zł  <br> Oryginalna cena 8 254 zł Aktualna cena 7 346 zł <br> Zawiera opłaty i podatki <br> 11% taniej | Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (7 346 zł) |\n| Apartament z 2 sypialniami i widokiem na ogród <br> Sypialnia 1: 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> Sypialnia 2: 1 łóżko podwójne  <br> 1 apartament na wyłączność <br> 22 m² <br> Prywatny aneks kuchenny <br> Łazienka w pokoju <br> Balkon <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 8 678 zł <br> 7 724 zł  <br> Oryginalna cena 8 678 zł Aktualna cena 7 724 zł <br> Zawiera opłaty i podatki <br> 11% taniej | Znakomite śniadanie – 21 zł <br> Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Nie płacisz nic do 7 września 2026 <br> Zastosowano 11% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (7 724 zł) |"
+  },
+  "review": {
+    "score": 8.3,
+    "count": 45
+  },
+  "comments": [
+    {
+      "author": "Katarzyna",
+      "text": "„Super tania czysta i sympatyczna miejscowka. Szczerze moge polecic!!!”"
+    },
+    {
+      "author": "Katarzyna",
+      "text": "„Super tania czysta i sympatyczna miejscowka. Szczerze moge polecic!!!”"
+    },
+    {
+      "author": "Katarzyna",
+      "text": "„Super tania czysta i sympatyczna miejscowka. Szczerze moge polecic!!!”"
+    },
+    {
+      "author": "Malgorzata",
+      "text": "„Super lokalizacja, hotel czysty i przyjemny, obsługa pomocna we wszystkim, godny polecenia 🤗”"
+    },
+    {
+      "author": "Malgorzata",
+      "text": "„Super lokalizacja, hotel czysty i przyjemny, obsługa pomocna we wszystkim, godny polecenia 🤗”"
+    },
+    {
+      "author": "Sebastian",
+      "text": "„Wyśmienite śniadanie, doskonała i bardzo pomocna obsługa. Szczególne podziękowanie dla Pana z recepcji za pomoc i znalezienie zguby.”"
+    },
+    {
+      "author": "Sebastian",
+      "text": "„Wyśmienite śniadanie, doskonała i bardzo pomocna obsługa. Szczególne podziękowanie dla Pana z recepcji za pomoc i znalezienie zguby.”"
+    },
+    {
+      "author": "Monika",
+      "text": "„Świetna lokalizacja, bardzo miły i niezwykle pomocny personel, pyszne śniadania.”"
+    },
+    {
+      "author": "Monika",
+      "text": "„Świetna lokalizacja, bardzo miły i niezwykle pomocny personel, pyszne śniadania.”"
+    },
+    {
+      "author": "Dariusz",
+      "text": "„Świetna jakość do ceny, pomocny personel, cicha okolica, blisko restauracje i markety, łatwy dojazd dolmusze do centrum, Rewala ja jednym słowem.”"
+    }
+  ],
+  "surroundingsRaw": "Opinie Gości\nZobacz dostępność\nOceniony na 8.3\n8,3\nOceniony jako bardzo dobry\nBardzo dobry · 1 045 opinii\nPrzeczytaj wszystkie opinie\nKategorie:\nPersonel\n9,0\nUdogodnienia\n8,1\nCzystość\n8,3\nKomfort\n8,1\nStosunek jakości do ceny\n8,6\nLokalizacja\n8,6\nBezpłatne WiFi\n7,3\nWybierz tematy, aby przeczytać opinie:\nŚniadanie\nBasen\nPokój\nLokalizacja\nCzystość\nZobacz, co najbardziej podobało się Gościom:\nKatarzyna\nWielka Brytania\n„Super tania czysta i sympatyczna miejscowka. Szczerze moge polecic!!!”\nWięcej informacji\nM\nMalgorzata\nPolska\n„Super lokalizacja, hotel czysty i przyjemny, obsługa pomocna we wszystkim, godny polecenia 🤗”\nWięcej informacji\nS\nSebastian\nPolska\n„Wyśmienite śniadanie, doskonała i bardzo pomocna obsługa. Szczególne podziękowanie dla Pana z recepcji za pomoc i znalezienie zguby.”\nWięcej informacji\nM\nMonika\nPolska\n„Świetna lokalizacja, bardzo miły i niezwykle pomocny personel, pyszne śniadania.”\nWięcej informacji\nD\nDariusz\nPolska\n„Świetna jakość do ceny, pomocny personel, cicha okolica, blisko restauracje i markety, łatwy dojazd dolmusze do centrum, Rewala ja jednym słowem.”\nWięcej informacji\nM\nMarek\nPolska\n„Bardzo pomocna obsługa. Bardzo duży pokój na poddaszu z widokiem na basen. Świetny klimat w hotelu. W Turcji w ciągu 11 dni spałem w 6 hotelach, ten hotel posiadał najlepszy stosunek ceny do jakości. Nie wiem skąd pojawiają się opinie, że hotele...”\nWięcej informacji\nDamian\nWielka Brytania\n„Jak zawsze, kierownictwo i personel są bardzo gościnni i przyjaźni, uwielbiamy tu przebywać Przyjeżdżamy co roku, a śniadania są wyśmienite👏\n\nPolecam to miejsce każdemu 👌”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nA\nAngela\nWielka Brytania\n„Przyjazna i pomocna obsługa. Rozsądna cena. Nic kłopotliwego. Ładny basen. Dobre tureckie śniadanie. Świetna lokalizacja. Blisko morza. W pobliżu mnóstwo restauracji i sklepów”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nErikadaug\nLitwa\n„Facet w recepcji jest naprawdę przyjazny i ma bardzo pozytywne nastawienie. Udało mi się zameldować kilka godzin przed planowanym czasem zameldowania. Pokój był czysty i wygodny, miał wszystko, czego możesz potrzebować. Na śniadanie można zjeść...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nS\nSvenjaminpl\nPolska\n„Spokojna okolica, przestronne mieszkanieMożesz gotować, prać, pod koniec kwietnia nie musisz nawet włączać klimatyzacji, za to widok jest wspaniały. BIM i A101 oddalone są o 5-10 minut pieszo. Przy ulicy biegnącej wzdłuż plaży można łatwo dojechać...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nPrzeczytaj wszystkie opinie",
+  "amenities": {
+    "flatList": [
+      "Odkryty basen",
+      "Transfer lotniskowy",
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Udogodnienia dla niepełnosprawnych",
+      "Obsługa pokoju",
+      "Bezpłatny parking",
+      "Pokoje rodzinne",
+      "Bar",
+      "Znakomite śniadanie",
+      "Prywatna łazienka",
+      "Balkon",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Parking",
+      "Parking przy ulicy",
+      "Czajnik elektryczny",
+      "Lodówka",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Kapcie",
+      "Toaleta",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Kanały kablowe",
+      "Kanały satelitarne",
+      "Telewizor",
+      "Suszarka na ubrania",
+      "Wieszak na ubrania",
+      "Moskitiera",
+      "Ogród",
+      "Wspólna część rekreacyjna / sala TV",
+      "Godziny pracy",
+      "Sezonowy",
+      "Wstęp dla osób w każdym wieku",
+      "Ręczniki kąpielowe/plażowe",
+      "Bar przy basenie",
+      "Leżaki lub krzesełka plażowe",
+      "Parasole przeciwsłoneczne",
+      "Płotek wokół basenu",
+      "Wino / szampan",
+      "Dodatkowa opłata",
+      "Bar przekąskowy",
+      "Park wodny",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Nurkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Jazda na rowerze",
+      "Poza obiektem",
+      "Rzutki",
+      "Windsurfing",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Wędkowanie",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Kort tenisowy",
+      "Dodatkowa opłata",
+      "Poza obiektem",
+      "Wynajem rowerów",
+      "Dodatkowa opłata",
+      "Transfer",
+      "Dodatkowa opłata",
+      "Wypożyczalnia samochodów",
+      "Transfer lotniskowy",
+      "Dodatkowa opłata",
+      "Możliwe wystawienie faktury",
+      "Zamykane szafki",
+      "Wymiana walut",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Codzienne sprzątanie",
+      "Pralnia",
+      "Dodatkowa opłata",
+      "Faks / ksero",
+      "Dostęp dla wózków inwalidzkich",
+      "Ogrzewanie",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Monitoring w pomieszczeniach ogólnodostępnych",
+      "Czujnik dymu",
+      "Dostęp za pomocą karty",
+      "Dostęp za pomocą kluczy",
+      "Całodobowa ochrona",
+      "Sejf",
+      "niemiecki",
+      "angielski",
+      "rosyjski",
+      "turecki",
+      "ukraiński"
+    ],
+    "laundry": {
+      "confirmed": false,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna)."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Dove Apart Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nDo 11:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nW tym obiekcie dzieci w wieku 7 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatności poprzez Booking.com\nBooking.com pobiera od Ciebie płatność za pobyt w imieniu obiektu. Pamiętaj, by wziąć ze sobą pieniądze do wykorzystania na dodatkowe usługi.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Çalış Beach / Fethiye (~0.8 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

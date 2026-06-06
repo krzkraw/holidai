@@ -1,0 +1,159 @@
+{
+  "title": "Kreta - Kallithea Studios",
+  "country": "Kreta",
+  "propertyName": "Kallithea Studios",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.3661144893774,
+    "longitude": 24.4830711185932
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/309120500.jpg?k=51e5899885812d6d7acbc0273f76e78b61337a031ba2872f6eac92bccec133a6&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/152009600.jpg?k=fa8e3242a1f3bbb79be149400105be1a967703c94c81ed2339ee6e8a06914737&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/152007600.jpg?k=fc95c05eb4748cc0bafe0e61c5bf2a79551c4a996c20bb9404368b408c5fb434&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/152099105.jpg?k=9b2c6b93fc19f042fc90b94a80b4da6af0bf98c13d7a076b30f7f419e3e78076&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/109720018.jpg?k=6fdcb025f01280b93a08e9c116b53b9ba90415bb0962bd08f17d7969c603db1c&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/304778350.jpg?k=f77f16ff9c8fd9efad4b7acdea09e11bc74d5047acb83e687f9fd6dfd3a76d60&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/152008579.jpg?k=e013655b7aee5e6c8369528bc5d6f7291d9f76efe521463f6e707acbd6b4ecdf&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/152008948.jpg?k=16da384064c3a4c4d492537e26b27f4d88bd63f632b61ec0707e0980aea525b6&o=",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://lh3.googleusercontent.com/a/AATXAJzii9CAzjAQXsZztfblWJJEjZZACk7Q3bGGNk45=s96-c",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-m.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png"
+  ],
+  "description": "Obiekt Kallithea Studios oferuje ogród, wspólny salon oraz różne opcje zakwaterowania, w których zapewniono klimatyzację, balkon i bezpłatne Wi-Fi. Odległość ważnych miejsc od obiektu: Plaża Rethymno – kilka kroków od obiektu.\n\nW niektórych opcjach zakwaterowania zapewniono także aneks kuchenny z lodówką.\n\nNa terenie obiektu Kallithea Studios znajduje się taras.\n\nW pobliżu obiektu Kallithea Studios znajdują się liczne atrakcje, takie jak Muzeum Archeologiczne w Retimnie, Municipal Garden i Venetian Harbour. Lotnisko Lotnisko Chania znajduje się 70 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 2104,
+      "raw": "2104 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 2893,
+      "raw": "2893 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 3682,
+      "raw": "3682 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [],
+    "rows": [],
+    "raw": "Tabela pokoi nie została znaleziona."
+  },
+  "review": {
+    "score": 9.2,
+    "count": 472
+  },
+  "comments": [
+    {
+      "author": "Dawid",
+      "text": "„Bardzo dobra lokalizacja obiektu. Blisko do plaż, centrum miasta, barów. Świetna baza wypadowa dla okolicznych miasteczek, plaż. Pobyt w hotelu był...”"
+    },
+    {
+      "author": "Dawid",
+      "text": "„Bardzo dobra lokalizacja obiektu. Blisko do plaż, centrum miasta, barów. Świetna baza wypadowa dla okolicznych miasteczek, plaż. Pobyt w hotelu był...”"
+    },
+    {
+      "author": "Dawid",
+      "text": "„Bardzo dobra lokalizacja obiektu. Blisko do plaż, centrum miasta, barów. Świetna baza wypadowa dla okolicznych miasteczek, plaż. Pobyt w hotelu był...”"
+    },
+    {
+      "author": "Sekuła",
+      "text": "„Hotel bardzo przyjazny,czysty,wszelkie udogodnienia. Znakomita lokalizacja. Mili gospodarze.”"
+    },
+    {
+      "author": "Sekuła",
+      "text": "„Hotel bardzo przyjazny,czysty,wszelkie udogodnienia. Znakomita lokalizacja. Mili gospodarze.”"
+    },
+    {
+      "author": "Michał",
+      "text": "„Świetna lokalizacja - blisko plaża, restauracje oraz stare miasto. Pokój bardzo czysty. Duży balkon.”"
+    },
+    {
+      "author": "Michał",
+      "text": "„Świetna lokalizacja - blisko plaża, restauracje oraz stare miasto. Pokój bardzo czysty. Duży balkon.”"
+    },
+    {
+      "author": "Kacper",
+      "text": "„bardzo mili, pomocni gospodarze, czysto, blisko wszędzie, nawet była winda z muzyką klasyczną”"
+    },
+    {
+      "author": "Kacper",
+      "text": "„bardzo mili, pomocni gospodarze, czysto, blisko wszędzie, nawet była winda z muzyką klasyczną”"
+    },
+    {
+      "author": "Tomasz",
+      "text": "„Świetne miejsce z cudownymi, serdecznymi i otwartymi właścicielami, którzy traktują gości jak członków ich własnej rodziny. Do tego bardzo dobra...”"
+    }
+  ],
+  "surroundingsRaw": "Zwykle niedostępny – masz szczęście!\nObiekt Kallithea Studios jest zwykle niedostępny na naszej stronie. Zarezerwuj teraz, zanim zostanie wyprzedany!\n\nObiekt Kallithea Studios oferuje ogród, wspólny salon oraz różne opcje zakwaterowania, w których zapewniono klimatyzację, balkon i bezpłatne Wi-Fi. Odległość ważnych miejsc od obiektu: Plaża Rethymno – kilka kroków od obiektu.\n\nW niektórych opcjach zakwaterowania zapewniono także aneks kuchenny z lodówką.\n\nNa terenie obiektu Kallithea Studios znajduje się taras.\n\nW pobliżu obiektu Kallithea Studios znajdują się liczne atrakcje, takie jak Muzeum Archeologiczne w Retimnie, Municipal Garden i Venetian Harbour. Lotnisko Lotnisko Chania znajduje się 70 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap\n\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nBar\nAtuty obiektu\nIdealny na pobyt na 2 tygodnie!\n\nTen obiekt położony jest w najlepiej ocenianej dzielnicy w Retimnie i otrzymuje wysokie oceny za lokalizację (9,6)\n\nZarezerwuj teraz\nZapisz obiekt\n\nDostępność\nWyrównujemy ceny\nCeny przeliczono na PLN\nśr. 16 wrz. - śr. 30 wrz.\n2 dorosłych · 0 dzieci · 1 pokój\nZmień wyszukiwanie\nWybierz rodzaj zakwaterowania oraz liczbę opcji, które chcesz zarezerwować.\nTyp apartamentu\tLiczba gości\t\n\n\n\n\nCena za 2 tygodnie\tTwoje opcje\tWybierz apartament\nApartament z 1 sypialnią\n1 łóżko podwójne \n1 apartament na wyłączność\nBalkon\nKlimatyzacja\nŁazienka w pokoju\nTelewizor z płaskim ekranem\nBezpłatne Wi-Fi\nBezpłatny zestaw kosmetyków Suszarka do włosów Szafa lub garderoba Papier toaletowy Klimatyzacja obsługiwana indywidualnie dla każdego pokoju\n\t\nMaksymalna liczba osób: 2\n\t\n3 682 zł\nCena 3 682 zł\nZawiera opłaty i podatki\n\t\nBezpłatne odwołanie przed 26 sierpnia 2026\n•\nNie płacisz nic do 24 sierpnia 2026\n\t\nWybierz pokoje\n0\n1          (3 682 zł)\n\t\nRezerwuję\nZajmuje to tylko 2 minuty\nOpłata nie zostanie jeszcze pobrana\nObiekt Kallithea Studios może pobierać dodatkowe opłaty, które nie zostały wymienione powyżej. Sprawdź zakładkę „drobnym drukiem”, aby dowiedzieć się więcej.\nOpinie Gości\nZobacz dostępność\nOceniony na 9.2\n9,2\nOceniony jako znakomity\nZnakomity · 472 opinii\nPrzeczytaj wszystkie opinie\nKategorie:\nPersonel\n9,8\nUdogodnienia\n9,0\nCzystość\n9,6\nKomfort\n9,3\nStosunek jakości do ceny\n9,3\nLokalizacja\n9,6\nBezpłatne WiFi\n9,5\nWybierz tematy, aby przeczytać opinie:\nLokalizacja\nPlaża\nCzystość\nPokój\nParking\nZobacz, co najbardziej podobało się Gościom:\nD\nDawid\nPolska\n„Bardzo dobra lokalizacja obiektu. Blisko do plaż, centrum miasta, barów. Świetna baza wypadowa dla okolicznych miasteczek, plaż. Pobyt w hotelu był bardzo udany. Oboje z narzeczoną czuliśmy się jak w domu dzięki gościnności i serdeczności...”\nWięcej informacji\nS\nSekuła\nPolska\n„Hotel bardzo przyjazny,czysty,wszelkie udogodnienia. Znakomita lokalizacja. Mili gospodarze.”\nWięcej informacji\nM\nMichał\nWielka Brytania\n„Świetna lokalizacja - blisko plaża, restauracje oraz stare miasto. Pokój bardzo czysty. Duży balkon.”\nWięcej informacji\nKacper\nPolska\n„bardzo mili, pomocni gospodarze, czysto, blisko wszędzie, nawet była winda z muzyką klasyczną”\nWięcej informacji\nTomasz\nPolska\n„Świetne miejsce z cudownymi, serdecznymi i otwartymi właścicielami, którzy traktują gości jak członków ich własnej rodziny. Do tego bardzo dobra lokalizacja, z której jest blisko do wszystkich ciekawych części miasta.”\nWięcej informacji\nA\nArtur\nPolska\n„Niezwykła gościnność i uprzejmość właścicieli. Super lokalizacja. Dobrze wyposażony pokój z aneksem kuchennym, balkonem i łazienką. Blisko do głównych atrakcji miasta.”\nWięcej informacji\nKaja\nPolska\n„Rodzinny hotel, przemili właściciele, czekali na nas żeby wskazać nam miejsce parkingowe przed samym wejściem. Pokój nieduży ale bardzo funkcjonalnie i nowocześnie urządzony, z niewielkim tarasem. Blisko zarówno na stare miasto jak i na plażę....”\nWięcej informacji\nP\nPeter\nWielka Brytania\n„Właściciel i cały personel byli bardzo przyjaźni, chętnie udzielali informacji i upewnili się, że mam wszystko, czego potrzebuję, aby móc cieszyć się moim dwudniowym pobytem podczas mojej pierwszej wizyty w Retimno. Mój pokój był przestronny i...”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nAnnamaria\nRumunia\n„Bardzo blisko plaży i centrum miasta. Bezpłatny parking znajduje się 6 minut spacerem.”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nA\nAndrew\nWielka Brytania\n„Hotel prowadzą bardzo przyjaźni ludzie. Fantastyczna lokalizacja, jeśli chodzi o atrakcje Retimno. Doskonały stosunek jakości do ceny.”\nWięcej informacji\nPrzetłumaczone przez  - Pokaż oryginał\nPrzeczytaj wszystkie opinie\nOcena jakości\nBooking.com ocenił jakość tego obiektu na 3/5 na podstawie takich czynników, jak udogodnienia, wielkość, lokalizacja i usługi.\nZyskaj więcej na każdej podróży służbowej\nTo łatwiejsze z Booking.com for Business. Rezerwuj i monitoruj podróże zespołu oraz zarządzaj nimi w jednym miejscu.\nAktywuj teraz całkowicie za darmo\nPytania podróżujących\nZobacz dostępność\nCzy na miejscu jest parking?\nCzy śniadanie jest serwowane?\nCzy na miejscu jest restauracja?\nCzy na miejscu jest spa?\nCzy na miejscu jest basen?\nNa jakich zasadach można korzystać z Wi-Fi?\nCzy mogę przyjechać ze zwierzęciem?\nCzy na miejscu można skorzystać z transferu lotniskowego?\nCzy na miejscu jest siłownia?\nCzy na miejscu są pokoje z balkonem?\nNadal szukasz?\nZadaj pytanie\n\nNa większość pytań mamy natychmiastową odpowiedź\n\nZobacz inne pytania (3)\nOtoczenie obiektu\nZobacz dostępność\nGoście lubią tę okolicę ze względu na:\nHistoria i kultura\nPosiłki i napoje\nWybrzeże morskie\nGościom bardzo podoba się okolica obiektu!\nDoskonała lokalizacja – pokaż mapę\nNajlepsze atrakcje\nMunicipal Garden\n900 m\nCentre of Byzantine Art\n950 m\nMuzeum Archeologiczne w Retimnie\n950 m\nHistorical and Folklore Museum\n1,1 km\nFortezza Castle\n1,6 km\nRestauracje i kawiarnie\nKawiarnia/barCoffee Island\n500 m\nKawiarnia/barCoffee Island\n650 m\nKawiarnia/barBricks Rethymno\n750 m\nPlaże w okolicy\nPlaża Rethymno\n100 m\nPlaża Paralia Koumbes\n2,3 km\nPlaża Platanes\n4,8 km\nPlaża Adelianos Kampos\n5 km\nPlaża Paralia Pirgos\n9 km\nNajbliższe lotniska\nLotnisko Chania\n67 km\nLotnisko Heraklion\n70 km\nWyświetlane są najkrótsze szacunkowe odległości do pokonania pieszo lub samochodem, rzeczywiste odległości mogą się różnić.\nUdogodnienia w obiekcie Kallithea Studios\nŚwietne udogodnienia! Ocena: 9\nZobacz dostępność\nNajpopularniejsze udogodnienia\nBezpłatne Wi-Fi\nPokoje dla niepalących\nBar\nŚwietne na Twój pobyt\nPrywatna łazienka\nBalkon\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nPokoje dla niepalących\nWinda\nBar\nParking\nParking nie jest dostępny.\nInternet\nWi-Fi jest dostępne w pokojach i jest bezpłatne.\nSypialnia\nSzafa lub garderoba\nŁazienka\nPapier toaletowy\nPrywatna łazienka\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nMedia/Technologia\nTelewizor z płaskim ekranem\nOkolica\nMeble ogrodowe\nTaras słoneczny\nBalkon\nTaras\nOgród\nPomieszczenia ogólnodostępne\nWspólna część rekreacyjna / sala TV\nPosiłki i napoje\nBar\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nWinda\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nMonitoring wokół obiektu\nCzujnik dymu\nSystem alarmowy\nJęzyki\nangielski\nZasady pobytu\nObiekt Kallithea Studios przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 00:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 11:00 do 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatności poprzez Booking.com\nBooking.com pobiera od Ciebie płatność za pobyt w imieniu obiektu. Pamiętaj, by wziąć ze sobą pieniądze do wykorzystania na dodatkowe usługi.\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 23:00–08:00.\nZwierzęta\nZwierzęta nie są akceptowane.\nWażne informacje\nNiezbędne informacje dla gości tego obiektu\nZobacz dostępność\n\nW momencie zameldowania wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej. Życzenia specjalne zostaną zrealizowane w zależności od dostępności, a ich realizacja może podlegać dodatkowej opłacie.\n\nProsimy o wcześniejsze poinformowanie obiektu Kallithea Studios o planowanej godzinie przyjazdu. Aby to zrobić, możesz wpisać treść prośby w miejscu na życzenia specjalne lub skontaktować się bezpośrednio z obiektem, korzystając z danych kontaktowych widniejących w potwierdzeniu rezerwacji.\n\nPrzed przyjazdem należy dokonać przedpłaty przelewem. Personel obiektu przekaże Gościom szczegółowe informacje po dokonaniu rezerwacji.\n\nW obiekcie obowiązuje zakaz organizowania wieczorów panieńskich, kawalerskich itp.\n\nCisza nocna obowiązuje w godzinach 23:00:00–08:00:00.\n\nNumer licencji: 1041Κ113Κ2748501\n\nInformacje prawne\nTym obiektem zarządza gospodarz profesjonalny. Ta klasyfikacja nie wpływa na podatki, w tym podatek VAT i inne „podatki pośrednie”, ale jest wymagana na mocy obowiązującego prawa konsumenckiego. Więcej informacji o gospodarzu znajdziesz tutaj: zobacz dane gospodarza.\nPodział obowiązków\nUmowa o świadczenie usług zakwaterowania zawarta za pośrednictwem Booking.com jest zawierana pomiędzy Tobą jako klientem oraz Dostawcą usług (tzn. gospodarzem prywatnym albo przedsiębiorcą). Dostawca usług, jako strona umowy, ponosi odpowiedzialność za należyte wykonanie usług. Booking.com prowadzi platformę internetową, na której osoby trzecie oferują swoje usługi (w tym usługi zakwaterowania) („Dostawcy usług”) i jedynie pośredniczy w zawarciu umowy między klientem a Dostawcą usług. Zatem Booking.com odpowiada za obowiązki związane z udostępnianiem swojej Platformy, a Dostawcy usług są odpowiedzialni za obowiązki związane z usługami zakwaterowania. Przykłady obowiązków Booking.com oraz obowiązków Dostawców usług znajdują się tutaj.\nCzęsto zadawane pytania na temat obiektu Kallithea Studios\nIlu gości może zatrzymać się w obiekcie Kallithea Studios?\nCzy w obiekcie Kallithea Studios dostępny jest balkon?\nJakie są godziny zameldowania i wymeldowania w obiekcie Kallithea Studios?\nIle sypialni znajduje się w obiekcie Kallithea Studios?\nIle kosztuje pobyt w obiekcie Kallithea Studios?\nJak daleko obiekt Kallithea Studios znajduje się od centrum miasta Retimno?\nJak blisko plaży usytuowany jest obiekt Kallithea Studios?",
+  "amenities": {
+    "flatList": [
+      "Bezpłatne Wi-Fi",
+      "Pokoje dla niepalących",
+      "Bar",
+      "Prywatna łazienka",
+      "Balkon",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Winda",
+      "Szafa lub garderoba",
+      "Papier toaletowy",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Meble ogrodowe",
+      "Taras słoneczny",
+      "Taras",
+      "Ogród",
+      "Wspólna część rekreacyjna / sala TV",
+      "Całkowity zakaz palenia",
+      "Gaśnice",
+      "Monitoring wokół obiektu",
+      "Czujnik dymu",
+      "System alarmowy",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": false,
+      "evidence": [
+        "Obiekt nie deklaruje pralki w udogodnieniach, ale goście w opiniach wspominają, że pralka jest dostępna."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Kallithea Studios przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 00:00\nPrzy zameldowaniu wymagane jest okazanie ważnego dowodu tożsamości ze zdjęciem oraz karty kredytowej\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 11:00 do 12:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\n\nŁóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatności poprzez Booking.com\nBooking.com pobiera od Ciebie płatność za pobyt w imieniu obiektu. Pamiętaj, by wziąć ze sobą pieniądze do wykorzystania na dodatkowe usługi.\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 23:00–08:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** Najbliższa referencyjna plaża: Rethymno Beach (~0.7 km w linii prostej)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}

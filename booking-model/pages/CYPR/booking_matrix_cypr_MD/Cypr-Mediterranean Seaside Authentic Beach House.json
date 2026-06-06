@@ -1,0 +1,224 @@
+{
+  "title": "Cypr - Mediterranean Seaside Authentic Beach House",
+  "country": "Cypr",
+  "propertyName": "Mediterranean Seaside Authentic Beach House",
+  "address": "",
+  "coordinates": {
+    "latitude": 35.03821000000001,
+    "longitude": 32.401514063823704
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/308264996.jpg?k=dcfffbe290badfb37a1b50e12960be7ce4f4d2bc4ab5b50226e622cbb84f592a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/309636225.jpg?k=4bad7f1c6ad1700b9ea18df8f9e85a9e1c2fc802b08b2475af3ac7ff0744a06a&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/308264266.jpg?k=37e9dcc59c3ac1f3b3a17aa846dac18f2d30c6f94d98f123feb9739f6a92ccb8&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/308264121.jpg?k=c3209a3492e50a7a6173cf109020f00022f77904580f983fdc42bb19b8648e6b&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/308264011.jpg?k=9dfc880b342e5764ce12cb3fe2c1b388634adc6540aa13d8782fb247d5fcd372&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/308264221.jpg?k=3195d6f3e40573246a993c03cf2c0cf53212b212975d0b9786b01d45b942494d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/309638179.jpg?k=c34300f75d6ab36fdaeb067b24e7ff03d2b36edd5c1a9d5eb7f3db4dd5446c49&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/308263982.jpg?k=9c043fbc034d20c6b67e97ac3d2828b138b048f489af277a9aa439308a82dc47&o=",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-d.png",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "https://lh3.googleusercontent.com/-sIXDRo-7V-Q/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclrfarFcocOQND_vTWMh-M5rMRloA/s96-c/photo.jpg"
+  ],
+  "description": "Obiekt Mediterranean Seaside Authentic Beach House, położony w miejscowości Polis Chrysochous, oferuje bezpłatne Wi-Fi, klimatyzację oraz ogród. Odległość ważnych miejsc od obiektu: Plaża Polis – 400 m, Zoo w Pafos – 29 km. Do dyspozycji Gości jest balkon. Z okien roztacza się widok na góry.\n\nW apartamencie zapewniono taras, kilka sypialni (2), salon z telewizorem z płaskim ekranem, kuchnię ze standardowym wyposażeniem, takim jak lodówka i piekarnik, a także łazienkę (1) z prysznicem. Goście mogą podziwiać widok na morze. W apartamencie zapewniono ręczniki i pościel.\n\nOdległość ważnych miejsc od obiektu: Klub golfowy Minthis Hill – 34 km, Grobowce Królewskie – 38 km. Lotnisko Lotnisko Pafos znajduje się 47 km od obiektu.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,5.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
+  "stayPrices": [
+    {
+      "nights": 8,
+      "dateRange": "16.09 - 24.09",
+      "pricePln": 5027,
+      "raw": "5027 PLN"
+    },
+    {
+      "nights": 11,
+      "dateRange": "16.09 - 27.09",
+      "pricePln": 6676,
+      "raw": "6676 PLN"
+    },
+    {
+      "nights": 14,
+      "dateRange": "16.09 - 30.09",
+      "pricePln": 8349,
+      "raw": "8349 PLN"
+    }
+  ],
+  "roomTable": {
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ apartamentu",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz apartament"
+    ],
+    "rows": [
+      [
+        "Maksymalna liczba osób: 2",
+        "10 779 zł <br> 9 716 zł  <br> Oryginalna cena 10 779 zł Aktualna cena 9 716 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bezpłatne odwołanie przed 15 sierpnia 2026 <br> • <br> Nie płacisz nic do 13 sierpnia 2026 <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (9 716 zł)"
+      ],
+      [
+        "Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa",
+        "9 261 zł <br> 8 349 zł  <br> Oryginalna cena 9 261 zł Aktualna cena 8 349 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat",
+        "Wybierz pokoje <br> 0 <br> 1          (8 349 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ apartamentu | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz apartament |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Maksymalna liczba osób: 2 | 10 779 zł <br> 9 716 zł  <br> Oryginalna cena 10 779 zł Aktualna cena 9 716 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bezpłatne odwołanie przed 15 sierpnia 2026 <br> • <br> Nie płacisz nic do 13 sierpnia 2026 <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (9 716 zł) |\n| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 9 261 zł <br> 8 349 zł  <br> Oryginalna cena 9 261 zł Aktualna cena 8 349 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Oferta bezzwrotna <br> • <br> Zapłać online <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 349 zł) |"
+  },
+  "review": {
+    "score": 9,
+    "count": 37
+  },
+  "comments": [
+    {
+      "author": "Dagmara",
+      "text": "„Czysto, super lokalizacja, wszystko co potrzebne było w obiekcie, podstawowe produkty spożywcze, oliwa, sól, cukier, kapsułki do prania, przemili...”"
+    },
+    {
+      "author": "Dagmara",
+      "text": "„Czysto, super lokalizacja, wszystko co potrzebne było w obiekcie, podstawowe produkty spożywcze, oliwa, sól, cukier, kapsułki do prania, przemili...”"
+    },
+    {
+      "author": "Dagmara",
+      "text": "„Czysto, super lokalizacja, wszystko co potrzebne było w obiekcie, podstawowe produkty spożywcze, oliwa, sól, cukier, kapsułki do prania, przemili...”"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Wspaniała lokalizacja. Cicha i spokojna okolica. Apartament spełnił wszystkie wymagania, przestronny, wygodny i dobrze urządzony.Śniadania na...”"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Wspaniała lokalizacja. Cicha i spokojna okolica. Apartament spełnił wszystkie wymagania, przestronny, wygodny i dobrze urządzony.Śniadania na...”"
+    },
+    {
+      "author": "Artur",
+      "text": "„Lokalizacja, parking, apartament w pełni wyposażony na wyłączność”"
+    },
+    {
+      "author": "Artur",
+      "text": "„Lokalizacja, parking, apartament w pełni wyposażony na wyłączność”"
+    },
+    {
+      "author": "Sandra",
+      "text": "„Perfect location, had everything and more in the accomadition, peaceful lovely outside space back front upstairs, great views. Very clean with...”"
+    },
+    {
+      "author": "Sandra",
+      "text": "„Perfect location, had everything and more in the accomadition, peaceful lovely outside space back front upstairs, great views. Very clean with...”"
+    },
+    {
+      "author": "Bernhard",
+      "text": "„A really cool two-story apartment with a balcony, a back terrace and a front terrace. This means you always get the sun or shade you need. The sea...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Mediterranean Seaside Authentic Beach House\nŚwietne udogodnienia! Ocena: 8,9\nZobacz dostępność\nNajpopularniejsze udogodnienia\nDobre bezpłatne Wi-Fi (30 Mb/s)\nPokoje dla niepalących\nLokalizacja przy samej plaży\nPokoje rodzinne\nBezpłatny parking\nŚwietne na Twój pobyt\nPrywatna łazienka\nKuchnia\nBalkon\nBezpłatny parking\nPlaża\nLokalizacja przy samej plaży\nBezpłatne Wi-Fi\nPralka\nTelewizor z płaskim ekranem\nKlimatyzacja\nParking na miejscu\nBezpłatny parking publiczny jest dostępny na miejscu (nie jest konieczna rezerwacja).\nInternet\nDobre bezpłatne Wi-Fi 30 Mb/s. Odpowiednie do streamingu treści w jakości HD i prowadzenia wideorozmów. Test prędkości wykonany przez gospodarza.\nKuchnia\nStół\nEkspres do kawy\nŚrodki czystości\nToster\nPiekarnik\nPrzybory kuchenne\nCzajnik elektryczny\nKuchnia\nPralka\nKuchenka mikrofalowa\nLodówka\nAneks kuchenny\nSypialnia\nPościel\nŁazienka\nPapier toaletowy\nRęczniki\nWanna lub prysznic\nPrywatna łazienka\nToaleta\nSuszarka do włosów\nPrysznic\nSalon\nCzęść jadalna\nSofa\nBiurko\nMedia/Technologia\nSerwis z filmami online (np. Netflix)\nTelewizor z płaskim ekranem\nTelewizor\nUdogodnienia w pokoju\nGniazdko koło łóżka\nWieszak na ubrania\nPodłoga wyłożona kafelkami lub marmurem\nPrywatne wejście\nŻelazko\nUdogodnienia dla niepełnosprawnych\nDojście na wyższe piętra tylko schodami\nOkolica\nLokalizacja przy samej plaży\nStół na świeżym powietrzu\nMeble ogrodowe\nBalkon\nTaras\nOgród\nPosiłki i napoje\nZestaw do parzenia kawy i herbaty\nRekreacja\nPlaża\nOkolica i widok\nWidok na góry\nWidok na ogród\nWidok na morze\nWidok\nCechy budynku\nWolnostojący\nUsługi recepcji\nMożliwe wystawienie faktury\nEkspresowe zameldowanie / wymeldowanie\nUsługi dla rodzin i oferta rozrywkowa\nGry planszowe / puzzle\nUsługi sprzątania\nPralnia\nRóżne\nKlimatyzacja\nCałkowity zakaz palenia\nPokoje dla alergików\nOgrzewanie\nPokoje dźwiękoszczelne\nPokoje rodzinne\nPokoje dla niepalących\nBezpieczeństwo\nGaśnice\nCzujnik dymu\nCzujnik tlenku węgla\nSejf\nJęzyki\nangielski",
+  "amenities": {
+    "flatList": [
+      "Dobre bezpłatne Wi-Fi (30 Mb/s)",
+      "Pokoje dla niepalących",
+      "Lokalizacja przy samej plaży",
+      "Pokoje rodzinne",
+      "Bezpłatny parking",
+      "Prywatna łazienka",
+      "Kuchnia",
+      "Balkon",
+      "Plaża",
+      "Bezpłatne Wi-Fi",
+      "Pralka",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Stół",
+      "Ekspres do kawy",
+      "Środki czystości",
+      "Toster",
+      "Piekarnik",
+      "Przybory kuchenne",
+      "Czajnik elektryczny",
+      "Kuchenka mikrofalowa",
+      "Lodówka",
+      "Aneks kuchenny",
+      "Pościel",
+      "Papier toaletowy",
+      "Ręczniki",
+      "Wanna lub prysznic",
+      "Toaleta",
+      "Suszarka do włosów",
+      "Prysznic",
+      "Część jadalna",
+      "Sofa",
+      "Biurko",
+      "Serwis z filmami online (np. Netflix)",
+      "Telewizor",
+      "Gniazdko koło łóżka",
+      "Wieszak na ubrania",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Prywatne wejście",
+      "Żelazko",
+      "Dojście na wyższe piętra tylko schodami",
+      "Stół na świeżym powietrzu",
+      "Meble ogrodowe",
+      "Taras",
+      "Ogród",
+      "Zestaw do parzenia kawy i herbaty",
+      "Widok na góry",
+      "Widok na ogród",
+      "Widok na morze",
+      "Widok",
+      "Wolnostojący",
+      "Możliwe wystawienie faktury",
+      "Ekspresowe zameldowanie / wymeldowanie",
+      "Gry planszowe / puzzle",
+      "Pralnia",
+      "Całkowity zakaz palenia",
+      "Pokoje dla alergików",
+      "Ogrzewanie",
+      "Pokoje dźwiękoszczelne",
+      "Gaśnice",
+      "Czujnik dymu",
+      "Czujnik tlenku węgla",
+      "Sejf",
+      "angielski"
+    ],
+    "laundry": {
+      "confirmed": true,
+      "onlyInReviews": false,
+      "service": true,
+      "evidence": [
+        "Tak, pralka dostępna w pokoju/apartamencie oraz dostępna usługa prania."
+      ]
+    }
+  },
+  "policy": {
+    "houseRulesRaw": "Zasady pobytu\nObiekt Mediterranean Seaside Authentic Beach House przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 00:00\nMusisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.\nWymeldowanie\nOd 09:30 do 10:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–2\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nDodatkowe łóżka nie są dostępne w tym obiekcie.\n\nMożliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nPłatności poprzez Booking.com\nBooking.com pobiera od Ciebie płatność za pobyt w imieniu obiektu. Pamiętaj, by wziąć ze sobą pieniądze do wykorzystania na dodatkowe usługi.\nPalenie tytoniu\nPalenie jest zabronione.\nImprezy\nOrganizacja imprez i przyjęć jest zabroniona\nCisza nocna\nGoście muszą zachować ciszę w godzinach 23:00–07:00.\nZwierzęta\nZwierzęta nie są akceptowane.",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
+  },
+  "authorSummaryBullets": [
+    "**Odległość od plaży:** The nearest beach is 350 ft from Mediterranean Seaside Authentic Beach House. (Lokalizacja bezpośrednio przy plaży / beachfront)",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).",
+    "**Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
+  ],
+  "captureQuality": "complete",
+  "issues": [],
+  "placeholders": [
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
+  ],
+  "enrichments": {
+    "Overall Impression": "",
+    "Location & Beach": "",
+    "Room Fit": "",
+    "Amenities & Comfort": "",
+    "Laundry Verdict": "",
+    "Guest Sentiment": "",
+    "Tradeoffs": "",
+    "Best For": ""
+  }
+}
