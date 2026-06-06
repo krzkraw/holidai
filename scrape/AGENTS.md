@@ -2,14 +2,6 @@
 
 Operating contract for autonomous agents working in this workspace (`~/Dev/holidai/scrape`).
 
-## 0. RTK Usage Guardrails
-
-Use `rtk` only for known-safe command categories where summarized output is enough, such as routine `git status`, broad listing, dependency summaries, or test/build commands where failure-only output is acceptable.
-
-Do not use `rtk` when precise file contents are needed. Do not use `rtk` when reviewing, auditing, or validating scraper files, plans, CSVs, JSON caches, generated Markdown, discrepancy reports, logs, command transcripts, or browser/CDP evidence. Use raw commands such as `sed`, `nl`, `cat`, `rg`, `git diff`, or task-specific viewers so line numbers, row boundaries, formatting, and exact text remain visible.
-
-If a command result looks missing, truncated, reformatted, inconsistent, or if the agent suspects `rtk` caused any issue in a tool call, immediately retry the same command without `rtk` before reasoning from that output.
-
 ## 1. Project Context & Workspace Map
 
 This workspace contains tooling to verify, update, and detail a Booking.com CSV matrix file using an automated script connected to a running Google Chrome Beta session via the Chrome Debugging Protocol (CDP).
