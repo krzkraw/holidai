@@ -56,4 +56,4 @@ Create the deterministic `ScrapedPropertyPage` model and markdown parser in `boo
 
 ## Status
 
-- `planned`
+- `done`
