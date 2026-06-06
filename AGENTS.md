@@ -345,6 +345,8 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
 - `booking-scraper-flow/SKILL.md` - skill package metadata and execution workflow.
 - `booking-scraper-flow/scripts/scrape_booking.py` - Booking.com extraction script.
 - `booking-scraper-flow/scripts/consolidate.py` - generated hotel-card consolidation script.
+- `booking-model/` - DDD-style Booking matrix model and CSV roundtrip tooling.
+- `skyscanner/` - DDD-style Skyscanner flight matrix model and CSV roundtrip tooling.
 - `gpt/AGENTS.md` - regeneration guide for the final vacation reports.
 - `gpt/README.md` - historical report timeline and handoff notes.
 - `gpt/MANIFEST.txt` - packaged final report file list.
@@ -376,6 +378,7 @@ Project-specific boundaries:
 - Treat `booking-scraper-flow/examples/booking/` as reference/example data unless the user asks to regenerate examples.
 - Treat `gpt/sources/` as source material and previous report artifacts. Do not overwrite it unless explicitly updating the vacation-report source set.
 - Root `.DS_Store`, `gpt/.DS_Store`, nested `.DS_Store`, and Python `__pycache__/` output are generated/local artifacts. Keep them ignored and out of Git history.
+- `booking-model/` and `skyscanner/` are source code folders for CSV roundtrip tooling. Keep them separate from report artifacts and source matrices.
 
 ## Verification Commands
 
@@ -386,7 +389,8 @@ Project-specific commands should be discovered during bootstrap and kept current
 # No root build system was found. Static HTML reports can be opened directly.
 
 # Test:
-# No automated test runner was found.
+bun test booking-model/test/roundtrip.test.ts
+bun test skyscanner/test/roundtrip.test.ts
 
 # Lint/typecheck:
 # No linter or typechecker was found. Use this Python syntax check for scraper scripts:
@@ -398,6 +402,9 @@ python3 booking-scraper-flow/scripts/scrape_booking.py <path-to-file-containing-
 
 # Consolidation smoke test requires a Booking output directory containing index.md:
 python3 booking-scraper-flow/scripts/consolidate.py <path-to-booking-directory>
+
+# Skyscanner smoke test:
+bun run skyscanner/src/cli.ts roundtrip <path-to-skyscanner-csv>
 
 # Static report smoke test:
 # Open index.html, gpt/ultimate-desktop.html, gpt/ultimate-mobile.html, and relevant gemini/*.html in a browser.
@@ -427,6 +434,14 @@ Update this section during bootstrap and later discovery.
 |   |   |-- scrape_booking.py
 |   |   `-- consolidate.py
 |   `-- examples/booking/         # reference scraped output and country summaries
+|-- booking-model/
+|   |-- src/
+|   `-- test/
+|-- skyscanner/
+|   |-- AGENTS.md
+|   |-- README.md
+|   |-- src/
+|   `-- test/
 |-- gemini/
 |   |-- 2026-holidai-v1.html
 |   `-- 2026-holidai-v2.html

@@ -6,6 +6,7 @@ This workspace collects vacation-planning artifacts for a September 2026 Mediter
 
 - Static HTML reports in `gpt/` and `gemini/`.
 - Markdown and CSV source material in `gpt/sources/`.
+- TypeScript roundtrip tooling in `booking-model/` and `skyscanner/`.
 - Python 3 scripts in the private `booking-scraper-flow` Git submodule.
 - `agent-browser` CLI for live Booking.com scraping.
 
@@ -46,6 +47,9 @@ Syntax-check the Python scripts without writing cache files into the workspace:
 
 ```bash
 PYTHONPYCACHEPREFIX=/tmp/holidai-pycache python3 -m py_compile booking-scraper-flow/scripts/scrape_booking.py booking-scraper-flow/scripts/consolidate.py
+bun test booking-model/test/roundtrip.test.ts
+bun test skyscanner/test/roundtrip.test.ts
+bun run skyscanner/src/cli.ts roundtrip <path-to-skyscanner-csv>
 ```
 
 Run the scraper against a file containing Booking.com links:
@@ -86,6 +90,14 @@ gemini/2026-holidai-v2.html
 |   |-- SKILL.md
 |   |-- scripts/
 |   `-- examples/booking/
+|-- booking-model/
+|   |-- src/
+|   `-- test/
+|-- skyscanner/
+|   |-- AGENTS.md
+|   |-- README.md
+|   |-- src/
+|   `-- test/
 |-- gemini/
 |   |-- 2026-holidai-v1.html
 |   `-- 2026-holidai-v2.html
