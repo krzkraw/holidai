@@ -1,0 +1,346 @@
+# Grecja - Belussi Beach Hotel & Suites
+
+## A) Sekcja Nagłówkowa
+- **Nazwa obiektu:** Belussi Beach Hotel & Suites
+- **Adres:** 
+- **Współrzędne:** 37.837155273969984,20.82480490207672
+- **Widoczne zdjęcia:**
+- https://cf.bstatic.com/xdata/images/hotel/max1024x768/326728442.jpg?k=1011d4609a7e356be34a58e74e65a19e12ebe0a9f1732ef388ba2a920e36305b&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/869539202.jpg?k=69623eed0401fb4f49cb18762c2d37acffa262365fe34b7a617d18057ad258a6&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/326726956.jpg?k=585c69d7e93f17e53294bd1efb1e1984b7a58221a581531770de79424d12bb1e&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/326728423.jpg?k=0c22b5df250588fd70c70bdadf6123e173460c1d5dab6978433f62c1626ebdb3&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/16900174.jpg?k=d7b94379de7f97d047cc96ddc71e05173c56d0b743f4e0627b60d151216c223b&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/326775065.jpg?k=7802fae36911be65e6f117f73588480df8a24e342d9c6e80b4c13a2d337e2fdc&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/326726949.jpg?k=604b33c27349c30c53a7c0b84697882b2191108e35961ffb137d9bccfe64e798&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/259278524.jpg?k=d3abd5646ff229c1bd77bc29ecdbb2b674e693a51e48c449c266a924e77b5457&o=
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png
+- https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50
+- https://xx.bstatic.com/static/img/review/avatars/ava-l.png
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png
+
+- **Opis obiektu:**
+Obiekt Belussi Beach Hotel & Suites, usytuowany w miejscowości Kipseli, oferuje odkryty basen, bezpłatny prywatny parking, ogród oraz prywatną plażę. Odległość ważnych miejsc od obiektu: Plaża Drosia – 1,8 km. Oferta obiektu obejmuje obsługę pokoju. Na miejscu znajduje się również restauracja i taras. Obiekt zapewnia całodobową recepcję, transfer lotniskowy, wspólny salon oraz bezpłatne Wi-Fi we wszystkich pomieszczeniach.
+
+Obiekt oddaje do dyspozycji Gości klimatyzowane pokoje wyposażone w biurko, sejf i telewizor z płaskim ekranem. W każdym pokoju zapewniono też balkon oraz prywatną łazienkę z prysznic. W każdej opcji zakwaterowania znajduje się prywatna łazienka z bezpłatnym zestawem kosmetyków, a z niektórych pokoi roztacza się widok na morze. Wszystkie pokoje wyposażone są w lodówkę.
+
+Na miejscu serwowane jest śniadanie w formie bufetu.
+
+Odległość ważnych miejsc od obiektu: Muzeum Bizantyjskie – 12 km, Plac Dionisiosa Solomosa – 12 km. Lotnisko Międzynarodowe lotnisko Zakintos znajduje się 13 km od obiektu.
+
+Parom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 8,2.
+
+Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+
+## B) Dostępność i Tabela Pokoi
+- **Ceny za okresy pobytu:**
+  - **8 dni (16.09 - 24.09):** 4016 PLN
+  - **11 dni (16.09 - 27.09):** 5450 PLN
+  - **14 dni (16.09 - 30.09):** 6883 PLN
+
+- **Dokładna tabela pokoi:**
+|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Maksymalna liczba osób: 2 | 20 487 zł <br> 11 399 zł  <br> Oryginalna cena 20 487 zł Aktualna cena 11 399 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (11 399 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 16 330 zł <br> 9 141 zł  <br> Oryginalna cena 16 330 zł Aktualna cena 9 141 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (9 141 zł) |
+| Pokój typu Standard z bocznym widokiem na morze <br>  Został nam 1 <br> Wybierz łóżko (w zależności od dostępności) <br> 	2 łóżka pojedyncze  <br> 	1 duże łóżko podwójne  <br> 1 studio na wyłączność <br> 30 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 12 725 zł <br> 7 183 zł  <br> Oryginalna cena 12 725 zł Aktualna cena 7 183 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 183 zł) |
+| Maksymalna liczba osób: 2 | 21 038 zł <br> 11 698 zł  <br> Oryginalna cena 21 038 zł Aktualna cena 11 698 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (11 698 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 16 881 zł <br> 9 440 zł  <br> Oryginalna cena 16 881 zł Aktualna cena 9 440 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (9 440 zł) |
+| Pokój typu Superior z widokiem na ogród <br>  Zostały nam 2 <br> Wybierz łóżko (w zależności od dostępności) <br> 	2 łóżka pojedyncze  i 1 rozkładana sofa  <br> 	1 rozkładana sofa  i 1 duże łóżko podwójne  <br> 1 studio na wyłączność <br> 32 m² <br> Balkon <br> Widok na ogród <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 13 827 zł <br> 7 782 zł  <br> Oryginalna cena 13 827 zł Aktualna cena 7 782 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 782 zł) <br> 2        (15 563 zł) |
+| Maksymalna liczba osób: 2 | 22 141 zł <br> 12 297 zł  <br> Oryginalna cena 22 141 zł Aktualna cena 12 297 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (12 297 zł) <br> 2        (24 594 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 17 984 zł <br> 10 039 zł  <br> Oryginalna cena 17 984 zł Aktualna cena 10 039 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (10 039 zł) <br> 2        (20 079 zł) |
+| Pokój typu Superior z bocznym widokiem na morze <br>  Zostały nam 2 <br> Wybierz łóżko (w zależności od dostępności) <br> 	2 łóżka pojedyncze  i 1 rozkładana sofa  <br> 	1 rozkładana sofa  i 1 duże łóżko podwójne  <br> 1 studio na wyłączność <br> 32 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 14 379 zł <br> 8 081 zł  <br> Oryginalna cena 14 379 zł Aktualna cena 8 081 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 081 zł) <br> 2        (16 162 zł) |
+| Maksymalna liczba osób: 2 | 22 692 zł <br> 12 597 zł  <br> Oryginalna cena 22 692 zł Aktualna cena 12 597 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (12 597 zł) <br> 2        (25 193 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 18 535 zł <br> 10 339 zł  <br> Oryginalna cena 18 535 zł Aktualna cena 10 339 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (10 339 zł) <br> 2        (20 678 zł) |
+| Pokój rodzinny z widokiem na ogród <br>  Zostały nam 3 <br> Wybierz łóżko (w zależności od dostępności) <br> 	2 łóżka pojedyncze  i 2 rozkładane sofy  <br> 	1 łóżko podwójne  i 2 rozkładane sofy  <br> Pokój <br> 35 m² <br> Balkon <br> Widok na ogród <br> Widok na wewnętrzny dziedziniec <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 15 482 zł <br> 8 680 zł  <br> Oryginalna cena 15 482 zł Aktualna cena 8 680 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 680 zł) <br> 2        (17 360 zł) <br> 3        (26 040 zł) |
+| Maksymalna liczba osób: 2 | 23 795 zł <br> 13 195 zł  <br> Oryginalna cena 23 795 zł Aktualna cena 13 195 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (13 195 zł) <br> 2        (26 391 zł) <br> 3        (39 586 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 19 638 zł <br> 10 938 zł  <br> Oryginalna cena 19 638 zł Aktualna cena 10 938 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (10 938 zł) <br> 2        (21 876 zł) <br> 3        (32 813 zł) |
+| Pokój rodzinny z bocznym widokiem na morze <br>  Zostały nam 3 <br> Wybierz łóżko (w zależności od dostępności) <br> 	2 łóżka pojedyncze  i 2 rozkładane sofy  <br> 	2 rozkładane sofy  i 1 duże łóżko podwójne  <br> Pokój <br> 35 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 16 584 zł <br> 9 279 zł  <br> Oryginalna cena 16 584 zł Aktualna cena 9 279 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (9 279 zł) <br> 2        (18 558 zł) <br> 3        (27 837 zł) |
+| Maksymalna liczba osób: 2 | 24 898 zł <br> 13 794 zł  <br> Oryginalna cena 24 898 zł Aktualna cena 13 794 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (13 794 zł) <br> 2        (27 589 zł) <br> 3        (41 383 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 20 741 zł <br> 11 537 zł  <br> Oryginalna cena 20 741 zł Aktualna cena 11 537 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (11 537 zł) <br> 2        (23 074 zł) <br> 3        (34 610 zł) |
+| Apartament z 1 sypialnią i bocznym widokiem na morze <br>  Zostały nam 2 <br>  Wyższe piętro <br> Sypialnia 1: 1 rozkładana sofa  i 1 duże łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> 36 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 18 239 zł <br> 10 178 zł  <br> Oryginalna cena 18 239 zł Aktualna cena 10 178 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (10 178 zł) <br> 2        (20 355 zł) |
+| Maksymalna liczba osób: 2 | 26 552 zł <br> 14 693 zł  <br> Oryginalna cena 26 552 zł Aktualna cena 14 693 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (14 693 zł) <br> 2        (29 386 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 22 395 zł <br> 12 435 zł  <br> Oryginalna cena 22 395 zł Aktualna cena 12 435 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (12 435 zł) <br> 2        (24 870 zł) |
+| Apartament typu Junior Suite z widokiem na morze <br>  Zostały nam 2 <br>  Wyższe piętro <br> 1 duże łóżko podwójne  <br> 1 prywatny apartament typu suite <br> 31 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 19 341 zł <br> 10 777 zł  <br> Oryginalna cena 19 341 zł Aktualna cena 10 777 zł <br> Zawiera opłaty i podatki <br> 44% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (10 777 zł) <br> 2        (21 553 zł) |
+| Maksymalna liczba osób: 2 | 27 655 zł <br> 15 292 zł  <br> Oryginalna cena 27 655 zł Aktualna cena 15 292 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (15 292 zł) <br> 2        (30 584 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 23 498 zł <br> 13 034 zł  <br> Oryginalna cena 23 498 zł Aktualna cena 13 034 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (13 034 zł) <br> 2        (26 068 zł) |
+| Apartament typu Deluxe z panoramicznym widokiem na morze <br>  Został nam 1 <br>  Wyższe piętro <br> 1 duże łóżko podwójne  <br> 1 prywatny apartament typu suite <br> 38 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 24 059 zł <br> 13 339 zł  <br> Oryginalna cena 24 059 zł Aktualna cena 13 339 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (13 339 zł) |
+| Maksymalna liczba osób: 2 | 32 372 zł <br> 17 854 zł  <br> Oryginalna cena 32 372 zł Aktualna cena 17 854 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (17 854 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 28 216 zł <br> 15 597 zł  <br> Oryginalna cena 28 216 zł Aktualna cena 15 597 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (15 597 zł) |
+| Apartament typu Suite z prywatnym basenem <br>  Zostało nam 5 <br> Sypialnia 1: 1 duże łóżko podwójne  <br> Salon: 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 55 m² <br> Balkon <br> Widok na morze <br> Widok na ogród <br> Klimatyzacja <br> Patio <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Ekspres do kawy <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 28 325 zł <br> 15 656 zł  <br> Oryginalna cena 28 325 zł Aktualna cena 15 656 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Znakomite śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (15 656 zł) <br> 2        (31 312 zł) <br> 3        (46 968 zł) <br> 4        (62 624 zł) <br> 5        (78 280 zł) |
+| Maksymalna liczba osób: 2 | 36 638 zł <br> 20 171 zł  <br> Oryginalna cena 36 638 zł Aktualna cena 20 171 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (20 171 zł) <br> 2        (40 343 zł) <br> 3        (60 514 zł) <br> 4        (80 685 zł) <br> 5        (100 857 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 32 482 zł <br> 17 914 zł  <br> Oryginalna cena 32 482 zł Aktualna cena 17 914 zł <br> Zawiera opłaty i podatki <br> 45% taniej <br> Oferta Sezonowa | Śniadanie i kolacja wliczone w cenę <br> Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> Zastosowano 15% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (17 914 zł) <br> 2        (35 827 zł) <br> 3        (53 741 zł) <br> 4        (71 654 zł) <br> 5        (89 568 zł) |
+
+## C) Opinie Gości
+- **Ocena ogólna:** 8.4 / 10
+- **Liczba opinii:** 652
+
+- **Lista komentarzy:**
+**Karolina**:
+> „Hotel jest pięknie położony przy samej plaży, ma mega basen, pyszne jedzenie w snack barze o wspaniałą obsługę. Do tego położony jest w cichym...”
+
+**Karolina**:
+> „Hotel jest pięknie położony przy samej plaży, ma mega basen, pyszne jedzenie w snack barze o wspaniałą obsługę. Do tego położony jest w cichym...”
+
+**Karolina**:
+> „Hotel jest pięknie położony przy samej plaży, ma mega basen, pyszne jedzenie w snack barze o wspaniałą obsługę. Do tego położony jest w cichym...”
+
+**Mateusz**:
+> „Cisza, spokój, zdala od miejskiego gwaru. Smaczne śniadania, duży wybór. Plaża hotelowa zawsze z dostępnymi leżakami. Pokoje duże, regularnie ...”
+
+**Mateusz**:
+> „Cisza, spokój, zdala od miejskiego gwaru. Smaczne śniadania, duży wybór. Plaża hotelowa zawsze z dostępnymi leżakami. Pokoje duże, regularnie ...”
+
+**Lucie**:
+> „The wonderful family that run the hotel, the stunning views, the relaxed atmosphere, being right by the sea, crystal clear water, the excellent...”
+
+**Lucie**:
+> „The wonderful family that run the hotel, the stunning views, the relaxed atmosphere, being right by the sea, crystal clear water, the excellent...”
+
+**Uliana**:
+> „Place is the complex of buildings located on very beautiful territory decorated with flowers and plants, there is a beach right in front of the...”
+
+**Uliana**:
+> „Place is the complex of buildings located on very beautiful territory decorated with flowers and plants, there is a beach right in front of the...”
+
+**Rebecca**:
+> „Lovely quiet location. Really friendly and helpful staff who made us feel very welcome. The room was very large with a pretty terrace. Plenty of...”
+
+
+
+## D) Otoczenie obiektu
+Udogodnienia w obiekcie Belussi Beach Hotel & Suites
+Świetne udogodnienia! Ocena: 8,2
+Zobacz dostępność
+Najpopularniejsze udogodnienia
+Odkryty basen
+Bezpłatne Wi-Fi
+Pokoje dla niepalących
+Transfer lotniskowy
+Lokalizacja przy samej plaży
+Obsługa pokoju
+Restauracja
+Bar
+Prywatna plaża
+Znakomite śniadanie
+Świetne na Twój pobyt
+Prywatna łazienka
+Balkon
+Lokalizacja przy samej plaży
+Plaża
+Bezpłatne Wi-Fi
+Bezpłatny parking
+Telewizor z płaskim ekranem
+Klimatyzacja
+Parking
+Transfer lotniskowy
+Łazienka
+Papier toaletowy
+Ręczniki
+Wanna lub prysznic
+Prywatna łazienka
+Toaleta
+Bezpłatny zestaw kosmetyków
+Suszarka do włosów
+Prysznic
+Sypialnia
+Szafa lub garderoba
+Widok
+Widok na ogród
+Widok
+Okolica
+Miejsce na piknik
+Meble ogrodowe
+Lokalizacja przy samej plaży
+Taras słoneczny
+Prywatna plaża
+Patio
+Balkon
+Taras
+Ogród
+Kuchnia
+Lodówka
+Udogodnienia w pokoju
+Gniazdko koło łóżka
+Rekreacja
+Wynajem rowerów
+Dodatkowa opłata
+Plaża
+Nurkowanie z rurką
+Dodatkowa opłata
+Poza obiektem
+Nurkowanie
+Dodatkowa opłata
+Poza obiektem
+Piesze wycieczki
+Dodatkowa opłata
+Poza obiektem
+Kajakarstwo
+Dodatkowa opłata
+Poza obiektem
+Wędkowanie
+Dodatkowa opłata
+Poza obiektem
+Salon
+Biurko
+Media/Technologia
+Telewizor z płaskim ekranem
+Kanały satelitarne
+Telewizor
+Posiłki i napoje
+Kawiarnia na miejscu
+Owoce
+Dodatkowa opłata
+Wino / szampan
+Dodatkowa opłata
+Bufet z potrawami dla dzieci
+Posiłki dla dzieci
+Dodatkowa opłata
+Specjalne potrawy dietetyczne (na życzenie)
+Bar przekąskowy
+Bar
+Restauracja
+Internet
+Wi-Fi jest dostępne w całym obiekcie i jest bezpłatne.
+Parking na miejscu
+Bezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).
+Parking przy ulicy
+Parking dla osób niepełnosprawnych
+Usługi recepcji
+Możliwe wystawienie faktury
+Indywidualne zameldowanie / wymeldowanie
+Przechowalnia bagażu
+Biuro informacji turystycznej
+Ekspresowe zameldowanie / wymeldowanie
+Dodatkowa opłata
+Całodobowa recepcja
+Usługi dla rodzin i oferta rozrywkowa
+Wózki dziecięce
+Bramki zabezpieczające dla dzieci
+Usługi sprzątania
+Codzienne sprzątanie
+Pralnia
+Dodatkowa opłata
+Zaplecze biznesowe
+Faks / ksero
+Bezpieczeństwo
+Gaśnice
+Czujnik dymu
+Dostęp za pomocą karty
+Dostęp za pomocą kluczy
+Sejf
+Dodatkowa opłata
+Ogólne
+Transfer
+Dodatkowa opłata
+Wspólna część rekreacyjna / sala TV
+Klimatyzacja
+Całkowity zakaz palenia
+Budzenie na życzenie
+Podłoga wyłożona kafelkami lub marmurem
+Ogrzewanie
+Dźwiękoszczelność
+Prywatne wejście
+Wypożyczalnia samochodów
+Pokoje dźwiękoszczelne
+Winda
+Pokoje rodzinne
+Transfer lotniskowy
+Dodatkowa opłata
+Pokoje dla niepalących
+Obsługa pokoju
+Odkryty basen
+Bezpłatnie!
+Otwarty przez cały rok
+Wstęp dla osób w każdym wieku
+Basen z widokiem
+Brodzik
+Ręczniki kąpielowe/plażowe
+Bar przy basenie
+Leżaki lub krzesełka plażowe
+Centrum wellness
+Parasole przeciwsłoneczne
+Leżaki lub krzesełka plażowe
+Języki
+bułgarski
+niemiecki
+grecki
+angielski
+francuski
+włoski
+albański
+
+## E) Udogodnienia w obiekcie
+- **Weryfikacja pralki:** Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna).
+- **Wszystkie udogodnienia:**
+Odkryty basen, Bezpłatne Wi-Fi, Pokoje dla niepalących, Transfer lotniskowy, Lokalizacja przy samej plaży, Obsługa pokoju, Restauracja, Bar, Prywatna plaża, Znakomite śniadanie, Prywatna łazienka, Balkon, Plaża, Bezpłatny parking, Telewizor z płaskim ekranem, Klimatyzacja, Parking, Papier toaletowy, Ręczniki, Wanna lub prysznic, Toaleta, Bezpłatny zestaw kosmetyków, Suszarka do włosów, Prysznic, Szafa lub garderoba, Widok na ogród, Widok, Miejsce na piknik, Meble ogrodowe, Taras słoneczny, Patio, Taras, Ogród, Lodówka, Gniazdko koło łóżka, Wynajem rowerów
+Dodatkowa opłata, Nurkowanie z rurką
+Dodatkowa opłata
+Poza obiektem, Nurkowanie
+Dodatkowa opłata
+Poza obiektem, Piesze wycieczki
+Dodatkowa opłata
+Poza obiektem, Kajakarstwo
+Dodatkowa opłata
+Poza obiektem, Wędkowanie
+Dodatkowa opłata
+Poza obiektem, Biurko, Kanały satelitarne, Telewizor, Kawiarnia na miejscu, Owoce
+Dodatkowa opłata, Wino / szampan
+Dodatkowa opłata, Bufet z potrawami dla dzieci, Posiłki dla dzieci
+Dodatkowa opłata, Specjalne potrawy dietetyczne (na życzenie), Bar przekąskowy, Parking przy ulicy, Parking dla osób niepełnosprawnych, Możliwe wystawienie faktury, Indywidualne zameldowanie / wymeldowanie, Przechowalnia bagażu, Biuro informacji turystycznej, Ekspresowe zameldowanie / wymeldowanie
+Dodatkowa opłata, Całodobowa recepcja, Wózki dziecięce, Bramki zabezpieczające dla dzieci, Codzienne sprzątanie, Pralnia
+Dodatkowa opłata, Faks / ksero, Gaśnice, Czujnik dymu, Dostęp za pomocą karty, Dostęp za pomocą kluczy, Sejf
+Dodatkowa opłata, Transfer
+Dodatkowa opłata, Wspólna część rekreacyjna / sala TV, Całkowity zakaz palenia, Budzenie na życzenie, Podłoga wyłożona kafelkami lub marmurem, Ogrzewanie, Dźwiękoszczelność, Prywatne wejście, Wypożyczalnia samochodów, Pokoje dźwiękoszczelne, Winda, Pokoje rodzinne, Transfer lotniskowy
+Dodatkowa opłata, Otwarty przez cały rok, Wstęp dla osób w każdym wieku, Basen z widokiem, Brodzik, Ręczniki kąpielowe/plażowe, Bar przy basenie, Leżaki lub krzesełka plażowe, Parasole przeciwsłoneczne, bułgarski, niemiecki, grecki, angielski, francuski, włoski, albański
+
+## F) Zasady pobytu i Ważne Informacje
+- **Zasady pobytu (House Rules):**
+```
+Zasady pobytu
+Obiekt Belussi Beach Hotel & Suites przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!
+Zobacz dostępność
+Zameldowanie
+Od 14:00 do 23:00
+Wymeldowanie
+Od 09:00 do 11:00
+Odwołanie rezerwacji/ przedpłata
+Zasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.
+Zakwaterowanie dzieci
+Zasady dotyczące pobytu dzieci
+
+Dzieci w każdym wieku są mile widziane.
+
+W tym obiekcie dzieci w wieku 6 lat i starsze będą podlegały takim samym opłatom jak osoby dorosłe.
+
+Aby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.
+
+Zasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek
+Wiek: 0–1
+Łóżeczko dziecięce dostępne na życzenie
+Bezpłatnie
+
+Liczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.
+
+Dodatkowe łóżka nie są dostępne w tym obiekcie.
+
+Możliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.
+
+Brak ograniczeń wiekowych
+Brak ograniczeń wiekowych przy zameldowaniu
+Zwierzęta
+Zwierzęta nie są akceptowane.
+Grupy
+W przypadku rezerwacji ponad 3 pokoi mogą obowiązywać inne zasady i dodatkowe opłaty.
+Akceptowane metody płatności
+Gotówka
+```
+- **Ważne Informacje (Important Info):**
+```
+Brak sekcji Ważne Informacje.
+```
+
+## Podsumowanie i ocena autorska:
+- **Odległość od plaży:** The nearest beach is 1,000 ft from Belussi Beach Hotel & Suites. (Lokalizacja bezpośrednio przy plaży / beachfront)
+- **Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.
+- **Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.
+- **Ogólne podsumowanie:** Obiekt w kategorii A — super: plaża / ocena / okolica. Szczegółowe udogodnienia zostały zweryfikowane automatycznie.
