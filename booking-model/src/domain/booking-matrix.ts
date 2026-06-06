@@ -11,6 +11,7 @@ export interface CsvSnapshot {
 
 const REQUIRED_COLUMNS = [
   'kraj',
+  'dni',
   'wariant',
   'nazwa',
   'cena_pln',
@@ -28,6 +29,7 @@ const REQUIRED_COLUMNS = [
   'plaza_booking',
   'ocena_wyboru_1_10',
   'link',
+  'page-content',
 ] as const;
 
 function freezeSnapshot(snapshot: CsvSnapshot): CsvSnapshot {
@@ -48,10 +50,19 @@ function validateSnapshot(snapshot: CsvSnapshot): void {
     throw new Error(`Booking matrix header contains duplicate columns: ${snapshot.header.join(', ')}`);
   }
 
-  const header = new Set(snapshot.header);
-  for (const column of REQUIRED_COLUMNS) {
-    if (!header.has(column)) {
-      throw new Error(`Booking matrix is missing required column: ${column}`);
+  if (snapshot.header.length !== REQUIRED_COLUMNS.length) {
+    throw new Error(
+      `Booking matrix header must exactly match the final destinations schema: ${REQUIRED_COLUMNS.join(', ')}`,
+    );
+  }
+
+  for (let index = 0; index < REQUIRED_COLUMNS.length; index += 1) {
+    const expectedColumn = REQUIRED_COLUMNS[index];
+    const actualColumn = snapshot.header[index];
+    if (actualColumn !== expectedColumn) {
+      throw new Error(
+        `Booking matrix header must exactly match the final destinations schema at column ${index + 1}: expected ${expectedColumn}, got ${actualColumn ?? ''}`,
+      );
     }
   }
 }
@@ -89,7 +100,7 @@ export class BookingMatrixRow {
   }
 
   get stayDays(): StayDays | null {
-    return StayDays.fromRaw(this.cell('dni'));
+    return StayDays.fromRaw(this.requiredCell('dni'));
   }
 
   get variant(): string {
@@ -158,6 +169,10 @@ export class BookingMatrixRow {
 
   get bookingUrl(): string {
     return this.requiredCell('link');
+  }
+
+  get pageContent(): string {
+    return this.requiredCell('page-content');
   }
 
   toCells(): readonly string[] {
