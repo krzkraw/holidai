@@ -6,7 +6,10 @@ This plan details the structured and optimized process for automatic and semi-au
 
 ## 1. Prerequisites & Browser Environment
 
-To run the verification process correctly, the browser must be configured to use port `9222` for remote debugging so that `agent-browser` can interact with it.
+To run the verification process correctly, the browser must be configured to use port `9222` for remote debugging.
+
+> [!WARNING]
+> **CRITICAL RULE FOR AI AGENTS:** DO NOT USE the `browser_subagent` tool, `agent-browser` skill, or any external headed browser controls. Doing so will spawn a duplicate unauthenticated browser instance, violating session persistence and triggering security locks. The script `verify_matrix.py` controls the single, correct browser tab via CDP over port 9222. Execute the Python script ONLY via `run_command` in the terminal.
 
 The script simplifies this setup with the following automated behavior:
 

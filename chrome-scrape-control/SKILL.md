@@ -8,6 +8,9 @@ description: Use when you need to perform automated scraping in Google Chrome/Ch
 ## Overview
 This skill provides a highly reliable and lightweight browser automation framework utilizing Google Chrome's native Chrome DevTools Protocol (CDP) over WebSockets. Unlike standard automation suites (which launch headless, unauthenticated browsers or spawn multiple headed windows that trigger security alerts), this framework connects to a headed Chrome instance (stable or Beta) with a dedicated profile and navigates **strictly inside a single active tab**, preserving cookies and active logins (e.g. Booking.com, Google).
 
+> [!WARNING]
+> **CRITICAL RULE FOR AI AGENTS:** DO NOT invoke `browser_subagent`, `chrome-devtools` MCP, or any other browser tools when using this skill. Doing so triggers a separate, unauthenticated browser window that interferes with the active scraping tab. Only use `run_command` to execute scripts that interact with port 9222.
+
 ## Workflow
 
 ```mermaid
