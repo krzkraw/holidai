@@ -115,6 +115,10 @@ export class BookingMatrixRow {
     return LexicalNumber.fromRaw(this.cell('cena_pln'), 'cena_pln');
   }
 
+  get priceRaw(): string {
+    return this.requiredCell('cena_pln');
+  }
+
   get bookingScore(): LexicalNumber | null {
     return LexicalNumber.fromRaw(this.cell('ocena_booking'), 'ocena_booking');
   }
@@ -169,6 +173,31 @@ export class BookingMatrixRow {
 
   get bookingUrl(): string {
     return this.requiredCell('link');
+  }
+
+  private get bookingUrlObject(): URL {
+    try {
+      return new URL(this.bookingUrl);
+    } catch {
+      throw new Error(`Invalid booking URL for ${this.propertyName}: ${this.bookingUrl}`);
+    }
+  }
+
+  private requiredQueryParam(paramName: string): string {
+    const value = this.bookingUrlObject.searchParams.get(paramName);
+    if (value === null || value === '') {
+      throw new Error(`Missing ${paramName} query parameter in booking URL for ${this.propertyName}`);
+    }
+
+    return value;
+  }
+
+  get checkIn(): string {
+    return this.requiredQueryParam('checkin');
+  }
+
+  get checkOut(): string {
+    return this.requiredQueryParam('checkout');
   }
 
   get pageContent(): string {

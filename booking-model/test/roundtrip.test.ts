@@ -37,4 +37,13 @@ test('booking matrix exposes page-content from destinations-final.csv', async ()
   expect(matrix.rows[0]?.pageContent).toBe(
     'scrape/ALBANIA/booking_matrix_albania_MD/Albania-The White Donkey Apartment House.md',
   );
+  expect(matrix.rows[0]?.checkIn).toBe('2026-09-16');
+  expect(matrix.rows[0]?.checkOut).toBe('2026-09-24');
+
+  for (const row of matrix.rows) {
+    const checkIn = new Date(`${row.checkIn}T00:00:00Z`);
+    const checkOut = new Date(`${row.checkOut}T00:00:00Z`);
+    const computedDays = Math.round((checkOut.getTime() - checkIn.getTime()) / 86_400_000);
+    expect(computedDays).toBe(row.stayDays?.value);
+  }
 });

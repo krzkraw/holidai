@@ -437,6 +437,7 @@ Update this section during bootstrap and later discovery.
 |   `-- examples/booking/         # reference scraped output and country summaries
 |-- booking-model/
 |   |-- src/
+|   |-- pages/
 |   `-- test/
 |-- chrome-scrape-control/
 |   |-- SKILL.md               # documentation of the CDP browser control skill
@@ -468,4 +469,4 @@ Update this section during bootstrap and later discovery.
 
 Add active plan folders here. Remove them after the full plan is completed, verified, committed, and the plan folder is deleted.
 
-- None.
+- `plans/booking-page-details/` - Deterministic page model, JSON export, sequential enrichment, and `Booking.details` integration.
