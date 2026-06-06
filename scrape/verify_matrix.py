@@ -274,7 +274,7 @@ def ensure_browser():
 
 def run_agent_browser_open(url):
     try:
-        helper_path = os.path.join(SCRIPT_DIR, "cdp_helper.js")
+        helper_path = os.path.join(os.path.dirname(SCRIPT_DIR), "chrome-scrape-control", "cdp_helper.js")
         proc = subprocess.run(["node", helper_path, "navigate", url], capture_output=True, text=True, timeout=40)
         if proc.returncode == 0:
             return True, None
@@ -285,7 +285,7 @@ def run_agent_browser_open(url):
 
 def run_agent_browser_eval(script):
     try:
-        helper_path = os.path.join(SCRIPT_DIR, "cdp_helper.js")
+        helper_path = os.path.join(os.path.dirname(SCRIPT_DIR), "chrome-scrape-control", "cdp_helper.js")
         proc = subprocess.Popen(["node", helper_path, "eval"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         stdout, stderr = proc.communicate(input=script)
         if proc.returncode == 0:

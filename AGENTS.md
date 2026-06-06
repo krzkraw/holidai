@@ -346,6 +346,7 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
 - `booking-scraper-flow/scripts/scrape_booking.py` - Booking.com extraction script.
 - `booking-scraper-flow/scripts/consolidate.py` - generated hotel-card consolidation script.
 - `booking-model/` - DDD-style Booking matrix model and CSV roundtrip tooling.
+- `chrome-scrape-control/` - Reusable in-tab Chrome debugging and scraping automation skill package.
 - `skyscanner/` - DDD-style Skyscanner flight matrix model and CSV roundtrip tooling.
 - `gpt/AGENTS.md` - regeneration guide for the final vacation reports.
 - `gpt/README.md` - historical report timeline and handoff notes.
@@ -437,6 +438,9 @@ Update this section during bootstrap and later discovery.
 |-- booking-model/
 |   |-- src/
 |   `-- test/
+|-- chrome-scrape-control/
+|   |-- SKILL.md               # documentation of the CDP browser control skill
+|   `-- cdp_helper.js          # native Node.js CDP WebSocket controller
 |-- skyscanner/
 |   |-- AGENTS.md
 |   |-- README.md
