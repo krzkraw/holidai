@@ -1,0 +1,250 @@
+# Turcja - Konak Su Hotel
+
+## A) Sekcja Nagłówkowa
+- **Nazwa obiektu:** Konak Su Hotel
+- **Adres:** 
+- **Współrzędne:** 36.836989761761366,28.647588193416553
+- **Widoczne zdjęcia:**
+- https://cf.bstatic.com/xdata/images/hotel/max1024x768/749195175.jpg?k=11bd36b2bd8b3bea61dc1f00f8300a16668035769dc16abf6ad2b0ffaa9d69b9&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/70582074.jpg?k=ff505787c8c7170d10fab3bc619d61cd1f24d3fc5751c4813abf9555f5e13fb6&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/757472573.jpg?k=8993b9470b0c5b20ffa8954092e8b06d10ea085f321e09e7ed3c15c9b44a81dd&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/486768306.jpg?k=7b7be833d6a9f17ae32fc1ecf8710dc8510db4f08ff8f2da2108b1ccef3b3bac&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/70607433.jpg?k=b6e2a443c91e588a9534eb507346da6ef8f8d94e1d8c737f3fa710aebb579b3a&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/70582020.jpg?k=9827bb5b2414d2677b72f7581f7a81672d5c29ec775ebd6666fd02aa94afdcbb&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/70583191.jpg?k=5a32bb1f5d754ee021629fe9df5c76beee7c0e2880cb2acfe8a3c913390d7ab5&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/70582403.jpg?k=1e0bce360db736578b4b795c8fd2ebf11f8ca31958436079630fdf45f1b284fb&o=
+- https://xx.bstatic.com/static/img/review/avatars/ava-a.png
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png
+- https://xx.bstatic.com/static/img/review/avatars/ava-m.png
+- https://xx.bstatic.com/static/img/review/avatars/ava-v.png
+
+- **Opis obiektu:**
+Obiekt Konak Su Hotel, usytuowany w miejscowości Dalyan, oferuje odkryty basen, bezpłatny prywatny parking, ogród oraz wspólny salon. Odległość ważnych miejsc od obiektu: Sulungur Lake – 5,3 km. Obiekt zapewnia bar. Odległość ważnych miejsc od obiektu: Klub jachtowy Gocek – 33 km. Obiekt położony jest 700 m od centrum miejscowości. Odległość ważnych miejsc od obiektu: Dalaman River – 26 km.
+
+Każdy pokój w obiekcie wyposażono w klimatyzację, szafę i telewizor z płaskim ekranem. Do dyspozycji Gości jest też prywatna łazienka oraz balkon z widokiem na góry. Pościel i ręczniki są zapewnione. We wszystkich pokojach w obiekcie zapewniono prywatną łazienkę z prysznicem i bezpłatnym zestawem kosmetyków, a także bezpłatne Wi-Fi. Z wybranych opcji zakwaterowania roztacza się również widok na miasto. Pokoje wyposażone są w lodówkę.
+
+Na miejscu serwowane jest śniadanie w formie bufetu lub kontynentalne.
+
+Obsługa recepcji, która mówi w języku angielskim i tureckim, dostępna jest przez całą dobę.
+
+Lotnisko Lotnisko Dalaman znajduje się 28 km od obiektu.
+
+Parom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 8,2.
+
+Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+
+## B) Dostępność i Tabela Pokoi
+- **Ceny za okresy pobytu:**
+  - **8 dni (16.09 - 24.09):** 2117 PLN
+  - **11 dni (16.09 - 27.09):** 2855 PLN
+  - **14 dni (16.09 - 30.09):** 3593 PLN
+
+- **Dokładna tabela pokoi:**
+|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Maksymalna liczba osób: 2 | 5 047 zł <br> 4 543 zł  <br> Oryginalna cena 5 047 zł Aktualna cena 4 543 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 14 września 2026 <br> • <br> Nie płacisz nic do 12 września 2026 <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (4 543 zł) <br> 2          (9 085 zł) <br> 3        (13 628 zł) |
+| Apartament typu Suite z 2 sypialniami i rozkładaną sofą <br>  Zostały nam 2 <br> 1 łóżko podwójne  i 1 rozkładana sofa  <br> 1 prywatny apartament typu suite <br> 30 m² <br> Balkon <br> Widok na ogród <br> Widok na basen <br> Widok na góry <br> Widok na miasto <br> Klimatyzacja <br> Patio <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 6 769 zł <br> Cena 6 769 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (6 769 zł) <br> 2        (13 539 zł) |
+| Maksymalna liczba osób: 2 | 7 304 zł <br> Cena 7 304 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 14 września 2026 <br> • <br> Nie płacisz nic do 12 września 2026 | Wybierz pokoje <br> 0 <br> 1          (7 304 zł) <br> 2        (14 608 zł) |
+| Pokój jednoosobowy <br>  Zostały nam 2 <br> 1 łóżko pojedyncze  i 1 łóżko podwójne  <br> Pokój <br> Balkon <br> Widok na basen <br> Widok na góry <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 3 593 zł <br> Cena 3 593 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Oferta bezzwrotna <br> • <br> Zapłać online | Wybierz pokoje <br> 0 <br> 1          (3 593 zł) <br> 2          (7 185 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 3 889 zł <br> Cena 3 889 zł <br> Zawiera opłaty i podatki | Dobre śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 14 września 2026 <br> • <br> Nie płacisz nic do 12 września 2026 | Wybierz pokoje <br> 0 <br> 1          (3 889 zł) <br> 2          (7 779 zł) |
+
+## C) Opinie Gości
+- **Ocena ogólna:** 8.8 / 10
+- **Liczba opinii:** 40
+
+- **Lista komentarzy:**
+**Andy**:
+> „Cóż za fantastyczny, rodzinny hotel. Szczerze mówiąc, nie mogę powiedzieć o nim nic złego. Doskonała lokalizacja, wspaniały basen i malowniczy...”
+
+**Andy**:
+> „Cóż za fantastyczny, rodzinny hotel. Szczerze mówiąc, nie mogę powiedzieć o nim nic złego. Doskonała lokalizacja, wspaniały basen i malowniczy...”
+
+**Andy**:
+> „Cóż za fantastyczny, rodzinny hotel. Szczerze mówiąc, nie mogę powiedzieć o nim nic złego. Doskonała lokalizacja, wspaniały basen i malowniczy...”
+
+**Mark**:
+> „Very friendly staff. Pool was large enough to easily cope with full capacity and the prices of drinks and food while there was great value with a...”
+
+**Mark**:
+> „Very friendly staff. Pool was large enough to easily cope with full capacity and the prices of drinks and food while there was great value with a...”
+
+**Victoria**:
+> „The pool is spotlessly clean and never too crowded. The atrium area is so pretty. Breakfast was plentiful. Location is ideal and all the staff are...”
+
+**Victoria**:
+> „The pool is spotlessly clean and never too crowded. The atrium area is so pretty. Breakfast was plentiful. Location is ideal and all the staff are...”
+
+**Hannah**:
+> „Lovely relaxed atmosphere and friendly staff - pool is just the right size and you’re just a 10 minute walk from town”
+
+**Hannah**:
+> „Lovely relaxed atmosphere and friendly staff - pool is just the right size and you’re just a 10 minute walk from town”
+
+**Nigel**:
+> „Breakfast was 1st class, variation of food daily and if you required anything staff readily available to help.
+Room basic but clean and had...”
+
+
+
+## D) Otoczenie obiektu
+Udogodnienia w obiekcie Konak Su Hotel
+Świetne udogodnienia! Ocena: 8,8
+Zobacz dostępność
+Najpopularniejsze udogodnienia
+Odkryty basen
+Bezpłatne Wi-Fi
+Pokoje dla niepalących
+Udogodnienia dla niepełnosprawnych
+Bezpłatny parking
+Pokoje rodzinne
+Bar
+Śniadanie
+Świetne na Twój pobyt
+Prywatna łazienka
+Balkon
+Bezpłatny parking
+Bezpłatne Wi-Fi
+Zwierzęta domowe są akceptowane
+Telewizor z płaskim ekranem
+Klimatyzacja
+Parking
+Widok
+Udogodnienia dla niepełnosprawnych
+Łazienka
+Papier toaletowy
+Ręczniki
+Wanna lub prysznic
+Kapcie
+Prywatna łazienka
+Toaleta
+Bezpłatny zestaw kosmetyków
+Suszarka do włosów
+Prysznic
+Sypialnia
+Pościel
+Szafa lub garderoba
+Widok
+Widok na góry
+Widok na basen
+Widok
+Okolica
+Balkon
+Ogród
+Kuchnia
+Środki czystości
+Lodówka
+Udogodnienia w pokoju
+Gniazdko koło łóżka
+Wieszak na ubrania
+Zwierzęta
+Zwierzęta są akceptowane po uzgodnieniu z obiektem. Mogą obowiązywać dodatkowe opłaty.
+Rekreacja
+Wynajem rowerów
+Dodatkowa opłata
+Media/Technologia
+Telewizor z płaskim ekranem
+Kanały kablowe
+Kanały satelitarne
+Telewizor
+Posiłki i napoje
+Wino / szampan
+Dodatkowa opłata
+Bar
+Minibar
+Internet
+Wi-Fi jest dostępne w całym obiekcie i jest bezpłatne.
+Parking na miejscu
+Bezpłatny parking prywatny jest dostępny na miejscu (nie jest konieczna rezerwacja).
+Parking przy ulicy
+Usługi
+Codzienne sprzątanie
+Wspólna część rekreacyjna / sala TV
+Budzenie na życzenie
+Faks / ksero
+Usługa prasowania
+Dodatkowa opłata
+Pralnia
+Dodatkowa opłata
+Budzenie na życzenie / budzik
+Całodobowa recepcja
+Usługi recepcji
+Możliwe wystawienie faktury
+Bezpieczeństwo
+Gaśnice
+Monitoring wokół obiektu
+Monitoring w pomieszczeniach ogólnodostępnych
+Czujnik dymu
+Sejf
+Ogólne
+Część przeznaczona dla palących
+Klimatyzacja
+Moskitiera
+Podłoga wyłożona kafelkami lub marmurem
+Ogrzewanie
+Pokoje rodzinne
+Udogodnienia dla niepełnosprawnych
+Pokoje dla niepalących
+Udogodnienia dla niepełnosprawnych
+Dostęp dla wózków inwalidzkich
+Całość zlokalizowana na parterze
+Odkryty basen
+Bezpłatnie!
+Otwarty przez cały rok
+Wstęp dla osób w każdym wieku
+Języki
+angielski
+turecki
+
+## E) Udogodnienia w obiekcie
+- **Weryfikacja pralki:** Brak pralki w pokoju. Obiekt oferuje tylko usługę prania (laundry service - dodatkowo płatna).
+- **Wszystkie udogodnienia:**
+Odkryty basen, Bezpłatne Wi-Fi, Pokoje dla niepalących, Udogodnienia dla niepełnosprawnych, Bezpłatny parking, Pokoje rodzinne, Bar, Śniadanie, Prywatna łazienka, Balkon, Zwierzęta domowe są akceptowane, Telewizor z płaskim ekranem, Klimatyzacja, Parking, Widok, Papier toaletowy, Ręczniki, Wanna lub prysznic, Kapcie, Toaleta, Bezpłatny zestaw kosmetyków, Suszarka do włosów, Prysznic, Pościel, Szafa lub garderoba, Widok na góry, Widok na basen, Ogród, Środki czystości, Lodówka, Gniazdko koło łóżka, Wieszak na ubrania, Wynajem rowerów
+Dodatkowa opłata, Kanały kablowe, Kanały satelitarne, Telewizor, Wino / szampan
+Dodatkowa opłata, Minibar, Parking przy ulicy, Codzienne sprzątanie, Wspólna część rekreacyjna / sala TV, Budzenie na życzenie, Faks / ksero, Usługa prasowania
+Dodatkowa opłata, Pralnia
+Dodatkowa opłata, Budzenie na życzenie / budzik, Całodobowa recepcja, Możliwe wystawienie faktury, Gaśnice, Monitoring wokół obiektu, Monitoring w pomieszczeniach ogólnodostępnych, Czujnik dymu, Sejf, Część przeznaczona dla palących, Moskitiera, Podłoga wyłożona kafelkami lub marmurem, Ogrzewanie, Dostęp dla wózków inwalidzkich, Całość zlokalizowana na parterze, Otwarty przez cały rok, Wstęp dla osób w każdym wieku, angielski, turecki
+
+## F) Zasady pobytu i Ważne Informacje
+- **Zasady pobytu (House Rules):**
+```
+Zasady pobytu
+Obiekt Konak Su Hotel przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!
+Zobacz dostępność
+Zameldowanie
+Od 13:30 do 23:30
+Wymeldowanie
+Do 12:00
+Odwołanie rezerwacji/ przedpłata
+Zasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.
+Zakwaterowanie dzieci
+Zasady dotyczące pobytu dzieci
+
+Dzieci w każdym wieku są mile widziane.
+
+Aby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.
+
+Zasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek
+
+Liczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.
+
+Dodatkowe łóżka nie są dostępne w tym obiekcie.
+
+Możliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.
+
+Brak ograniczeń wiekowych
+Brak ograniczeń wiekowych przy zameldowaniu
+Zwierzęta
+Zwierzęta są akceptowane po uzgodnieniu z obiektem. Mogą obowiązywać dodatkowe opłaty.
+Akceptowane metody płatności
+Gotówka
+```
+- **Ważne Informacje (Important Info):**
+```
+Brak sekcji Ważne Informacje.
+```
+
+## Podsumowanie i ocena autorska:
+- **Odległość od plaży:** Najbliższa referencyjna plaża: Dalyan riverfront (~1.0 km w linii prostej)
+- **Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.
+- **Stosunek ceny do jakości:** Dobry / zadowalający stosunek ceny do jakości.
+- **Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie.

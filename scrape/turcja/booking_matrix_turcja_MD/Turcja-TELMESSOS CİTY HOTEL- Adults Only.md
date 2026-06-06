@@ -1,0 +1,156 @@
+# Turcja - TELMESSOS CİTY HOTEL- Adults Only
+
+## A) Sekcja Nagłówkowa
+- **Nazwa obiektu:** TELMESSOS CİTY HOTEL- Adults Only
+- **Adres:** 
+- **Współrzędne:** 36.6229597,29.1144306
+- **Widoczne zdjęcia:**
+- https://cf.bstatic.com/xdata/images/hotel/max1024x768/872428471.jpg?k=552a98aa4038b0eaa4837d0eeeba85d1fc83506a2c59b375f397af6ef9c22dc3&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/792079826.jpg?k=9334881fd0fc6f017cfab11c98b03ee689c7e2120d93d9e33ab5f0fde14cbc80&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/566472751.jpg?k=eb885cf4f8636a75e6cd2a14480be6572d169423a241cbb4a42f8b118b7a1571&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/868846725.jpg?k=f7b720b18afa2559076b173ec2baebef8b7c7d2d550cc71cc500bf7e366033a1&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/566474971.jpg?k=1da9c6aa5b86868566ddd8e7c89ab4143a3a628a93add5bc643e1050ae2df354&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/783819491.jpg?k=a82a8b144efb2e499fdac809a465792dd9e509ef6075b53fa2aa887adf6ab314&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/566460226.jpg?k=d6811c509eb7b9a6adfe1c37301c5db433e0c32f7201143bd124166e50a664ee&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/566471332.jpg?k=6d2d16068575a9d70f19b58ce63d97c408effb310a9a733c05e5d96010926f04&o=
+- https://xx.bstatic.com/static/img/review/avatars/ava-r.png
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Ca.png
+- https://graph.facebook.com/v2.9/934273696760410/picture?type=square&height=64&width=64
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Je.png
+
+- **Opis obiektu:**
+Obiekt TELMESSOS CİTY HOTEL- Adults Only położony jest w znakomitej lokalizacji w miejscowości Fethiye i oferuje bezpłatne Wi-Fi we wszystkich pomieszczeniach. Na miejscu serwowane jest śniadanie à la carte. Oferta obiektu obejmuje całodobową recepcję oraz restaurację. Obiekt jest idealnym wyborem dla niepalących. Odległość ważnych miejsc od obiektu: Przystań Ece Saray – 1,3 km.
+
+Obiekt oddaje do dyspozycji Gości klimatyzowane pokoje wyposażone w szafę, sejf i telewizor z płaskim ekranem. W każdym pokoju zapewniono też prywatną łazienkę z prysznic. W każdej opcji zakwaterowania znajduje się prywatna łazienka z bezpłatnym zestawem kosmetyków, a z niektórych opcji zakwaterowania roztacza się widok na miasto. W każdym pokoju w obiekcie zapewniono pościel i ręczniki.
+
+W pobliżu obiektu TELMESSOS CİTY HOTEL- Adults Only znajdują się liczne atrakcje, takie jak Port w Fethiye, Grobowce skalne Telmessos i Ancient Rock Tombs. Lotnisko Lotnisko Dalaman znajduje się 55 km od obiektu.
+
+Parom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.
+
+Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+
+## B) Dostępność i Tabela Pokoi
+- **Ceny za okresy pobytu:**
+  - **8 dni (16.09 - 24.09):** 2529 PLN
+  - **11 dni (16.09 - 27.09):** 3477 PLN
+  - **14 dni (16.09 - 30.09):** 4425 PLN
+
+- **Dokładna tabela pokoi:**
+|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 146 zł <br> 4 425 zł  <br> Oryginalna cena 6 146 zł Aktualna cena 4 425 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (4 425 zł) <br> 2          (8 850 zł) <br> 3        (13 275 zł) <br> 4        (17 700 zł) <br> 5        (22 125 zł) <br> 6        (26 551 zł) <br> 7        (30 976 zł) |
+| Pokój dwuosobowy typu Standard <br>  Zostały nam 2 <br>  Wyższe piętro <br> 1 bardzo duże łóżko podwójne  <br> 22 m² <br> Widok na miasto <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 8 907 zł <br> 6 413 zł  <br> Oryginalna cena 8 907 zł Aktualna cena 6 413 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (6 413 zł) <br> 2        (12 826 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 680 zł <br> 4 810 zł  <br> Oryginalna cena 6 680 zł Aktualna cena 4 810 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (4 810 zł) <br> 2          (9 620 zł) |
+| Pokój typu Standard z 2 łóżkami pojedynczymi <br>  Zostały nam 3 <br>  Wyższe piętro <br> 2 łóżka pojedyncze  <br> 22 m² <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 8 195 zł <br> 6 556 zł  <br> Oryginalna cena 8 195 zł Aktualna cena 6 556 zł <br> Zawiera opłaty i podatki <br> 20% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (6 556 zł) <br> 2        (13 111 zł) <br> 3        (19 667 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 6 146 zł <br> 4 917 zł  <br> Oryginalna cena 6 146 zł Aktualna cena 4 917 zł <br> Zawiera opłaty i podatki <br> 20% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie | Wybierz pokoje <br> 0 <br> 1          (4 917 zł) <br> 2          (9 834 zł) <br> 3        (14 750 zł) |
+| Pokój typu Deluxe <br>  Zostało nam 5 <br>  Wyższe piętro <br> 1 bardzo duże łóżko podwójne  <br> 40 m² <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Sauna <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 16 175 zł <br> 11 646 zł  <br> Oryginalna cena 16 175 zł Aktualna cena 11 646 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1        (11 646 zł) <br> 2        (23 293 zł) <br> 3        (34 939 zł) <br> 4        (46 585 zł) <br> 5        (58 232 zł) |
+| Maksymalna liczba osób: 1 <br> Tylko dla 1 gościa | 12 132 zł <br> 8 735 zł  <br> Oryginalna cena 12 132 zł Aktualna cena 8 735 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (8 735 zł) <br> 2        (17 469 zł) <br> 3        (26 204 zł) <br> 4        (34 939 zł) <br> 5        (43 674 zł) |
+| Pokój rodzinny <br> 2 łóżka pojedyncze  i 1 bardzo duże łóżko podwójne  <br> 33 m² <br> Widok na miasto <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Ekspres do kawy <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 14 323 zł <br> 10 312 zł  <br> Oryginalna cena 14 323 zł Aktualna cena 10 312 zł <br> Zawiera opłaty i podatki <br> 28% taniej <br> Oferta Sezonowa | Śniadanie wliczone w cenę <br> Bezpłatne odwołanie przed 13 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 2 | Wybierz pokoje <br> 0 <br> 1        (10 312 zł) <br> 2        (20 625 zł) |
+
+## C) Opinie Gości
+- **Ocena ogólna:** 9 / 10
+- **Liczba opinii:** 143
+
+- **Lista komentarzy:**
+**Renee**:
+> „Dobry stosunek jakości do ceny, dobra lokalizacja, czysto i wygodnie.”
+
+**Renee**:
+> „Dobry stosunek jakości do ceny, dobra lokalizacja, czysto i wygodnie.”
+
+**Renee**:
+> „Dobry stosunek jakości do ceny, dobra lokalizacja, czysto i wygodnie.”
+
+**Rosemary**:
+> „everything- perfect for restaurants,shops,cafes - 1/2 mile walk from the souk (Paspatur) Short walk to bus stop for Oludeniz,Calis Beach,...”
+
+**Rosemary**:
+> „everything- perfect for restaurants,shops,cafes - 1/2 mile walk from the souk (Paspatur) Short walk to bus stop for Oludeniz,Calis Beach,...”
+
+**Lynette**:
+> „Friendly staff, lovely large spacious room with all the mod cons. Had an excellent sleep”
+
+**Lynette**:
+> „Friendly staff, lovely large spacious room with all the mod cons. Had an excellent sleep”
+
+**Gabriela**:
+> „Great stay. Staff very friendly, rooms clean, good breakfast.”
+
+**Gabriela**:
+> „Great stay. Staff very friendly, rooms clean, good breakfast.”
+
+**Garyfalia**:
+> „It was and amazing stay! The region of the hotel was excellent! 12-13 minutes on foot from the harbor and 2-3 minutes away from the bus station....”
+
+
+
+## D) Otoczenie obiektu
+Obiekt TELMESSOS CİTY HOTEL- Adults Only położony jest w znakomitej lokalizacji w miejscowości Fethiye i oferuje bezpłatne Wi-Fi we wszystkich pomieszczeniach. Na miejscu serwowane jest śniadanie à la carte. Oferta obiektu obejmuje całodobową recepcję oraz restaurację. Obiekt jest idealnym wyborem dla niepalących. Odległość ważnych miejsc od obiektu: Przystań Ece Saray – 1,3 km.
+
+Obiekt oddaje do dyspozycji Gości klimatyzowane pokoje wyposażone w szafę, sejf i telewizor z płaskim ekranem. W każdym pokoju zapewniono też prywatną łazienkę z prysznic. W każdej opcji zakwaterowania znajduje się prywatna łazienka z bezpłatnym zestawem kosmetyków, a z niektórych opcji zakwaterowania roztacza się widok na miasto. W każdym pokoju w obiekcie zapewniono pościel i ręczniki.
+
+W pobliżu obiektu TELMESSOS CİTY HOTEL- Adults Only znajdują się liczne atrakcje, takie jak Port w Fethiye, Grobowce skalne Telmessos i Ancient Rock Tombs. Lotnisko Lotnisko Dalaman znajduje się 55 km od obiektu.
+
+Parom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.
+
+Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+
+Najpopularniejsze udogodnienia
+Bezpłatne Wi-Fi
+Pokoje dla niepalących
+Restauracja
+Pokoje rodzinne
+Śniadanie
+Twoje nagrody na poziomie Genius 2
+Ten obiekt oferuje nagrody Genius dla wybranych opcji:
+10% zniżki
+Ma zastosowanie do ceny przed naliczeniem podatków i opłat
+Dowiedz się więcej o programie Genius
+Program lojalnościowy Booking.com
+
+## E) Udogodnienia w obiekcie
+- **Weryfikacja pralki:** Brak pralki i usług prania.
+- **Wszystkie udogodnienia:**
+Bezpłatne Wi-Fi, Pokoje dla niepalących, Restauracja, Pokoje rodzinne, Śniadanie, Prywatna łazienka, Telewizor z płaskim ekranem, Klimatyzacja, Transfer, Prysznic, Minibar, Papier toaletowy, Ręczniki, Kapcie, Toaleta, Bezpłatny zestaw kosmetyków, Suszarka do włosów, Pościel, Szafa lub garderoba, Wieszak na ubrania, Telefon, Telewizor, Transfer
+Dodatkowa opłata, Indywidualne zameldowanie / wymeldowanie, Bankomat na terenie obiektu, Budzenie na życzenie, Wypożyczalnia samochodów, Ekspresowe zameldowanie / wymeldowanie, Całodobowa recepcja, Możliwe wystawienie faktury, Gaśnice, Monitoring wokół obiektu, Monitoring w pomieszczeniach ogólnodostępnych, Czujnik dymu, Całodobowa ochrona, Sejf, Całkowity zakaz palenia, Podłoga wyłożona kafelkami lub marmurem, Ogrzewanie, Pokoje dźwiękoszczelne, Winda, Dojazd windą na wyższe piętra, angielski, turecki
+
+## F) Zasady pobytu i Ważne Informacje
+- **Zasady pobytu (House Rules):**
+```
+Zasady pobytu
+Obiekt TELMESSOS CİTY HOTEL- Adults Only przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!
+Zobacz dostępność
+Zameldowanie
+Od 14:00 do 00:00
+Wymeldowanie
+Od 00:00 do 12:00
+Odwołanie rezerwacji/ przedpłata
+Zasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.
+Zakwaterowanie dzieci
+Zasady dotyczące pobytu dzieci
+
+Pobyt dzieci nie jest możliwy.
+
+Zasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek
+
+Łóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.
+
+Brak ograniczeń wiekowych
+Brak ograniczeń wiekowych przy zameldowaniu
+Zwierzęta
+Zwierzęta nie są akceptowane.
+Akceptowane metody płatności
+Gotówka
+Imprezy
+Organizacja imprez i przyjęć jest zabroniona
+```
+- **Ważne Informacje (Important Info):**
+```
+Brak sekcji Ważne Informacje.
+```
+
+## Podsumowanie i ocena autorska:
+- **Odległość od plaży:** Najbliższa referencyjna plaża: Çalış Beach / Fethiye (~4.1 km w linii prostej)
+- **Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.
+- **Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).
+- **Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie.
