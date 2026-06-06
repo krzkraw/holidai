@@ -6,33 +6,37 @@ The requirements in Section 3 are the source-of-truth scraper contract and must 
 
 ---
 
-## 1. Prerequisites & Browser Environment
+## 1. Browser Environment And Guardrails
 
 To run the verification process correctly, the browser must be configured to use port `9222` for remote debugging.
 
 > [!WARNING]
-> **CRITICAL RULE FOR AI AGENTS:** DO NOT USE the `browser_subagent` tool, `agent-browser` skill, or any external headed browser controls. Doing so will spawn a duplicate unauthenticated browser instance, violating session persistence and triggering security locks. The script `verify_matrix.py` controls the single, correct browser tab via CDP over port 9222. Execute the Python script ONLY via `run_command` in the terminal.
+> **CRITICAL RULE FOR AI AGENTS:** Do not use `/goal`, subagents, timers, monitors, watcher loops, `browser_subagent`, `agent-browser`, or any other external browser tool. The scraper must run in one foreground terminal session against one Chrome debug session.
 
-The script simplifies this setup with the following automated behavior:
+The browser setup must follow these rules:
 
-1. **Automatic Detection:**
-   On startup, the script checks if port `9222` is already listening. If found, it uses the existing browser session directly.
-2. **Automatic Launch:**
-   If port `9222` is closed, the script automatically launches Google Chrome (or Google Chrome Beta if stable is not installed) in remote debugging mode with an isolated profile stored at `/Users/krz/Dev/holidai/scrape/chrome-profile`. This prevents locks or security conflicts on your main profile.
-3. **Login Setup:**
-   If launched automatically, the script opens Booking.com and prompts the user in the terminal:
-   - Please log in to your Booking.com account in the opened browser window.
-   - Once logged in, press `ENTER` in the terminal to proceed.
-   - This login session and settings are saved persistently in `chrome-profile` for future runs.
+1. Use stable Google Chrome with the dedicated profile at `/Users/krz/Dev/holidai/scrape/chrome-profile`.
+2. If port `9222` is closed, the script may launch stable Google Chrome automatically.
+3. The user is responsible for logging in to Booking.com and leaving exactly one Booking.com tab open.
+4. Before navigation starts, the script must require the terminal response `OK`.
+5. If the user does not enter `OK`, the run must exit cleanly before navigation.
+6. The CDP helper must refuse to continue unless there is exactly one `type === "page"` target.
+
+Launch command:
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --remote-debugging-port=9222 --user-data-dir="/Users/krz/Dev/holidai/scrape/chrome-profile" "https://www.booking.com"
+```
+
+---
 
 ## 2. Dynamic Paths & Workspace Structure
 
-To keep the workspace self-contained and clean, all output files and progress tracking caches are stored inside the local project folder `/Users/krz/Dev/holidai/scrape/`.
+All output files and progress tracking caches are stored inside `/Users/krz/Dev/holidai/scrape/`.
 
-- **Script:** [verify_matrix.py](file:///Users/krz/Dev/holidai/scrape/verify_matrix.py)
-- **Plan File:** [scrape-plan.md](file:///Users/krz/Dev/holidai/scrape/scrape-plan.md)
+- **Script:** [verify_matrix.py](/Users/krz/Dev/holidai/scrape/verify_matrix.py)
+- **Plan File:** [scrape-plan.md](/Users/krz/Dev/holidai/scrape/scrape-plan.md)
 - **Input CSV Directory:** `/Users/krz/Dev/holidai/research/`
-  - Example: `booking_matrix_turcja_kreta.csv` or `booking_matrix_albania_grecja_cypr.csv`
 - **Output Verified CSV:** `/Users/krz/Dev/holidai/scrape/{csv_name}_VERIFIED.csv`
 - **Progress Cache:** `/Users/krz/Dev/holidai/scrape/{csv_name}_cache.json`
 - **Markdown Outputs Directory:** `/Users/krz/Dev/holidai/scrape/{csv_name}_MD/`
@@ -42,7 +46,7 @@ To keep the workspace self-contained and clean, all output files and progress tr
 
 ## 3. Iteration & Verification Rules
 
-For each unique property (mapped by hotel name and base URL, with checkout dates stripped):
+For each unique property, grouped by hotel name and base URL with checkout parameters stripped:
 
 1. **Retrieve Prices for Stay Lengths (Availability):**
    - Sequentially open the URLs corresponding to stay lengths of 8, 11, and 14 days (e.g., checkout dates `2026-09-24`, `2026-09-27`, `2026-09-30`).
@@ -61,42 +65,50 @@ For each unique property (mapped by hotel name and base URL, with checkout dates
    - **Summary and Author Review:** Short synthesis evaluating location, washing machine, beach distance, and price-to-quality ratio.
 4. **Error Handling & Interaction:**
    - In case of a CAPTCHA or page loading issue, the script alerts the user in the terminal and waits **20 seconds** for input (pressing ENTER retries). If no input is received, it records `TBD` in the price column and proceeds to avoid blocking.
-5. **Pattern Learning:** The scraper reuses successfully discovered DOM selectors to speed up navigation.
+5. **CSV Source Of Truth:**
+   - Read the CSV with `encoding="utf-8-sig"` so BOM-prefixed headers normalize correctly.
+   - Country lookup order is `kraj`, then `\ufeffkraj`, then `Destynacja`.
+   - Unique property grouping is `(base_url, hotel_name)`.
+   - Counts come from the CSV, not from hardcoded expectations. For the current Albania file that means `90` rows and `23` unique properties unless the CSV changes.
+6. **Timeouts And Recovery:**
+   - CDP commands must use a `30s` timeout.
+   - Python eval subprocess calls must use a `60s` timeout.
+   - Timeout failures must kill the process and route back into the existing retry or `TBD` flow.
 
 ---
 
 ## 4. Verification Script Architecture (`verify_matrix.py`)
 
-The verification script [verify_matrix.py](file:///Users/krz/Dev/holidai/scrape/verify_matrix.py) executes the following tasks:
+The verification script [verify_matrix.py](/Users/krz/Dev/holidai/scrape/verify_matrix.py) executes the following tasks:
 
 ### Step 4.1: Read and Group CSV Rows
-- Takes input CSV path as command-line argument (defaults to `/Users/krz/Dev/holidai/research/booking_matrix_turcja_kreta.csv`).
-- Groups unique hotels to prevent redundant page loading, while stay-length URLs are fetched for price checking.
-- Tracks and displays progress (e.g. `Progress: X/Y unique hotels verified`).
+- Takes the input CSV path as a command-line argument.
+- Reads the CSV with BOM-safe handling.
+- Groups unique hotels by `(base_url, hotel_name)` to avoid redundant page loading while preserving the correct property identity.
+- Tracks and displays progress.
 
 ### Step 4.2: Scrape and Cache Iteration
-The script loops through unique hotels, opens the URLs via Chrome Beta, runs the extraction JS asynchronously, and saves intermediate progress to the corresponding local json cache file.
+- Loops through grouped properties.
+- Opens the URLs via the single Chrome debug tab.
+- Runs the extraction JS asynchronously.
+- Saves intermediate progress to the corresponding local JSON cache file.
 
 ---
 
-## 5. Self-Review & Fixes
-
-1. **Price Formats on Booking.com:** Cleaned via `/[^\d]/g` regex in JS to extract clean integers.
-2. **Asynchronous Facility Loading:** Converted to an async JS function with a `1000ms` sleep after clicking the trigger anchor.
-3. **Photo Extraction:** Grid image tags (`img.src` or `data-lazy` attributes) are scraped directly from the main layout.
-4. **Resumability & Progress:** Progress checks local json cache keys before launching browser page requests, and displays a summary on startup.
-
----
-
-## 6. Verification Plan
+## 5. Verification Plan
 
 ### Automated Checks
-- Execute script from terminal:
-  ```bash
-  python3 /Users/krz/Dev/holidai/scrape/verify_matrix.py [/path/to/input.csv]
-  ```
+
+```bash
+PYTHONPYCACHEPREFIX=/tmp/holidai-pycache python3 -m py_compile /Users/krz/Dev/holidai/scrape/verify_matrix.py /Users/krz/Dev/holidai/chrome-scrape-control/chrome_control.py
+node --check /Users/krz/Dev/holidai/chrome-scrape-control/cdp_helper.js
+node --check /Users/krz/Dev/holidai/scrape/cdp_helper.js
+python3 -c 'import csv, urllib.parse; rows=list(csv.DictReader(open("/Users/krz/Dev/holidai/research/booking_matrix_albania.csv", encoding="utf-8-sig"))); bases={(urllib.parse.urlparse(r["link"]).scheme, urllib.parse.urlparse(r["link"]).netloc, urllib.parse.urlparse(r["link"]).path, r["nazwa"]) for r in rows}; print(len(rows), len(bases), rows[0]["kraj"])'
+```
+
+Expected CSV sanity output: `90 23 Albania`.
 
 ### Manual Verification
-- Check generated markdown files folder.
-- Inspect the discrepancies report.
-- Spot check 3-5 rows in Chrome Beta against the generated CSV.
+- Check the generated markdown files folder.
+- Inspect the discrepancy report.
+- Spot check 3-5 rows in stable Google Chrome against the generated CSV.
