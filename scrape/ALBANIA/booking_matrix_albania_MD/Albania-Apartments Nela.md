@@ -1,0 +1,122 @@
+# Albania - Apartments Nela
+
+## A) Sekcja Nagłówkowa
+- **Nazwa obiektu:** Apartments Nela
+- **Adres:** 
+- **Współrzędne:** 39.8703809771842,20.0167892734177
+- **Widoczne zdjęcia:**
+- https://cf.bstatic.com/xdata/images/hotel/max1024x768/718382583.jpg?k=82ec491ad3ea2638e75d785b5436643c1a03561fd06b29385bccf05a0cfbfa5e&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/718382618.jpg?k=64417fe25572fa309088afc1e06b6c9e09a82d8af5e4c22d9a4e5f971f87dbf4&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/718387795.jpg?k=2d46b83835d2d0c333beb59579c39350310d25e79deaeebc625c4e0ff3b7343c&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/718382649.jpg?k=05d994815c1da87d3e069c8c2d376ec8d747c6b5e9e5f58403b1277822802451&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/718382647.jpg?k=c939b8bf80898ffce3e47d410e2f496ba374da598b8ad29ccd0beb8d5ab468e4&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/718382646.jpg?k=50b46257a2c69b2449b5bc687f4d1a66c7fbb0f15031b65be94f1906acb7e97f&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/718382652.jpg?k=4fbd40fe077fd64931576cca5134fdb6327dc62d6b090713eb047a53939d4563&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/718387768.jpg?k=2d7896d7b5b19655c715b777e2f2b20a9953e8b2bbb401388129017587c0ebcc&o=
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Es.png
+- https://lh3.googleusercontent.com/a/ACg8ocIaQuTOMsbYKXGFXbYNcsMJaEvbDV819BaDc6rzOm6uRr0=s96-c
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Au.png
+- https://lh4.googleusercontent.com/-ahNhaNvXoTs/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmF-bPuvRRbJCFimeK8iQi-Df-qFA/s96-c/photo.jpg
+
+- **Opis obiektu:**
+Obiekt Apartments Nela oferuje zakwaterowanie w miejscowości Saranda. Odległość ważnych miejsc od obiektu: Plaża La Petite Beach – 600 m. Obiekt zapewnia bezpłatne Wi-Fi we wszystkich pomieszczeniach.
+
+Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+
+## B) Dostępność i Tabela Pokoi
+- **Ceny za okresy pobytu:**
+  - **8 dni (16.09 - 24.09):** 1018 PLN
+  - **11 dni (16.09 - 27.09):** 1336 PLN
+  - **14 dni (16.09 - 30.09):** 1654 PLN
+
+- **Dokładna tabela pokoi:**
+|  |  |  |  |  | Typ apartamentu | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz apartament |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Apartament <br> Sypialnia 1: 1 duże łóżko podwójne  <br> Sypialnia 2: 1 łóżko pojedyncze  <br> Salon: 1 rozkładana sofa  <br> 1 apartament na wyłączność <br> Łazienka w pokoju <br> Bezpłatne Wi-Fi | Maksymalna liczba osób: 2 | 1 887 zł <br> Cena 1 887 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 11 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Karta kredytowa nie jest wymagana | Wybierz pokoje <br> 0 <br> 1          (1 887 zł) |
+
+## C) Opinie Gości
+- **Ocena ogólna:** 9.8 / 10
+- **Liczba opinii:** 5
+
+- **Lista komentarzy:**
+**Rivas**:
+> „W apartamencie jest wszystko, czego potrzebujesz (i jeszcze więcej) i jest bardzo czysto. Lokalizacja jest świetna — bardzo blisko plaży, promenady...”
+
+**Rivas**:
+> „W apartamencie jest wszystko, czego potrzebujesz (i jeszcze więcej) i jest bardzo czysto. Lokalizacja jest świetna — bardzo blisko plaży, promenady...”
+
+**Rivas**:
+> „W apartamencie jest wszystko, czego potrzebujesz (i jeszcze więcej) i jest bardzo czysto. Lokalizacja jest świetna — bardzo blisko plaży, promenady...”
+
+**Waimarie**:
+> „Great rooms, location and the host was very accomodating. They even made us coffee upon arrival. We enjoyed it so much that we stayed here again...”
+
+**Waimarie**:
+> „Great rooms, location and the host was very accomodating. They even made us coffee upon arrival. We enjoyed it so much that we stayed here again...”
+
+**Tomas17551**:
+> „La amplitud de la habitación, con kitchinet completa. Una terraza muy amplia para comer en paz. Si tenés necesidad te lavan la ropa. La Sra Lavdije...”
+
+**Tomas17551**:
+> „La amplitud de la habitación, con kitchinet completa. Una terraza muy amplia para comer en paz. Si tenés necesidad te lavan la ropa. La Sra Lavdije...”
+
+****:
+> „W apartamencie jest wszystko, czego potrzebujesz (i jeszcze więcej) i jest bardzo czysto. Lokalizacja jest świetna — bardzo blisko plaży, promenady oraz wszystkich barów i restauracji w Sarandzie — chociaż, jak prawie wszystko w tym mieście,...”
+
+****:
+> „Świetne pokoje, świetna lokalizacja i bardzo pomocny gospodarz. Po przyjeździe zrobiono nam nawet kawę. Spodobało nam się tak bardzo, że zatrzymaliśmy się tu ponownie po pobycie w Ksamil. W zasięgu spaceru znajdują się bary, kluby i restauracje.”
+
+****:
+> „Przestronny pokój z w pełni wyposażonym aneksem kuchennym i bardzo dużym tarasem, na którym można spokojnie zjeść. W razie potrzeby można nawet zrobić pranie. Pani Lavdije i jej mąż Namik to wspaniali ludzie, którzy dbają o to, aby niczego Państwu...”
+
+
+
+## D) Otoczenie obiektu
+Brak szczegółowych informacji o otoczeniu.
+
+## E) Udogodnienia w obiekcie
+- **Weryfikacja pralki:** Brak pralki i usług prania.
+- **Wszystkie udogodnienia:**
+Bezpłatne Wi-Fi, Bezpłatny parking, Prywatna łazienka, Parking, Klimatyzacja, angielski
+
+## F) Zasady pobytu i Ważne Informacje
+- **Zasady pobytu (House Rules):**
+```
+Zasady pobytu
+Obiekt Apartments Nela przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!
+Zobacz dostępność
+Zameldowanie
+Od 11:00 do 23:00
+Musisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.
+Wymeldowanie
+Od 08:00 do 10:00
+Odwołanie rezerwacji/ przedpłata
+Zasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.
+Zakwaterowanie dzieci
+Zasady dotyczące pobytu dzieci
+
+Dzieci w każdym wieku są mile widziane.
+
+Aby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.
+
+Zasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek
+
+Łóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.
+
+Brak ograniczeń wiekowych
+Brak ograniczeń wiekowych przy zameldowaniu
+Palenie tytoniu
+Palenie jest zabronione.
+Zwierzęta
+Zwierzęta nie są akceptowane.
+```
+- **Ważne Informacje (Important Info):**
+```
+Brak sekcji Ważne Informacje.
+```
+
+## Podsumowanie i ocena autorska:
+- **Odległość od plaży:** The nearest beach is 650 ft from Apartments Nela.
+- **Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.
+- **Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).
+- **Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie.

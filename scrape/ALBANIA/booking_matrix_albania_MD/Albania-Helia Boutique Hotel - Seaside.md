@@ -1,0 +1,141 @@
+# Albania - Helia Boutique Hotel - Seaside
+
+## A) Sekcja Nagłówkowa
+- **Nazwa obiektu:** Helia Boutique Hotel - Seaside
+- **Adres:** 
+- **Współrzędne:** 39.859070977804,20.02074772199
+- **Widoczne zdjęcia:**
+- https://cf.bstatic.com/xdata/images/hotel/max1024x768/829578320.jpg?k=492051ba3f38ffa150b9fb263bfd5670d1abf86c5af3407a75e7ca81fa48428b&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/825998147.jpg?k=62ad927f8aeb0e8ac96c98539b1124505bf07eaf15a69b552ff3da2b2e446a09&o=
+- https://cf.bstatic.com/xdata/images/hotel/max500/877465834.jpg?k=774ac1c743850e0bae76f43dc0abe71a34c6d0c08b76b0a0fbaffd8cce1c69ab&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/825998154.jpg?k=ed5c51b1b96241032989da1f651890dc06ae03769f7188c742098fa58aeb826b&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/877465733.jpg?k=e42dbeab98cf0aa2a39ab81e82cee82b2bf2b16b974228ab2ea0ee39b731c2d4&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/877465680.jpg?k=7a118e6d0be629e449c454edd084152943380fc190985a235e902829449ad4c6&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/864298140.jpg?k=54c0ead0880623a585f42e777ffe79a261154fb9ff450aa64fb6c87a0b81db75&o=
+- https://cf.bstatic.com/xdata/images/hotel/max300/825998145.jpg?k=ac7cdee2700334ca21d93869d2aa8a237862afa097faebfaf1a60ba324df1768&o=
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Fr.png
+- https://xx.bstatic.com/static/img/review/avatars/ava-f.png
+- https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Gb.png
+- https://lh3.googleusercontent.com/a/ACg8ocJCvfZ3B8dlrWQtGumofONiUVNJNHMWtvVwoZ2KeDuJYje6WaE=s96-c
+
+- **Opis obiektu:**
+Obiekt Helia Boutique Hotel - Seaside położony jest w miejscowości Saranda i oferuje zakwaterowania w pokojach z klimatyzacją oraz prywatną łazienką. Odległość ważnych miejsc od obiektu: Plaża VIP Beach – 500 m, Ancient Fanoti – 48 km. Obiekt zapewnia całodobową recepcję, transfer lotniskowy, obsługę pokoju oraz bezpłatne Wi-Fi we wszystkich pomieszczeniach.
+
+We wszystkich opcjach zakwaterowania w obiekcie znajduje się prywatna łazienka z prysznicem i suszarką do włosów. Z wybranych opcji zakwaterowania roztacza się również widok na miasto. W każdym pokoju w obiekcie zapewniono pościel i ręczniki.
+
+Na miejscu serwowane jest śniadanie w formie bufetu.
+
+Parom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,3.
+
+Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+
+## B) Dostępność i Tabela Pokoi
+- **Ceny za okresy pobytu:**
+  - **8 dni (16.09 - 24.09):** 2458 PLN
+  - **11 dni (16.09 - 27.09):** 3283 PLN
+  - **14 dni (16.09 - 30.09):** 4107 PLN
+
+- **Dokładna tabela pokoi:**
+|  |  |  |  |  | Rodzaj zakwaterowania | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz liczbę |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pokój dwuosobowy <br> 1 duże łóżko podwójne  <br> Pokój <br> 19 m² <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 4 649 zł <br> 4 184 zł  <br> Oryginalna cena 4 649 zł Aktualna cena 4 184 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Wliczono śniadanie w formie bufetu <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 4 | Wybierz pokoje <br> 0 <br> 1          (4 184 zł) <br> 2          (8 368 zł) <br> 3        (12 551 zł) <br> 4        (16 735 zł) |
+| Pokój Trzyosobowy typu Deluxe z widokiem na morze <br> 1 łóżko pojedyncze  i 1 duże łóżko podwójne  <br> Pokój <br> 26 m² <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 4 700 zł <br> 4 230 zł  <br> Oryginalna cena 4 700 zł Aktualna cena 4 230 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Wliczono śniadanie w formie bufetu <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostało nam 7 | Wybierz pokoje <br> 0 <br> 1          (4 230 zł) <br> 2          (8 459 zł) <br> 3        (12 689 zł) <br> 4        (16 919 zł) <br> 5        (21 148 zł) <br> 6        (25 378 zł) <br> 7        (29 607 zł) |
+| Pokój Czteroosobowy z widokiem na morze <br> 2 łóżka pojedyncze  i 1 duże łóżko podwójne  <br> Pokój <br> 35 m² <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Klimatyzacja <br> Łazienka w pokoju <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 7 919 zł <br> 7 127 zł  <br> Oryginalna cena 7 919 zł Aktualna cena 7 127 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Wliczono śniadanie w formie bufetu <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat | Wybierz pokoje <br> 0 <br> 1          (7 127 zł) <br> 2        (14 254 zł) <br> 3        (21 381 zł) <br> 4        (28 508 zł) <br> 5        (35 635 zł) <br> 6        (42 762 zł) <br> 7        (49 889 zł) <br> 8        (57 016 zł) |
+| Pokój rodzinny z widokiem na morze <br> 4 łóżka pojedyncze  i 1 duże łóżko podwójne  <br> Pokój <br> 35 m² <br> Widok na morze <br> Widok na miasto <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 17 755 zł <br> Cena 17 755 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie w formie bufetu <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1        (17 755 zł) |
+| Apartament typu Penthouse <br> Sypialnia 1: 1 bardzo duże łóżko podwójne  <br> Sypialnia 2: 5 łóżek pojedynczych  <br> Salon: 4 rozkładane sofy  <br> 1 apartament na wyłączność <br> 170 m² <br> Prywatny basen <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Basen z widokiem <br> Basen na dachu <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 29 691 zł <br> Cena 29 691 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie w formie bufetu <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1        (29 691 zł) |
+| Apartament typu Penthouse <br> Sypialnia 1: 1 bardzo duże łóżko podwójne  <br> Sypialnia 2: 5 łóżek pojedynczych  <br> Sypialnia 3: 1 duże łóżko podwójne  <br> Salon: 4 rozkładane sofy  <br> 1 apartament na wyłączność <br> 190 m² <br> Prywatny basen <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Basen z widokiem <br> Basen na dachu <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Minibar <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 41 567 zł <br> Cena 41 567 zł <br> Zawiera opłaty i podatki | Wliczono śniadanie w formie bufetu <br> Bezpłatne odwołanie przed 2 września 2026 <br> Przedpłata nie jest wymagana – zapłać w obiekcie <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1        (41 567 zł) |
+
+## C) Opinie Gości
+- **Ocena ogólna:** 9 / 10
+- **Liczba opinii:** 63
+
+- **Lista komentarzy:**
+**Mitchell**:
+> „W łazience dostępna była sól do kąpieli i płyn do kąpieli. Używałam ich każdego wieczoru, za taką cenę czułam się luksusowo.”
+
+**Mitchell**:
+> „W łazience dostępna była sól do kąpieli i płyn do kąpieli. Używałam ich każdego wieczoru, za taką cenę czułam się luksusowo.”
+
+**Mitchell**:
+> „W łazience dostępna była sól do kąpieli i płyn do kąpieli. Używałam ich każdego wieczoru, za taką cenę czułam się luksusowo.”
+
+**Fatima**:
+> „The staff have been nothing but amazing. We had English breakfast and it was top notch. They went out their way to ensure we were comfortable...”
+
+**Fatima**:
+> „The staff have been nothing but amazing. We had English breakfast and it was top notch. They went out their way to ensure we were comfortable...”
+
+**Alan**:
+> „We came here for the second time as we were also here last year and the hotel was once again amazing.
+The service there and the staff were great...”
+
+**Alan**:
+> „We came here for the second time as we were also here last year and the hotel was once again amazing.
+The service there and the staff were great...”
+
+**Emma**:
+> „I really loved everything about our stay here.
+Firstly the location of the hotel was amazing, it was really close to everything, the beach was...”
+
+**Emma**:
+> „I really loved everything about our stay here.
+Firstly the location of the hotel was amazing, it was really close to everything, the beach was...”
+
+**Emmet**:
+> „Our stay here at this hotel was amazing, we loved everything about it.
+The location of the hotel was great, the beach was 1 minute away from it,...”
+
+
+
+## D) Otoczenie obiektu
+Brak szczegółowych informacji o otoczeniu.
+
+## E) Udogodnienia w obiekcie
+- **Weryfikacja pralki:** Brak pralki i usług prania.
+- **Wszystkie udogodnienia:**
+Pokoje dla niepalących, Transfer lotniskowy, Obsługa pokoju, Pokoje rodzinne, Bezpłatne Wi-Fi, Bezpłatny parking, Śniadanie, Prywatna łazienka, Plaża, Telewizor z płaskim ekranem, Klimatyzacja, Parking, Papier toaletowy, Ręczniki, Wanna lub prysznic, Toaleta, Szlafrok, Suszarka do włosów, Prysznic, Pościel, Stół, Lodówka, Suszarka na ubrania, Wieszak na ubrania, Część jadalna, Telewizor, Minibar, Transfer
+Dodatkowa opłata, Transfer lotniskowy
+Dodatkowa opłata, Całodobowa recepcja, Gaśnice, Monitoring wokół obiektu, Monitoring w pomieszczeniach ogólnodostępnych, Całodobowa ochrona, Całkowity zakaz palenia, Pokoje dźwiękoszczelne, Winda, Całość dostępna dla wózków inwalidzkich, Dojazd windą na wyższe piętra, grecki, angielski, włoski, rumuński
+
+## F) Zasady pobytu i Ważne Informacje
+- **Zasady pobytu (House Rules):**
+```
+Zasady pobytu
+Obiekt Helia Boutique Hotel - Seaside przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!
+Zobacz dostępność
+Zameldowanie
+Od 14:00 do 22:00
+Wymeldowanie
+Od 08:00 do 10:00
+Odwołanie rezerwacji/ przedpłata
+Zasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.
+Zakwaterowanie dzieci
+Zasady dotyczące pobytu dzieci
+
+Dzieci w każdym wieku są mile widziane.
+
+Aby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.
+
+Zasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek
+
+Łóżeczka dziecięce i dodatkowe łóżka nie są dostępne w tym obiekcie.
+
+Brak ograniczeń wiekowych
+Brak ograniczeń wiekowych przy zameldowaniu
+Zwierzęta
+Zwierzęta nie są akceptowane.
+Akceptowane metody płatności
+Gotówka
+Imprezy
+Organizacja imprez i przyjęć jest zabroniona
+```
+- **Ważne Informacje (Important Info):**
+```
+Brak sekcji Ważne Informacje.
+```
+
+## Podsumowanie i ocena autorska:
+- **Odległość od plaży:** The nearest beach is 150 ft from Helia Boutique Hotel - Seaside.
+- **Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.
+- **Stosunek ceny do jakości:** Bardzo dobry stosunek ceny do jakości (znakomite opinie gości).
+- **Ogólne podsumowanie:** Obiekt w kategorii B — rozsądnie: lokalizacja / opinia / pralka preferowana. Szczegółowe udogodnienia zostały zweryfikowane automatycznie.
