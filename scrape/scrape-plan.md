@@ -2,6 +2,8 @@
 
 This plan details the structured and optimized process for automatic and semi-automatic verification of hotel data from a single CSV file against Booking.com.
 
+The requirements in Section 3 are the source-of-truth scraper contract and must not be weakened or rephrased into softer guarantees without explicit user approval.
+
 ---
 
 ## 1. Prerequisites & Browser Environment
