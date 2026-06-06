@@ -1,0 +1,16 @@
+# Raport Rozbieżności w Weryfikacji Booking Matrix
+
+Łączna liczba wierszy ze zmianami: 12
+
+- Row 2 (The White Donkey Apartment House, 8 dni): cena_pln: '2018.96' -> '1711.00', ocena_booking: '9.5' -> '9.4', status_prania: 'Brak pralki/pralni w pobranej karcie' -> 'Pralka w pokoju/obiektu potwierdzona; usługa prania niepotwierdzona', pralka_potwierdzona: 'False' -> 'True', parking: 'False' -> 'True'
+- Row 3 (The White Donkey Apartment House, 11 dni): cena_pln: '2776.07' -> '2355.00', ocena_booking: '9.5' -> '9.4', status_prania: 'Brak pralki/pralni w pobranej karcie' -> 'Pralka w pokoju/obiektu potwierdzona; usługa prania niepotwierdzona', pralka_potwierdzona: 'False' -> 'True', parking: 'False' -> 'True'
+- Row 4 (The White Donkey Apartment House, 14 dni): cena_pln: '3530.0' -> '2998.00', ocena_booking: '9.5' -> '9.4', status_prania: 'Brak pralki/pralni w pobranej karcie' -> 'Pralka w pokoju/obiektu potwierdzona; usługa prania niepotwierdzona', pralka_potwierdzona: 'False' -> 'True', parking: 'False' -> 'True'
+- Row 5 (Aquamarine Apartments, 8 dni): cena_pln: '1900.2' -> '1615.00', opinie_booking: '409' -> '408', sea_view: 'False' -> 'True'
+- Row 6 (Aquamarine Apartments, 11 dni): cena_pln: '2612.77' -> '2221.00', opinie_booking: '409' -> '408', sea_view: 'False' -> 'True'
+- Row 7 (Aquamarine Apartments, 14 dni): cena_pln: '3323.0' -> '2827.00', opinie_booking: '409' -> '408', sea_view: 'False' -> 'True'
+- Row 8 (The White Donkey Apartment House, 8 dni): cena_pln: '2018.96' -> '1711.00', ocena_booking: '9.5' -> '9.4', status_prania: 'Brak pralki/pralni w pobranej karcie' -> 'Pralka w pokoju/obiektu potwierdzona; usługa prania niepotwierdzona', pralka_potwierdzona: 'False' -> 'True', parking: 'False' -> 'True'
+- Row 9 (The White Donkey Apartment House, 11 dni): cena_pln: '2776.07' -> '2355.00', ocena_booking: '9.5' -> '9.4', status_prania: 'Brak pralki/pralni w pobranej karcie' -> 'Pralka w pokoju/obiektu potwierdzona; usługa prania niepotwierdzona', pralka_potwierdzona: 'False' -> 'True', parking: 'False' -> 'True'
+- Row 10 (The White Donkey Apartment House, 14 dni): cena_pln: '3533.18' -> '2998.00', ocena_booking: '9.5' -> '9.4', status_prania: 'Brak pralki/pralni w pobranej karcie' -> 'Pralka w pokoju/obiektu potwierdzona; usługa prania niepotwierdzona', pralka_potwierdzona: 'False' -> 'True', parking: 'False' -> 'True'
+- Row 11 (Aquamarine Apartments, 8 dni): cena_pln: '1900.2' -> '1615.00', opinie_booking: '409' -> '408', status_prania: 'Pralnia/usługa prania w obiekcie; pralka w pokoju niepotwierdzona' -> 'Pralnia/usługa prania potwierdzona w udogodnieniach obiektu', sea_view: 'False' -> 'True'
+- Row 12 (Aquamarine Apartments, 11 dni): cena_pln: '2612.77' -> '2221.00', opinie_booking: '409' -> '408', status_prania: 'Pralnia/usługa prania w obiekcie; pralka w pokoju niepotwierdzona' -> 'Pralnia/usługa prania potwierdzona w udogodnieniach obiektu', sea_view: 'False' -> 'True'
+- Row 13 (Aquamarine Apartments, 14 dni): cena_pln: '3325.35' -> '2827.00', opinie_booking: '409' -> '408', status_prania: 'Pralnia/usługa prania w obiekcie; pralka w pokoju niepotwierdzona' -> 'Pralnia/usługa prania potwierdzona w udogodnieniach obiektu', sea_view: 'False' -> 'True'

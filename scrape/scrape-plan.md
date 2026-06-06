@@ -4,23 +4,21 @@ This plan details the structured and optimized process for automatic and semi-au
 
 ---
 
-## 1. Prerequisites
+## 1. Prerequisites & Browser Environment
 
-Before running the script, the browser environment must be prepared so that the script runs in the context of your logged-in Booking.com account (ensuring Genius discounts and correct currency/regional settings are applied):
+To run the verification process correctly, the browser must be configured to use port `9222` for remote debugging so that `agent-browser` can interact with it.
 
-1. **Close Chrome Beta Completely:**
-   You must close all running instances of Google Chrome Beta (use `Cmd + Q` on macOS to ensure no background processes remain).
-2. **Launch Chrome Beta in Remote Debugging Mode:**
-   Start Chrome Beta from the terminal with the remote debugging port enabled:
-   ```bash
-   "/Applications/Google Chrome Beta.app/Contents/MacOS/Google Chrome Beta" --remote-debugging-port=9222
-   ```
-3. **User Login:**
-   Log in to your Booking.com account in the newly opened Chrome Beta window.
-4. **Establish Connection:**
-   The `agent-browser` tool will connect to this running Chrome Beta instance using the CDP protocol on port `9222` (passing `--cdp 9222`).
+The script simplifies this setup with the following automated behavior:
 
----
+1. **Automatic Detection:**
+   On startup, the script checks if port `9222` is already listening. If found, it uses the existing browser session directly.
+2. **Automatic Launch:**
+   If port `9222` is closed, the script automatically launches Google Chrome (or Google Chrome Beta if stable is not installed) in remote debugging mode with an isolated profile stored at `/Users/krz/Dev/holidai/scrape/chrome-profile`. This prevents locks or security conflicts on your main profile.
+3. **Login Setup:**
+   If launched automatically, the script opens Booking.com and prompts the user in the terminal:
+   - Please log in to your Booking.com account in the opened browser window.
+   - Once logged in, press `ENTER` in the terminal to proceed.
+   - This login session and settings are saved persistently in `chrome-profile` for future runs.
 
 ## 2. Dynamic Paths & Workspace Structure
 

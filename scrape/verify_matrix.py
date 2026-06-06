@@ -5,6 +5,7 @@ import sys
 import time
 import subprocess
 import select
+import socket
 from urllib.parse import urlparse
 
 # SCRIPT LOCATION & PATH SETUP
@@ -212,16 +213,80 @@ async () => {
 }
 """
 
+def is_port_open(port):
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.settimeout(1.0)
+        try:
+            s.connect(('127.0.0.1', port))
+            return True
+        except OSError:
+            return False
+
+def ensure_browser():
+    if is_port_open(9222):
+        print("Found active Chrome debugger on port 9222.")
+        return True
+        
+    print("No active Chrome debugger found on port 9222. Attempting to launch Chrome...")
+    chrome_stable = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    chrome_beta = "/Applications/Google Chrome Beta.app/Contents/MacOS/Google Chrome Beta"
+    
+    if os.path.exists(chrome_stable):
+        path = chrome_stable
+    elif os.path.exists(chrome_beta):
+        path = chrome_beta
+    else:
+        print("Error: Neither Google Chrome nor Google Chrome Beta was found in /Applications.")
+        print("Please start Chrome manually with remote debugging enabled:")
+        print("  --remote-debugging-port=9222 --user-data-dir=...")
+        return False
+        
+    profile_dir = os.path.join(SCRIPT_DIR, "chrome-profile")
+    os.makedirs(profile_dir, exist_ok=True)
+    
+    cmd = [
+        path,
+        "--remote-debugging-port=9222",
+        f"--user-data-dir={profile_dir}",
+        "https://www.booking.com"
+    ]
+    
+    print(f"Launching {os.path.basename(path)}...")
+    subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    
+    # Wait for port to open
+    for _ in range(20):
+        time.sleep(0.5)
+        if is_port_open(9222):
+            print("Chrome started and listening on port 9222.")
+            break
+    else:
+        print("Error: Timed out waiting for Chrome to listen on port 9222.")
+        return False
+    
+    print("\n======================================================================")
+    print("IMPORTANT: If you are not logged in, please log in to your Booking.com account")
+    print("in the newly opened browser window (to apply Genius discounts/settings).")
+    print("Once you are ready, press ENTER in this terminal to continue...")
+    print("======================================================================\n")
+    input()
+    return True
+
 def run_agent_browser_open(url):
     try:
-        proc = subprocess.run(["agent-browser", "--cdp", "9222", "open", url], capture_output=True, text=True, timeout=40)
-        return proc.returncode == 0, proc.stderr
+        helper_path = os.path.join(SCRIPT_DIR, "cdp_helper.js")
+        proc = subprocess.run(["node", helper_path, "navigate", url], capture_output=True, text=True, timeout=40)
+        if proc.returncode == 0:
+            return True, None
+        else:
+            return False, proc.stderr.strip()
     except Exception as e:
         return False, str(e)
 
 def run_agent_browser_eval(script):
     try:
-        proc = subprocess.Popen(["agent-browser", "--cdp", "9222", "eval", "--stdin"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        helper_path = os.path.join(SCRIPT_DIR, "cdp_helper.js")
+        proc = subprocess.Popen(["node", helper_path, "eval"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         stdout, stderr = proc.communicate(input=script)
         if proc.returncode == 0:
             return stdout.strip(), None
@@ -255,6 +320,10 @@ def prompt_user_stuck(message):
         return "tbd"
 
 def main():
+    if not ensure_browser():
+        print("Failed to ensure browser is running. Exiting.")
+        sys.exit(1)
+        
     os.makedirs(MD_DIR, exist_ok=True)
     cache = load_cache()
     

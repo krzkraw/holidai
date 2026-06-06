@@ -44,3 +44,4 @@ playwright-report/
 test-results/
 .playwright/
 debug_*.png
+/scrape/chrome-profile
