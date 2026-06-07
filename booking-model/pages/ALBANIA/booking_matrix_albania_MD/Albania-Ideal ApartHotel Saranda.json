@@ -72,13 +72,13 @@
     "Brak szczegółowych udogodnień."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "This page is effectively blocked, so there is no reliable room or amenity profile to judge from the source. The only useful signal is the generated summary, which suggests a beach location, but that is not enough to call the stay complete.",
+    "Location & Beach": "The deterministic summary says the nearest beach is about 1,300 ft away, but the markdown source itself only shows a CAPTCHA or error state. Beyond that distance hint, the actual location and beach access cannot be verified from the captured page.",
+    "Room Fit": "No room inventory, dimensions, or occupancy details were captured, so room fit cannot be assessed. Any sizing judgment would be speculation.",
+    "Amenities & Comfort": "The page does not expose a usable amenity list, so comfort features such as Wi-Fi, AC, or bathrooms are not confirmed. At the moment there is no evidence-based way to judge the property beyond the blocked page state.",
+    "Laundry Verdict": "Laundry cannot be assessed because the page is blocked and no laundry details were captured. There is no evidence of either a washer or laundry service.",
+    "Guest Sentiment": "There are no captured reviews or scores, so guest sentiment is unavailable. The property is currently too opaque to infer reputation from the source.",
+    "Tradeoffs": "The tradeoff is simply missing data: no rooms, no reviews, no amenities, and no policy details beyond a blocked page. That leaves too much unknown to compare it fairly with the other Saranda options.",
+    "Best For": "At present, it is only reasonable for users who are willing to investigate manually despite the blocked source. It is not ready for a recommendation based on the current capture."
   }
 }

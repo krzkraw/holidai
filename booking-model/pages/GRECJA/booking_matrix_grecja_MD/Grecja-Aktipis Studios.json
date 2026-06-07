@@ -176,13 +176,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "This is a similar apartment-style stay with very strong feedback, clean rooms, and a quiet but convenient location near Argassi. The room inventory is not captured in a table, so the fit is inferred from the description and reviews rather than a full room matrix.",
+    "Location & Beach": "The source says the nearest beach is about 1,650 ft away, and guests describe the area as quiet but close to Argasi and the beach. That puts it in easy walking distance without being directly on the sand.",
+    "Room Fit": "The units appear geared to couples or small parties, with kitchenette facilities, balconies, private bathrooms, and ground-floor access in some cases. Based on the description, it reads as a practical self-catering base rather than a large apartment complex.",
+    "Amenities & Comfort": "Free Wi-Fi, free parking, air conditioning, balcony or patio space, a kitchen corner, and garden areas are the main comfort points. Reviews repeatedly mention cleanliness, quietness, and useful in-room basics.",
+    "Laundry Verdict": "No washer or laundry service is listed, and the source says none is available. That makes laundry a miss for longer stays.",
+    "Guest Sentiment": "Guest sentiment is excellent at 8.9 from 52 reviews, with repeated praise for cleanliness, peaceful surroundings, friendly hosts, and helpful local support. The comment set is consistent even if not huge.",
+    "Tradeoffs": "The main tradeoff is the lack of laundry and the fact that the property leans simple rather than full-service. The upside is a quiet, tidy base with strong value signals.",
+    "Best For": "Best for couples or solo travelers who want a peaceful, practical stay near Argasi. It also suits guests who care more about cleanliness, parking, and host quality than about resort features."
   }
 }

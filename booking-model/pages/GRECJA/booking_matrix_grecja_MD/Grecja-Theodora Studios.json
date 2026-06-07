@@ -212,13 +212,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "Theodora Studios is a high-confidence value pick with a 9.4 score from 340 reviews, strong location feedback, and comparatively low captured stay prices. It is an apartment-style property near Argassi Beach with kitchenettes, balconies, daily cleaning, parking, and a quiet setting. The deterministic summary places it in a practical category rather than a beachfront-luxury category.",
+    "Location & Beach": "The property is near Argassi, with the description placing Argassi Beach 600 m away and the JSON summary listing the nearest beach at 1,000 ft. It is also convenient for Zakynthos port, St. Dionysios Church, and the airport, all within a short drive by the captured distances. Guest comments repeatedly call the location good or amazing, while also noting a quiet and peaceful area.",
+    "Room Fit": "The table shows studios around 25 m² and a one-bedroom apartment around 40 m², all for a maximum of two guests in this capture. Units include private kitchenette, private bathroom, balcony, air conditioning, soundproofing, and views such as sea, garden, mountains, or inner courtyard depending on unit. The policy states children cannot stay, so it is not a family choice despite the room labels.",
+    "Amenities & Comfort": "Amenities are simple but well matched to an independent stay: free Wi-Fi in public areas, free private parking, kitchenette equipment, balcony, terrace, garden, air conditioning, car rental, and daily cleaning. Reviews reinforce cleanliness, daily housekeeping, helpful ownership, parking, and good equipment. There is no strong resort amenity set here, but the essentials are well covered.",
+    "Laundry Verdict": "Laundry is a weak point. The markdown and deterministic laundry field state no washing machine and no laundry services, so guests should plan external laundry or pack accordingly.",
+    "Guest Sentiment": "Sentiment is excellent and backed by the large 340-review count. Guests mention daily cleaning, well-equipped apartments, helpful owner Dennis, quiet surroundings, high cleanliness, parking, spacious rooms, and good views. The repeated praise makes this one of the clearer quality signals among the five pages.",
+    "Tradeoffs": "The tradeoff is that this is not beachfront and not a full-service hotel. Wi-Fi is listed as free in public areas rather than clearly throughout all rooms, there is no laundry option, children are not allowed, and quiet-hours rules are explicit. The best captured prices are attractive, but larger or family groups will need another property.",
+    "Best For": "Best for a couple or two adult travelers who want a clean, quiet, well-reviewed studio with kitchenette, parking, and easy Argassi access at a strong price. It is especially suitable when value, housekeeping, and practical independence matter more than beachfront placement or resort services."
   }
 }

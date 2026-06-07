@@ -197,13 +197,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "Zakantha Beach is a beachfront Argassi hotel with an 8.3 score from 143 reviews and a clear location advantage. It offers pool, parking, breakfast, bar, balcony rooms, and immediate beach access, but the booking capture is incomplete for pricing because the room table was not found and all stay-price fields are null. Treat the qualitative fit as usable and the booking-cost fit as blocked until availability is recaptured.",
+    "Location & Beach": "Location evidence is strong: the hotel is in Argasi, 200 m from Argassi Beach, marked beachfront in the amenities, and summarized as about 150 ft from the nearest beach. Guests mention being on the beach, near restaurants and cafes, close to the strip, and easy to reach from the airport. It also sits close to Zakynthos port and town-side attractions compared with more remote beach options.",
+    "Room Fit": "Room-fit confidence is partial because the room table was not captured. The description still confirms hotel rooms with air conditioning, desk, safe, flat-screen TV, balcony, private bathroom with bath, toiletries, hair dryer, and fridge. Without the table, bed layouts, room names, capacity, and cancellation/payment options cannot be compared reliably.",
+    "Amenities & Comfort": "The amenities are hotel-oriented and practical: seasonal outdoor pool, beachfront position, free Wi-Fi in public areas, free private parking, bar, breakfast, 24-hour reception, shared lounge, terrace, garden, fridge, elevator, and snack bar. Comfort basics include private bathroom, balcony, air conditioning, safe, TV, hair dryer, and bath. Some beach loungers, umbrellas, safe use, billiards, and business services may carry extra charges.",
+    "Laundry Verdict": "Laundry is not a strength. The markdown and deterministic laundry evidence state no washing machine and no laundry services, so guests should not rely on the property for washing clothes.",
+    "Guest Sentiment": "Guest sentiment is positive and location-heavy, matching the 8.3 score. Reviews praise value for money, sea-view rooms, beach access, pool, kind staff, nearby restaurants and cafes, and a child-safe beach. The comments are partly duplicated and truncated, so the strongest signal is the repeated praise for location and staff.",
+    "Tradeoffs": "The biggest tradeoff is missing availability detail: no room table and no captured stay prices, so this page cannot support confident price or room-category comparison. The hotel is in the middle of the strip, which is convenient but may be busier than quieter apartment options. There is no laundry support, and Wi-Fi is listed in public areas rather than clearly in all rooms.",
+    "Best For": "Best for travelers prioritizing immediate Argassi beach access, restaurants nearby, pool, breakfast, and hotel reception support. It is a good short-stay or beach-first candidate once prices and room availability are recaptured, but not a good choice when in-room laundry, full self-catering, or quiet seclusion are primary requirements."
   }
 }

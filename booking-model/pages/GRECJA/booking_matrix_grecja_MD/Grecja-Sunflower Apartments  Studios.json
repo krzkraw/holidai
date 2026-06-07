@@ -258,13 +258,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "Sunflower Apartments & Studios is a strong self-catering Laganas option with a 9.0 score from 151 reviews and a high couple-location score of 9.4. It offers studios and apartments with kitchen or kitchenette facilities, balconies, pool views, two pools, and a quieter setting near but not directly on the main Laganas action. The aggregated stay-price fields are TBD in the JSON, so price comparison should rely on the visible room-table rates for the captured 11-night search.",
+    "Location & Beach": "The property is in Laganas, surrounded by greenery, with Laganas Beach listed 500 m away and the deterministic summary showing the nearest beach at 1,650 ft. Guests describe the location as far enough from the busy party street while still close to the sea and main road. It is a beach-access stay rather than beachfront, with Zakynthos town 10 km away and the airport 8 km away.",
+    "Room Fit": "The room mix is flexible for two travelers, with 25 m² studios, a 45 m² one-bedroom apartment, and a 50 m² two-bedroom loft apartment appearing in the table. Units include private bathroom, balcony or terrace, air conditioning, Wi-Fi, and private kitchenette or kitchen facilities, with some sofa-bed layouts in apartment categories. The search table is still capped at two guests, so larger-party suitability should be rechecked against the actual booking party size.",
+    "Amenities & Comfort": "Comfort evidence is strong for an apartment stay: two seasonal pools including a children's pool, pool bar, free Wi-Fi, free private parking, kitchenette equipment, terrace or balcony, air conditioning, and family-friendly items such as stroller support, playground, and games. The facilities score is 8.9, and reviews mention a clean, relaxing atmosphere, maintained pool, terrace, and welcoming reception. Pets are accepted but may incur extra charges.",
+    "Laundry Verdict": "There is no confirmed in-room washing machine. The source and JSON indicate paid laundry and ironing services only, so it can cover basic travel laundry but does not satisfy a washer-in-unit preference.",
+    "Guest Sentiment": "Guest sentiment is very positive, consistent with the 9.0 score. Review snippets highlight the quieter Laganas position, daily-cleaned pool, pool bar, terrace, friendly staff, views, cleanliness, and relaxed atmosphere. Some comments are duplicated and truncated, but the repeated themes are consistent.",
+    "Tradeoffs": "The main data limitation is pricing: the aggregated 8-, 11-, and 14-night fields are TBD, even though the room table contains captured 11-night rates. The property is 500 m from the beach rather than directly beachfront, and the area is near Laganas nightlife even if guests describe the specific location as set back. Laundry is service-only, and some rates require prepayment or are non-refundable.",
+    "Best For": "Best for couples who want a self-catering base with pool facilities, parking, balcony space, and a quieter edge-of-Laganas position. It is also a good fit for travelers who prefer apartment amenities and beach access over beachfront placement or hotel meal plans."
   }
 }

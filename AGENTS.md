@@ -468,5 +468,3 @@ Update this section during bootstrap and later discovery.
 ## Pending Plans
 
 Add active plan folders here. Remove them after the full plan is completed, verified, committed, and the plan folder is deleted.
-
-- `plans/booking-page-details/` - Deterministic page model, JSON export, sequential enrichment, and `Booking.details` integration.

@@ -435,13 +435,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "A polished beachfront resort with strong family and couple appeal, backed by a solid 8.4 score from a large review set. It has the feel of a more complete holiday property, with pools, private beach access, dining, and room categories that scale up well.",
+    "Location & Beach": "The hotel is in Kipseli and the listing says Drosia Beach is about 1.8 km away, while the broader source repeatedly emphasizes beachfront access and a private beach. In practice this reads as a coastal resort with direct seaside access rather than a walk-to-town base.",
+    "Room Fit": "The room mix runs from compact standard and superior rooms through larger family suites and a one-bedroom apartment-style option, mostly for 1 to 2 guests in the captured table. That makes it strongest for couples, but there are also room shapes that work for small families or guests wanting more space.",
+    "Amenities & Comfort": "Amenities are extensive: outdoor pool, private beach, restaurant, bar, room service, free Wi-Fi, parking, breakfast, and air-conditioned rooms with balconies. Reviews also emphasize quietness, large rooms, clean spaces, and helpful staff.",
+    "Laundry Verdict": "No washer or laundry service is listed in the source material. For longer stays, assume outside laundry arrangements.",
+    "Guest Sentiment": "Guest sentiment is positive at 8.4 from 652 reviews, with frequent praise for the beach setting, calm atmosphere, staff friendliness, and food. The volume of feedback makes the positive pattern more credible than on the smaller pages.",
+    "Tradeoffs": "The resort setup comes with a more structured, less intimate feel than the apartment-style properties. Some of the better rooms are premium-priced, and the location is better for staying put than for walking into town.",
+    "Best For": "Best for couples and small families wanting a coastal resort with pools, dining, and private beach access. It also fits travelers who want a more self-contained holiday property rather than a simple room."
   }
 }

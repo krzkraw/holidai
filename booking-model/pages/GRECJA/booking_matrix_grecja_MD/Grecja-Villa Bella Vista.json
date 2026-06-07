@@ -190,13 +190,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "Villa Bella Vista is a quiet, view-led apartment option with a 9.4 score from 100 reviews and strong evidence for scenery, privacy, and a small private beach. It is more remote and independent than hotel-like, with two-bedroom apartments, kitchen facilities, parking, and sea or mountain views. The deterministic summary marks it as a good value/location option but still flags laundry as only service-based.",
+    "Location & Beach": "The property is near Keri, with the description listing Paralia Keri Beach at 1.2 km while the property itself offers a private beach and the JSON summary labels it beachfront with the nearest beach at 2,600 ft. Guest reviews emphasize the exceptional view, secluded beach access, and quiet setting. The tradeoff is remoteness: one review explicitly notes that a car is needed and the roads are small.",
+    "Room Fit": "The captured room table shows two two-bedroom apartments, one at 35 m² and one at 50 m², both sold for a maximum of two guests in this search. Each has a private kitchen, private bathroom, balcony, sea and mountain views, air conditioning, coffee machine, and Wi-Fi. The layouts suggest more physical space than a studio, but actual occupancy should be rechecked because the capture only priced two guests.",
+    "Amenities & Comfort": "Amenities focus on independent coastal comfort: free Wi-Fi in rooms, free private parking, private beach, balcony, kitchen equipment, coffee machine, fridge, air conditioning, garden, snorkeling, and sea or mountain views. Guest comments mention clean apartments, good bathrooms, comfortable beds, easy key pickup, and a very helpful owner. Climate control has an extra-fee note in the amenities list, so that cost should be checked before booking.",
+    "Laundry Verdict": "There is no confirmed in-room washing machine. The source and JSON indicate only laundry service, so it is better than no option at all but still not ideal for travelers who need self-service laundry.",
+    "Guest Sentiment": "Guest sentiment is very strong, with praise centered on the host, cleanliness, bathroom quality, balcony views, quiet surroundings, comfortable beds, and access to a secluded beach. The 9.4 score from 100 reviews supports those themes. A few snippets are truncated, but the positive view-and-host pattern is consistent.",
+    "Tradeoffs": "The property is remote and best approached with a car, and one review calls out small roads. The nearby beach access is described as secluded and private, but one guest notes it is not sandy. There are only two captured apartment options, no in-room washer, and some amenities such as air conditioning or diving may carry extra charges.",
+    "Best For": "Best for couples who want a quiet scenic apartment with private beach access, balcony views, parking, and self-catering basics. It is strongest for travelers comfortable driving and prioritizing seclusion and views over nightlife, walkability, or full hotel services."
   }
 }

@@ -152,13 +152,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "A small, highly rated Saranda apartment stay with a very strong value story: the page shows a 9.8 score from 5 reviews and a single practical apartment option for 2 guests. It reads as a clean, simple base rather than a feature-heavy property.",
+    "Location & Beach": "The markdown says La Petite Beach is 600 m away, while the author summary tightens the nearest beach estimate to about 650 ft, so the property appears close to the water but not directly on the beach. Guests also describe it as close to the promenade, bars, and restaurants.",
+    "Room Fit": "The only listed apartment fits 2 guests and combines a king bed, a single bed, and a sofa in one private unit with its own bathroom and free Wi-Fi. That makes it workable for a couple or a very small party, but the layout is basic rather than spacious by design.",
+    "Amenities & Comfort": "Free Wi-Fi, free parking, air conditioning, and a private bathroom are the main confirmed comforts, and reviews repeatedly mention cleanliness. The room also appears to have a kitchen setup and a terrace, but the surrounding notes do not show any broader facility set beyond the essentials.",
+    "Laundry Verdict": "The deterministic model marks no in-room washer and no confirmed laundry service, so laundry should be treated as unavailable. One review mentions staff helping with washing clothes, but that is not strong enough evidence to count as a dependable laundry amenity.",
+    "Guest Sentiment": "Guest feedback is extremely positive for a tiny sample, with repeated praise for cleanliness, the helpful host, coffee on arrival, and the location near the promenade. Reviewers also highlight the room size, terrace, and the option to wash clothes when needed.",
+    "Tradeoffs": "The main tradeoff is that the evidence set is thin and the property only exposes one small room type, so flexibility is limited. Laundry support is unclear, and the beach is close but not beachfront, so this is more of a convenient apartment base than a resort stay.",
+    "Best For": "This looks best for couples or solo travelers who want a clean, simple, well-located Saranda apartment with parking and strong guest feedback. It is less suitable for anyone who needs confirmed laundry facilities or a wider choice of room types."
   }
 }

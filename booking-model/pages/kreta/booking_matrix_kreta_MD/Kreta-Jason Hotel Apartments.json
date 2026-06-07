@@ -72,13 +72,13 @@
     "Brak szczegółowych udogodnień."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "The page is blocked by CAPTCHA, so there is no reliable room, amenity, or review evidence. Treat this listing as unverified rather than judging it from the fallback notes alone.",
+    "Location & Beach": "The only location hint in the model is a fallback note pointing to Rethymno Beach at roughly 0.8 km, but the live page itself could not be read. Keep that distance as provisional only.",
+    "Room Fit": "No room details were available, so occupancy, layout, and bathroom setup cannot be confirmed. The safest assumption is that the room fit is unknown until the page is accessible.",
+    "Amenities & Comfort": "The JSON contains no usable amenity list, and the source does not expose any facilities because of the block. Comfort level is therefore unknown.",
+    "Laundry Verdict": "The model says there is no washer or laundry service, but that rests on the blocked extraction and should be treated cautiously. Do not assume laundry support without a clean page read.",
+    "Guest Sentiment": "There are no visible reviews or rating data, so guest sentiment cannot be inferred. This listing should be treated as a data gap.",
+    "Tradeoffs": "The main tradeoff is simple: almost all decision-making data is missing because the page is blocked. That means any booking judgment here would be speculative.",
+    "Best For": "Only for shoppers willing to verify details manually after the block clears. It is not a confident pick for anyone who needs firm evidence up front."
   }
 }

@@ -203,13 +203,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "Andra Apartment reads as a well-kept, apartment-style stay with strong guest approval and a clear beach-and-town positioning. The source and model both point to a clean, spacious unit with helpful hosts, good furnishings, and a practical setup for longer visits.",
+    "Location & Beach": "The location is a major strength: the apartment is described as close to the beach, with the main Saranda beach around 550 to 600 m away and a nearby beach about 50 m away. Guests also call out easy walking access to the port, restaurants, supermarkets, and central Saranda, so beach time and errands both feel convenient.",
+    "Room Fit": "The unit is a 73 m² two-bedroom apartment with a kitchen, living area, balcony, and sea or city views, so the layout is clearly apartment-like rather than hotel-like. The deterministic model lists maximum occupancy at 2, which suggests it fits best for one pair or a very small stay, and the room table itself was not found.",
+    "Amenities & Comfort": "Comfort looks strong: air conditioning, Wi-Fi, soundproofing, a flat-screen TV, terrace spaces, and a long kitchen list all support a more self-contained stay. Reviews reinforce that it is very clean, well equipped, and newly furnished, though the listing data does not show everything a hotel guest might expect such as on-site parking.",
+    "Laundry Verdict": "Laundry is a confirmed strength here. The page explicitly lists a washing machine and laundry service, and the guest comments also mention having a washing machine in the kitchen area, so this is a practical choice for longer stays or beach trips.",
+    "Guest Sentiment": "Guest sentiment is very positive, with an 8.6 score from 7 reviews and repeated praise for location, cleanliness, equipment, and host helpfulness. The comments are especially consistent about being close to the beach and having an easy, well-supported stay.",
+    "Tradeoffs": "The main tradeoffs are sparse inventory details and a few practical limits. There is no room table, parking is not available, the property is cash only, and the model says the maximum occupancy is 2 even though the apartment has two bedrooms; that makes the listing feel best suited to a small, tightly defined stay.",
+    "Best For": "Best for couples or two-person trips that want an apartment with kitchen space, laundry, and a beach-first location in Saranda. It also suits longer stays where walking access, cleanliness, and self-catering matter more than full hotel service."
   }
 }

@@ -72,13 +72,13 @@
     "Brak szczegółowych udogodnień."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "This is a blocked scrape with almost no property evidence, so the only safe conclusion is that Ten Apart Hotel needs a fresh capture before it can be ranked. The only grounded signal is a potentially convenient Çalış Beach / Fethiye area location, but the rest of the listing is unverified.",
+    "Location & Beach": "The page gives no address or room context, but the author summary places the property about 0.8 km from Çalış Beach / Fethiye in straight-line distance. That suggests a potentially useful location signal, though the actual street-level setting could not be checked because the scrape was blocked.",
+    "Room Fit": "No room table, photos, or guest details were captured, so there is no reliable basis to judge room size, bedding, or bathroom setup. Treat the room fit as unknown rather than assuming apartment-style comfort.",
+    "Amenities & Comfort": "The visible evidence does not list any concrete amenities beyond the lack of detailed facilities, so comfort cannot be assessed with confidence. The safest reading is that the page is incomplete rather than that the hotel is well equipped.",
+    "Laundry Verdict": "The capture shows no washer and no laundry service in the visible evidence, so laundry should be treated as unavailable unless a cleaner scrape proves otherwise. This is a hard no for planning purposes.",
+    "Guest Sentiment": "There are no visible guest reviews or scores, so sentiment cannot be read from this page. The absence of review data makes the booking impossible to validate through guest feedback.",
+    "Tradeoffs": "The main tradeoff is evidence quality: the scrape is blocked, the room table is missing, and the review section is empty. Any booking decision here would be based on a thin location clue rather than a real property profile.",
+    "Best For": "Only use this as a fallback if you specifically want a property that may sit near Çalış Beach and you are comfortable booking with almost no supporting evidence. Otherwise, it is better to wait for a clean scrape."
   }
 }

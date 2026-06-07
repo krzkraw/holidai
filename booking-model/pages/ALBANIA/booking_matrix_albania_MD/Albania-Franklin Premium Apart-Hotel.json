@@ -242,13 +242,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "This is a polished apartment-style stay with strong review scores, sea views, parking, and a noticeably more upscale feel than a basic beach hotel. The 9.1 rating from 202 reviews suggests it consistently delivers on space, comfort, and location.",
+    "Location & Beach": "The property is about 200 m from Playa de Flamingo, so it is close to the water without being directly on the sand. Guest comments reinforce the location advantage, especially for easy beach access plus nearby shops and cafes.",
+    "Room Fit": "The room mix is unusually spacious, ranging from one-bedroom apartments to large two- and three-bedroom penthouse-style options with private pools. That makes it a good fit for couples who want room to spread out, but it is especially appealing for families or groups planning a longer stay.",
+    "Amenities & Comfort": "Comfort is a clear strength, with free Wi-Fi, private parking, air conditioning, soundproofing, terraces, minibars, and breakfast included in the listed options. Reviewers repeatedly praise the staff, the modern feel, and the generous outdoor space, which gives the property a premium apartment-hotel profile.",
+    "Laundry Verdict": "Laundry is not a supported feature here. The model does not confirm a washer or laundry service, so guests who need laundry support should plan to use outside facilities.",
+    "Guest Sentiment": "Guest feedback is very strong and focuses on the big spaces, the views, the cleanliness, and the helpful staff. Several reviews call the stay exceptional or perfect, which points to a property that leaves a strong positive impression.",
+    "Tradeoffs": "The main downside is that laundry support is absent, despite the otherwise premium setup. The room data also shows a max of 2 guests in options that clearly sleep more, so the booking metadata is inconsistent and worth reading carefully.",
+    "Best For": "This is best for travelers who want apartment-style space, sea views, parking, and breakfast close to the beach. It is especially good for families or groups who will value the larger layouts and terrace-focused comfort."
   }
 }

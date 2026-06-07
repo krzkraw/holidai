@@ -304,13 +304,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "Porto Koukla Beach is a beachfront hotel option with a solid 8.2 guest score from 237 reviews and strong location evidence. It reads as a convenient resort-style stay rather than a self-catering apartment, with breakfast or half-board options, two restaurants, a pool, private beach access, and family-friendly facilities. The deterministic summary classifies it as a strong beach/location pick, while the room table shows mostly two-person rooms and some single-guest rates.",
+    "Location & Beach": "The location is the main draw: the property is in Lithakia, about 200 m from Koukla Beach, with the JSON summary also marking it as beachfront and about 350 ft from the nearest beach. Guests repeatedly mention the beach setting, clear calm water, Turtle Island views, and sea views at meals. It is not in central Zakynthos, with the port and St. Dionysios Church listed around 11 km away, so the stay is more coastal and contained than urban.",
+    "Room Fit": "Rooms are hotel-style rather than apartment-style, with air conditioning, balcony, private bathroom, flat-screen TV, safe, linens, towels, and some sea views. The available table is limited to maximum two-person and one-person room options, so it fits couples or solo travelers better than larger families needing multi-room apartments. There is no in-room kitchen evidence.",
+    "Amenities & Comfort": "Amenities are broad for a beach hotel: seasonal outdoor pool, private beach, two restaurants, bar, breakfast, free Wi-Fi, free private parking, concierge, playground, evening entertainment, and paid airport transfer. Comfort basics are covered with private bathroom, balcony, air conditioning, TV, toiletries, hair dryer, and daily cleaning. Pets are accepted by arrangement without extra fees, which is useful but should be confirmed directly before booking.",
+    "Laundry Verdict": "There is no confirmed washing machine in the room. The source and deterministic laundry field indicate paid laundry, dry-cleaning, and ironing services only, so this is workable for occasional laundry but not ideal if self-service washing is a requirement.",
+    "Guest Sentiment": "Guest sentiment is positive but not exceptional, matching the 8.2 score. Reviews emphasize the location, sea views, tasty breakfast, clean and spacious rooms, good value, and friendly beachfront atmosphere. Some review snippets are duplicated and truncated, so sentiment is grounded mainly in recurring themes rather than full review detail.",
+    "Tradeoffs": "The main tradeoff is that this is a hotel room setup with meal plans and services, not a larger self-catering apartment. Laundry is service-only and paid, and some attractive rates are tied to non-refundable half-board options. The beach/location strengths are clear, but the property is not close to the main Zakynthos port area.",
+    "Best For": "Best for couples or solo travelers who want a relaxed beachfront base with pool, breakfast or half-board, private beach access, and sea-view potential. It also suits travelers prioritizing beach proximity and hotel services over apartment space, kitchen facilities, or in-room laundry."
   }
 }

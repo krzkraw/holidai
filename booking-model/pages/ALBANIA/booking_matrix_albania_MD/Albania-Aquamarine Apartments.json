@@ -251,13 +251,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "A very strong beachfront apartment option with a 9.2 score from 408 reviews and a wide spread of apartment sizes. It reads as the most polished and location-led of the four, with direct sea access and a lot of positive guest feedback.",
+    "Location & Beach": "The source says the property is only about 30 meters from the beach and the mapped summary calls it roughly 150 ft from the nearest beach, so this is effectively beachfront. Guests also praise the central setting, nearby bars and restaurants, and the easy access to the coast.",
+    "Room Fit": "The page offers multiple apartment types from 35 m² to 80 m² and up to 100 m², all with private kitchens, private bathrooms, balconies, and air conditioning. That makes it suitable for couples who want a view-heavy stay and for guests who want more space in the larger units.",
+    "Amenities & Comfort": "Comfort is a major strength here: free Wi-Fi, private parking, kitchen facilities, air conditioning, soundproofing, flat-screen TV, and sea-facing balconies all show up in the deterministic data. The overall setup feels well-equipped for a longer coastal stay rather than a bare-bones overnight stop.",
+    "Laundry Verdict": "There is no in-room washer, and the deterministic model only confirms paid laundry service, so laundry is available but not self-serve. That is fine for short trips, but it is not as convenient as having a machine in the apartment.",
+    "Guest Sentiment": "Reviews are consistently strong on cleanliness, the view, central location, parking help, and staff responsiveness. Guests repeatedly describe the apartment as comfortable and well placed right by the sea.",
+    "Tradeoffs": "The tradeoff for the location is that some of the larger apartment types are expensive, and laundry depends on paid service rather than a washer in the unit. The page is otherwise very complete, so the compromises are mostly about cost and convenience rather than quality.",
+    "Best For": "This is best for travelers who want to stay right by the beach and promenade with reliable reviews, parking, and apartment-style space. It is especially strong for couples or longer stays where sea views and walkability matter more than having an in-room washer."
   }
 }

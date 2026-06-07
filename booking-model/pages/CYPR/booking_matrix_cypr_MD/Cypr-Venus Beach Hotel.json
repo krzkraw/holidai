@@ -72,13 +72,13 @@
     "Brak szczegółowych udogodnień."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "The scrape is blocked, so this page does not provide usable room, amenity, or review detail. The only grounded high-level signal is the model's optimistic A-category classification, which should be treated cautiously until the property is re-scraped.",
+    "Location & Beach": "The one concrete location signal is that the nearest beach is about 350 ft away. Beyond that, the source text is empty because of the CAPTCHA block, so the rest of the location picture is unverified.",
+    "Room Fit": "No room inventory or room-feature data was captured, so room fit cannot be assessed from this scrape. Anything beyond the beach-distance signal would be speculation.",
+    "Amenities & Comfort": "No amenity list was captured, so comfort features are unknown from the source. The blocked page means there is not enough evidence to confirm pools, dining, or room equipment.",
+    "Laundry Verdict": "There is no evidence of a washer or laundry service in the captured data, so the safest verdict is unavailable. Do not assume laundry support here without a fresh scrape.",
+    "Guest Sentiment": "There are no visible reviews or rating data, so guest sentiment cannot be judged from the page. Any quality impression would be unsupported until the property is captured again.",
+    "Tradeoffs": "The main tradeoff is evidence quality: the page is blocked by CAPTCHA and most practical details are missing. Until the listing is re-scraped, the beach proximity is the only solid positive signal.",
+    "Best For": "Only a tentative fit for travelers who care most about a beach-adjacent location. It needs a fresh capture before it can be recommended with confidence."
   }
 }

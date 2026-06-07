@@ -219,13 +219,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "",
-    "Location & Beach": "",
-    "Room Fit": "",
-    "Amenities & Comfort": "",
-    "Laundry Verdict": "",
-    "Guest Sentiment": "",
-    "Tradeoffs": "",
-    "Best For": ""
+    "Overall Impression": "A polished, highly rated apartment stay with a 9.2 score from 48 reviews, breakfast included, and strong space options up to a 250 m² penthouse. It feels more upscale and residential than hotel-like, with the kind of setup that works well for longer stays.",
+    "Location & Beach": "The property is about 400 m from Mango Beach, so it is close enough for an easy beach walk without being directly on the sand. The listing also shows city views and an on-site garden, which makes the setting feel a bit more elevated than purely beachfront.",
+    "Room Fit": "The room lineup is broad, from 59 m² and 64 m² apartments up to 105 m² and a 250 m² penthouse, all with private kitchens, balconies, and sofa seating. That makes the property a good fit for guests who want more living space than a standard hotel room, even though the booking page still marks occupancy as 2.",
+    "Amenities & Comfort": "This is the most fully featured of the batch: free Wi-Fi, free private parking, breakfast, a full kitchen, a washer, air conditioning, a flat-screen TV, and an outdoor garden all show up clearly in the data. The presence of an oven, dishwasher in the penthouse, and strong in-room kitchen equipment makes it especially comfortable for longer stays.",
+    "Laundry Verdict": "Laundry is a clear positive here because the deterministic model confirms a washer in the room. That makes the property notably more practical than places that rely on external laundry service or have no laundry support at all.",
+    "Guest Sentiment": "Reviews are glowing about the penthouse, the clean and elegant interior, the host, and the staff, with comments mentioning immediate help and multilingual reception. The feedback suggests a high-touch, well-run property where service quality is part of the appeal.",
+    "Tradeoffs": "The main tradeoffs are that the page is more apartment-style than resort-style, and some of the largest units are priced accordingly. Beach access is close but not beachfront, so the value is in space, comfort, and service rather than direct sea frontage.",
+    "Best For": "This is best for couples or small parties who want an upscale apartment with breakfast, parking, kitchen facilities, and a washer, especially for a longer Saranda stay. It is also a strong fit for guests who prefer spacious rooms and attentive service over a hotel-like format."
   }
 }
