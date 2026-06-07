@@ -3,6 +3,7 @@ import { BookingFavoritesMenu } from './components/BookingFavoritesMenu';
 import { BookingGrid } from './components/BookingGrid';
 import { BookingPriceRangesTile } from './components/BookingPriceRangesTile';
 import { ShaderBackground } from './components/ShaderBackground';
+import { getCompactLengthLabel, getCompactVariantLabel } from './controls';
 import { BookingJson, loadBookingsData } from './data/bookings';
 import {
   FavoriteBookingsByDestination,
@@ -622,17 +623,34 @@ function DestinationControls({
     <div className={classes}>
       <div className="segmented" aria-label={`${destination} stay length`}>
         {controls.lengths.map((length) => (
-          <button key={length} className={selectedLength === length ? 'selected' : ''} type="button" onClick={() => onLengthChange(length)}>
-            {length} dni
+          <button
+            key={length}
+            className={selectedLength === length ? 'selected' : ''}
+            type="button"
+            title={`${length} dni`}
+            aria-label={`${length} dni`}
+            onClick={() => onLengthChange(length)}
+          >
+            <span className="control-pill-label">{compact ? getCompactLengthLabel(length) : `${length} dni`}</span>
           </button>
         ))}
       </div>
       <div className="variant-pills" aria-label={`${destination} variants`}>
-        {controls.variants.map((variant) => (
-          <button key={variant} className={selectedVariant === variant ? 'selected' : ''} type="button" onClick={() => onVariantChange(variant)}>
-            {variant}
-          </button>
-        ))}
+        {controls.variants.map((variant) => {
+          const selected = selectedVariant === variant;
+          return (
+            <button
+              key={variant}
+              className={selected ? 'selected' : ''}
+              type="button"
+              title={variant}
+              aria-label={variant}
+              onClick={() => onVariantChange(variant)}
+            >
+              <span className="control-pill-label">{compact ? getCompactVariantLabel(variant, selected) : variant}</span>
+            </button>
+          );
+        })}
       </div>
       {!compact && (
         <p>

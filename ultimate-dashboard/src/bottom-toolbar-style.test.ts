@@ -1,0 +1,60 @@
+import { readFileSync } from 'node:fs';
+
+import { describe, expect, it } from 'vitest';
+
+const styles = readFileSync(new URL('./styles.css', import.meta.url), 'utf8');
+
+function ruleFor(selector: string): string {
+  const escapedSelector = selector.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const match = styles.match(new RegExp(`${escapedSelector}\\s*\\{(?<body>[\\s\\S]*?)\\}`));
+
+  return match?.groups?.body ?? '';
+}
+
+describe('bottom toolbar visual treatment', () => {
+  it('keeps the compact toolbar itself transparent', () => {
+    const compactToolbar = ruleFor('.controls-card--compact');
+
+    expect(compactToolbar).toContain('background: transparent');
+    expect(compactToolbar).not.toContain('backdrop-filter');
+    expect(compactToolbar).not.toContain('box-shadow');
+  });
+
+  it('adds the shared glow hover to control pills', () => {
+    expect(styles).toContain('.variant-pills button::before');
+    expect(styles).toContain('.segmented button::before');
+    expect(styles).toContain('radial-gradient(circle, color-mix');
+    expect(styles).toContain('transform: translateY(-4px) scale(1.12)');
+  });
+
+  it('applies the same glow layer to the other pill families', () => {
+    for (const selector of [
+      '.tab::before',
+      '.destination-costs span::before',
+      '.decision-strip span::before',
+      '.pill-cloud span::before',
+      '.budget-list span::before',
+      '.booking-price-ranges-active span::before',
+      '.booking-favorites-button::before',
+      '.booking-favorite-row-prices span::before',
+      '.booking-grid-context span::before',
+      '.booking-spec::before',
+      '.booking-feature::before',
+      '.booking-rating::before',
+      '.booking-report-button::before',
+      '.booking-modal-link::before',
+      '.booking-modal-secondary::before',
+      '.booking-modal-tags span::before',
+      '.booking-modal-meta > span::before',
+      '.booking-stays-list > span::before',
+    ]) {
+      expect(styles).toContain(selector);
+    }
+  });
+
+  it('keeps enough scroll clearance behind the bottom toolbar', () => {
+    expect(styles).toContain('--bottom-toolbar-clearance');
+    expect(styles).toContain('padding-bottom: var(--bottom-toolbar-clearance)');
+    expect(styles).toContain('0 10px 26px rgba(0, 0, 0, 0.32)');
+  });
+});
