@@ -21,7 +21,7 @@ describe('FlightOptionsTile', () => {
     expect(html.match(/flight-options-row--active/g)).toHaveLength(2);
   });
 
-  it('renders favorite toggles inside the existing PATH column', () => {
+  it('renders favorite toggles in a leading row action column', () => {
     const favoriteFlight = FLIGHT_OPTIONS.find((flight) => flight.destination === 'Grecja' && flight.bucket === 'main');
 
     if (!favoriteFlight) {
@@ -39,6 +39,7 @@ describe('FlightOptionsTile', () => {
 
     expect(html).toContain('flight-favorite-toggle--active');
     expect(html).toContain('aria-label="Usuń lot KRK ⇄ ZTH 2026-09-12 → 2026-09-20 z ulubionych"');
-    expect(html).toContain('<th>PATH</th><th>DATES</th><th>PRICE</th><th>INFO</th>');
+    expect(html).toContain('<th class="flight-options-action-heading" aria-label="Ulubione loty"></th><th>PATH</th><th>DATES</th><th>PRICE</th><th>INFO</th>');
+    expect(html.indexOf('flight-options-action-cell')).toBeLessThan(html.indexOf('KRK ⇄ ZTH'));
   });
 });

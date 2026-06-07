@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { BookingJson } from './data/bookings';
 import { FLIGHT_OPTIONS } from './data/flights';
-import { calculateTripTotal, formatTripTotal } from './selection';
+import { calculateTripTotal, calculateTripTotalRange, formatTripTotal, formatTripTotalRange } from './selection';
 
 function booking(price: number | null): BookingJson {
   return {
@@ -76,5 +76,32 @@ describe('trip selection totals', () => {
 
     expect(calculateTripTotal(booking(null), '11', FLIGHT_OPTIONS[0])).toBeNull();
     expect(calculateTripTotal(booking(1300), '11', unavailableFlight)).toBeNull();
+  });
+
+  it('finds the cheapest and most expensive total among favorite hotels and flights', () => {
+    const firstFlight = FLIGHT_OPTIONS.find(
+      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '703 zł',
+    );
+    const secondFlight = FLIGHT_OPTIONS.find(
+      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '1134 zł',
+    );
+
+    if (!firstFlight || !secondFlight) {
+      throw new Error('Missing flight fixtures');
+    }
+
+    const range = calculateTripTotalRange(
+      [booking(1300), { ...booking(2100), url: 'https://example.com/second-hotel' }, booking(null)],
+      '11',
+      [firstFlight, secondFlight, { ...firstFlight, price: '-' }],
+    );
+
+    expect(range).toEqual({ min: 2003, max: 3234 });
+    expect(formatTripTotalRange(range)).toBe('2 003-3 234 PLN');
+  });
+
+  it('does not invent a range when no favorite combination has both prices', () => {
+    expect(calculateTripTotalRange([booking(null)], '11', [{ ...FLIGHT_OPTIONS[0], price: '-' }])).toBeNull();
+    expect(formatTripTotalRange(null)).toBeNull();
   });
 });

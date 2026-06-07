@@ -21,6 +21,20 @@ export function getFlightFavoriteKey(flight: FlightOption): string {
   ].join('|');
 }
 
+export function resolveSelectedFavoriteAfterToggle(
+  currentFavoriteKeys: readonly string[],
+  currentSelectedKey: string | undefined,
+  toggledFavoriteKey: string,
+): string | undefined {
+  const removing = currentFavoriteKeys.includes(toggledFavoriteKey);
+
+  if (removing) {
+    return currentSelectedKey === toggledFavoriteKey ? undefined : currentSelectedKey;
+  }
+
+  return currentFavoriteKeys.length === 0 ? toggledFavoriteKey : currentSelectedKey;
+}
+
 export function isBookingFavorite(
   favorites: FavoriteBookingsByDestination,
   destination: DestinationKey,

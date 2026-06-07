@@ -75,6 +75,7 @@ export function FlightOptionsTile({
         <table className="booking-price-ranges-table flight-options-table">
           <thead>
             <tr>
+              <th className="flight-options-action-heading" aria-label="Ulubione loty"></th>
               <th>PATH</th>
               <th>DATES</th>
               <th>PRICE</th>
@@ -91,26 +92,26 @@ export function FlightOptionsTile({
 
                 return (
                   <tr className={rowClass} key={`${flight.bucket}-${flight.path}-${flight.dates}-${flight.price}-${flight.source}-${index}`}>
+                    <td className="flight-options-action-cell">
+                      {onFavoriteToggle ? (
+                        <button
+                          className={isFavorite ? 'flight-favorite-toggle flight-favorite-toggle--active' : 'flight-favorite-toggle'}
+                          type="button"
+                          aria-label={
+                            isFavorite
+                              ? `Usuń lot ${flight.path} ${flight.dates} z ulubionych`
+                              : `Dodaj lot ${flight.path} ${flight.dates} do ulubionych`
+                          }
+                          aria-pressed={isFavorite}
+                          title={isFavorite ? 'Usuń z ulubionych lotów' : 'Dodaj do ulubionych lotów'}
+                          onClick={() => onFavoriteToggle(flight)}
+                        >
+                          <PlaneIcon />
+                        </button>
+                      ) : null}
+                    </td>
                     <th>
-                      <span className="flight-options-path-cell">
-                        {onFavoriteToggle ? (
-                          <button
-                            className={isFavorite ? 'flight-favorite-toggle flight-favorite-toggle--active' : 'flight-favorite-toggle'}
-                            type="button"
-                            aria-label={
-                              isFavorite
-                                ? `Usuń lot ${flight.path} ${flight.dates} z ulubionych`
-                                : `Dodaj lot ${flight.path} ${flight.dates} do ulubionych`
-                            }
-                            aria-pressed={isFavorite}
-                            title={isFavorite ? 'Usuń z ulubionych lotów' : 'Dodaj do ulubionych lotów'}
-                            onClick={() => onFavoriteToggle(flight)}
-                          >
-                            <PlaneIcon />
-                          </button>
-                        ) : null}
-                        <span>{flight.path}</span>
-                      </span>
+                      <span className="flight-options-path-cell">{flight.path}</span>
                     </th>
                     <td>
                       <span className="flight-options-date-cell">
@@ -125,7 +126,7 @@ export function FlightOptionsTile({
               })
             ) : (
               <tr className="flight-options-row">
-                <td colSpan={4}>Brak dodatkowych lotów w logu dla tego kierunku.</td>
+                <td colSpan={5}>Brak dodatkowych lotów w logu dla tego kierunku.</td>
               </tr>
             )}
           </tbody>

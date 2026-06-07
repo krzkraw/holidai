@@ -1145,6 +1145,18 @@ padding: 8px 14px;
 min-width: 760px;
 }
 
+.flight-options-action-heading,
+.flight-options-action-cell {
+width: 46px;
+min-width: 46px;
+padding-right: 6px;
+text-align: center;
+}
+
+.flight-options-action-cell {
+vertical-align: middle;
+}
+
 .flight-options-date-cell {
 display: flex;
 align-items: center;
@@ -1172,6 +1184,10 @@ color: #ffffff;
 }
 
 .flight-options-row--active th:first-child {
+box-shadow: inset 3px 0 0 var(--accent, #ea580c);
+}
+
+.flight-options-row--active .flight-options-action-cell {
 box-shadow: inset 3px 0 0 var(--accent, #ea580c);
 }
 
@@ -1223,6 +1239,15 @@ inset 0 1px 1px rgba(255, 255, 255, 0.22),
 color: #ffffff;
 font-size: 13px;
 font-weight: 850;
+}
+
+.selected-trip-total--range {
+border-color: color-mix(in srgb, #7dd3fc 38%, rgba(255, 255, 255, 0.24));
+background: color-mix(in srgb, #7dd3fc 12%, rgba(255, 255, 255, 0.08));
+box-shadow:
+inset 0 1px 1px rgba(255, 255, 255, 0.22),
+0 10px 26px rgba(0, 0, 0, 0.26),
+0 0 22px color-mix(in srgb, #7dd3fc 14%, transparent);
 }
 
 .selected-trip-total strong {
@@ -1611,6 +1636,12 @@ border-color: rgba(251, 191, 36, 0.64);
 background: rgba(251, 191, 36, 0.16);
 color: #fbbf24;
 transform: translateY(-1px);
+}
+
+.booking-favorite-toggle--card-corner {
+top: 14px;
+right: 14px;
+z-index: 3;
 }
 
 .booking-favorite-toggle .booking-icon--gold {

@@ -16,6 +16,7 @@ import {
   getFavoriteBookingsForDestination,
   getFavoriteFlightsForDestination,
   getFlightFavoriteKey,
+  resolveSelectedFavoriteAfterToggle,
   toggleFavoriteBooking,
   toggleFavoriteFlight
 } from './favorites';
@@ -37,7 +38,7 @@ import {
   getViewLayout
 } from './model';
 import { readDashboardPreferences, writeDashboardPreferences } from './preferences';
-import { calculateTripTotal, formatTripTotal } from './selection';
+import { calculateTripTotal, calculateTripTotalRange, formatTripTotal, formatTripTotalRange } from './selection';
 
 const initialWeights: ScoreSet = {
   turtles: 3,
@@ -92,6 +93,14 @@ function clearDestinationValue(
   const nextValues = { ...values };
   delete nextValues[destination];
   return nextValues;
+}
+
+function setDestinationValue(
+  values: Partial<Record<DestinationKey, string>>,
+  destination: DestinationKey,
+  value: string | undefined,
+): Partial<Record<DestinationKey, string>> {
+  return value ? { ...values, [destination]: value } : clearDestinationValue(values, destination);
 }
 
 export function App() {
@@ -261,6 +270,7 @@ export function App() {
             const selectedBooking = favoriteBookings.find((booking) => getBookingFavoriteKey(booking) === selectedBookingKey) ?? null;
             const selectedFlight = favoriteFlights.find((flight) => getFlightFavoriteKey(flight) === selectedFlightKey) ?? null;
             const selectedTripTotal = calculateTripTotal(selectedBooking, selectedLength, selectedFlight);
+            const favoriteTripTotalRange = calculateTripTotalRange(favoriteBookings, selectedLength, favoriteFlights);
             return (
               <section
                 id={`view-${tab.id}`}
@@ -278,6 +288,7 @@ export function App() {
                   selectedFlightKey={selectedFlightKey}
                   selectedStayDays={selectedLength}
                   selectedTripTotalText={selectedTripTotal ? formatTripTotal(selectedTripTotal) : null}
+                  favoriteTripTotalRangeText={formatTripTotalRange(favoriteTripTotalRange)}
                   onRemoveFavorite={(booking) =>
                     {
                       const favoriteKey = getBookingFavoriteKey(booking);
@@ -317,13 +328,14 @@ export function App() {
                   selectedLength={selectedLength}
                   onFavoriteToggle={(flight) => {
                     const favoriteKey = getFlightFavoriteKey(flight);
-                    const removing = favoriteFlightIds.includes(favoriteKey);
                     setFavoriteFlightsByDestination((current) => toggleFavoriteFlight(current, destination, flight));
-                    if (removing) {
-                      setSelectedFlightByDestination((current) =>
-                        current[destination] === favoriteKey ? clearDestinationValue(current, destination) : current,
-                      );
-                    }
+                    setSelectedFlightByDestination((current) =>
+                      setDestinationValue(
+                        current,
+                        destination,
+                        resolveSelectedFavoriteAfterToggle(favoriteFlightIds, current[destination], favoriteKey),
+                      ),
+                    );
                   }}
                 />
                 <div className="canvas-plane destination-plane">
@@ -339,13 +351,14 @@ export function App() {
                       onFavoriteToggle={(booking) =>
                         {
                           const favoriteKey = getBookingFavoriteKey(booking);
-                          const removing = favoriteIds.includes(favoriteKey);
                           setFavoriteBookingsByDestination((current) => toggleFavoriteBooking(current, destination, booking));
-                          if (removing) {
-                            setSelectedBookingByDestination((current) =>
-                              current[destination] === favoriteKey ? clearDestinationValue(current, destination) : current,
-                            );
-                          }
+                          setSelectedBookingByDestination((current) =>
+                            setDestinationValue(
+                              current,
+                              destination,
+                              resolveSelectedFavoriteAfterToggle(favoriteIds, current[destination], favoriteKey),
+                            ),
+                          );
                         }
                       }
                     />
@@ -393,6 +406,7 @@ function DestinationTitle({
   selectedFlightKey,
   selectedStayDays,
   selectedTripTotalText,
+  favoriteTripTotalRangeText,
   onRemoveFavorite,
   onSelectFavorite,
   onRemoveFlightFavorite,
@@ -406,6 +420,7 @@ function DestinationTitle({
   selectedFlightKey?: string;
   selectedStayDays: number | string;
   selectedTripTotalText: string | null;
+  favoriteTripTotalRangeText: string | null;
   onRemoveFavorite: (booking: BookingJson) => void;
   onSelectFavorite: (booking: BookingJson) => void;
   onRemoveFlightFavorite: (flight: FlightOption) => void;
@@ -435,6 +450,11 @@ function DestinationTitle({
             {selectedTripTotalText ? (
               <span className="selected-trip-total" aria-label={`${profile.displayName} suma wybranego hotelu i lotu`}>
                 Suma: <strong>{selectedTripTotalText}</strong>
+              </span>
+            ) : null}
+            {favoriteTripTotalRangeText ? (
+              <span className="selected-trip-total selected-trip-total--range" aria-label={`${profile.displayName} zakres sum ulubionych hoteli i lotów`}>
+                od - do: <strong>{favoriteTripTotalRangeText}</strong>
               </span>
             ) : null}
           </div>

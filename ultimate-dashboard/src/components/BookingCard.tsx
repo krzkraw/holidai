@@ -37,6 +37,22 @@ export function BookingCard({ booking, selectedStayDays, isFavorite = false, onF
 
   return (
     <article className={`booking-card ${isExpanded ? 'booking-card--expanded' : ''}`}>
+      {onFavoriteToggle ? (
+        <button
+          className={
+            isFavorite
+              ? 'booking-favorite-toggle booking-favorite-toggle--card-corner booking-favorite-toggle--active'
+              : 'booking-favorite-toggle booking-favorite-toggle--card-corner'
+          }
+          type="button"
+          aria-label={isFavorite ? `Usuń ${booking.name} z ulubionych` : `Dodaj ${booking.name} do ulubionych`}
+          aria-pressed={isFavorite}
+          title={isFavorite ? 'Usuń z ulubionych' : 'Dodaj do ulubionych'}
+          onClick={() => onFavoriteToggle(booking)}
+        >
+          <HomeIcon />
+        </button>
+      ) : null}
       <div className="booking-card-primary">
         <div className="booking-thumb">
           {images[0] ? (
@@ -55,18 +71,6 @@ export function BookingCard({ booking, selectedStayDays, isFavorite = false, onF
           <span className="booking-evaluation" title="Ocena dopasowania">
             {booking.evaluation.toFixed(1)}
           </span>
-          {onFavoriteToggle ? (
-            <button
-              className={isFavorite ? 'booking-favorite-toggle booking-favorite-toggle--active' : 'booking-favorite-toggle'}
-              type="button"
-              aria-label={isFavorite ? `Usuń ${booking.name} z ulubionych` : `Dodaj ${booking.name} do ulubionych`}
-              aria-pressed={isFavorite}
-              title={isFavorite ? 'Usuń z ulubionych' : 'Dodaj do ulubionych'}
-              onClick={() => onFavoriteToggle(booking)}
-            >
-              <HomeIcon />
-            </button>
-          ) : null}
         </div>
 
         <div className="booking-summary">
