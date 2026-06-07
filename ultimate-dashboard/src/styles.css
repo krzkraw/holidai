@@ -2579,12 +2579,15 @@ transform: translateY(-3px) scale(1.035);
 }
 
 .app-shell--lightweight-visuals {
---lightweight-panel-bg: rgba(20, 23, 31, 0.86);
---lightweight-card-bg: rgba(28, 31, 40, 0.58);
---lightweight-pill-bg: rgba(38, 41, 50, 0.78);
---lightweight-pill-bg-strong: color-mix(in srgb, var(--accent, #ea580c) 34%, rgba(38, 41, 50, 0.8));
+--lightweight-panel-bg: rgba(20, 23, 31, 0.78);
+--lightweight-card-bg: rgba(28, 31, 40, 0.44);
+--lightweight-pill-bg: rgba(38, 41, 50, 0.9);
+--lightweight-pill-bg-strong: color-mix(in srgb, var(--accent, #ea580c) 42%, rgba(38, 41, 50, 0.88));
 --lightweight-pill-border: rgba(255, 255, 255, 0.44);
 --lightweight-pill-border-strong: rgba(251, 146, 60, 0.86);
+--lightweight-glass-sheen: linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.055) 38%, rgba(255, 255, 255, 0.018) 76%);
+--lightweight-glass-tint: radial-gradient(circle at 20% 6%, color-mix(in srgb, var(--accent, #ea580c) 24%, transparent), transparent 46%);
+--lightweight-pill-sheen: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.045) 64%);
 }
 
 .app-shell--lightweight-visuals .topbar,
@@ -2592,7 +2595,9 @@ transform: translateY(-3px) scale(1.035);
 .app-shell--lightweight-visuals .mobile-performance-toast,
 .app-shell--lightweight-visuals .booking-data-banner,
 .app-shell--lightweight-visuals .booking-favorites-popover {
-background: var(--lightweight-panel-bg);
+background:
+var(--lightweight-glass-sheen),
+var(--lightweight-panel-bg);
 box-shadow: 0 12px 30px rgba(0, 0, 0, 0.38);
 }
 
@@ -2603,10 +2608,14 @@ box-shadow: 0 12px 30px rgba(0, 0, 0, 0.38);
 .app-shell--lightweight-visuals .strategic-card,
 .app-shell--lightweight-visuals .budget-list div,
 .app-shell--lightweight-visuals .table-row {
-background: var(--lightweight-card-bg);
+background:
+var(--lightweight-glass-sheen),
+var(--lightweight-glass-tint),
+var(--lightweight-card-bg);
 box-shadow:
-inset 0 1px 0 rgba(255, 255, 255, 0.16),
-0 12px 28px rgba(0, 0, 0, 0.34);
+inset 0 1.5px 1px rgba(255, 255, 255, 0.34),
+inset 0 -1px 1px rgba(255, 255, 255, 0.06),
+0 24px 58px -18px rgba(0, 0, 0, 0.72);
 }
 
 .app-shell--lightweight-visuals .tab,
@@ -2618,8 +2627,12 @@ inset 0 1px 0 rgba(255, 255, 255, 0.16),
 .app-shell--lightweight-visuals .segmented button,
 .app-shell--lightweight-visuals .booking-favorite-toggle {
 border-color: var(--lightweight-pill-border);
-background: var(--lightweight-pill-bg);
-box-shadow: 0 6px 16px rgba(0, 0, 0, 0.24);
+background:
+var(--lightweight-pill-sheen),
+var(--lightweight-pill-bg);
+box-shadow:
+inset 0 1px 1px rgba(255, 255, 255, 0.28),
+0 8px 20px rgba(0, 0, 0, 0.34);
 }
 
 .app-shell--lightweight-visuals .tab.active,
@@ -2628,21 +2641,25 @@ box-shadow: 0 6px 16px rgba(0, 0, 0, 0.24);
 .app-shell--lightweight-visuals .settings-button:hover,
 .app-shell--lightweight-visuals .settings-button[aria-expanded='true'] {
 border-color: var(--lightweight-pill-border-strong);
-background: var(--lightweight-pill-bg-strong);
+background:
+var(--lightweight-pill-sheen),
+var(--lightweight-pill-bg-strong);
 box-shadow:
-inset 0 1px 0 rgba(255, 255, 255, 0.18),
-0 8px 18px rgba(0, 0, 0, 0.3),
-0 0 22px color-mix(in srgb, var(--accent, #ea580c) 34%, transparent);
+inset 0 1.5px 1px rgba(255, 255, 255, 0.36),
+0 10px 24px rgba(0, 0, 0, 0.4),
+0 0 28px color-mix(in srgb, var(--accent, #ea580c) 48%, transparent);
 }
 
 .app-shell--lightweight-visuals .controls-card--compact .segmented button.selected,
 .app-shell--lightweight-visuals .controls-card--compact .variant-pills button.selected {
 border-color: rgba(251, 146, 60, 0.9);
-background: color-mix(in srgb, var(--accent, #ea580c) 38%, rgba(38, 41, 50, 0.84));
+background:
+var(--lightweight-pill-sheen),
+color-mix(in srgb, var(--accent, #ea580c) 46%, rgba(38, 41, 50, 0.88));
 box-shadow:
-inset 0 1px 0 rgba(255, 255, 255, 0.2),
-0 8px 18px rgba(0, 0, 0, 0.34),
-0 0 24px color-mix(in srgb, var(--accent, #ea580c) 52%, transparent);
+inset 0 1.5px 1px rgba(255, 255, 255, 0.34),
+0 10px 24px rgba(0, 0, 0, 0.42),
+0 0 30px color-mix(in srgb, var(--accent, #ea580c) 62%, transparent);
 }
 
 .app-shell--lightweight-visuals .positive span {
@@ -2722,11 +2739,38 @@ box-shadow 160ms ease;
 .app-shell--lightweight-visuals .booking-modal-tags span::before,
 .app-shell--lightweight-visuals .booking-modal-meta > span::before,
 .app-shell--lightweight-visuals .booking-stays-list > span::before {
-display: none;
+display: block;
+filter: none !important;
+}
+
+.app-shell--lightweight-visuals .tile::before,
+.app-shell--lightweight-visuals .booking-card::before {
+background:
+radial-gradient(circle, color-mix(in srgb, var(--accent, #ea580c) 34%, rgba(255, 255, 255, 0.03)) 0%, transparent 72%);
+opacity: 0.78;
 }
 
 .app-shell--lightweight-visuals .tile:hover,
-.app-shell--lightweight-visuals .booking-card:hover,
+.app-shell--lightweight-visuals .booking-card:hover {
+border-color: rgba(255, 255, 255, 0.58);
+background:
+linear-gradient(135deg, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.075) 38%, rgba(255, 255, 255, 0.025) 76%),
+radial-gradient(circle at 20% 6%, color-mix(in srgb, var(--accent, #ea580c) 34%, transparent), transparent 48%),
+rgba(28, 31, 40, 0.5);
+box-shadow:
+inset 0 1.8px 1px rgba(255, 255, 255, 0.46),
+inset 0 -1px 1px rgba(255, 255, 255, 0.08),
+0 28px 68px -16px rgba(0, 0, 0, 0.78),
+0 0 36px color-mix(in srgb, var(--accent, #ea580c) 28%, transparent);
+transform: translateY(-4px) scale(1.012);
+}
+
+.app-shell--lightweight-visuals .tile:hover::before,
+.app-shell--lightweight-visuals .booking-card:hover::before {
+opacity: 1;
+transform: translateY(-8px) scale(1.14);
+}
+
 .app-shell--lightweight-visuals .tab:hover,
 .app-shell--lightweight-visuals .tab.active,
 .app-shell--lightweight-visuals .settings-button:hover,
@@ -2752,8 +2796,31 @@ display: none;
 .app-shell--lightweight-visuals .booking-modal-tags span:hover,
 .app-shell--lightweight-visuals .booking-modal-meta > span:hover,
 .app-shell--lightweight-visuals .booking-stays-list > span:hover {
+border-color: var(--lightweight-pill-border-strong);
+background:
+var(--lightweight-pill-sheen),
+color-mix(in srgb, var(--accent, #ea580c) 34%, rgba(38, 41, 50, 0.9));
+box-shadow:
+inset 0 1.5px 1px rgba(255, 255, 255, 0.34),
+0 10px 24px rgba(0, 0, 0, 0.38),
+0 0 28px color-mix(in srgb, var(--accent, #ea580c) 54%, transparent);
+color: #ffffff;
 filter: none !important;
-transform: none;
+transform: translateY(-2px) scale(1.025);
+}
+
+.app-shell--lightweight-visuals .tab:hover::before,
+.app-shell--lightweight-visuals .tab.active::before,
+.app-shell--lightweight-visuals .settings-button:hover::before,
+.app-shell--lightweight-visuals .destination-costs span:hover::before,
+.app-shell--lightweight-visuals .decision-strip span:hover::before,
+.app-shell--lightweight-visuals .pill-cloud span:hover::before,
+.app-shell--lightweight-visuals .variant-pills button:hover::before,
+.app-shell--lightweight-visuals .variant-pills button.selected::before,
+.app-shell--lightweight-visuals .segmented button:hover::before,
+.app-shell--lightweight-visuals .segmented button.selected::before {
+opacity: 0.92;
+transform: translateY(-3px) scale(1.1);
 }
 
 .booking-icon {
