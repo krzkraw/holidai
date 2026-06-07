@@ -18,10 +18,10 @@ export type TileLayout = {
   id: string;
   kind: TileKind;
   title: string;
-  x: number;
-  y: number;
-  w: number;
-  h: number;
+  col: number;
+  row: number;
+  colSpan: number;
+  rowSpan: number;
 };
 
 export type MatrixGroup = {
@@ -71,6 +71,13 @@ export type DestinationProfile = {
     carComparison: string;
   };
 };
+
+export const GRID = {
+  columns: 6,
+  pageWidth: 1440,
+  unit: 200,
+  gap: 18
+} as const;
 
 const VARIANT_A = 'A — super: plaża / ocena / okolica';
 const VARIANT_B = 'B — rozsądnie: lokalizacja / opinia / pralka preferowana';
@@ -444,13 +451,13 @@ export const SUMMARY_WEIGHTS: Record<keyof ScoreSet, string> = {
 
 export const TILES_BY_VIEW: Record<ViewId, TileLayout[]> = {
   summary: [
-    { id: 'summary-hero', kind: 'hero', title: 'Ultimate Holiday Canvas', x: 72, y: 70, w: 680, h: 300 },
-    { id: 'summary-ranking', kind: 'ranking', title: 'Ranking priorytetów', x: 790, y: 80, w: 590, h: 520 },
-    { id: 'summary-matchmaker', kind: 'matchmaker', title: 'Interaktywny matchmaker', x: 90, y: 430, w: 620, h: 560 },
-    { id: 'summary-strategic', kind: 'strategic', title: 'Tabela strategiczna', x: 750, y: 650, w: 720, h: 520 },
-    { id: 'summary-budget', kind: 'budget', title: 'Koszty lokalne', x: 140, y: 1060, w: 540, h: 430 },
-    { id: 'summary-checklist', kind: 'checklist', title: 'Odprawa i checklista', x: 740, y: 1230, w: 620, h: 460 },
-    { id: 'summary-conflicts', kind: 'conflicts', title: 'Rozbieżności i decyzje', x: 140, y: 1560, w: 640, h: 390 }
+    { id: 'summary-hero', kind: 'hero', title: 'Ultimate Holiday Canvas', col: 1, row: 1, colSpan: 3, rowSpan: 3 },
+    { id: 'summary-ranking', kind: 'ranking', title: 'Ranking priorytetów', col: 4, row: 1, colSpan: 3, rowSpan: 3 },
+    { id: 'summary-matchmaker', kind: 'matchmaker', title: 'Interaktywny matchmaker', col: 1, row: 4, colSpan: 3, rowSpan: 3 },
+    { id: 'summary-strategic', kind: 'strategic', title: 'Tabela strategiczna', col: 4, row: 4, colSpan: 3, rowSpan: 3 },
+    { id: 'summary-budget', kind: 'budget', title: 'Koszty lokalne', col: 1, row: 7, colSpan: 3, rowSpan: 3 },
+    { id: 'summary-checklist', kind: 'checklist', title: 'Odprawa i checklista', col: 4, row: 7, colSpan: 3, rowSpan: 3 },
+    { id: 'summary-conflicts', kind: 'conflicts', title: 'Rozbieżności i decyzje', col: 1, row: 10, colSpan: 3, rowSpan: 3 }
   ],
   albania: destinationTiles('albania'),
   grecja: destinationTiles('grecja'),
@@ -461,14 +468,27 @@ export const TILES_BY_VIEW: Record<ViewId, TileLayout[]> = {
 
 function destinationTiles(view: ViewId): TileLayout[] {
   return [
-    { id: `${view}-head`, kind: 'destination', title: 'Profil kierunku', x: 70, y: 70, w: 650, h: 330 },
-    { id: `${view}-controls`, kind: 'controls', title: 'Długość i wariant', x: 780, y: 95, w: 560, h: 280 },
-    { id: `${view}-logistics`, kind: 'destination', title: 'Baza i logistyka', x: 115, y: 470, w: 590, h: 470 },
-    { id: `${view}-weather`, kind: 'destination', title: 'Pogoda, woda, żółwie', x: 755, y: 440, w: 650, h: 520 },
-    { id: `${view}-nature`, kind: 'destination', title: 'Natura i kultura', x: 100, y: 1030, w: 640, h: 510 },
-    { id: `${view}-risks`, kind: 'destination', title: 'Plusy, ryzyka, koszty lokalne', x: 800, y: 1040, w: 560, h: 470 },
-    { id: `${view}-hotel-reserve`, kind: 'hotel-reserve', title: 'Miejsce na przyszłe hotele', x: 170, y: 1640, w: 1120, h: 360 }
+    { id: `${view}-head`, kind: 'destination', title: 'Profil kierunku', col: 1, row: 1, colSpan: 3, rowSpan: 3 },
+    { id: `${view}-controls`, kind: 'controls', title: 'Długość i wariant', col: 4, row: 1, colSpan: 3, rowSpan: 3 },
+    { id: `${view}-logistics`, kind: 'destination', title: 'Baza i logistyka', col: 1, row: 4, colSpan: 3, rowSpan: 3 },
+    { id: `${view}-weather`, kind: 'destination', title: 'Pogoda, woda, żółwie', col: 4, row: 4, colSpan: 3, rowSpan: 3 },
+    { id: `${view}-nature`, kind: 'destination', title: 'Natura i kultura', col: 1, row: 7, colSpan: 3, rowSpan: 3 },
+    { id: `${view}-risks`, kind: 'destination', title: 'Plusy, ryzyka, koszty lokalne', col: 4, row: 7, colSpan: 3, rowSpan: 3 },
+    { id: `${view}-hotel-reserve`, kind: 'hotel-reserve', title: 'Miejsce na przyszłe hotele', col: 1, row: 10, colSpan: 3, rowSpan: 3 }
   ];
+}
+
+export function getViewLayout(view: ViewId) {
+  const column = DESTINATION_TABS.findIndex((tab) => tab.id === view);
+
+  if (column < 0) {
+    throw new Error(`Unknown view: ${view}`);
+  }
+
+  return {
+    column,
+    x: column * GRID.pageWidth
+  };
 }
 
 export function getDestinationControls(destination: DestinationKey) {
@@ -518,8 +538,14 @@ export function validateTileLayouts() {
       }
       ids.add(tile.id);
 
-      if (tile.x < 0 || tile.y < 0 || tile.w <= 0 || tile.h <= 0) {
+      const lastColumn = tile.col + tile.colSpan - 1;
+
+      if (tile.col < 1 || tile.row < 1 || tile.colSpan < 1 || tile.rowSpan < 1) {
         errors.push(`${view}: invalid geometry for ${tile.id}`);
+      }
+
+      if (lastColumn > GRID.columns) {
+        errors.push(`${view}: tile ${tile.id} exceeds grid columns`);
       }
     }
 

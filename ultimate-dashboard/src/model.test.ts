@@ -2,9 +2,11 @@ import { describe, expect, it } from 'vitest';
 import {
   DESTINATION_TABS,
   HOTEL_MATRIX_GROUPS,
+  GRID,
   TILES_BY_VIEW,
   ViewId,
   getDestinationControls,
+  getViewLayout,
   validateTileLayouts
 } from './model';
 
@@ -41,6 +43,37 @@ describe('holiday dashboard model', () => {
 
     for (const view of destinationViews) {
       expect(TILES_BY_VIEW[view].some((tile) => tile.kind === 'hotel-reserve')).toBe(true);
+    }
+  });
+
+  it('lays tabs out as horizontal pages that progress left to right', () => {
+    const layouts = DESTINATION_TABS.map((tab) => getViewLayout(tab.id));
+
+    expect(layouts.map((layout) => layout.column)).toEqual([0, 1, 2, 3, 4, 5]);
+    expect(layouts.map((layout) => layout.x)).toEqual(layouts.map((_, index) => index * GRID.pageWidth));
+  });
+
+  it('uses a uniform masonry grid with bounded tile spans', () => {
+    for (const tiles of Object.values(TILES_BY_VIEW)) {
+      const occupiedCells = new Set<string>();
+
+      for (const tile of tiles) {
+        expect(tile.col).toBeGreaterThanOrEqual(1);
+        expect(tile.row).toBeGreaterThanOrEqual(1);
+        expect(tile.colSpan).toBeGreaterThanOrEqual(1);
+        expect(tile.rowSpan).toBeGreaterThanOrEqual(1);
+        expect(tile.col + tile.colSpan - 1).toBeLessThanOrEqual(GRID.columns);
+        expect(tile.colSpan).toBeLessThanOrEqual(3);
+        expect(tile.rowSpan).toBeLessThanOrEqual(3);
+
+        for (let col = tile.col; col < tile.col + tile.colSpan; col += 1) {
+          for (let row = tile.row; row < tile.row + tile.rowSpan; row += 1) {
+            const cell = `${col}:${row}`;
+            expect(occupiedCells.has(cell), `${tile.id} overlaps cell ${cell}`).toBe(false);
+            occupiedCells.add(cell);
+          }
+        }
+      }
     }
   });
 });

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import {
   CHECKLIST,
   DESTINATION_PROFILES,
@@ -13,7 +13,8 @@ import {
   TileLayout,
   ViewId,
   calculateMatches,
-  getDestinationControls
+  getDestinationControls,
+  getViewLayout
 } from './model';
 
 const initialWeights: ScoreSet = {
@@ -25,6 +26,7 @@ const initialWeights: ScoreSet = {
 };
 
 export function App() {
+  const canvasRef = useRef<HTMLElement | null>(null);
   const [activeView, setActiveView] = useState<ViewId>('summary');
   const [weights, setWeights] = useState<ScoreSet>(initialWeights);
   const [lengthByDestination, setLengthByDestination] = useState<Record<DestinationKey, string>>({
@@ -42,7 +44,8 @@ export function App() {
 
   const jumpToView = (view: ViewId) => {
     setActiveView(view);
-    document.getElementById(`view-${view}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    canvasRef.current?.scrollTo({ left: getViewLayout(view).x, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -69,7 +72,7 @@ export function App() {
         </nav>
       </header>
 
-      <main className="canvas-stack">
+      <main className="canvas-stack" ref={canvasRef}>
         <section id="view-summary" className="canvas-section summary-section" aria-labelledby="summary-title">
           <CanvasTitle
             id="summary-title"
@@ -218,10 +221,10 @@ function Tile({ tile, children }: { tile: TileLayout; children: React.ReactNode 
       className={`tile tile-${tile.kind}`}
       style={
         {
-          '--x': `${tile.x}px`,
-          '--y': `${tile.y}px`,
-          '--w': `${tile.w}px`,
-          '--h': `${tile.h}px`
+          '--col': tile.col,
+          '--row': tile.row,
+          '--col-span': tile.colSpan,
+          '--row-span': tile.rowSpan
         } as React.CSSProperties
       }
     >
