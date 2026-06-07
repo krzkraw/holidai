@@ -3,8 +3,10 @@ import { describe, expect, it } from 'vitest';
 import bookingsFixture from '../../data/bookings/bookings.json';
 import {
   BookingJson,
+  formatPriceRange,
   formatStayPrice,
   getBookingsForDestination,
+  getPriceRangeForDestination,
   getStayForDays,
   parseBookingsResponse,
   renderRoomCellLines,
@@ -142,6 +144,54 @@ describe('bookings data loader', () => {
     expect(formatStayPrice(getStayForDays(booking, '8'))).toBe('1 111 PLN');
     expect(formatStayPrice(getStayForDays(booking, '11'))).toBe('2 222 PLN');
     expect(formatStayPrice(getStayForDays(booking, '14'))).toBe('3 333 PLN');
+  });
+
+  it('computes selected-stay price ranges by destination, tier, and stay length', () => {
+    const bookings = [
+      minimalBooking({
+        name: 'Low priced match',
+        stays: [
+          { days: 8, checkIn: '2026-09-16', checkOut: '2026-09-24', price: 1500 },
+          { days: 11, checkIn: '2026-09-16', checkOut: '2026-09-27', price: null },
+        ],
+      }),
+      minimalBooking({
+        name: 'Unpriced match',
+        stays: [
+          { days: 8, checkIn: '2026-09-16', checkOut: '2026-09-24', price: null },
+          { days: 11, checkIn: '2026-09-16', checkOut: '2026-09-27', price: 2600 },
+        ],
+      }),
+      minimalBooking({
+        name: 'High priced match',
+        stays: [{ days: 8, checkIn: '2026-09-16', checkOut: '2026-09-24', price: 2300 }],
+      }),
+      minimalBooking({
+        destination: 'Cypr',
+        name: 'Different destination',
+        stays: [{ days: 8, checkIn: '2026-09-16', checkOut: '2026-09-24', price: 999 }],
+      }),
+      minimalBooking({
+        tier: 'B — rozsądnie: lokalizacja / opinia / pralka preferowana',
+        name: 'Different tier',
+        stays: [{ days: 8, checkIn: '2026-09-16', checkOut: '2026-09-24', price: 1200 }],
+      }),
+    ];
+
+    expect(getPriceRangeForDestination(bookings, 'Albania', 'A — super: plaża / ocena / okolica', 8)).toEqual({
+      min: 1500,
+      max: 2300,
+    });
+    expect(getPriceRangeForDestination(bookings, 'Albania', 'A — super: plaża / ocena / okolica', '11')).toEqual({
+      min: 2600,
+      max: 2600,
+    });
+    expect(getPriceRangeForDestination(bookings, 'Albania', 'A — super: plaża / ocena / okolica', 14)).toBeNull();
+  });
+
+  it('formats price ranges and missing ranges for the matrix', () => {
+    expect(formatPriceRange({ min: 1500, max: 2300 })).toBe('1 500-2 300 PLN');
+    expect(formatPriceRange(null)).toBe('Cena TBD');
   });
 
   it('turns room table br markup into text lines without raw HTML rendering', () => {

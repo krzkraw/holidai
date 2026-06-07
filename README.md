@@ -6,7 +6,7 @@ This workspace collects vacation-planning artifacts for a September 2026 Mediter
 
 - Static HTML reports in `gpt/` and `gemini/`.
 - React/Rsbuild dashboard in `ultimate-dashboard/`, published to GitHub Pages at `ultimate/`.
-- The React dashboard loads `public/data/bookings/bookings.json.gz` and renders Booking.com hotel cards by destination, stay length, and variant.
+- The React dashboard loads `public/data/bookings/bookings.json.gz`, renders Booking.com hotel cards by destination, stay length, and variant, and supports per-destination favorites plus stay-length/category price ranges.
 - Markdown and CSV source material in `gpt/sources/`.
 - TypeScript roundtrip tooling in `booking-model/` and `skyscanner/`.
 - Python 3 scripts in the private `booking-scraper-flow` Git submodule.

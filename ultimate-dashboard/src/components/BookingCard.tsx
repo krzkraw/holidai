@@ -12,6 +12,14 @@ import {
 export type BookingCardProps = {
   booking: BookingJson;
   selectedStayDays: number | string;
+  isFavorite?: boolean;
+  onFavoriteToggle?: (booking: BookingJson) => void;
+};
+
+export type BookingReportPortalProps = {
+  booking: BookingJson;
+  selectedStayDays: number | string;
+  onClose: () => void;
 };
 
 const FALLBACK_IMAGE =
@@ -19,7 +27,7 @@ const FALLBACK_IMAGE =
 
 const ROOM_TABLE_HEADERS = ['Typ pokoju i opcje', 'Goście', 'Cena', 'Warunki'];
 
-export function BookingCard({ booking, selectedStayDays }: BookingCardProps) {
+export function BookingCard({ booking, selectedStayDays, isFavorite = false, onFavoriteToggle }: BookingCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const selectedStay = getStayForDays(booking, selectedStayDays) ?? booking.stays[0] ?? null;
@@ -47,6 +55,18 @@ export function BookingCard({ booking, selectedStayDays }: BookingCardProps) {
           <span className="booking-evaluation" title="Ocena dopasowania">
             {booking.evaluation.toFixed(1)}
           </span>
+          {onFavoriteToggle ? (
+            <button
+              className={isFavorite ? 'booking-favorite-toggle booking-favorite-toggle--active' : 'booking-favorite-toggle'}
+              type="button"
+              aria-label={isFavorite ? `Usuń ${booking.name} z ulubionych` : `Dodaj ${booking.name} do ulubionych`}
+              aria-pressed={isFavorite}
+              title={isFavorite ? 'Usuń z ulubionych' : 'Dodaj do ulubionych'}
+              onClick={() => onFavoriteToggle(booking)}
+            >
+              <StarIcon />
+            </button>
+          ) : null}
         </div>
 
         <div className="booking-summary">
@@ -98,13 +118,22 @@ export function BookingCard({ booking, selectedStayDays }: BookingCardProps) {
 
       {isExpanded ? <BookingCardExpanded booking={booking} selectedStay={selectedStay} /> : null}
 
-      {isModalOpen && selectedStay
-        ? createPortal(
-            <BookingReportModal booking={booking} images={images} selectedStay={selectedStay} onClose={closeModal} />,
-            document.body,
-          )
-        : null}
+      {isModalOpen ? <BookingReportPortal booking={booking} selectedStayDays={selectedStayDays} onClose={closeModal} /> : null}
     </article>
+  );
+}
+
+export function BookingReportPortal({ booking, selectedStayDays, onClose }: BookingReportPortalProps) {
+  const selectedStay = getStayForDays(booking, selectedStayDays) ?? booking.stays[0] ?? null;
+  const images = useMemo(() => getPropertyImages(booking), [booking]);
+
+  if (!selectedStay) {
+    return null;
+  }
+
+  return createPortal(
+    <BookingReportModal booking={booking} images={images} selectedStay={selectedStay} onClose={onClose} />,
+    document.body,
   );
 }
 

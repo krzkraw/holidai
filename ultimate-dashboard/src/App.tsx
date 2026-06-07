@@ -1,6 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { BookingFavoritesMenu } from './components/BookingFavoritesMenu';
 import { BookingGrid } from './components/BookingGrid';
+import { BookingPriceRangesTile } from './components/BookingPriceRangesTile';
 import { BookingJson, loadBookingsData } from './data/bookings';
+import {
+  FavoriteBookingsByDestination,
+  getFavoriteBookingsForDestination,
+  toggleFavoriteBooking
+} from './favorites';
 import {
   CHECKLIST,
   DESTINATION_PROFILES,
@@ -34,6 +41,7 @@ export function App() {
   const [bookings, setBookings] = useState<readonly BookingJson[]>([]);
   const [bookingsStatus, setBookingsStatus] = useState<'loading' | 'ready' | 'error'>('loading');
   const [bookingsError, setBookingsError] = useState<string | null>(null);
+  const [favoriteBookingsByDestination, setFavoriteBookingsByDestination] = useState<FavoriteBookingsByDestination>({});
   const [weights, setWeights] = useState<ScoreSet>(initialWeights);
   const [lengthByDestination, setLengthByDestination] = useState<Record<DestinationKey, string>>({
     Albania: '14',
@@ -154,6 +162,11 @@ export function App() {
           {DESTINATION_TABS.filter((tab) => tab.destination).map((tab) => {
             const destination = tab.destination as DestinationKey;
             const profile = DESTINATION_PROFILES[destination];
+            const controls = getDestinationControls(destination);
+            const selectedLength = lengthByDestination[destination];
+            const selectedVariant = variantByDestination[destination];
+            const favoriteIds = favoriteBookingsByDestination[destination] ?? [];
+            const favoriteBookings = getFavoriteBookingsForDestination(bookings, destination, favoriteBookingsByDestination);
             return (
               <section
                 id={`view-${tab.id}`}
@@ -162,7 +175,20 @@ export function App() {
                 style={{ '--accent': profile.accent } as React.CSSProperties}
                 aria-labelledby={`${tab.id}-title`}
               >
-                <DestinationTitle id={`${tab.id}-title`} profile={profile} />
+                <DestinationTitle
+                  id={`${tab.id}-title`}
+                  profile={profile}
+                  favoriteBookings={favoriteBookings}
+                  selectedStayDays={selectedLength}
+                />
+                <BookingPriceRangesTile
+                  bookings={bookings}
+                  destination={destination}
+                  lengths={controls.lengths}
+                  variants={controls.variants}
+                  selectedLength={selectedLength}
+                  selectedVariant={selectedVariant}
+                />
                 <div className="canvas-plane destination-plane">
                   {TILES_BY_VIEW[tab.id].map((tile) => (
                     <DestinationTile
@@ -170,8 +196,12 @@ export function App() {
                       tile={tile}
                       profile={profile}
                       bookings={bookings}
-                      selectedLength={lengthByDestination[destination]}
-                      selectedVariant={variantByDestination[destination]}
+                      selectedLength={selectedLength}
+                      selectedVariant={selectedVariant}
+                      favoriteIds={favoriteIds}
+                      onFavoriteToggle={(booking) =>
+                        setFavoriteBookingsByDestination((current) => toggleFavoriteBooking(current, destination, booking))
+                      }
                     />
                   ))}
                 </div>
@@ -210,16 +240,27 @@ function CanvasTitle({ id, title, subtitle }: { id: string; title: string; subti
 
 function DestinationTitle({
   id,
-  profile
+  profile,
+  favoriteBookings,
+  selectedStayDays
 }: {
   id: string;
   profile: (typeof DESTINATION_PROFILES)[DestinationKey];
+  favoriteBookings: readonly BookingJson[];
+  selectedStayDays: number | string;
 }) {
   return (
     <div className="canvas-title canvas-title-destination">
       <div className="destination-title-row">
         <div>
-          <h2 id={id}>{profile.displayName}</h2>
+          <div className="destination-heading-main">
+            <h2 id={id}>{profile.displayName}</h2>
+            <BookingFavoritesMenu
+              destination={profile.key}
+              favoriteBookings={favoriteBookings}
+              selectedStayDays={selectedStayDays}
+            />
+          </div>
           <p>{profile.region}</p>
         </div>
         <div className="destination-costs" aria-label={`${profile.displayName} koszty lokalne`}>
@@ -277,13 +318,17 @@ function DestinationTile({
   profile,
   selectedLength,
   selectedVariant,
-  bookings
+  bookings,
+  favoriteIds,
+  onFavoriteToggle
 }: {
   tile: TileLayout;
   profile: (typeof DESTINATION_PROFILES)[DestinationKey];
   selectedLength: string;
   selectedVariant: string;
   bookings: readonly BookingJson[];
+  favoriteIds: readonly string[];
+  onFavoriteToggle: (booking: BookingJson) => void;
 }) {
   return (
     <Tile tile={tile}>
@@ -302,6 +347,8 @@ function DestinationTile({
           destination={profile.key}
           selectedLength={selectedLength}
           selectedVariant={selectedVariant}
+          favoriteIds={favoriteIds}
+          onFavoriteToggle={onFavoriteToggle}
         />
       )}
     </Tile>

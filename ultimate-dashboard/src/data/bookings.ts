@@ -12,6 +12,11 @@ export type StayJson = {
   price: number | null;
 };
 
+export type PriceRangeJson = {
+  min: number;
+  max: number;
+};
+
 export type StayPriceJson = {
   nights: number | null;
   dateRange: string;
@@ -173,12 +178,61 @@ export function getStayForDays(booking: BookingJson, days: number | string): Sta
   return booking.stays.find((stay) => stay.days === targetDays) ?? null;
 }
 
+export function getPriceRangeForDestination(
+  bookings: readonly BookingJson[],
+  destination: DestinationKey,
+  tier: string,
+  days: number | string,
+): PriceRangeJson | null {
+  const targetDays = parseStayDays(days);
+
+  if (targetDays === null) {
+    return null;
+  }
+
+  let min: number | null = null;
+  let max: number | null = null;
+
+  for (const booking of bookings) {
+    if (booking.destination !== destination || booking.tier !== tier) {
+      continue;
+    }
+
+    const price = getStayForDays(booking, targetDays)?.price ?? null;
+
+    if (price === null) {
+      continue;
+    }
+
+    min = min === null ? price : Math.min(min, price);
+    max = max === null ? price : Math.max(max, price);
+  }
+
+  if (min === null || max === null) {
+    return null;
+  }
+
+  return { min, max };
+}
+
 export function formatStayPrice(stay: StayJson | null | undefined): string {
   if (!stay || stay.price === null) {
     return 'Cena TBD';
   }
 
   return `${formatPlnNumber(stay.price)} PLN`;
+}
+
+export function formatPriceRange(range: PriceRangeJson | null | undefined): string {
+  if (!range) {
+    return 'Cena TBD';
+  }
+
+  if (range.min === range.max) {
+    return `${formatPlnNumber(range.min)} PLN`;
+  }
+
+  return `${formatPlnNumber(range.min)}-${formatPlnNumber(range.max)} PLN`;
 }
 
 export function renderRoomCellLines(rawCell: string): readonly string[] {
