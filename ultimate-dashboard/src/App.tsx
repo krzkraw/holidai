@@ -25,6 +25,7 @@ import {
   getDestinationControls,
   getViewLayout
 } from './model';
+import { readDashboardPreferences, writeDashboardPreferences } from './preferences';
 
 const initialWeights: ScoreSet = {
   turtles: 3,
@@ -34,24 +35,61 @@ const initialWeights: ScoreSet = {
   sightseeing: 3
 };
 
+const initialLengthByDestination: Record<DestinationKey, string> = {
+  Albania: '14',
+  Grecja: '14',
+  Cypr: '14',
+  Turcja: '14',
+  Kreta: '14'
+};
+
+function createInitialVariantByDestination(): Record<DestinationKey, string> {
+  return Object.fromEntries(HOTEL_MATRIX_GROUPS.map((group) => [group.destination, group.variants[0]])) as Record<DestinationKey, string>;
+}
+
+function hydrateLengthPreferences(storedLengths: Partial<Record<DestinationKey, string>>): Record<DestinationKey, string> {
+  const nextLengths = { ...initialLengthByDestination };
+
+  for (const group of HOTEL_MATRIX_GROUPS) {
+    const storedLength = storedLengths[group.destination];
+    if (storedLength && group.lengths.includes(storedLength)) {
+      nextLengths[group.destination] = storedLength;
+    }
+  }
+
+  return nextLengths;
+}
+
+function hydrateVariantPreferences(storedVariants: Partial<Record<DestinationKey, string>>): Record<DestinationKey, string> {
+  const nextVariants = createInitialVariantByDestination();
+
+  for (const group of HOTEL_MATRIX_GROUPS) {
+    const storedVariant = storedVariants[group.destination];
+    if (storedVariant && group.variants.includes(storedVariant)) {
+      nextVariants[group.destination] = storedVariant;
+    }
+  }
+
+  return nextVariants;
+}
+
 export function App() {
   const viewportRef = useRef<HTMLElement | null>(null);
+  const storedPreferences = useMemo(() => readDashboardPreferences(), []);
   const [activeView, setActiveView] = useState<ViewId>('summary');
   const [pageWidth, setPageWidth] = useState(0);
   const [bookings, setBookings] = useState<readonly BookingJson[]>([]);
   const [bookingsStatus, setBookingsStatus] = useState<'loading' | 'ready' | 'error'>('loading');
   const [bookingsError, setBookingsError] = useState<string | null>(null);
-  const [favoriteBookingsByDestination, setFavoriteBookingsByDestination] = useState<FavoriteBookingsByDestination>({});
+  const [favoriteBookingsByDestination, setFavoriteBookingsByDestination] = useState<FavoriteBookingsByDestination>(
+    storedPreferences.favorites,
+  );
   const [weights, setWeights] = useState<ScoreSet>(initialWeights);
-  const [lengthByDestination, setLengthByDestination] = useState<Record<DestinationKey, string>>({
-    Albania: '14',
-    Grecja: '14',
-    Cypr: '14',
-    Turcja: '14',
-    Kreta: '14'
-  });
+  const [lengthByDestination, setLengthByDestination] = useState<Record<DestinationKey, string>>(() =>
+    hydrateLengthPreferences(storedPreferences.lengths),
+  );
   const [variantByDestination, setVariantByDestination] = useState<Record<DestinationKey, string>>(() =>
-    Object.fromEntries(HOTEL_MATRIX_GROUPS.map((group) => [group.destination, group.variants[0]])) as Record<DestinationKey, string>
+    hydrateVariantPreferences(storedPreferences.variants),
   );
 
   const matches = useMemo(() => calculateMatches(weights), [weights]);
@@ -108,6 +146,14 @@ export function App() {
       isActive = false;
     };
   }, []);
+
+  useEffect(() => {
+    writeDashboardPreferences({
+      favorites: favoriteBookingsByDestination,
+      lengths: lengthByDestination,
+      variants: variantByDestination,
+    });
+  }, [favoriteBookingsByDestination, lengthByDestination, variantByDestination]);
 
   const jumpToView = (view: ViewId) => {
     setActiveView(view);
@@ -180,6 +226,9 @@ export function App() {
                   profile={profile}
                   favoriteBookings={favoriteBookings}
                   selectedStayDays={selectedLength}
+                  onRemoveFavorite={(booking) =>
+                    setFavoriteBookingsByDestination((current) => toggleFavoriteBooking(current, destination, booking))
+                  }
                 />
                 <BookingPriceRangesTile
                   bookings={bookings}
@@ -242,12 +291,14 @@ function DestinationTitle({
   id,
   profile,
   favoriteBookings,
-  selectedStayDays
+  selectedStayDays,
+  onRemoveFavorite
 }: {
   id: string;
   profile: (typeof DESTINATION_PROFILES)[DestinationKey];
   favoriteBookings: readonly BookingJson[];
   selectedStayDays: number | string;
+  onRemoveFavorite: (booking: BookingJson) => void;
 }) {
   return (
     <div className="canvas-title canvas-title-destination">
@@ -259,6 +310,7 @@ function DestinationTitle({
               destination={profile.key}
               favoriteBookings={favoriteBookings}
               selectedStayDays={selectedStayDays}
+              onRemoveFavorite={onRemoveFavorite}
             />
           </div>
           <p>{profile.region}</p>

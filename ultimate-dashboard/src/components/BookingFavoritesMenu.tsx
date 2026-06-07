@@ -8,9 +8,15 @@ export type BookingFavoritesMenuProps = {
   destination: DestinationKey;
   favoriteBookings: readonly BookingJson[];
   selectedStayDays: number | string;
+  onRemoveFavorite: (booking: BookingJson) => void;
 };
 
-export function BookingFavoritesMenu({ destination, favoriteBookings, selectedStayDays }: BookingFavoritesMenuProps) {
+export function BookingFavoritesMenu({
+  destination,
+  favoriteBookings,
+  selectedStayDays,
+  onRemoveFavorite,
+}: BookingFavoritesMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [reportBooking, setReportBooking] = useState<BookingJson | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
@@ -86,25 +92,35 @@ export function BookingFavoritesMenu({ destination, favoriteBookings, selectedSt
           </div>
           <div className="booking-favorites-list">
             {favoriteRows.map(({ booking, stays }) => (
-              <button
-                className="booking-favorite-row"
-                type="button"
-                role="menuitem"
-                key={booking.url}
-                onClick={() => {
-                  setReportBooking(booking);
-                  setIsOpen(false);
-                }}
-              >
-                <span className="booking-favorite-row-name">{booking.name}</span>
-                <span className="booking-favorite-row-prices" aria-label={`${booking.name} ceny pobytów`}>
-                  {stays.map((stay) => (
-                    <span key={`${booking.url}-${stay.days}`}>
-                      {stay.days}d <b>{formatStayPrice(stay)}</b>
-                    </span>
-                  ))}
-                </span>
-              </button>
+              <div className="booking-favorite-row-shell" role="none" key={booking.url}>
+                <button
+                  className="booking-favorite-row"
+                  type="button"
+                  role="menuitem"
+                  onClick={() => {
+                    setReportBooking(booking);
+                    setIsOpen(false);
+                  }}
+                >
+                  <span className="booking-favorite-row-name">{booking.name}</span>
+                  <span className="booking-favorite-row-prices" aria-label={`${booking.name} ceny pobytów`}>
+                    {stays.map((stay) => (
+                      <span key={`${booking.url}-${stay.days}`}>
+                        {stay.days}d <b>{formatStayPrice(stay)}</b>
+                      </span>
+                    ))}
+                  </span>
+                </button>
+                <button
+                  className="booking-favorite-remove"
+                  type="button"
+                  aria-label={`Usuń ${booking.name} z listy ulubionych`}
+                  title="Usuń z ulubionych"
+                  onClick={() => onRemoveFavorite(booking)}
+                >
+                  X
+                </button>
+              </div>
             ))}
           </div>
         </div>

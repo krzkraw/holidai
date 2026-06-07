@@ -1075,22 +1075,43 @@ overflow-y: auto;
 padding-right: 2px;
 }
 
+.booking-favorite-row-shell {
+display: grid;
+grid-template-columns: minmax(0, 1fr) auto;
+gap: 8px;
+align-items: stretch;
+}
+
+.booking-favorite-row,
+.booking-favorite-remove {
+border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 12px;
+background: rgba(255, 255, 255, 0.045);
+color: #ffffff;
+}
+
 .booking-favorite-row {
 display: grid;
 gap: 8px;
 width: 100%;
 min-width: 0;
 padding: 11px 12px;
-border: 1px solid rgba(255, 255, 255, 0.12);
-border-radius: 12px;
-background: rgba(255, 255, 255, 0.045);
-color: #ffffff;
 text-align: left;
 }
 
-.booking-favorite-row:hover {
+.booking-favorite-row:hover,
+.booking-favorite-remove:hover {
 border-color: rgba(251, 191, 36, 0.42);
 background: rgba(251, 191, 36, 0.08);
+}
+
+.booking-favorite-remove {
+display: grid;
+width: 38px;
+place-items: center;
+color: #fca5a5;
+font-size: 12px;
+font-weight: 900;
 }
 
 .booking-favorite-row-name {
