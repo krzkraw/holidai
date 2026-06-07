@@ -14,6 +14,7 @@ const GPU_TEXTURE_USAGE_RENDER_ATTACHMENT = 0x10;
 
 type ShaderBackgroundProps = {
   activeView: ViewId;
+  enabled?: boolean;
 };
 
 type CanvasRenderer = {
@@ -233,7 +234,7 @@ void main() {
 }
 `;
 
-export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
+export function ShaderBackground({ activeView, enabled = true }: ShaderBackgroundProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const rendererRef = useRef<CanvasRenderer | null>(null);
   const progressRef = useRef(getAtmosphereState(activeView).progress);
@@ -304,6 +305,14 @@ export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
   useEffect(() => {
     let disposed = false;
     let renderer: CanvasRenderer | null = null;
+
+    if (!enabled) {
+      rendererRef.current?.destroy();
+      rendererRef.current = null;
+      setMode('static');
+      return undefined;
+    }
+
     const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
     prefersReducedMotionRef.current = motionQuery.matches;
 
@@ -351,11 +360,11 @@ export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
       rendererRef.current = null;
       renderer?.destroy();
     };
-  }, []);
+  }, [enabled]);
 
   return (
     <div className={`shader-background shader-background--${mode}`} data-renderer={mode} aria-hidden="true">
-      <canvas ref={canvasRef} />
+      {enabled ? <canvas ref={canvasRef} /> : null}
     </div>
   );
 }

@@ -59,6 +59,8 @@ const initialLengthByDestination: Record<DestinationKey, string> = {
 const CANVAS_TRANSITION_MS = 640;
 const CANVAS_VIEW_RETENTION_BUFFER_MS = 80;
 const CANVAS_VIEW_RETENTION_MS = CANVAS_TRANSITION_MS + CANVAS_VIEW_RETENTION_BUFFER_MS;
+const PHONE_VIEWPORT_MAX_WIDTH = 768;
+const PHONE_VIEWPORT_QUERY = `(max-width: ${PHONE_VIEWPORT_MAX_WIDTH}px)`;
 
 export function shouldRenderViewContent(
   activeView: ViewId,
@@ -115,15 +117,39 @@ function setDestinationValue(
   return value ? { ...values, [destination]: value } : clearDestinationValue(values, destination);
 }
 
+function getIsPhoneViewport() {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  try {
+    return window.matchMedia(PHONE_VIEWPORT_QUERY).matches;
+  } catch {
+    return window.innerWidth <= PHONE_VIEWPORT_MAX_WIDTH;
+  }
+}
+
 export function App() {
   const viewportRef = useRef<HTMLElement | null>(null);
+  const settingsRef = useRef<HTMLDivElement | null>(null);
   const storedPreferences = useMemo(() => readDashboardPreferences(), []);
   const [activeView, setActiveView] = useState<ViewId>('summary');
   const [previousView, setPreviousView] = useState<ViewId | null>(null);
   const [pageWidth, setPageWidth] = useState(0);
+  const [isPhoneViewport, setIsPhoneViewport] = useState(getIsPhoneViewport);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const [bookings, setBookings] = useState<readonly BookingJson[]>([]);
   const [bookingsStatus, setBookingsStatus] = useState<'loading' | 'ready' | 'error'>('loading');
   const [bookingsError, setBookingsError] = useState<string | null>(null);
+  const [lightweightMobileVisuals, setLightweightMobileVisuals] = useState<boolean | null>(
+    storedPreferences.lightweightMobileVisuals,
+  );
+  const [dynamicBackgroundShader, setDynamicBackgroundShader] = useState<boolean | null>(
+    storedPreferences.dynamicBackgroundShader,
+  );
+  const [mobilePerformanceNoticeDismissed, setMobilePerformanceNoticeDismissed] = useState(
+    storedPreferences.mobilePerformanceNoticeDismissed,
+  );
   const [favoriteBookingsByDestination, setFavoriteBookingsByDestination] = useState<FavoriteBookingsByDestination>(
     storedPreferences.favorites,
   );
@@ -152,6 +178,13 @@ export function App() {
   const activeLength = activeDestination ? lengthByDestination[activeDestination] : '';
   const activeVariant = activeDestination ? variantByDestination[activeDestination] : '';
   const renderSummaryContent = shouldRenderViewContent(activeView, previousView, 'summary');
+  const effectiveLightweightVisuals = lightweightMobileVisuals ?? isPhoneViewport;
+  const effectiveShaderEnabled = dynamicBackgroundShader ?? !isPhoneViewport;
+  const showMobilePerformanceToast =
+    isPhoneViewport && effectiveLightweightVisuals && !mobilePerformanceNoticeDismissed;
+  const appShellClasses = ['app-shell', effectiveLightweightVisuals ? 'app-shell--lightweight-visuals' : '']
+    .filter(Boolean)
+    .join(' ');
 
   useEffect(() => {
     const updatePageWidth = () => {
@@ -172,6 +205,63 @@ export function App() {
       window.removeEventListener('resize', updatePageWidth);
     };
   }, []);
+
+  useEffect(() => {
+    const updatePhoneViewport = () => {
+      setIsPhoneViewport(getIsPhoneViewport());
+    };
+
+    updatePhoneViewport();
+
+    let mediaQuery: MediaQueryList | null = null;
+
+    try {
+      mediaQuery = window.matchMedia(PHONE_VIEWPORT_QUERY);
+      const handleChange = (event: MediaQueryListEvent) => {
+        setIsPhoneViewport(event.matches);
+      };
+
+      mediaQuery.addEventListener('change', handleChange);
+      window.addEventListener('resize', updatePhoneViewport);
+
+      return () => {
+        mediaQuery?.removeEventListener('change', handleChange);
+        window.removeEventListener('resize', updatePhoneViewport);
+      };
+    } catch {
+      window.addEventListener('resize', updatePhoneViewport);
+
+      return () => {
+        window.removeEventListener('resize', updatePhoneViewport);
+      };
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!settingsOpen) {
+      return undefined;
+    }
+
+    const handlePointerDown = (event: PointerEvent) => {
+      if (event.target instanceof Node && settingsRef.current && !settingsRef.current.contains(event.target)) {
+        setSettingsOpen(false);
+      }
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setSettingsOpen(false);
+      }
+    };
+
+    document.addEventListener('pointerdown', handlePointerDown);
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('pointerdown', handlePointerDown);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [settingsOpen]);
 
   useEffect(() => {
     let isActive = true;
@@ -205,7 +295,10 @@ export function App() {
     writeDashboardPreferences({
       favorites: favoriteBookingsByDestination,
       flightFavorites: favoriteFlightsByDestination,
+      dynamicBackgroundShader,
       lengths: lengthByDestination,
+      lightweightMobileVisuals,
+      mobilePerformanceNoticeDismissed,
       selectedBookings: selectedBookingByDestination,
       selectedFlights: selectedFlightByDestination,
       variants: variantByDestination,
@@ -213,7 +306,10 @@ export function App() {
   }, [
     favoriteBookingsByDestination,
     favoriteFlightsByDestination,
+    dynamicBackgroundShader,
     lengthByDestination,
+    lightweightMobileVisuals,
+    mobilePerformanceNoticeDismissed,
     selectedBookingByDestination,
     selectedFlightByDestination,
     variantByDestination,
@@ -243,8 +339,8 @@ export function App() {
   };
 
   return (
-    <div className="app-shell">
-      <ShaderBackground activeView={activeView} />
+    <div className={appShellClasses}>
+      <ShaderBackground activeView={activeView} enabled={effectiveShaderEnabled} />
       <header className="topbar">
         <div className="brand-block">
           <span className="brand-mark">UH</span>
@@ -253,19 +349,50 @@ export function App() {
             <h1>Ultimate Holiday Canvas</h1>
           </div>
         </div>
-        <nav className="tabbar" aria-label="Holiday dashboard views">
-          {DESTINATION_TABS.map((tab) => (
+        <div className="topbar-actions">
+          <nav className="tabbar" aria-label="Holiday dashboard views">
+            {DESTINATION_TABS.map((tab) => (
+              <button
+                key={tab.id}
+                className={activeView === tab.id ? 'tab active' : 'tab'}
+                type="button"
+                onClick={() => jumpToView(tab.id)}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </nav>
+          <div className="settings-menu" ref={settingsRef}>
             <button
-              key={tab.id}
-              className={activeView === tab.id ? 'tab active' : 'tab'}
+              className="settings-button"
               type="button"
-              onClick={() => jumpToView(tab.id)}
+              aria-label="Ustawienia wydajności"
+              aria-expanded={settingsOpen}
+              aria-haspopup="dialog"
+              onClick={() => setSettingsOpen((isOpen) => !isOpen)}
             >
-              {tab.label}
+              <SettingsIcon />
             </button>
-          ))}
-        </nav>
+            {settingsOpen && (
+              <SettingsPanel
+                lightweightVisualsEnabled={effectiveLightweightVisuals}
+                dynamicBackgroundShaderEnabled={effectiveShaderEnabled}
+                onLightweightVisualsChange={setLightweightMobileVisuals}
+                onDynamicBackgroundShaderChange={setDynamicBackgroundShader}
+              />
+            )}
+          </div>
+        </div>
       </header>
+
+      {showMobilePerformanceToast && (
+        <div className="mobile-performance-toast" role="status">
+          <span>Wykryto telefon. Włączono lżejsze efekty i zwykłą przezroczystość dla płynniejszego działania.</span>
+          <button type="button" onClick={() => setMobilePerformanceNoticeDismissed(true)}>
+            OK
+          </button>
+        </div>
+      )}
 
       <main className="canvas-viewport" ref={viewportRef}>
         {bookingsStatus !== 'ready' && (
@@ -441,6 +568,68 @@ export function App() {
         />
       )}
     </div>
+  );
+}
+
+function SettingsPanel({
+  lightweightVisualsEnabled,
+  dynamicBackgroundShaderEnabled,
+  onLightweightVisualsChange,
+  onDynamicBackgroundShaderChange
+}: {
+  lightweightVisualsEnabled: boolean;
+  dynamicBackgroundShaderEnabled: boolean;
+  onLightweightVisualsChange: (enabled: boolean) => void;
+  onDynamicBackgroundShaderChange: (enabled: boolean) => void;
+}) {
+  return (
+    <div className="settings-popover" role="dialog" aria-label="Ustawienia">
+      <strong>Ustawienia</strong>
+      <SettingsToggle
+        checked={lightweightVisualsEnabled}
+        label="Lekkie wizuale"
+        onChange={onLightweightVisualsChange}
+      />
+      <SettingsToggle
+        checked={dynamicBackgroundShaderEnabled}
+        label="Shader tła"
+        onChange={onDynamicBackgroundShaderChange}
+      />
+    </div>
+  );
+}
+
+function SettingsToggle({
+  checked,
+  label,
+  onChange
+}: {
+  checked: boolean;
+  label: string;
+  onChange: (checked: boolean) => void;
+}) {
+  return (
+    <label className="settings-row">
+      <span>{label}</span>
+      <input
+        className="settings-toggle-input"
+        type="checkbox"
+        checked={checked}
+        onChange={(event) => onChange(event.target.checked)}
+      />
+      <span className="settings-toggle-track" aria-hidden="true">
+        <span />
+      </span>
+    </label>
+  );
+}
+
+function SettingsIcon() {
+  return (
+    <svg className="settings-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" />
+      <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.05.05a2 2 0 0 1-2.83 2.83l-.05-.05a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.03 1.56V21a2 2 0 0 1-4 0v-.08a1.7 1.7 0 0 0-1.03-1.56 1.7 1.7 0 0 0-1.87.34l-.05.05a2 2 0 0 1-2.83-2.83l.05-.05A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.56-1.03H3a2 2 0 0 1 0-4h.08A1.7 1.7 0 0 0 4.64 8.94a1.7 1.7 0 0 0-.34-1.87l-.05-.05a2 2 0 0 1 2.83-2.83l.05.05A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1.03-1.56V3a2 2 0 0 1 4 0v.08A1.7 1.7 0 0 0 15.06 4.64a1.7 1.7 0 0 0 1.87-.34l.05-.05a2 2 0 0 1 2.83 2.83l-.05.05A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.56 1.03H21a2 2 0 0 1 0 4h-.08A1.7 1.7 0 0 0 19.4 15Z" />
+    </svg>
   );
 }
 

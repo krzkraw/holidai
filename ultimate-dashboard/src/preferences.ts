@@ -6,7 +6,10 @@ export const DASHBOARD_PREFERENCES_STORAGE_KEY = 'ultimate-dashboard.booking-pre
 export type DashboardPreferences = {
   favorites: FavoriteBookingsByDestination;
   flightFavorites: FavoriteFlightsByDestination;
+  dynamicBackgroundShader: boolean | null;
   lengths: Partial<Record<DestinationKey, string>>;
+  lightweightMobileVisuals: boolean | null;
+  mobilePerformanceNoticeDismissed: boolean;
   selectedBookings: Partial<Record<DestinationKey, string>>;
   selectedFlights: Partial<Record<DestinationKey, string>>;
   variants: Partial<Record<DestinationKey, string>>;
@@ -19,7 +22,10 @@ const DESTINATIONS: readonly DestinationKey[] = ['Albania', 'Grecja', 'Cypr', 'T
 const EMPTY_PREFERENCES: DashboardPreferences = {
   favorites: {},
   flightFavorites: {},
+  dynamicBackgroundShader: null,
   lengths: {},
+  lightweightMobileVisuals: null,
+  mobilePerformanceNoticeDismissed: false,
   selectedBookings: {},
   selectedFlights: {},
   variants: {},
@@ -44,7 +50,10 @@ export function readDashboardPreferences(storage: StorageLike | null = getBrowse
     return {
       favorites: readFavorites(parsed.favorites),
       flightFavorites: readFavorites(parsed.flightFavorites),
+      dynamicBackgroundShader: readNullableBoolean(parsed.dynamicBackgroundShader),
       lengths: readStringBuckets(parsed.lengths),
+      lightweightMobileVisuals: readNullableBoolean(parsed.lightweightMobileVisuals),
+      mobilePerformanceNoticeDismissed: readBoolean(parsed.mobilePerformanceNoticeDismissed, false),
       selectedBookings: readStringBuckets(parsed.selectedBookings),
       selectedFlights: readStringBuckets(parsed.selectedFlights),
       variants: readStringBuckets(parsed.variants),
@@ -69,7 +78,10 @@ export function writeDashboardPreferences(
         version: 1,
         favorites: preferences.favorites,
         flightFavorites: preferences.flightFavorites,
+        dynamicBackgroundShader: preferences.dynamicBackgroundShader,
         lengths: preferences.lengths,
+        lightweightMobileVisuals: preferences.lightweightMobileVisuals,
+        mobilePerformanceNoticeDismissed: preferences.mobilePerformanceNoticeDismissed,
         selectedBookings: preferences.selectedBookings,
         selectedFlights: preferences.selectedFlights,
         variants: preferences.variants,
@@ -123,6 +135,14 @@ function readStringBuckets(value: unknown): Partial<Record<DestinationKey, strin
   }
 
   return result;
+}
+
+function readBoolean(value: unknown, fallback: boolean): boolean {
+  return typeof value === 'boolean' ? value : fallback;
+}
+
+function readNullableBoolean(value: unknown): boolean | null {
+  return typeof value === 'boolean' ? value : null;
 }
 
 function isRecord(value: unknown): value is JsonRecord {
