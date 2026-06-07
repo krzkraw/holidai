@@ -76,12 +76,14 @@ export function BookingCard({ booking, selectedStayDays, isFavorite = false, onF
         <div className="booking-summary">
           <div className="booking-summary-top">
             <span className="booking-destination">{booking.destination}</span>
-            <RatingPill booking={booking} />
           </div>
 
-          <h3 className="booking-title" title={booking.name}>
-            {booking.name}
-          </h3>
+          <div className="booking-title-row">
+            <h3 className="booking-title" title={booking.name}>
+              {booking.name}
+            </h3>
+            <RatingPill booking={booking} />
+          </div>
 
           <div className="booking-specs" aria-label={`${booking.name} szybkie parametry`}>
             <SpecPill icon={<CompassIcon />} text={booking.beachInfo || 'Brak danych o plaży'} />

@@ -1667,6 +1667,7 @@ min-width: 0;
 max-width: 100%;
 }
 
+.booking-title-row,
 .booking-summary-top,
 .booking-card-footer,
 .booking-actions,
@@ -1698,6 +1699,12 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 }
 
+.booking-title-row {
+align-items: center;
+gap: 10px;
+padding-right: 48px;
+}
+
 .booking-rating {
 gap: 5px;
 padding: 5px 9px;
@@ -1718,7 +1725,8 @@ color: #94a3b8;
 
 .booking-title {
 display: -webkit-box;
-width: 100%;
+flex: 0 1 auto;
+width: auto;
 min-height: 52px;
 margin: 0;
 overflow: hidden;
@@ -2516,6 +2524,7 @@ transform: translateX(-50%);
 .booking-favorite-row-name { white-space: normal; }
 .booking-card { padding: 14px; border-radius: 16px; }
 .booking-title { min-height: 0; font-size: 19px; }
+.booking-title-row { align-items: flex-start; flex-direction: column; gap: 8px; padding-right: 44px; }
 .booking-summary-top { align-items: flex-start; flex-direction: column; gap: 8px; }
 .booking-spec span { white-space: normal; }
 .booking-modal-title h2 { font-size: 23px; }

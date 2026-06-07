@@ -97,7 +97,7 @@ describe('trip selection totals', () => {
     );
 
     expect(range).toEqual({ min: 2003, max: 3234 });
-    expect(formatTripTotalRange(range)).toBe('2 003-3 234 PLN');
+    expect(formatTripTotalRange(range)).toBe('Od: 2 003 PLN Do: 3 234 PLN');
   });
 
   it('does not invent a range when no favorite combination has both prices', () => {

@@ -454,7 +454,7 @@ function DestinationTitle({
             ) : null}
             {favoriteTripTotalRangeText ? (
               <span className="selected-trip-total selected-trip-total--range" aria-label={`${profile.displayName} zakres sum ulubionych hoteli i lotów`}>
-                od - do: <strong>{favoriteTripTotalRangeText}</strong>
+                <strong>{favoriteTripTotalRangeText}</strong>
               </span>
             ) : null}
           </div>

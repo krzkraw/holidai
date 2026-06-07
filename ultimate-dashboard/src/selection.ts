@@ -72,11 +72,7 @@ export function formatTripTotalRange(range: TripTotalRange | null | undefined): 
     return null;
   }
 
-  if (range.min === range.max) {
-    return `${formatPlnNumber(range.min)} PLN`;
-  }
-
-  return `${formatPlnNumber(range.min)}-${formatPlnNumber(range.max)} PLN`;
+  return `Od: ${formatPlnNumber(range.min)} PLN Do: ${formatPlnNumber(range.max)} PLN`;
 }
 
 function formatPlnNumber(value: number): string {

@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { BookingJson } from '../data/bookings';
 import { BookingCard } from './BookingCard';
 
-function booking(): BookingJson {
+function booking(overrides: Partial<BookingJson> = {}): BookingJson {
   return {
     destination: 'Albania',
     tier: 'A',
@@ -49,6 +49,7 @@ function booking(): BookingJson {
     },
     url: 'https://example.com/corner-favorite-hotel',
     stays: [{ days: 11, checkIn: '2026-09-16', checkOut: '2026-09-27', price: 1300 }],
+    ...overrides,
   };
 }
 
@@ -61,5 +62,17 @@ describe('BookingCard', () => {
     expect(html).toContain('booking-favorite-toggle--card-corner');
     expect(html.indexOf('booking-favorite-toggle')).toBeLessThan(html.indexOf('booking-card-primary'));
     expect(html.indexOf('booking-favorite-toggle')).toBeLessThan(html.indexOf('booking-thumb'));
+  });
+
+  it('places the rating pill directly after the hotel name', () => {
+    const html = renderToStaticMarkup(
+      <BookingCard booking={booking({ rating: 9.5, reviews: 123 })} selectedStayDays={11} />,
+    );
+
+    expect(html).toContain('booking-title-row');
+    expect(html).toContain(
+      '<div class="booking-title-row"><h3 class="booking-title" title="Corner Favorite Hotel">Corner Favorite Hotel</h3><span class="booking-rating">',
+    );
+    expect(html.indexOf('booking-title-row')).toBeLessThan(html.indexOf('booking-specs'));
   });
 });
