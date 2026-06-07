@@ -52,6 +52,21 @@ describe('bottom toolbar visual treatment', () => {
     }
   });
 
+  it('gives destination and bottom toolbar pills a visible parent hover state', () => {
+    for (const selector of [
+      '.destination-costs span:hover,',
+      '.pill-cloud span:hover,',
+      '.decision-strip span:hover,',
+      '.controls-card--compact .segmented button:hover,',
+      '.controls-card--compact .variant-pills button:hover,',
+    ]) {
+      expect(styles).toContain(selector);
+    }
+
+    expect(styles).toContain('transform: translateY(-3px) scale(1.035)');
+    expect(styles).toContain('0 14px 34px rgba(0, 0, 0, 0.42)');
+  });
+
   it('keeps enough scroll clearance behind the bottom toolbar', () => {
     expect(styles).toContain('--bottom-toolbar-clearance');
     expect(styles).toContain('padding-bottom: var(--bottom-toolbar-clearance)');

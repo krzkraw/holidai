@@ -2165,6 +2165,67 @@ background: rgba(255, 255, 255, 0.13);
 color: #ffffff;
 }
 
+.destination-costs span,
+.decision-strip span,
+.pill-cloud span,
+.variant-pills button,
+.segmented button,
+.budget-list span,
+.booking-price-ranges-active span,
+.booking-favorites-button,
+.booking-favorite-row-prices span,
+.booking-grid-context span,
+.booking-rating,
+.booking-spec,
+.booking-feature,
+.booking-report-button,
+.booking-modal-link,
+.booking-modal-secondary,
+.booking-modal-tags span,
+.booking-modal-meta > span,
+.booking-stays-list > span {
+transition:
+background 220ms ease,
+border-color 220ms ease,
+box-shadow 220ms ease,
+color 220ms ease,
+filter 220ms ease,
+transform 220ms ease;
+will-change: transform;
+}
+
+.destination-costs span:hover,
+.decision-strip span:hover,
+.pill-cloud span:hover,
+.variant-pills button:hover,
+.segmented button:hover,
+.controls-card--compact .segmented button:hover,
+.controls-card--compact .variant-pills button:hover,
+.budget-list span:hover,
+.booking-price-ranges-active span:hover,
+.booking-favorites-button:hover,
+.booking-favorite-row-prices span:hover,
+.booking-grid-context span:hover,
+.booking-rating:hover,
+.booking-spec:hover,
+.booking-feature:hover,
+.booking-report-button:hover,
+.booking-modal-link:hover,
+.booking-modal-secondary:hover,
+.booking-modal-tags span:hover,
+.booking-modal-meta > span:hover,
+.booking-stays-list > span:hover {
+border-color: rgba(255, 255, 255, 0.72);
+background: color-mix(in srgb, var(--accent, #ea580c) 20%, rgba(255, 255, 255, 0.18));
+box-shadow:
+inset 0 1.5px 1px rgba(255, 255, 255, 0.58),
+0 14px 34px rgba(0, 0, 0, 0.42),
+0 0 28px color-mix(in srgb, var(--accent, #ea580c) 24%, transparent);
+color: #ffffff;
+filter: saturate(112%);
+transform: translateY(-3px) scale(1.035);
+}
+
 .booking-icon {
 display: inline-block;
 flex: 0 0 auto;
