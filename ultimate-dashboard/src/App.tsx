@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { BookingGrid } from './components/BookingGrid';
+import { BookingJson, loadBookingsData } from './data/bookings';
 import {
   CHECKLIST,
   DESTINATION_PROFILES,
@@ -29,6 +31,9 @@ export function App() {
   const viewportRef = useRef<HTMLElement | null>(null);
   const [activeView, setActiveView] = useState<ViewId>('summary');
   const [pageWidth, setPageWidth] = useState(0);
+  const [bookings, setBookings] = useState<readonly BookingJson[]>([]);
+  const [bookingsStatus, setBookingsStatus] = useState<'loading' | 'ready' | 'error'>('loading');
+  const [bookingsError, setBookingsError] = useState<string | null>(null);
   const [weights, setWeights] = useState<ScoreSet>(initialWeights);
   const [lengthByDestination, setLengthByDestination] = useState<Record<DestinationKey, string>>({
     Albania: '14',
@@ -68,6 +73,34 @@ export function App() {
     };
   }, []);
 
+  useEffect(() => {
+    let isActive = true;
+
+    loadBookingsData()
+      .then((loadedBookings) => {
+        if (!isActive) {
+          return;
+        }
+
+        setBookings(loadedBookings);
+        setBookingsStatus('ready');
+        setBookingsError(null);
+      })
+      .catch((error: unknown) => {
+        if (!isActive) {
+          return;
+        }
+
+        setBookings([]);
+        setBookingsStatus('error');
+        setBookingsError(error instanceof Error ? error.message : 'Nie udało się załadować danych Booking.');
+      });
+
+    return () => {
+      isActive = false;
+    };
+  }, []);
+
   const jumpToView = (view: ViewId) => {
     setActiveView(view);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -98,6 +131,12 @@ export function App() {
       </header>
 
       <main className="canvas-viewport" ref={viewportRef}>
+        {bookingsStatus !== 'ready' && (
+          <div className={`booking-data-banner booking-data-banner--${bookingsStatus}`} role={bookingsStatus === 'error' ? 'alert' : 'status'}>
+            <strong>{bookingsStatus === 'loading' ? 'Ładowanie hoteli Booking.com' : 'Błąd danych Booking.com'}</strong>
+            <span>{bookingsStatus === 'loading' ? 'Czytam ./data/bookings/bookings.json.gz.' : bookingsError}</span>
+          </div>
+        )}
         <div className="canvas-stack" style={{ left: activeOffset }}>
           <section id="view-summary" className="canvas-section summary-section" aria-labelledby="summary-title">
             <CanvasTitle
@@ -130,6 +169,7 @@ export function App() {
                       key={tile.id}
                       tile={tile}
                       profile={profile}
+                      bookings={bookings}
                       selectedLength={lengthByDestination[destination]}
                       selectedVariant={variantByDestination[destination]}
                     />
@@ -236,12 +276,14 @@ function DestinationTile({
   tile,
   profile,
   selectedLength,
-  selectedVariant
+  selectedVariant,
+  bookings
 }: {
   tile: TileLayout;
   profile: (typeof DESTINATION_PROFILES)[DestinationKey];
   selectedLength: string;
   selectedVariant: string;
+  bookings: readonly BookingJson[];
 }) {
   return (
     <Tile tile={tile}>
@@ -254,7 +296,14 @@ function DestinationTile({
       {tile.id.endsWith('-turtles') && <DetailList items={profile.turtles} />}
       {tile.id.endsWith('-nature') && <DetailList items={profile.nature} />}
       {tile.id.endsWith('-culture') && <DetailList items={profile.culture} />}
-      {tile.kind === 'hotel-reserve' && <HotelReserve profile={profile} selectedLength={selectedLength} selectedVariant={selectedVariant} />}
+      {tile.kind === 'hotel-reserve' && (
+        <BookingGrid
+          bookings={bookings}
+          destination={profile.key}
+          selectedLength={selectedLength}
+          selectedVariant={selectedVariant}
+        />
+      )}
     </Tile>
   );
 }
@@ -301,7 +350,7 @@ function HeroSummary() {
         <span>5 destynacji</span>
         <span>3 długości pobytu</span>
         <span>17 wariantów CSV</span>
-        <span>510 przyszłych kart hotelowych</span>
+        <span>170 hoteli · 510 pobytów</span>
       </div>
     </div>
   );
@@ -428,7 +477,7 @@ function ConflictTile() {
       <div>
         <h3>Rozbieżności zachowane</h3>
         <p>Stawki auta różnią się między dashboardami, więc pokazujemy oba kalkulatory zamiast ukrywać konflikt.</p>
-        <p>Hotele i loty nie są jeszcze reaktywne; ich miejsce jest celowo zarezerwowane na dole destynacji.</p>
+        <p>Hotele reagują na długość pobytu i wariant z dolnego toolbara; loty pozostają osobnym etapem danych.</p>
       </div>
     </div>
   );
@@ -501,34 +550,5 @@ function DetailList({ items }: { items: string[] }) {
         <li key={item}>{item}</li>
       ))}
     </ul>
-  );
-}
-
-function HotelReserve({
-  profile,
-  selectedLength,
-  selectedVariant
-}: {
-  profile: (typeof DESTINATION_PROFILES)[DestinationKey];
-  selectedLength: string;
-  selectedVariant: string;
-}) {
-  return (
-    <div className="hotel-reserve">
-      <div>
-        <h3>Przyszłe tile hoteli</h3>
-        <p>
-          Rezerwujemy tu dolną strefę canvasu dla kart hoteli reagujących na długość pobytu i wariant.
-          Aktualny kontekst zostanie przekazany później: <b>{profile.displayName}</b>, <b>{selectedLength} dni</b>,{' '}
-          <b>{selectedVariant}</b>.
-        </p>
-      </div>
-      <div className="reserve-grid" aria-hidden="true">
-        <span />
-        <span />
-        <span />
-        <span />
-      </div>
-    </div>
   );
 }

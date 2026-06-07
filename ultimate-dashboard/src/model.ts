@@ -430,7 +430,7 @@ export const REJECTED_ALTERNATIVES = [
 ];
 
 export const CHECKLIST = [
-  'Pralka i hotelowe detale będą wiązane później; w v1 pilnować tylko długości i wariantu z CSV.',
+  'Karty hoteli korzystają z długości pobytu i wariantu z toolbara; cena pochodzi z booking.stays.',
   'Przy aucie sprawdzić depozyt, udział własny, politykę paliwową i wymóg karty kredytowej.',
   'Przy żółwiach respektować strefy ochronne i nie zakładać gwarancji obserwacji.',
   'Albania: nie przeciążać pierwszego i ostatniego dnia przez transfer Tirana-Saranda.',
@@ -475,7 +475,7 @@ function destinationTiles(view: ViewId): TileLayout[] {
     { id: `${view}-turtles`, kind: 'destination', title: 'Żółwie', col: 5, row: 4, colSpan: 2, rowSpan: 2 },
     { id: `${view}-nature`, kind: 'destination', title: 'Natura', col: 1, row: 6, colSpan: 3, rowSpan: 2 },
     { id: `${view}-culture`, kind: 'destination', title: 'Kultura', col: 4, row: 6, colSpan: 3, rowSpan: 2 },
-    { id: `${view}-hotel-reserve`, kind: 'hotel-reserve', title: 'Miejsce na przyszłe hotele', col: 1, row: 8, colSpan: 3, rowSpan: 3 }
+    { id: `${view}-hotel-reserve`, kind: 'hotel-reserve', title: 'Hotele Booking.com', col: 1, row: 8, colSpan: 3, rowSpan: 3 }
   ];
 }
 
