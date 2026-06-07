@@ -4,13 +4,13 @@
 color-scheme: dark;
 
 /* Twilight Dusk Slate: Ciemny, elegancki grafit z zachowaniem głębi */
---bg-base: #14161d;
---bg-deep: #0b0c10;
+--bg-base: #1a1d25;
+--bg-deep: #11131a;
 
 /* LiquidGlass: Wyraźnie oszlifowane mleczne szkło ze zwiększonym rozmyciem */
---panel: rgba(255, 255, 255, 0.09);
---panel-strong: rgba(255, 255, 255, 0.18);
---panel-soft: rgba(255, 255, 255, 0.05);
+--panel: rgba(255, 255, 255, 0.12);
+--panel-strong: rgba(255, 255, 255, 0.21);
+--panel-soft: rgba(255, 255, 255, 0.07);
 
 /* Wyraziste, trójwymiarowe krawędzie z jasnym refleksem świetlnym */
 --line: rgba(255, 255, 255, 0.35);
@@ -47,7 +47,7 @@ margin: 0;
 min-width: 320px;
 min-height: 100vh;
 overflow-x: hidden;
-background: linear-gradient(180deg, #14161d 0%, #0b0c10 100%);
+background: linear-gradient(180deg, #1a1d25 0%, #11131a 100%);
 }
 
 body::before {
@@ -59,13 +59,13 @@ pointer-events: none;
 /* Kinowa, głęboka aura horyzontu (bez kiczowatego różu) */
 background:
 radial-gradient(circle at 50% 110%, rgba(224, 100, 30, 0.16), transparent 50%),
-radial-gradient(circle at 12% 15%, rgba(30, 41, 59, 0.7), transparent 45%),
+radial-gradient(circle at 12% 15%, rgba(44, 56, 76, 0.74), transparent 45%),
 
 radial-gradient(circle at 88% 30%, rgba(79, 70, 229, 0.14), transparent 45%),
 
 radial-gradient(circle at 35% 75%, rgba(194, 120, 3, 0.09), transparent 40%),
 
-linear-gradient(180deg, #12141a 0%, #1a1c24 60%, #0b0c10 100%);
+linear-gradient(180deg, #181b23 0%, #222531 60%, #11131a 100%);
 filter: saturate(115%) contrast(102%);
 transform: scale(1.05);
 animation: sunsetSkyMovement 26s ease-in-out infinite alternate;
@@ -134,7 +134,7 @@ justify-content: space-between;
 gap: 22px;
 padding: 16px 28px;
 border-bottom: 1px solid rgba(255, 255, 255, 0.22);
-background: rgba(20, 22, 29, 0.5);
+background: rgba(28, 31, 40, 0.58);
 backdrop-filter: blur(28px) saturate(140%);
 box-shadow:
 0 12px 40px rgba(0, 0, 0, 0.35),
@@ -197,13 +197,13 @@ gap: 8px;
 /* Pillsy w pełni zaokrąglone zgodnie z mockupem image_593a92.png */
 .tab {
 position: relative;
-min-height: 38px;
-border: 1px solid rgba(255, 255, 255, 0.25);
+min-height: 40px;
+border: 1px solid rgba(255, 255, 255, 0.28);
 border-radius: 9999px;
-padding: 8px 20px;
-background: rgba(255, 255, 255, 0.07);
+padding: 9px 22px;
+background: rgba(255, 255, 255, 0.09);
 color: #cbd5e1;
-font-size: 13px;
+font-size: 14px;
 font-weight: 600;
 backdrop-filter: blur(14px);
 box-shadow:
@@ -345,16 +345,16 @@ align-self: center;
 display: flex;
 align-items: center;
 gap: 6px;
-border: 1px solid rgba(255, 255, 255, 0.25);
+border: 1px solid rgba(255, 255, 255, 0.28);
 border-radius: 9999px; /* Zaokrąglona pigułka */
-padding: 8px 16px;
-background: rgba(255, 255, 255, 0.08);
+padding: 9px 18px;
+background: rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(12px);
 box-shadow:
 inset 0 1px 1px rgba(255, 255, 255, 0.35),
 0 4px 12px rgba(0, 0, 0, 0.15);
 color: #ffffff;
-font-size: 12px;
+font-size: 13px;
 font-weight: 700;
 }
 
@@ -404,7 +404,7 @@ border: 1px solid rgba(255, 255, 255, 0.35);
 border-radius: 24px;
 background:
 linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04) 40%, transparent 80%),
-rgba(20, 22, 29, 0.55);
+rgba(28, 31, 40, 0.6);
 backdrop-filter: blur(35px) saturate(180%);
 
 /* Górna szklana faza błyszcząca krawędziowo */
@@ -465,7 +465,7 @@ position: relative;
 z-index: 2;
 margin: -4px 0 14px;
 color: #ffffff;
-font-size: 11px;
+font-size: 12px;
 font-weight: 800;
 text-transform: uppercase;
 letter-spacing: 0.05em;
@@ -486,7 +486,7 @@ color: #ffffff;
 .destination-head p,
 .hotel-reserve p {
 color: #cbd5e1;
-font-size: 15px;
+font-size: 16px;
 line-height: 1.6;
 }
 
@@ -507,11 +507,11 @@ gap: 8px;
 position: relative;
 border: 1px solid rgba(255, 255, 255, 0.22);
 border-radius: 9999px;
-padding: 8px 16px;
-background: rgba(255, 255, 255, 0.06);
+padding: 10px 18px;
+background: rgba(255, 255, 255, 0.08);
 backdrop-filter: blur(8px);
 color: #ffffff;
-font-size: 12px;
+font-size: 13px;
 font-weight: 700;
 box-shadow:
 inset 0 1px 1px rgba(255, 255, 255, 0.35),
@@ -542,7 +542,7 @@ align-items: center;
 
 .table-row b {
 color: #ea580c;
-font-size: 13px;
+font-size: 14px;
 display: flex;
 align-items: center;
 gap: 5px;
@@ -551,13 +551,13 @@ gap: 5px;
 .table-row strong {
 font-family: 'Syne', sans-serif;
 color: #ffffff;
-font-size: 16px;
+font-size: 17px;
 }
 
 .table-row p {
 margin-bottom: 0;
 color: #cbd5e1;
-font-size: 13px;
+font-size: 14px;
 line-height: 1.45;
 }
 
@@ -581,7 +581,7 @@ gap: 6px;
 display: flex;
 justify-content: space-between;
 color: #ffffff;
-font-size: 13px;
+font-size: 14px;
 font-weight: 700;
 }
 
@@ -644,13 +644,13 @@ justify-content: space-between;
 
 .match-card span {
 color: #ffffff;
-font-size: 13px;
+font-size: 14px;
 font-weight: 700;
 }
 
 .match-card b {
 font-family: 'Syne', sans-serif;
-font-size: 22px;
+font-size: 24px;
 color: var(--accent, #ea580c);
 }
 
@@ -663,13 +663,13 @@ align-items: center;
 
 .strategic-card > b {
 color: #ffffff;
-font-size: 14px;
+font-size: 15px;
 }
 
 .strategic-card > span {
 grid-column: 1;
 color: #cbd5e1;
-font-size: 12px;
+font-size: 13px;
 }
 
 .score-grid {
@@ -688,19 +688,19 @@ border-radius: 10px;
 border: 1px solid rgba(255, 255, 255, 0.15);
 background: rgba(255, 255, 255, 0.04);
 backdrop-filter: blur(4px);
-font-size: 11px;
+font-size: 12px;
 text-align: center;
 }
 
 .score-grid span {
 color: #cbd5e1;
-font-size: 10px;
+font-size: 11px;
 font-weight: 600;
 }
 
 .score-grid b {
 color: var(--accent, #ea580c);
-font-size: 13px;
+font-size: 14px;
 }
 
 .budget-list div {
@@ -712,14 +712,14 @@ align-items: center;
 
 .budget-list b {
 color: #ffffff;
-font-size: 13px;
+font-size: 14px;
 }
 
 .budget-list span {
 color: #cbd5e1;
-font-size: 12px;
+font-size: 13px;
 background: rgba(255, 255, 255, 0.08);
-padding: 4px 8px;
+padding: 5px 9px;
 border-radius: 9999px;
 border: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -731,7 +731,7 @@ margin: 0;
 padding-left: 18px;
 color: #ffffff;
 line-height: 1.5;
-font-size: 13px;
+font-size: 14px;
 }
 
 .checklist li::marker {
@@ -753,14 +753,14 @@ font-size: 20px;
 .conflicts p {
 margin-bottom: 8px;
 line-height: 1.55;
-font-size: 13px;
+font-size: 14px;
 }
 
 .region {
 color: var(--accent, #ea580c);
 font-weight: 800;
 text-transform: uppercase;
-font-size: 12px;
+font-size: 13px;
 letter-spacing: 0.05em;
 display: inline-flex;
 align-items: center;
@@ -774,7 +774,7 @@ margin: 0;
 padding-left: 18px;
 color: #ffffff;
 line-height: 1.5;
-font-size: 13px;
+font-size: 14px;
 }
 
 .detail-list li::marker {
@@ -791,7 +791,7 @@ display: grid;
 gap: 8px;
 padding: 14px 20px calc(14px + env(safe-area-inset-bottom));
 border-top: 1px solid rgba(255, 255, 255, 0.25);
-background: rgba(20, 22, 29, 0.6);
+background: rgba(28, 31, 40, 0.68);
 backdrop-filter: blur(32px) saturate(140%);
 box-shadow:
 0 -10px 30px rgba(0, 0, 0, 0.45),
