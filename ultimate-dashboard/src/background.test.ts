@@ -1,12 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { DESTINATION_TABS } from './model';
+import { CANVAS_VIEWS } from './model';
 import { choosePreferredBackgroundRenderer, getAtmosphereState } from './background';
 
 describe('dynamic atmosphere background', () => {
   it('moves the sun from left to right across the dashboard tabs', () => {
-    const states = DESTINATION_TABS.map((tab) => getAtmosphereState(tab.id));
+    const states = CANVAS_VIEWS.map((tab) => getAtmosphereState(tab.id));
 
-    expect(states.map((state) => state.progress)).toEqual([0, 0.2, 0.4, 0.6, 0.8, 1]);
+    expect(states.map((state) => state.progress)).toEqual([0, 0.1667, 0.3333, 0.5, 0.6667, 0.8333, 1]);
 
     for (let index = 1; index < states.length; index += 1) {
       expect(states[index].sunX).toBeGreaterThan(states[index - 1].sunX);

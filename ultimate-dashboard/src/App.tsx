@@ -4,6 +4,7 @@ import { BookingGrid } from './components/BookingGrid';
 import { BookingPriceRangesTile } from './components/BookingPriceRangesTile';
 import { FlightFavoritesMenu } from './components/FlightFavoritesMenu';
 import { FlightOptionsTile } from './components/FlightOptionsTile';
+import { HotelGlobeView } from './components/HotelGlobeView';
 import { ShaderBackground } from './components/ShaderBackground';
 import { getCompactLengthLabel, getCompactVariantLabel } from './controls';
 import { BookingJson, loadBookingsData } from './data/bookings';
@@ -22,6 +23,7 @@ import {
 } from './favorites';
 import {
   CHECKLIST,
+  CANVAS_VIEWS,
   DESTINATION_PROFILES,
   DESTINATION_TABS,
   DestinationKey,
@@ -107,6 +109,7 @@ export function App() {
   const viewportRef = useRef<HTMLElement | null>(null);
   const storedPreferences = useMemo(() => readDashboardPreferences(), []);
   const [activeView, setActiveView] = useState<ViewId>('summary');
+  const [globeDestination, setGlobeDestination] = useState<DestinationKey>('Albania');
   const [pageWidth, setPageWidth] = useState(0);
   const [bookings, setBookings] = useState<readonly BookingJson[]>([]);
   const [bookingsStatus, setBookingsStatus] = useState<'loading' | 'ready' | 'error'>('loading');
@@ -137,6 +140,8 @@ export function App() {
   const activeDestination = DESTINATION_TABS.find((tab) => tab.id === activeView)?.destination;
   const activeLength = activeDestination ? lengthByDestination[activeDestination] : '';
   const activeVariant = activeDestination ? variantByDestination[activeDestination] : '';
+  const globeLength = lengthByDestination[globeDestination];
+  const globeVariant = variantByDestination[globeDestination];
 
   useEffect(() => {
     const updatePageWidth = () => {
@@ -209,6 +214,11 @@ export function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const openGlobeForDestination = (destination: DestinationKey) => {
+    setGlobeDestination(destination);
+    jumpToView('globe');
+  };
+
   return (
     <div className="app-shell">
       <ShaderBackground activeView={activeView} />
@@ -241,7 +251,7 @@ export function App() {
             <span>{bookingsStatus === 'loading' ? 'Czytam ./data/bookings/bookings.json.gz.' : bookingsError}</span>
           </div>
         )}
-        <div className="canvas-stack" style={{ left: activeOffset }}>
+        <div className="canvas-stack" style={{ left: activeOffset, gridTemplateColumns: `repeat(${CANVAS_VIEWS.length}, 100%)` }}>
           <section id="view-summary" className="canvas-section summary-section" aria-labelledby="summary-title">
             <CanvasTitle
               id="summary-title"
@@ -348,6 +358,7 @@ export function App() {
                       selectedLength={selectedLength}
                       selectedVariant={selectedVariant}
                       favoriteIds={favoriteIds}
+                      onOpenGlobe={() => openGlobeForDestination(destination)}
                       onFavoriteToggle={(booking) =>
                         {
                           const favoriteKey = getBookingFavoriteKey(booking);
@@ -367,6 +378,25 @@ export function App() {
               </section>
             );
           })}
+          <section
+            id="view-globe"
+            className="canvas-section globe-section"
+            style={{ '--accent': DESTINATION_PROFILES[globeDestination].accent } as React.CSSProperties}
+            aria-labelledby="globe-title"
+          >
+            <CanvasTitle
+              id="globe-title"
+              title="Hotel Globe"
+              subtitle="WebGPU renderuje kulę ziemską, a pinezki używają współrzędnych hoteli z aktywnego wariantu Booking.com."
+            />
+            <HotelGlobeView
+              bookings={bookings}
+              destination={globeDestination}
+              selectedLength={globeLength}
+              selectedVariant={globeVariant}
+              onBackToHotels={() => jumpToView(DESTINATION_PROFILES[globeDestination].viewId)}
+            />
+          </section>
         </div>
       </main>
 
@@ -517,6 +547,7 @@ function DestinationTile({
   selectedVariant,
   bookings,
   favoriteIds,
+  onOpenGlobe,
   onFavoriteToggle
 }: {
   tile: TileLayout;
@@ -525,6 +556,7 @@ function DestinationTile({
   selectedVariant: string;
   bookings: readonly BookingJson[];
   favoriteIds: readonly string[];
+  onOpenGlobe: () => void;
   onFavoriteToggle: (booking: BookingJson) => void;
 }) {
   return (
@@ -545,6 +577,7 @@ function DestinationTile({
           selectedLength={selectedLength}
           selectedVariant={selectedVariant}
           favoriteIds={favoriteIds}
+          onOpenGlobe={onOpenGlobe}
           onFavoriteToggle={onFavoriteToggle}
         />
       )}

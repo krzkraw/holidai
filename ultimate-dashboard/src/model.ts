@@ -1,6 +1,6 @@
 export type DestinationKey = 'Albania' | 'Grecja' | 'Cypr' | 'Turcja' | 'Kreta';
 
-export type ViewId = 'summary' | 'albania' | 'grecja' | 'cypr' | 'turcja' | 'kreta';
+export type ViewId = 'summary' | 'albania' | 'grecja' | 'cypr' | 'turcja' | 'kreta' | 'globe';
 
 export type TileKind =
   | 'hero'
@@ -122,6 +122,11 @@ export const DESTINATION_TABS: DestinationTab[] = [
   { id: 'cypr', label: 'Cypr', destination: 'Cypr' },
   { id: 'turcja', label: 'Turcja', destination: 'Turcja' },
   { id: 'kreta', label: 'Kreta', destination: 'Kreta' }
+];
+
+export const CANVAS_VIEWS: DestinationTab[] = [
+  ...DESTINATION_TABS,
+  { id: 'globe', label: 'Mapa 3D' }
 ];
 
 export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = {
@@ -461,7 +466,8 @@ export const TILES_BY_VIEW: Record<ViewId, TileLayout[]> = {
   grecja: destinationTiles('grecja'),
   cypr: destinationTiles('cypr'),
   turcja: destinationTiles('turcja'),
-  kreta: destinationTiles('kreta')
+  kreta: destinationTiles('kreta'),
+  globe: []
 };
 
 function destinationTiles(view: ViewId): TileLayout[] {
@@ -480,7 +486,7 @@ function destinationTiles(view: ViewId): TileLayout[] {
 }
 
 export function getViewLayout(view: ViewId, pageWidth: number) {
-  const column = DESTINATION_TABS.findIndex((tab) => tab.id === view);
+  const column = CANVAS_VIEWS.findIndex((tab) => tab.id === view);
 
   if (column < 0) {
     throw new Error(`Unknown view: ${view}`);
@@ -550,7 +556,7 @@ export function validateTileLayouts() {
       }
     }
 
-    if (view !== 'summary' && !tiles.some((tile) => tile.kind === 'hotel-reserve')) {
+    if (view !== 'summary' && view !== 'globe' && !tiles.some((tile) => tile.kind === 'hotel-reserve')) {
       errors.push(`${view}: missing hotel reserve tile`);
     }
   }
