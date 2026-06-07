@@ -36,8 +36,8 @@ Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
   - **14 dni (16.09 - 30.09):** 3682 PLN
 
 - **Dokładna tabela pokoi:**
-|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |
+| --- | --- | --- | --- | --- |
 | Pokój dwuosobowy typu Economy z 1 lub 2 łóżkami <br> 1 duże łóżko podwójne  <br> 15 m² <br> Klimatyzacja <br> Łazienka w pokoju <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 3 682 zł <br> Cena 3 682 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (3 682 zł) |
 
 ## C) Opinie Gości
@@ -56,13 +56,9 @@ Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
 
 **Izabela**:
 > „Polecam polecam polecam!
-Ogromny plus za lokalizację-chwila od centrum Laganas. Do plaży 5min spacerkiem
-Właściciele to wspaniali ludzie,bardzo...”
 
 **Izabela**:
 > „Polecam polecam polecam!
-Ogromny plus za lokalizację-chwila od centrum Laganas. Do plaży 5min spacerkiem
-Właściciele to wspaniali ludzie,bardzo...”
 
 **Anna**:
 > „„Rodzinna atmosfera”. Prywatny hotel,który prowadzi rodzina,super widok z pokoju (chyba trafił sie nam najlepszy z widokiem na morze i dużym...”
@@ -79,16 +75,13 @@ Właściciele to wspaniali ludzie,bardzo...”
 **Nicola**:
 > „Bardzo polecam! Świetna lokalizacja oraz obsługa hotelowa.”
 
-
-
 ## D) Otoczenie obiektu
 Brak szczegółowych informacji o otoczeniu.
 
 ## E) Udogodnienia w obiekcie
 - **Weryfikacja pralki:** Brak pralki i usług prania.
 - **Wszystkie udogodnienia:**
-Odkryty basen, Bezpłatne Wi-Fi, Pokoje dla niepalących, Bezpłatny parking, Bar, Prywatna łazienka, Klimatyzacja, Parking, Prysznic, Prywatny parking, Bilard, Papier toaletowy, Ręczniki, Toaleta, Suszarka do włosów, Pościel, Lodówka, Gniazdko koło łóżka, Bilard
-Dodatkowa opłata, Monitoring w pomieszczeniach ogólnodostępnych, Sejf, Sezonowy, angielski
+Odkryty basen, Bezpłatne Wi-Fi, Pokoje dla niepalących, Bezpłatny parking, Bar, Prywatna łazienka, Klimatyzacja, Parking, Prysznic, Prywatny parking, Bilard, Papier toaletowy, Ręczniki, Toaleta, Suszarka do włosów, Pościel, Lodówka, Gniazdko koło łóżka, Bilard, Dodatkowa opłata, Monitoring w pomieszczeniach ogólnodostępnych, Sejf, Sezonowy, angielski
 
 ## F) Zasady pobytu i Ważne Informacje
 - **Zasady pobytu (House Rules):**

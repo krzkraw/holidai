@@ -73,8 +73,8 @@ test('exports a markdown directory tree to a mirrored JSON tree', async () => {
 test('exports blocked pages with empty enrichments and blocked metadata intact', async () => {
   const tempDir = join('/tmp', `booking-model-${crypto.randomUUID()}`);
   const converter = new PropertyPageConverter();
-  const inputMarkdownPath = '/Users/krz/Dev/holidai/scrape/ALBANIA/booking_matrix_albania_MD/Albania-Ideal ApartHotel Saranda.md';
-  const outputJsonPath = join(tempDir, 'Albania-Ideal ApartHotel Saranda.json');
+  const inputMarkdownPath = '/Users/krz/Dev/holidai/scrape/kreta/booking_matrix_kreta_MD/Kreta-Jason Hotel Apartments.md';
+  const outputJsonPath = join(tempDir, 'Kreta-Jason Hotel Apartments.json');
 
   await mkdir(tempDir, { recursive: true });
 

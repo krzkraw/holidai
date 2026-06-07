@@ -43,9 +43,11 @@ test('parses a partial Booking markdown dump without overfitting missing section
 });
 
 test('parses a blocked Booking markdown dump as blocked capture metadata', async () => {
-  const page = parsePropertyPageMarkdown(await readSample('/Users/krz/Dev/holidai/scrape/ALBANIA/booking_matrix_albania_MD/Albania-Ideal ApartHotel Saranda.md'));
+  const page = parsePropertyPageMarkdown(
+    await readSample('/Users/krz/Dev/holidai/scrape/kreta/booking_matrix_kreta_MD/Kreta-Jason Hotel Apartments.md'),
+  );
 
-  expect(page.propertyName).toBe('Ideal ApartHotel Saranda');
+  expect(page.propertyName).toBe('Jason Hotel Apartments');
   expect(page.captureQuality).toBe('blocked');
   expect(page.issues).toContain('Blocked or CAPTCHA page');
   expect(page.review.score).toBeNull();
