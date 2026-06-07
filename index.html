@@ -13,6 +13,7 @@
       --line: #d9ccbb;
       --accent-openai: #0f766e;
       --accent-gemini: #b45309;
+      --accent-ultimate: #2563eb;
       --link: #1d4ed8;
     }
 
@@ -85,6 +86,10 @@
       background: var(--accent-gemini);
     }
 
+    .label-ultimate {
+      background: var(--accent-ultimate);
+    }
+
     h2 {
       margin: 0 0 10px;
       font-size: 1.35rem;
@@ -119,10 +124,18 @@
   <main>
     <h1>Holidai Reports</h1>
     <p class="intro">
-      This site publishes four generated HTML reports from the repository. The OpenAI reports live under
-      <code>gpt/</code> and the Gemini reports live under <code>gemini/</code>.
+      This site publishes generated HTML reports from the repository plus the new React holiday canvas
+      dashboard under <code>ultimate/</code>.
     </p>
     <div class="grid">
+      <section class="card">
+        <span class="label label-ultimate">Ultimate Canvas</span>
+        <h2>Interactive dashboard</h2>
+        <p>React/Rsbuild canvas dashboard combining the previous report content with interactive selection widgets.</p>
+        <ul>
+          <li><a href="ultimate/">ultimate/</a></li>
+        </ul>
+      </section>
       <section class="card">
         <span class="label label-openai">OpenAI</span>
         <h2>Reports from <code>gpt/</code></h2>

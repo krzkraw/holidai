@@ -25,17 +25,33 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ultimate-dashboard/package-lock.json
+
+      - name: Build ultimate dashboard
+        working-directory: ultimate-dashboard
+        env:
+          GITHUB_PAGES: 'true'
+        run: |
+          npm ci
+          npm run build
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Build site artifact
         run: |
-          mkdir -p site/gpt site/gemini
+          mkdir -p site/gpt site/gemini site/ultimate
           cp index.html site/index.html
           cp gpt/ultimate-desktop.html site/gpt/ultimate-desktop.html
           cp gpt/ultimate-mobile.html site/gpt/ultimate-mobile.html
           cp gemini/2026-holidai-v1.html site/gemini/2026-holidai-v1.html
           cp gemini/2026-holidai-v2.html site/gemini/2026-holidai-v2.html
+          cp -R ultimate-dashboard/dist/* site/ultimate/
           touch site/.nojekyll
 
       - name: Upload Pages artifact

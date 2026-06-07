@@ -338,8 +338,8 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
 - `README.md` - root workspace overview, setup, project map, and important commands.
 - `AGENTS.md` - root operating contract.
 - `.gitmodules` - submodule configuration for `booking-scraper-flow/`.
-- `.github/workflows/deploy-pages.yml` - GitHub Pages deployment workflow for the root landing page plus the four published reports.
-- `index.html` - GitHub Pages landing page linking to the published OpenAI and Gemini reports.
+- `.github/workflows/deploy-pages.yml` - GitHub Pages deployment workflow for the root landing page, Ultimate Canvas dashboard, and published reports.
+- `index.html` - GitHub Pages landing page linking to the published OpenAI, Gemini, and Ultimate Canvas reports.
 - `booking-scraper-flow/AGENTS.md` - nested contract for the Booking.com scraping flow.
 - `booking-scraper-flow/README.md` - scraper workflow setup and usage.
 - `booking-scraper-flow/SKILL.md` - skill package metadata and execution workflow.
@@ -349,6 +349,7 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
   - `booking-model/src/infrastructure/property-page-repository.ts` - loader that maps `pageContent` markdown paths to committed page JSON files.
   - `booking-model/test/property-page-repository.test.ts` - repository mapping and error-handling coverage.
 - `chrome-scrape-control/` - Reusable in-tab Chrome debugging and scraping automation skill package.
+- `ultimate-dashboard/` - React/Rsbuild static dashboard published under `ultimate/` by the root GitHub Pages workflow.
 - `skyscanner/` - DDD-style Skyscanner flight matrix model and CSV roundtrip tooling.
 - `gpt/AGENTS.md` - regeneration guide for the final vacation reports.
 - `gpt/README.md` - historical report timeline and handoff notes.
@@ -375,7 +376,7 @@ Before editing, identify whether a file is source, generated output, dependency 
 Project-specific boundaries:
 
 - The root workspace is a public GitHub repository at `https://github.com/krzkraw/holidai.git` on branch `main`.
-- GitHub Pages for the root repository is deployed by a GitHub Actions workflow and publishes `index.html`, `gpt/ultimate-desktop.html`, `gpt/ultimate-mobile.html`, `gemini/2026-holidai-v1.html`, and `gemini/2026-holidai-v2.html`.
+- GitHub Pages for the root repository is deployed by a GitHub Actions workflow and publishes `index.html`, `ultimate/`, `gpt/ultimate-desktop.html`, `gpt/ultimate-mobile.html`, `gemini/2026-holidai-v1.html`, and `gemini/2026-holidai-v2.html`.
 - `booking-scraper-flow/` is a private Git submodule at `https://github.com/krzkraw/booking-scraper-flow.git` with its own `AGENTS.md`; follow it when working there.
 - Commit and push root changes in the root repository. Commit and push nested scraper changes inside `booking-scraper-flow/` first, then update and commit the root submodule pointer.
 - Treat `booking-scraper-flow/examples/booking/` as reference/example data unless the user asks to regenerate examples.
@@ -390,8 +391,11 @@ Project-specific commands should be discovered during bootstrap and kept current
 ```bash
 # Build:
 # No root build system was found. Static HTML reports can be opened directly.
+cd ultimate-dashboard && npm run build
 
 # Test:
+cd ultimate-dashboard && npm test
+cd ultimate-dashboard && npm run typecheck
 bun test booking-model/test/roundtrip.test.ts
 bun test booking-model/test/property-page-repository.test.ts
 bun test skyscanner/test/roundtrip.test.ts
@@ -411,7 +415,7 @@ python3 booking-scraper-flow/scripts/consolidate.py <path-to-booking-directory>
 bun run skyscanner/src/cli.ts roundtrip <path-to-skyscanner-csv>
 
 # Static report smoke test:
-# Open index.html, gpt/ultimate-desktop.html, gpt/ultimate-mobile.html, and relevant gemini/*.html in a browser.
+# Open index.html, ultimate/, gpt/ultimate-desktop.html, gpt/ultimate-mobile.html, and relevant gemini/*.html in a browser.
 ```
 
 ## Project Map
@@ -447,6 +451,12 @@ Update this section during bootstrap and later discovery.
 |-- chrome-scrape-control/
 |   |-- SKILL.md               # documentation of the CDP browser control skill
 |   `-- cdp_helper.js          # native Node.js CDP WebSocket controller
+|-- ultimate-dashboard/
+|   |-- package.json
+|   |-- package-lock.json
+|   |-- rsbuild.config.ts
+|   |-- tsconfig.json
+|   `-- src/
 |-- skyscanner/
 |   |-- AGENTS.md
 |   |-- README.md

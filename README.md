@@ -5,12 +5,14 @@ This workspace collects vacation-planning artifacts for a September 2026 Mediter
 ## Stack
 
 - Static HTML reports in `gpt/` and `gemini/`.
+- React/Rsbuild dashboard in `ultimate-dashboard/`, published to GitHub Pages at `ultimate/`.
 - Markdown and CSV source material in `gpt/sources/`.
 - TypeScript roundtrip tooling in `booking-model/` and `skyscanner/`.
 - Python 3 scripts in the private `booking-scraper-flow` Git submodule.
 - `agent-browser` CLI for live Booking.com scraping.
 
 No root package manifest, dependency lockfile, build system, test runner, or linter configuration was found.
+The `ultimate-dashboard/` package has its own npm lockfile and build/test commands.
 
 ## Setup
 
@@ -27,6 +29,13 @@ git submodule update --init --recursive
 ```
 
 For static report review, no setup is required. Open the HTML files directly in a browser.
+For the React canvas dashboard:
+
+```bash
+cd ultimate-dashboard
+npm ci
+npm run dev
+```
 
 Published Pages entry point:
 
@@ -47,6 +56,9 @@ Syntax-check the Python scripts without writing cache files into the workspace:
 
 ```bash
 PYTHONPYCACHEPREFIX=/tmp/holidai-pycache python3 -m py_compile booking-scraper-flow/scripts/scrape_booking.py booking-scraper-flow/scripts/consolidate.py
+cd ultimate-dashboard && npm test
+cd ultimate-dashboard && npm run typecheck
+cd ultimate-dashboard && npm run build
 bun test booking-model/test/roundtrip.test.ts
 bun test skyscanner/test/roundtrip.test.ts
 bun run skyscanner/src/cli.ts roundtrip <path-to-skyscanner-csv>
@@ -68,6 +80,7 @@ Review final report artifacts:
 
 ```text
 index.html
+ultimate/
 gpt/ultimate-desktop.html
 gpt/ultimate-mobile.html
 gemini/2026-holidai-v1.html
@@ -97,6 +110,12 @@ gemini/2026-holidai-v2.html
 |-- chrome-scrape-control/
 |   |-- SKILL.md
 |   `-- cdp_helper.js
+|-- ultimate-dashboard/
+|   |-- package.json
+|   |-- package-lock.json
+|   |-- rsbuild.config.ts
+|   |-- tsconfig.json
+|   `-- src/
 |-- skyscanner/
 |   |-- AGENTS.md
 |   |-- README.md
