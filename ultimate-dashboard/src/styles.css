@@ -1124,6 +1124,57 @@ background: color-mix(in srgb, var(--accent, #ea580c) 18%, transparent);
 color: #ffffff;
 }
 
+.flight-options-card {
+margin-bottom: 22px;
+}
+
+.flight-options-header {
+align-items: center;
+}
+
+.flight-options-toggle {
+justify-content: flex-start;
+}
+
+.flight-options-toggle button {
+min-height: 38px;
+padding: 8px 14px;
+}
+
+.flight-options-table {
+min-width: 760px;
+}
+
+.flight-options-date-cell {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.flight-options-table small {
+display: inline-flex;
+align-items: center;
+min-height: 22px;
+padding: 3px 7px;
+border: 1px solid color-mix(in srgb, var(--accent, #ea580c) 36%, rgba(255, 255, 255, 0.18));
+border-radius: 999px;
+background: color-mix(in srgb, var(--accent, #ea580c) 16%, rgba(255, 255, 255, 0.06));
+color: #ffffff;
+font-size: 10px;
+font-weight: 850;
+line-height: 1;
+}
+
+.flight-options-row--active th,
+.flight-options-row--active td {
+background: color-mix(in srgb, var(--accent, #ea580c) 20%, rgba(255, 255, 255, 0.035));
+color: #ffffff;
+}
+
+.flight-options-row--active th:first-child {
+box-shadow: inset 3px 0 0 var(--accent, #ea580c);
+}
+
 .booking-favorites-menu {
 position: relative;
 display: inline-flex;
@@ -2337,6 +2388,7 @@ h1 { font-size: 18px; }
 .booking-price-ranges-card { padding: 14px; border-radius: 16px; }
 .booking-price-ranges-header h3 { font-size: 18px; }
 .booking-price-ranges-table { min-width: 520px; }
+.flight-options-table { min-width: 650px; }
 .booking-favorites-popover {
 left: 50%;
 width: min(360px, calc(100vw - 28px));

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { BookingFavoritesMenu } from './components/BookingFavoritesMenu';
 import { BookingGrid } from './components/BookingGrid';
 import { BookingPriceRangesTile } from './components/BookingPriceRangesTile';
+import { FlightOptionsTile } from './components/FlightOptionsTile';
 import { ShaderBackground } from './components/ShaderBackground';
 import { getCompactLengthLabel, getCompactVariantLabel } from './controls';
 import { BookingJson, loadBookingsData } from './data/bookings';
@@ -241,6 +242,7 @@ export function App() {
                   selectedLength={selectedLength}
                   selectedVariant={selectedVariant}
                 />
+                <FlightOptionsTile destination={destination} selectedLength={selectedLength} />
                 <div className="canvas-plane destination-plane">
                   {TILES_BY_VIEW[tab.id].map((tile) => (
                     <DestinationTile
