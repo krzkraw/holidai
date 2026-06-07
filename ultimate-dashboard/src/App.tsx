@@ -56,6 +56,18 @@ const initialLengthByDestination: Record<DestinationKey, string> = {
   Kreta: '14'
 };
 
+const CANVAS_TRANSITION_MS = 640;
+const CANVAS_VIEW_RETENTION_BUFFER_MS = 80;
+const CANVAS_VIEW_RETENTION_MS = CANVAS_TRANSITION_MS + CANVAS_VIEW_RETENTION_BUFFER_MS;
+
+export function shouldRenderViewContent(
+  activeView: ViewId,
+  previousView: ViewId | null | undefined,
+  viewId: ViewId,
+): boolean {
+  return viewId === activeView || viewId === previousView;
+}
+
 function createInitialVariantByDestination(): Record<DestinationKey, string> {
   return Object.fromEntries(HOTEL_MATRIX_GROUPS.map((group) => [group.destination, group.variants[0]])) as Record<DestinationKey, string>;
 }
@@ -107,6 +119,7 @@ export function App() {
   const viewportRef = useRef<HTMLElement | null>(null);
   const storedPreferences = useMemo(() => readDashboardPreferences(), []);
   const [activeView, setActiveView] = useState<ViewId>('summary');
+  const [previousView, setPreviousView] = useState<ViewId | null>(null);
   const [pageWidth, setPageWidth] = useState(0);
   const [bookings, setBookings] = useState<readonly BookingJson[]>([]);
   const [bookingsStatus, setBookingsStatus] = useState<'loading' | 'ready' | 'error'>('loading');
@@ -134,9 +147,11 @@ export function App() {
   const matches = useMemo(() => calculateMatches(weights), [weights]);
   const activeColumn = getViewLayout(activeView, 1).column;
   const activeOffset = pageWidth > 0 ? `${activeColumn * -pageWidth}px` : `${activeColumn * -100}vw`;
+  const canvasStackStyle = { '--active-offset': activeOffset } as React.CSSProperties;
   const activeDestination = DESTINATION_TABS.find((tab) => tab.id === activeView)?.destination;
   const activeLength = activeDestination ? lengthByDestination[activeDestination] : '';
   const activeVariant = activeDestination ? variantByDestination[activeDestination] : '';
+  const renderSummaryContent = shouldRenderViewContent(activeView, previousView, 'summary');
 
   useEffect(() => {
     const updatePageWidth = () => {
@@ -204,7 +219,25 @@ export function App() {
     variantByDestination,
   ]);
 
+  useEffect(() => {
+    if (!previousView) {
+      return undefined;
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      setPreviousView((currentPreviousView) => (currentPreviousView === previousView ? null : currentPreviousView));
+    }, CANVAS_VIEW_RETENTION_MS);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [previousView]);
+
   const jumpToView = (view: ViewId) => {
+    if (view !== activeView) {
+      setPreviousView(activeView);
+    }
+
     setActiveView(view);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -241,23 +274,46 @@ export function App() {
             <span>{bookingsStatus === 'loading' ? 'Czytam ./data/bookings/bookings.json.gz.' : bookingsError}</span>
           </div>
         )}
-        <div className="canvas-stack" style={{ left: activeOffset }}>
-          <section id="view-summary" className="canvas-section summary-section" aria-labelledby="summary-title">
-            <CanvasTitle
-              id="summary-title"
-              title="Summary"
-              subtitle="Scalony widok decyzji: raportowa kompletność ultimate-desktop plus interaktywne widgety z Gemini v2."
-            />
-            <div className="canvas-plane summary-plane">
-              {TILES_BY_VIEW.summary.map((tile) => (
-                <SummaryTile key={tile.id} tile={tile} weights={weights} setWeights={setWeights} matches={matches} />
-              ))}
-            </div>
+        <div className="canvas-stack" style={canvasStackStyle}>
+          <section
+            id="view-summary"
+            className="canvas-section summary-section"
+            aria-labelledby={renderSummaryContent ? 'summary-title' : undefined}
+            aria-hidden={renderSummaryContent ? undefined : true}
+          >
+            {renderSummaryContent && (
+              <>
+                <CanvasTitle
+                  id="summary-title"
+                  title="Summary"
+                  subtitle="Scalony widok decyzji: raportowa kompletność ultimate-desktop plus interaktywne widgety z Gemini v2."
+                />
+                <div className="canvas-plane summary-plane">
+                  {TILES_BY_VIEW.summary.map((tile) => (
+                    <SummaryTile key={tile.id} tile={tile} weights={weights} setWeights={setWeights} matches={matches} />
+                  ))}
+                </div>
+              </>
+            )}
           </section>
 
           {DESTINATION_TABS.filter((tab) => tab.destination).map((tab) => {
             const destination = tab.destination as DestinationKey;
             const profile = DESTINATION_PROFILES[destination];
+            const renderViewContent = shouldRenderViewContent(activeView, previousView, tab.id);
+
+            if (!renderViewContent) {
+              return (
+                <section
+                  id={`view-${tab.id}`}
+                  key={tab.id}
+                  className="canvas-section"
+                  style={{ '--accent': profile.accent } as React.CSSProperties}
+                  aria-hidden="true"
+                />
+              );
+            }
+
             const controls = getDestinationControls(destination);
             const selectedLength = lengthByDestination[destination];
             const selectedVariant = variantByDestination[destination];

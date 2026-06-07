@@ -11,6 +11,19 @@ function ruleFor(selector: string): string {
   return match?.groups?.body ?? '';
 }
 
+function ruleContainingSelector(selector: string, bodyNeedle: string): string {
+  for (const match of styles.matchAll(/(?<selectors>[^{}]+)\{(?<body>[^{}]*)\}/g)) {
+    const selectors = match.groups?.selectors.split(',').map((item) => item.trim()) ?? [];
+    const body = match.groups?.body ?? '';
+
+    if (selectors.includes(selector) && body.includes(bodyNeedle)) {
+      return body;
+    }
+  }
+
+  return '';
+}
+
 describe('bottom toolbar visual treatment', () => {
   it('keeps the compact toolbar itself transparent', () => {
     const compactToolbar = ruleFor('.controls-card--compact');
@@ -71,5 +84,14 @@ describe('bottom toolbar visual treatment', () => {
     expect(styles).toContain('--bottom-toolbar-clearance');
     expect(styles).toContain('padding-bottom: var(--bottom-toolbar-clearance)');
     expect(styles).toContain('0 10px 26px rgba(0, 0, 0, 0.32)');
+  });
+
+  it('keeps shared liquid-glass transitions and backdrop effects without permanent transform will-change', () => {
+    const sharedPillRule = ruleContainingSelector('.variant-pills button', 'transform 220ms ease');
+
+    expect(sharedPillRule).toContain('transition:');
+    expect(sharedPillRule).toContain('transform 220ms ease');
+    expect(ruleFor('.tab')).toContain('backdrop-filter: blur(14px)');
+    expect(sharedPillRule).not.toMatch(/will-change\s*:\s*transform/);
   });
 });

@@ -1,13 +1,15 @@
-import { describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 
 import bookingsFixture from '../../data/bookings/bookings.json';
 import {
   BookingJson,
+  COMPRESSED_BOOKINGS_URL,
   formatPriceRange,
   formatStayPrice,
   getBookingsForDestination,
   getPriceRangeForDestination,
   getStayForDays,
+  loadBookingsData,
   parseBookingsResponse,
   renderRoomCellLines,
   validateBookingsData,
@@ -78,6 +80,10 @@ function minimalBooking(overrides: Record<string, unknown> = {}): BookingJson {
 }
 
 describe('bookings data loader', () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
   it('decompresses gzip booking JSON responses', async () => {
     const bookings = [minimalBooking()];
     const response = new Response(await gzipJson(bookings));
@@ -85,11 +91,33 @@ describe('bookings data loader', () => {
     await expect(parseBookingsResponse(response, 'gzip')).resolves.toEqual(bookings);
   });
 
-  it('falls back to plain JSON responses', async () => {
+  it('parses plain JSON responses for direct callers', async () => {
     const bookings = [minimalBooking({ destination: 'Cypr' })];
     const response = new Response(JSON.stringify(bookings));
 
     await expect(parseBookingsResponse(response, 'json')).resolves.toEqual(bookings);
+  });
+
+  it('rejects compressed load failures without requesting the plain JSON fallback', async () => {
+    const fetchMock = vi.spyOn(globalThis, 'fetch').mockImplementation(async (input: RequestInfo | URL) => {
+      if (String(input) === COMPRESSED_BOOKINGS_URL) {
+        return new Response('', { status: 503, statusText: 'Service Unavailable' });
+      }
+
+      return new Response('[]', { status: 200 });
+    });
+
+    let caught: unknown;
+
+    try {
+      await loadBookingsData();
+    } catch (error) {
+      caught = error;
+    }
+
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetchMock.mock.calls.map(([url]) => String(url))).toEqual([COMPRESSED_BOOKINGS_URL]);
+    expect(caught).toBeInstanceOf(Error);
   });
 
   it('does not double-decompress responses already decoded by the browser', async () => {

@@ -258,12 +258,12 @@ display: grid;
 grid-template-columns: repeat(6, 100%);
 align-items: start;
 position: relative;
-left: 0;
 width: 100%;
 min-height: calc(100vh - 85px);
 padding-bottom: var(--bottom-toolbar-clearance);
-transition: left 640ms cubic-bezier(0.22, 1, 0.36, 1);
-will-change: left;
+transform: translate3d(var(--active-offset), 0, 0);
+transition: transform 640ms cubic-bezier(0.22, 1, 0.36, 1);
+will-change: transform;
 }
 
 .canvas-section {
@@ -2369,7 +2369,6 @@ box-shadow 220ms ease,
 color 220ms ease,
 filter 220ms ease,
 transform 220ms ease;
-will-change: transform;
 }
 
 .destination-costs span:hover,

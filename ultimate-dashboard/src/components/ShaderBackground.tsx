@@ -3,7 +3,8 @@ import {
   BackgroundRendererMode,
   choosePreferredBackgroundRenderer,
   getAtmosphereState,
-  normalizeScrollDepth
+  normalizeScrollDepth,
+  shouldRunContinuousBackgroundLoop
 } from '../background';
 import { ViewId } from '../model';
 
@@ -17,7 +18,9 @@ type ShaderBackgroundProps = {
 
 type CanvasRenderer = {
   mode: Exclude<BackgroundRendererMode, 'static'>;
-  start: () => void;
+  renderOnce: () => void;
+  pause: () => void;
+  resume: () => void;
   destroy: () => void;
 };
 
@@ -232,18 +235,59 @@ void main() {
 
 export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const rendererRef = useRef<CanvasRenderer | null>(null);
   const progressRef = useRef(getAtmosphereState(activeView).progress);
   const scrollDepthRef = useRef(0);
+  const prefersReducedMotionRef = useRef(false);
   const [mode, setMode] = useState<BackgroundRendererMode>('static');
   const targetProgress = useMemo(() => getAtmosphereState(activeView).progress, [activeView]);
 
+  const applyRendererPolicy = (renderer = rendererRef.current) => {
+    if (!renderer) {
+      return;
+    }
+
+    if (
+      shouldRunContinuousBackgroundLoop({
+        visibilityState: document.visibilityState,
+        prefersReducedMotion: prefersReducedMotionRef.current,
+      })
+    ) {
+      renderer.resume();
+      return;
+    }
+
+    renderer.pause();
+
+    if (document.visibilityState === 'visible') {
+      renderer.renderOnce();
+    }
+  };
+
+  const renderOnceWhenLoopIsPaused = () => {
+    const renderer = rendererRef.current;
+
+    if (
+      renderer &&
+      document.visibilityState === 'visible' &&
+      !shouldRunContinuousBackgroundLoop({
+        visibilityState: document.visibilityState,
+        prefersReducedMotion: prefersReducedMotionRef.current,
+      })
+    ) {
+      renderer.renderOnce();
+    }
+  };
+
   useEffect(() => {
     progressRef.current = targetProgress;
+    renderOnceWhenLoopIsPaused();
   }, [targetProgress]);
 
   useEffect(() => {
     const updateScrollDepth = () => {
       scrollDepthRef.current = getWindowScrollDepth();
+      renderOnceWhenLoopIsPaused();
     };
 
     updateScrollDepth();
@@ -260,6 +304,20 @@ export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
   useEffect(() => {
     let disposed = false;
     let renderer: CanvasRenderer | null = null;
+    const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    prefersReducedMotionRef.current = motionQuery.matches;
+
+    const handleVisibilityChange = () => {
+      applyRendererPolicy();
+    };
+
+    const handleMotionChange = (event: MediaQueryListEvent) => {
+      prefersReducedMotionRef.current = event.matches;
+      applyRendererPolicy();
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    motionQuery.addEventListener('change', handleMotionChange);
 
     const initialize = async () => {
       const canvas = canvasRef.current;
@@ -276,7 +334,8 @@ export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
       }
 
       if (renderer) {
-        renderer.start();
+        rendererRef.current = renderer;
+        applyRendererPolicy(renderer);
         setMode(renderer.mode);
       } else {
         setMode('static');
@@ -287,6 +346,9 @@ export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
 
     return () => {
       disposed = true;
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      motionQuery.removeEventListener('change', handleMotionChange);
+      rendererRef.current = null;
       renderer?.destroy();
     };
   }, []);
@@ -485,25 +547,52 @@ function createAnimationLoop(
   let currentProgress = getTargetProgress();
   let currentScrollDepth = getTargetScrollDepth();
   const startTime = performance.now();
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  const tick = (now: number) => {
+  const renderFrame = (now: number, animated: boolean) => {
     const targetProgress = getTargetProgress();
     const targetScrollDepth = getTargetScrollDepth();
-    currentProgress = reduceMotion ? targetProgress : currentProgress + (targetProgress - currentProgress) * 0.045;
-    currentScrollDepth = reduceMotion ? targetScrollDepth : currentScrollDepth + (targetScrollDepth - currentScrollDepth) * 0.08;
-    render(reduceMotion ? 0 : (now - startTime) / 1000, currentProgress, currentScrollDepth);
+
+    if (animated) {
+      currentProgress += (targetProgress - currentProgress) * 0.045;
+      currentScrollDepth += (targetScrollDepth - currentScrollDepth) * 0.08;
+      render((now - startTime) / 1000, currentProgress, currentScrollDepth);
+      return;
+    }
+
+    currentProgress = targetProgress;
+    currentScrollDepth = targetScrollDepth;
+    render(0, currentProgress, currentScrollDepth);
+  };
+
+  const tick = (now: number) => {
+    renderFrame(now, true);
     frameId = window.requestAnimationFrame(tick);
   };
 
   return {
     mode,
-    start: () => {
+    renderOnce: () => {
       resizeCanvas(canvas);
+      renderFrame(performance.now(), false);
+    },
+    pause: () => {
+      if (frameId) {
+        window.cancelAnimationFrame(frameId);
+        frameId = 0;
+      }
+    },
+    resume: () => {
+      if (frameId) {
+        return;
+      }
+
       frameId = window.requestAnimationFrame(tick);
     },
     destroy: () => {
-      window.cancelAnimationFrame(frameId);
+      if (frameId) {
+        window.cancelAnimationFrame(frameId);
+        frameId = 0;
+      }
     }
   };
 }

@@ -7,6 +7,11 @@ export type BackgroundRendererCapabilities = {
   webgl: boolean;
 };
 
+export type ContinuousBackgroundLoopPolicy = {
+  visibilityState: DocumentVisibilityState;
+  prefersReducedMotion: boolean;
+};
+
 export type AtmosphereState = {
   progress: number;
   scrollDepth: number;
@@ -71,4 +76,11 @@ export function choosePreferredBackgroundRenderer(
   }
 
   return 'static';
+}
+
+export function shouldRunContinuousBackgroundLoop({
+  visibilityState,
+  prefersReducedMotion,
+}: ContinuousBackgroundLoopPolicy): boolean {
+  return visibilityState === 'visible' && !prefersReducedMotion;
 }

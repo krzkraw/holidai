@@ -34,4 +34,21 @@ describe('dynamic atmosphere background', () => {
     expect(choosePreferredBackgroundRenderer({ webgpu: false, webgl: true })).toBe('webgl');
     expect(choosePreferredBackgroundRenderer({ webgpu: false, webgl: false })).toBe('static');
   });
+
+  it('runs the continuous background loop only for visible non-reduced-motion documents', async () => {
+    const module = await import('./background');
+    const shouldRunContinuousBackgroundLoop = (
+      module as {
+        shouldRunContinuousBackgroundLoop?: (policy: {
+          visibilityState: DocumentVisibilityState;
+          prefersReducedMotion: boolean;
+        }) => boolean;
+      }
+    ).shouldRunContinuousBackgroundLoop;
+
+    expect(shouldRunContinuousBackgroundLoop).toBeTypeOf('function');
+    expect(shouldRunContinuousBackgroundLoop?.({ visibilityState: 'visible', prefersReducedMotion: false })).toBe(true);
+    expect(shouldRunContinuousBackgroundLoop?.({ visibilityState: 'hidden', prefersReducedMotion: false })).toBe(false);
+    expect(shouldRunContinuousBackgroundLoop?.({ visibilityState: 'visible', prefersReducedMotion: true })).toBe(false);
+  });
 });

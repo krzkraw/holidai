@@ -61,6 +61,10 @@ export function BookingCard({ booking, selectedStayDays, isFavorite = false, onF
               src={images[0]}
               alt={booking.name}
               loading="lazy"
+              decoding="async"
+              width={148}
+              height={148}
+              fetchPriority="low"
               onError={(event) => {
                 event.currentTarget.src = FALLBACK_IMAGE;
               }}
@@ -292,7 +296,7 @@ function BookingReportModal({
                     aria-label={`Pokaż zdjęcie ${index + 1}`}
                     onClick={() => setActiveImageIndex(index)}
                   >
-                    <img src={image} alt="" />
+                    <img src={image} alt="" loading="lazy" decoding="async" />
                   </button>
                 ))}
               </div>

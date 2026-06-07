@@ -1,7 +1,6 @@
 import type { DestinationKey } from '../model';
 
 export const COMPRESSED_BOOKINGS_URL = './data/bookings/bookings.json.gz';
-export const PLAIN_BOOKINGS_URL = './data/bookings/bookings.json';
 
 export type BookingsDataFormat = 'gzip' | 'json';
 
@@ -127,13 +126,8 @@ export async function parseBookingsResponse(
 }
 
 export async function loadBookingsData(): Promise<readonly BookingJson[]> {
-  try {
-    const compressedResponse = await fetch(COMPRESSED_BOOKINGS_URL);
-    return await parseBookingsResponse(compressedResponse, 'gzip');
-  } catch {
-    const plainResponse = await fetch(PLAIN_BOOKINGS_URL);
-    return parseBookingsResponse(plainResponse, 'json');
-  }
+  const compressedResponse = await fetch(COMPRESSED_BOOKINGS_URL);
+  return parseBookingsResponse(compressedResponse, 'gzip');
 }
 
 export function validateBookingsData(value: unknown): readonly BookingJson[] {

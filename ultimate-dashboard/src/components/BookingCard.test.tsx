@@ -75,4 +75,27 @@ describe('BookingCard', () => {
     );
     expect(html.indexOf('booking-title-row')).toBeLessThan(html.indexOf('booking-specs'));
   });
+
+  it('renders the thumbnail as a fixed-size low-priority lazy image without changing the source URL', () => {
+    const imageUrl = 'https://example.com/original-hotel-thumbnail.jpg';
+    const html = renderToStaticMarkup(
+      <BookingCard
+        booking={booking({
+          details: {
+            ...booking().details,
+            imageUrls: [imageUrl],
+          },
+        })}
+        selectedStayDays={11}
+      />,
+    );
+    const thumbnail = html.match(/<img[^>]*class="booking-thumb-image"[^>]*>/)?.[0] ?? '';
+
+    expect(thumbnail).toContain(`src="${imageUrl}"`);
+    expect(thumbnail).toContain('loading="lazy"');
+    expect(thumbnail).toContain('decoding="async"');
+    expect(thumbnail).toMatch(/\swidth="\d+"/);
+    expect(thumbnail).toMatch(/\sheight="\d+"/);
+    expect(thumbnail).toMatch(/\s(?:fetchpriority|fetchPriority)="low"/);
+  });
 });
