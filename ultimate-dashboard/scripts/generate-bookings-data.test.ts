@@ -1,9 +1,10 @@
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { gzipSync, gunzipSync } from 'node:zlib';
 
 import { describe, expect, it } from 'vitest';
 
-import { buildBookingsFromCsvText, serializeBookings } from './generate-bookings-data';
+import { buildBookingsFromCsvText, compressBookingsJson, serializeBookings } from './generate-bookings-data';
 
 const repoRoot = resolve(import.meta.dirname, '..', '..');
 
@@ -40,5 +41,20 @@ describe('generate bookings data', () => {
     ]);
 
     expect(jsonText).toBe('[\n  {\n    "destination": "Albania",\n    "tier": "A",\n    "name": "Example",\n    "stays": []\n  }\n]\n');
+  });
+
+  it('compresses serialized bookings as gzip JSON', () => {
+    const jsonText = serializeBookings(
+      Array.from({ length: 100 }, () => ({
+        destination: 'Albania',
+        details: { description: 'repeatable booking detail text' },
+        stays: [{ days: 8 }],
+      })),
+    );
+    const compressed = compressBookingsJson(jsonText);
+
+    expect(gunzipSync(compressed).toString('utf8')).toBe(jsonText);
+    expect(compressed.length).toBeLessThan(Buffer.byteLength(jsonText));
+    expect(gzipSync(jsonText, { level: 9 }).length).toBe(compressed.length);
   });
 });

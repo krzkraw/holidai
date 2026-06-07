@@ -32,6 +32,9 @@ jobs:
           cache: npm
           cache-dependency-path: ultimate-dashboard/package-lock.json
 
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
       - name: Build ultimate dashboard
         working-directory: ultimate-dashboard
         env:

@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "rsbuild dev --host 127.0.0.1",
-    "build": "rsbuild build",
+    "dev": "npm run generate:bookings && rsbuild dev --host 127.0.0.1",
+    "build": "npm run generate:bookings && rsbuild build",
     "generate:bookings": "bun run scripts/generate-bookings-data.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
