@@ -179,7 +179,7 @@ export function App() {
   const activeVariant = activeDestination ? variantByDestination[activeDestination] : '';
   const renderSummaryContent = shouldRenderViewContent(activeView, previousView, 'summary');
   const effectiveLightweightVisuals = lightweightMobileVisuals ?? isPhoneViewport;
-  const effectiveShaderEnabled = dynamicBackgroundShader ?? !isPhoneViewport;
+  const effectiveShaderEnabled = dynamicBackgroundShader ?? true;
   const showMobilePerformanceToast =
     isPhoneViewport && effectiveLightweightVisuals && !mobilePerformanceNoticeDismissed;
   const appShellClasses = ['app-shell', effectiveLightweightVisuals ? 'app-shell--lightweight-visuals' : '']
@@ -387,7 +387,7 @@ export function App() {
 
       {showMobilePerformanceToast && (
         <div className="mobile-performance-toast" role="status">
-          <span>Wykryto telefon. Włączono lżejsze efekty i zwykłą przezroczystość dla płynniejszego działania.</span>
+          <span>Wykryto telefon. Wyłączono rozmycie szkła i ustawiono lżejszą przezroczystość dla płynniejszego działania.</span>
           <button type="button" onClick={() => setMobilePerformanceNoticeDismissed(true)}>
             OK
           </button>
