@@ -19,5 +19,6 @@ export {
 } from './domain/scraped-property-page';
 export { CsvCodec } from './infrastructure/csv-codec';
 export { parsePropertyPageMarkdown } from './infrastructure/property-page-markdown-parser';
+export { PropertyPageRepository } from './infrastructure/property-page-repository';
 export { TsModuleCodec } from './infrastructure/ts-module-codec';
 export { Stay } from './domain/stay';

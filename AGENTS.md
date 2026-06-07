@@ -346,6 +346,8 @@ During bootstrap, this workspace was identified as a root bundle for vacation-pl
 - `booking-scraper-flow/scripts/scrape_booking.py` - Booking.com extraction script.
 - `booking-scraper-flow/scripts/consolidate.py` - generated hotel-card consolidation script.
 - `booking-model/` - DDD-style Booking matrix model and CSV roundtrip tooling.
+  - `booking-model/src/infrastructure/property-page-repository.ts` - loader that maps `pageContent` markdown paths to committed page JSON files.
+  - `booking-model/test/property-page-repository.test.ts` - repository mapping and error-handling coverage.
 - `chrome-scrape-control/` - Reusable in-tab Chrome debugging and scraping automation skill package.
 - `skyscanner/` - DDD-style Skyscanner flight matrix model and CSV roundtrip tooling.
 - `gpt/AGENTS.md` - regeneration guide for the final vacation reports.
@@ -391,6 +393,7 @@ Project-specific commands should be discovered during bootstrap and kept current
 
 # Test:
 bun test booking-model/test/roundtrip.test.ts
+bun test booking-model/test/property-page-repository.test.ts
 bun test skyscanner/test/roundtrip.test.ts
 
 # Lint/typecheck:
@@ -437,8 +440,10 @@ Update this section during bootstrap and later discovery.
 |   `-- examples/booking/         # reference scraped output and country summaries
 |-- booking-model/
 |   |-- src/
+|   |   `-- infrastructure/property-page-repository.ts
 |   |-- pages/
 |   `-- test/
+|       `-- property-page-repository.test.ts
 |-- chrome-scrape-control/
 |   |-- SKILL.md               # documentation of the CDP browser control skill
 |   `-- cdp_helper.js          # native Node.js CDP WebSocket controller

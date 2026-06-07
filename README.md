@@ -92,6 +92,7 @@ gemini/2026-holidai-v2.html
 |   `-- examples/booking/
 |-- booking-model/
 |   |-- src/
+|   |   `-- infrastructure/property-page-repository.ts
 |   `-- test/
 |-- chrome-scrape-control/
 |   |-- SKILL.md

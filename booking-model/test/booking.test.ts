@@ -35,3 +35,31 @@ test('bookingsFromMatrix groups the final matrix into DDD bookings with stays', 
   expect(idealApartHotelSaranda).toBeDefined();
   expect(idealApartHotelSaranda?.stays.map((stay) => stay.price)).toEqual([null, null, null]);
 });
+
+test('bookingsFromMatrix attaches the serialized page details for each booking', async () => {
+  const csvText = await Bun.file('destinations-final.csv').text();
+  const matrix = BookingMatrix.fromCsvText(csvText);
+  const bookings = bookingsFromMatrix(matrix);
+
+  const whiteDonkey = bookings.find(
+    (booking) =>
+      booking.destination === 'Albania' &&
+      booking.name === 'The White Donkey Apartment House' &&
+      booking.tier === 'A — super: plaża / ocena / okolica',
+  );
+
+  expect(whiteDonkey?.details.propertyName).toBe('The White Donkey Apartment House');
+  expect(whiteDonkey?.details.captureQuality).toBe('complete');
+  expect(Object.values(whiteDonkey?.details.enrichments ?? {}).every((value) => value.length > 0)).toBe(true);
+
+  const idealApartHotelSaranda = bookings.find(
+    (booking) =>
+      booking.destination === 'Albania' &&
+      booking.name === 'Ideal ApartHotel Saranda' &&
+      booking.tier === 'C — po kosztach: prywatna łazienka i rozsądne warunki',
+  );
+
+  expect(idealApartHotelSaranda?.details.propertyName).toBe('Ideal ApartHotel Saranda');
+  expect(idealApartHotelSaranda?.details.captureQuality).toBe('blocked');
+  expect(idealApartHotelSaranda?.details.issues).toContain('Blocked or CAPTCHA page');
+});

@@ -1,4 +1,6 @@
+import { PropertyPageRepository } from '../infrastructure/property-page-repository';
 import type { BookingMatrix, BookingMatrixRow } from './booking-matrix';
+import type { ScrapedPropertyPage } from './scraped-property-page';
 import { Stay } from './stay';
 
 function stripStayDates(url: string): string {
@@ -36,6 +38,8 @@ function requireNumber(value: number | null, fieldName: string, bookingLabel: st
   return value;
 }
 
+const propertyPageRepository = new PropertyPageRepository();
+
 export class Booking {
   constructor(
     public readonly destination: string,
@@ -55,6 +59,7 @@ export class Booking {
     public readonly beachInfo: string,
     public readonly evaluation: number,
     public readonly pageContent: string,
+    public readonly details: ScrapedPropertyPage,
     public readonly url: string,
     public readonly stays: readonly Stay[],
   ) {
@@ -85,6 +90,7 @@ export class Booking {
       `${destination} / ${name} / ${tier}`,
     );
     const pageContent = assertConsistent(rows, 'pageContent', (row) => row.pageContent);
+    const details = propertyPageRepository.loadByPageContent(pageContent);
     const url = assertConsistent(rows, 'url', (row) => stripStayDates(row.bookingUrl));
 
     const stays = [...rows]
@@ -109,6 +115,7 @@ export class Booking {
       beachInfo,
       evaluation,
       pageContent,
+      details,
       url,
       stays,
     );
