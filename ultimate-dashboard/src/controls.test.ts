@@ -8,10 +8,10 @@ describe('bottom toolbar controls', () => {
     expect(getCompactLengthLabel('14')).toBe('14');
   });
 
-  it('shows only the category letter except for the selected variant', () => {
+  it('keeps compact variant labels short enough for the mobile toolbar', () => {
     const variant = 'B — rozsądnie: lokalizacja / opinia / pralka preferowana';
 
     expect(getCompactVariantLabel(variant, false)).toBe('B');
-    expect(getCompactVariantLabel(variant, true)).toBe(variant);
+    expect(getCompactVariantLabel(variant, true)).toBe('B - rozsądnie');
   });
 });
