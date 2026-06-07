@@ -111,6 +111,27 @@ min-height: 100vh;
 isolation: isolate;
 }
 
+.shader-background {
+position: fixed;
+inset: 0;
+z-index: -4;
+overflow: hidden;
+pointer-events: none;
+}
+
+.shader-background canvas {
+display: block;
+width: 100%;
+height: 100%;
+opacity: 0.78;
+filter: saturate(112%) contrast(104%);
+transition: opacity 360ms ease;
+}
+
+.shader-background--static canvas {
+opacity: 0;
+}
+
 .app-shell::before {
 content: '';
 position: fixed;

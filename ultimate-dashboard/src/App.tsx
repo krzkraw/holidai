@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { BookingFavoritesMenu } from './components/BookingFavoritesMenu';
 import { BookingGrid } from './components/BookingGrid';
 import { BookingPriceRangesTile } from './components/BookingPriceRangesTile';
+import { ShaderBackground } from './components/ShaderBackground';
 import { BookingJson, loadBookingsData } from './data/bookings';
 import {
   FavoriteBookingsByDestination,
@@ -162,6 +163,7 @@ export function App() {
 
   return (
     <div className="app-shell">
+      <ShaderBackground activeView={activeView} />
       <header className="topbar">
         <div className="brand-block">
           <span className="brand-mark">UH</span>
