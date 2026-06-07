@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest';
 import {
-  CANVAS_VIEWS,
   DESTINATION_TABS,
   HOTEL_MATRIX_GROUPS,
   GRID,
@@ -50,11 +49,10 @@ describe('holiday dashboard model', () => {
   it('lays tabs out as responsive horizontal pages that progress left to right', () => {
     const desktopPageWidth = 1280;
     const mobilePageWidth = 390;
-    const desktopLayouts = CANVAS_VIEWS.map((view) => getViewLayout(view.id, desktopPageWidth));
-    const mobileLayouts = CANVAS_VIEWS.map((view) => getViewLayout(view.id, mobilePageWidth));
+    const desktopLayouts = DESTINATION_TABS.map((tab) => getViewLayout(tab.id, desktopPageWidth));
+    const mobileLayouts = DESTINATION_TABS.map((tab) => getViewLayout(tab.id, mobilePageWidth));
 
-    expect(CANVAS_VIEWS.map((view) => view.id)).toEqual(['summary', 'albania', 'grecja', 'cypr', 'turcja', 'kreta', 'globe']);
-    expect(desktopLayouts.map((layout) => layout.column)).toEqual([0, 1, 2, 3, 4, 5, 6]);
+    expect(desktopLayouts.map((layout) => layout.column)).toEqual([0, 1, 2, 3, 4, 5]);
     expect(desktopLayouts.map((layout) => layout.x)).toEqual(desktopLayouts.map((_, index) => index * desktopPageWidth));
     expect(mobileLayouts.map((layout) => layout.x)).toEqual(mobileLayouts.map((_, index) => index * mobilePageWidth));
   });

@@ -12,7 +12,6 @@ export type BookingGridProps = {
   selectedVariant: string;
   favoriteIds?: readonly string[];
   onFavoriteToggle?: (booking: BookingJson) => void;
-  onOpenGlobe?: () => void;
 };
 
 export function BookingGrid({
@@ -22,7 +21,6 @@ export function BookingGrid({
   selectedVariant,
   favoriteIds = [],
   onFavoriteToggle,
-  onOpenGlobe,
 }: BookingGridProps) {
   const selectedStayDays = Number.parseInt(selectedLength, 10);
   const selectedBookings = useMemo(
@@ -38,23 +36,9 @@ export function BookingGrid({
           <span className="booking-kicker">Booking.com matrix</span>
           <h3>{destination}: {selectedBookings.length} hoteli</h3>
         </div>
-        <div className="booking-grid-actions">
-          {onOpenGlobe ? (
-            <button
-              className="booking-globe-button"
-              type="button"
-              aria-label={`Otwórz mapę 3D hoteli dla ${destination}`}
-              title="Otwórz mapę 3D hoteli"
-              onClick={onOpenGlobe}
-            >
-              <GlobeIcon />
-              <span>Mapa 3D</span>
-            </button>
-          ) : null}
-          <div className="booking-grid-context" aria-label={`${destination} aktywne filtry`}>
-            <span>{selectedLength} dni</span>
-            <span>{selectedVariant}</span>
-          </div>
+        <div className="booking-grid-context" aria-label={`${destination} aktywne filtry`}>
+          <span>{selectedLength} dni</span>
+          <span>{selectedVariant}</span>
         </div>
       </div>
 
@@ -77,18 +61,5 @@ export function BookingGrid({
         </div>
       )}
     </div>
-  );
-}
-
-function GlobeIcon() {
-  return (
-    <svg className="booking-icon" viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="9" />
-      <path d="M3 12h18" />
-      <path d="M12 3a13.5 13.5 0 0 1 0 18" />
-      <path d="M12 3a13.5 13.5 0 0 0 0 18" />
-      <path d="M5.6 6.4a13.2 13.2 0 0 0 12.8 0" />
-      <path d="M5.6 17.6a13.2 13.2 0 0 1 12.8 0" />
-    </svg>
   );
 }

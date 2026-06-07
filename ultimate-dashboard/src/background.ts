@@ -1,4 +1,4 @@
-import { CANVAS_VIEWS, ViewId } from './model';
+import { DESTINATION_TABS, ViewId } from './model';
 
 export type BackgroundRendererMode = 'webgpu' | 'webgl' | 'static';
 
@@ -18,13 +18,13 @@ export type AtmosphereState = {
 };
 
 export function getAtmosphereState(view: ViewId, scrollDepth = 0): AtmosphereState {
-  const tabIndex = CANVAS_VIEWS.findIndex((tab) => tab.id === view);
+  const tabIndex = DESTINATION_TABS.findIndex((tab) => tab.id === view);
 
   if (tabIndex < 0) {
     throw new Error(`Unknown view: ${view}`);
   }
 
-  const lastIndex = Math.max(CANVAS_VIEWS.length - 1, 1);
+  const lastIndex = Math.max(DESTINATION_TABS.length - 1, 1);
   const progress = Number((tabIndex / lastIndex).toFixed(4));
   const normalizedScrollDepth = clamp(scrollDepth, 0, 1);
   const sunArc = Math.sin(progress * Math.PI);

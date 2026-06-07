@@ -7,7 +7,6 @@ This workspace collects vacation-planning artifacts for a September 2026 Mediter
 - Static HTML reports in `gpt/` and `gemini/`.
 - React/Rsbuild dashboard in `ultimate-dashboard/`, published to GitHub Pages at `ultimate/`.
 - The React dashboard loads `public/data/bookings/bookings.json.gz`, renders Booking.com hotel cards by destination, stay length, and variant, and supports per-destination hotel/flight favorites, selected trip totals, stay-length/category price ranges, and flight-option tables.
-- The dashboard includes a WebGPU hotel globe view opened from destination hotel lists; it autozooms to the active hotel coordinates and scales markers from dots to price labels as screen space allows.
 - The first favorited hotel or flight is auto-selected for trip totals, and the dashboard shows both the selected pair total and the min-max total range across favorited hotel/flight combinations.
 - Dashboard Booking.com choices persist on GitHub Pages through browser `localStorage`, not cookies.
 - Markdown and CSV source material in `gpt/sources/`.
