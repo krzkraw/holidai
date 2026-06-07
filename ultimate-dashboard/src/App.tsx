@@ -44,6 +44,9 @@ export function App() {
   const matches = useMemo(() => calculateMatches(weights), [weights]);
   const activeColumn = getViewLayout(activeView, 1).column;
   const activeOffset = pageWidth > 0 ? `${activeColumn * -pageWidth}px` : `${activeColumn * -100}vw`;
+  const activeDestination = DESTINATION_TABS.find((tab) => tab.id === activeView)?.destination;
+  const activeLength = activeDestination ? lengthByDestination[activeDestination] : '';
+  const activeVariant = activeDestination ? variantByDestination[activeDestination] : '';
 
   useEffect(() => {
     const updatePageWidth = () => {
@@ -120,7 +123,7 @@ export function App() {
                 style={{ '--accent': profile.accent } as React.CSSProperties}
                 aria-labelledby={`${tab.id}-title`}
               >
-                <CanvasTitle id={`${tab.id}-title`} title={profile.displayName} subtitle={profile.region} />
+                <DestinationTitle id={`${tab.id}-title`} profile={profile} />
                 <div className="canvas-plane destination-plane">
                   {TILES_BY_VIEW[tab.id].map((tile) => (
                     <DestinationTile
@@ -129,12 +132,6 @@ export function App() {
                       profile={profile}
                       selectedLength={lengthByDestination[destination]}
                       selectedVariant={variantByDestination[destination]}
-                      onLengthChange={(value) =>
-                        setLengthByDestination((current) => ({ ...current, [destination]: value }))
-                      }
-                      onVariantChange={(value) =>
-                        setVariantByDestination((current) => ({ ...current, [destination]: value }))
-                      }
                     />
                   ))}
                 </div>
@@ -143,6 +140,21 @@ export function App() {
           })}
         </div>
       </main>
+
+      {activeDestination && activeLength && activeVariant && (
+        <DestinationControls
+          compact
+          destination={activeDestination}
+          selectedLength={activeLength}
+          selectedVariant={activeVariant}
+          onLengthChange={(value) =>
+            setLengthByDestination((current) => ({ ...current, [activeDestination]: value }))
+          }
+          onVariantChange={(value) =>
+            setVariantByDestination((current) => ({ ...current, [activeDestination]: value }))
+          }
+        />
+      )}
     </div>
   );
 }
@@ -152,6 +164,46 @@ function CanvasTitle({ id, title, subtitle }: { id: string; title: string; subti
     <div className="canvas-title">
       <h2 id={id}>{title}</h2>
       <p>{subtitle}</p>
+    </div>
+  );
+}
+
+function DestinationTitle({
+  id,
+  profile
+}: {
+  id: string;
+  profile: (typeof DESTINATION_PROFILES)[DestinationKey];
+}) {
+  return (
+    <div className="canvas-title canvas-title-destination">
+      <div className="destination-title-row">
+        <div>
+          <h2 id={id}>{profile.displayName}</h2>
+          <p>{profile.region}</p>
+        </div>
+        <div className="destination-costs" aria-label={`${profile.displayName} koszty lokalne`}>
+          <span>Jedzenie / zycie: {profile.localCosts.foodMultiplier}</span>
+          <span>Bufor: {profile.localCosts.buffer}</span>
+          <span>Auto: {profile.localCosts.carComparison}</span>
+        </div>
+      </div>
+      <div className="destination-signals">
+        <div className="signal-line">
+          <div className="pill-cloud positive">
+            {profile.pluses.map((item) => (
+              <span key={item}>{item}</span>
+            ))}
+          </div>
+        </div>
+        <div className="signal-line">
+          <div className="pill-cloud risk">
+            {profile.risks.map((item) => (
+              <span key={item}>{item}</span>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -184,65 +236,41 @@ function DestinationTile({
   tile,
   profile,
   selectedLength,
-  selectedVariant,
-  onLengthChange,
-  onVariantChange
+  selectedVariant
 }: {
   tile: TileLayout;
   profile: (typeof DESTINATION_PROFILES)[DestinationKey];
   selectedLength: string;
   selectedVariant: string;
-  onLengthChange: (value: string) => void;
-  onVariantChange: (value: string) => void;
 }) {
   return (
     <Tile tile={tile}>
       {tile.id.endsWith('-head') && <DestinationHead profile={profile} />}
-      {tile.kind === 'controls' && (
-        <DestinationControls
-          destination={profile.key}
-          selectedLength={selectedLength}
-          selectedVariant={selectedVariant}
-          onLengthChange={onLengthChange}
-          onVariantChange={onVariantChange}
-        />
-      )}
-      {tile.id.endsWith('-logistics') && (
-        <ListColumns
-          groups={[
-            ['Baza', profile.base],
-            ['Transfer', profile.transfer],
-            ['Auto', profile.car]
-          ]}
-        />
-      )}
-      {tile.id.endsWith('-weather') && (
-        <ListColumns
-          groups={[
-            ['Pogoda', profile.weather],
-            ['Woda / snorkeling', profile.water],
-            ['Żółwie', profile.turtles]
-          ]}
-        />
-      )}
-      {tile.id.endsWith('-nature') && (
-        <ListColumns
-          groups={[
-            ['Natura', profile.nature],
-            ['Kultura', profile.culture]
-          ]}
-        />
-      )}
-      {tile.id.endsWith('-risks') && <RiskAndCost profile={profile} />}
+      {tile.id.endsWith('-base') && <DetailList items={profile.base} />}
+      {tile.id.endsWith('-transfer') && <DetailList items={profile.transfer} />}
+      {tile.id.endsWith('-car') && <DetailList items={profile.car} />}
+      {tile.id.endsWith('-weather') && <DetailList items={profile.weather} />}
+      {tile.id.endsWith('-water') && <DetailList items={profile.water} />}
+      {tile.id.endsWith('-turtles') && <DetailList items={profile.turtles} />}
+      {tile.id.endsWith('-nature') && <DetailList items={profile.nature} />}
+      {tile.id.endsWith('-culture') && <DetailList items={profile.culture} />}
       {tile.kind === 'hotel-reserve' && <HotelReserve profile={profile} selectedLength={selectedLength} selectedVariant={selectedVariant} />}
     </Tile>
   );
 }
 
 function Tile({ tile, children }: { tile: TileLayout; children: React.ReactNode }) {
+  const tileClasses = [
+    'tile',
+    `tile-${tile.kind}`,
+    tile.id.endsWith('-head') || tile.kind === 'hotel-reserve' ? 'tile--full' : ''
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   return (
     <article
-      className={`tile tile-${tile.kind}`}
+      className={tileClasses}
       style={
         {
           '--col': tile.col,
@@ -426,19 +454,22 @@ function DestinationControls({
   selectedLength,
   selectedVariant,
   onLengthChange,
-  onVariantChange
+  onVariantChange,
+  compact = false
 }: {
   destination: DestinationKey;
   selectedLength: string;
   selectedVariant: string;
   onLengthChange: (value: string) => void;
   onVariantChange: (value: string) => void;
+  compact?: boolean;
 }) {
   const controls = getDestinationControls(destination);
   const visibleRows = controls.rowsPerLengthVariant;
+  const classes = compact ? 'controls-card controls-card--compact' : 'controls-card';
 
   return (
-    <div className="controls-card">
+    <div className={classes}>
       <div className="segmented" aria-label={`${destination} stay length`}>
         {controls.lengths.map((length) => (
           <button key={length} className={selectedLength === length ? 'selected' : ''} type="button" onClick={() => onLengthChange(length)}>
@@ -453,57 +484,23 @@ function DestinationControls({
           </button>
         ))}
       </div>
-      <p>
-        CSV scope: {controls.totalRows} rows for this destination. Current future hotel slice:{' '}
-        <b>{visibleRows} rows</b> for {selectedLength} dni / {selectedVariant.slice(0, 1)}.
-      </p>
+      {!compact && (
+        <p>
+          CSV scope: {controls.totalRows} rows for this destination. Current future hotel slice:{' '}
+          <b>{visibleRows} rows</b> for {selectedLength} dni / {selectedVariant.slice(0, 1)}.
+        </p>
+      )}
     </div>
   );
 }
 
-function ListColumns({ groups }: { groups: Array<[string, string[]]> }) {
+function DetailList({ items }: { items: string[] }) {
   return (
-    <div className="list-columns">
-      {groups.map(([title, items]) => (
-        <section key={title}>
-          <h3>{title}</h3>
-          <ul>
-            {items.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
+    <ul className="detail-list">
+      {items.map((item) => (
+        <li key={item}>{item}</li>
       ))}
-    </div>
-  );
-}
-
-function RiskAndCost({ profile }: { profile: (typeof DESTINATION_PROFILES)[DestinationKey] }) {
-  return (
-    <div className="risk-cost">
-      <section>
-        <h3>Plusy</h3>
-        <div className="pill-cloud positive">
-          {profile.pluses.map((item) => (
-            <span key={item}>{item}</span>
-          ))}
-        </div>
-      </section>
-      <section>
-        <h3>Ryzyka</h3>
-        <div className="pill-cloud risk">
-          {profile.risks.map((item) => (
-            <span key={item}>{item}</span>
-          ))}
-        </div>
-      </section>
-      <section className="cost-mini">
-        <h3>Koszty lokalne</h3>
-        <p>Jedzenie / życie: {profile.localCosts.foodMultiplier}</p>
-        <p>Bufor: {profile.localCosts.buffer}</p>
-        <p>Auto: {profile.localCosts.carComparison}</p>
-      </section>
-    </div>
+    </ul>
   );
 }
 

@@ -467,12 +467,15 @@ export const TILES_BY_VIEW: Record<ViewId, TileLayout[]> = {
 function destinationTiles(view: ViewId): TileLayout[] {
   return [
     { id: `${view}-head`, kind: 'destination', title: 'Profil kierunku', col: 1, row: 1, colSpan: 3, rowSpan: 3 },
-    { id: `${view}-controls`, kind: 'controls', title: 'Długość i wariant', col: 4, row: 1, colSpan: 3, rowSpan: 3 },
-    { id: `${view}-logistics`, kind: 'destination', title: 'Baza i logistyka', col: 1, row: 4, colSpan: 3, rowSpan: 3 },
-    { id: `${view}-weather`, kind: 'destination', title: 'Pogoda, woda, żółwie', col: 4, row: 4, colSpan: 3, rowSpan: 3 },
-    { id: `${view}-nature`, kind: 'destination', title: 'Natura i kultura', col: 1, row: 7, colSpan: 3, rowSpan: 3 },
-    { id: `${view}-risks`, kind: 'destination', title: 'Plusy, ryzyka, koszty lokalne', col: 4, row: 7, colSpan: 3, rowSpan: 3 },
-    { id: `${view}-hotel-reserve`, kind: 'hotel-reserve', title: 'Miejsce na przyszłe hotele', col: 1, row: 10, colSpan: 3, rowSpan: 3 }
+    { id: `${view}-base`, kind: 'destination', title: 'Baza', col: 4, row: 1, colSpan: 3, rowSpan: 1 },
+    { id: `${view}-transfer`, kind: 'destination', title: 'Transfer', col: 4, row: 2, colSpan: 3, rowSpan: 1 },
+    { id: `${view}-car`, kind: 'destination', title: 'Auto', col: 4, row: 3, colSpan: 3, rowSpan: 1 },
+    { id: `${view}-weather`, kind: 'destination', title: 'Pogoda', col: 1, row: 4, colSpan: 2, rowSpan: 2 },
+    { id: `${view}-water`, kind: 'destination', title: 'Woda / snorkeling', col: 3, row: 4, colSpan: 2, rowSpan: 2 },
+    { id: `${view}-turtles`, kind: 'destination', title: 'Żółwie', col: 5, row: 4, colSpan: 2, rowSpan: 2 },
+    { id: `${view}-nature`, kind: 'destination', title: 'Natura', col: 1, row: 6, colSpan: 3, rowSpan: 2 },
+    { id: `${view}-culture`, kind: 'destination', title: 'Kultura', col: 4, row: 6, colSpan: 3, rowSpan: 2 },
+    { id: `${view}-hotel-reserve`, kind: 'hotel-reserve', title: 'Miejsce na przyszłe hotele', col: 1, row: 8, colSpan: 3, rowSpan: 3 }
   ];
 }
 
