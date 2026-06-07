@@ -131,29 +131,28 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     displayName: 'Albania',
     region: 'Saranda / Ksamil / Himare',
     accent: '#38b894',
-    oneLine: 'Najlepsza opcja budżetowa: surowy błękit, tanie życie, klify i trudniejszy transfer.',
+    oneLine: 'Najlepsza opcja budżetowa: morze, zatoki, góry i Butrint; świetna wizualnie, ale logistycznie trudniejsza niż wyspy.',
     bestFor: ['koszt lokalny', 'krajobraz morze + góry', 'dłuższy pobyt'],
-    term: 'Rekomendowany termin 16-30 września 2026; 14 dni albo 14 nocy / 15 dni. Krótsze pobyty są słabsze, bo transfer z Tirany zjada część wyjazdu.',
+    term: 'Rekomendowany termin 16-30 września 2026. Najlepiej 14/15 dni; 11/12 dni też działa, ale 7/8 dni słabnie przez transfer z Tirany.',
     base: [
       'Saranda jako główna baza.',
       'Łączyć z Ksamil, Butrint i Blue Eye.',
-      'Rozważyć 2-3 noce Himare / Vlore przy trasie; nie robić całego pobytu tylko w Ksamilu.'
+      'Rozważyć 2-3 noce w Himarze / Dhermi / okolicy Vlory; nie robić całego pobytu tylko w Ksamilu.'
     ],
     transfer: [
-      'Tirana-Saranda ok. 260 km, 3.5-5 h.',
-      'Transfer określony jako męczący i wyczerpujący.',
-      'Dobrze podzielić trasę przez Vlore, Llogara albo Gjirokastra; pierwszy i ostatni dzień bez ambitnego planu.'
+      'Tirana-Saranda ok. 4.5-6 h samochodem.',
+      'Najbardziej użytkowy jest dziś przejazd przez SH4 / Gjirokastrę / Kardhiq–Delvinë; nowa oś oszczędza około 30 minut.',
+      'Wariant przez Vlore - Llogara - Himare jest piękniejszy, ale męczący; pierwszy i ostatni dzień bez ambitnego planu.'
     ],
     car: [
       'Auto klasy B/C.',
-      'Ultimate: ok. 1 700-2 300 PLN / 14 dni plus paliwo i parking 700-1 000 PLN.',
-      'Rozbieżne kalkulatory: 80 PLN/dzień w wielkim porównaniu, 140 PLN/dzień w systemie porównawczym.',
+      'Realny zakres: ok. 90-160 PLN/dzień; przy 14 dniach ok. 1 300-2 200 PLN za samo auto plus paliwo i parking.',
       'Ryzyka: chaos drogowy, mniej przewidywalna infrastruktura, depozyt i karta kredytowa kierowcy.'
     ],
     weather: [
-      'Powietrze ok. 25-29°C; rozszerzony raport: dzień 25-28°C, noc 17-19°C.',
+      'Powietrze w późnym lecie wciąż bardzo ciepłe: dzień zwykle wysokie 20+°C, noce około 20°C lub lekko poniżej.',
       'Woda ok. 24-26°C.',
-      'Opady niskie lub umiarkowane, większe niż na Cyprze, zwykle nadal dobry termin.'
+      'Opady niskie do umiarkowanych; nadal bardzo dobry termin kąpielowy.'
     ],
     water: [
       'Bardzo dobra przejrzystość przy Ksamilu, Mirror Beach, Himare, Gjipe i rejsach Karaburun-Sazan.',
@@ -176,11 +175,11 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     ],
     pluses: ['najniższy koszt lokalny', 'bardzo dobra woda wizualnie', 'klify i góry blisko morza', 'dużo krajobrazów'],
     risks: ['długi dojazd z Tirany', 'słabsza fauna morska', 'żółwie niepewne', 'depozyty i karta kredytowa', 'trudniejszy styl jazdy'],
-    scores: { turtles: 1, snorkeling: 3, logistics: 4, economy: 9, sightseeing: 7 },
+    scores: { turtles: 1, snorkeling: 4, logistics: 4, economy: 9, sightseeing: 7 },
     localCosts: {
       foodMultiplier: '0.85',
-      buffer: '800 PLN',
-      carComparison: '80 PLN/dzień vs 140 PLN/dzień'
+      buffer: '900 PLN',
+      carComparison: '90 PLN/dzień vs 160 PLN/dzień'
     }
   },
   Grecja: {
@@ -189,27 +188,28 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     displayName: 'Grecja / Zakynthos',
     region: 'Keri / Laganas Bay / Vasilikos',
     accent: '#f3b84c',
-    oneLine: 'Najmocniejsza destynacja pod Caretta caretta, łatwa logistycznie, ale mniej pojemna na długi pobyt.',
+    oneLine: 'Najmocniejsza destynacja pod Caretta caretta, łatwa logistycznie i bardzo dobra na wrześniowy wyjazd, ale mniej pojemna na długi pobyt.',
     bestFor: ['żółwie', 'łatwe dystanse', 'kompaktowa wyspa'],
-    term: 'Rekomendowany termin 12-26 września 2026. Start przed drugą połową miesiąca, ale najlepszy układ dla Zakynthos.',
+    term: 'Rekomendowany termin 16-30 września 2026. 7/8 lub 11/12 dni są najlepsze; 14/15 dni jest możliwe, ale wyspa szybko staje się monotonna.',
     base: [
       'Bazy: Keri, Laganas Bay, Vasilikos.',
-      'Wybór bazy zależy od priorytetu: żółwie i zatoka, spokojny półwysep albo jaskinie i klify.',
+      'Laganas / Kalamaki są najlepsze, jeśli priorytetem są żółwie; Vasilikos i Gerakas są spokojniejsze; Keri daje klify i jaskinie.',
       'Laganas wskazywany jako główny obszar żółwi.'
     ],
     transfer: [
+      'Lotnisko - Laganas / Kalamaki to zwykle 10-15 min, Lotnisko - Keri 20-30 min, Lotnisko - Vasilikos / Gerakas 25-40 min.',
       'Logistyka lokalna łatwa: krótki dojazd do baz, mała wyspa, krótkie dystanse.',
       'Pobyt powyżej 11 dni może zacząć nużyć motoryzacyjnie.'
     ],
     car: [
       'Auto klasy B/C.',
-      'Wielkie porównanie: 100 PLN/dzień; system porównawczy: 190 PLN/dzień.',
+      'Realny zakres sezonowy: ok. 120-220 PLN/dzień; najtańsze oferty zwykle mają ostrzejszy depozyt i ubezpieczenie.',
       'Większość prostsza niż Albania; sprawdzić depozyt i zasady wypożyczalni.'
     ],
     weather: [
-      'Wrzesień nadal ciepły i wakacyjny.',
-      'Woda zwykle ciepła, a ryzyko pogody umiarkowanie niskie.',
-      'Początek terminu 12.09 daje najlepsze loty, ale jest wcześniejszy niż idealna druga połowa miesiąca.'
+      'Wrzesień nadal ciepły i wakacyjny; średni maks około 27.6°C, średni min około 18.8°C.',
+      'Woda zwykle ciepła; opady około 25.4 mm i średnio 2.8 dnia z opadem >= 1 mm.',
+      'Druga połowa września nadal jest bardzo dobra kąpielowo.'
     ],
     water: [
       'Snorkeling średni do dobrego, szczególnie jaskinie Keri i skaliste fragmenty.',
@@ -218,11 +218,11 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     ],
     turtles: [
       'Najmocniejszy kierunek pod Caretta caretta.',
-      'Laganas Bay, Marathonisi, Kalamaki i Gerakas jako kluczowe obszary.',
+      'Laganas Bay, Marathonisi, Kalamaki, Gerakas i Sekania jako kluczowe obszary; Sekania jest zamknięta dla odwiedzających.',
       'Obserwacje nie są gwarancją, ale prawdopodobieństwo jest najwyższe w zestawieniu.'
     ],
     nature: [
-      'Keri Caves, klify, zatoki i południowe plaże.',
+      'Keri Caves, Blue Caves, klify, zatoki i południowe plaże.',
       'Kompaktowa wyspa dobra na spokojny odpoczynek.',
       'Mniej różnorodna lądowo niż Cypr, Turcja i Kreta.'
     ],
@@ -232,12 +232,12 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
       'Najważniejszy punkt decyzji to fauna morska.'
     ],
     pluses: ['najlepsze żółwie', 'łatwa logistyka', 'krótkie dystanse', 'czytelny wyjazd bez trudnego transferu'],
-    risks: ['możliwa monotonia powyżej 11 dni', 'tłumy w Laganas', 'snorkeling nie tak mocny jak Turcja', 'warianty pralek słabsze w starych raportach'],
+    risks: ['możliwa monotonia powyżej 11 dni', 'tłumy w Laganas', 'snorkeling nie tak mocny jak Turcja', 'strefy ochronne i ograniczenia plaż lęgowych'],
     scores: { turtles: 10, snorkeling: 6, logistics: 9, economy: 5, sightseeing: 5 },
     localCosts: {
       foodMultiplier: '1.25',
       buffer: '1100 PLN',
-      carComparison: '100 PLN/dzień vs 190 PLN/dzień'
+      carComparison: '120 PLN/dzień vs 220 PLN/dzień'
     }
   },
   Cypr: {
@@ -246,16 +246,16 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     displayName: 'Cypr Południowy',
     region: 'Pafos / Polis / Latchi / Akamas',
     accent: '#55a7e8',
-    oneLine: 'Najlepszy balans pogody, wody, kultury i Akamas; droższy niż Albania, prostszy logistycznie.',
+    oneLine: 'Najlepszy balans pogody, wody, kultury i Akamas; ciepły, stabilny i prostszy logistycznie niż Albania.',
     bestFor: ['pogoda', 'balans', 'kultura i Akamas'],
-    term: 'Preferowany zachodni Cypr w drugiej połowie września 2026; baza Pafos / Polis / Latchi zależnie od priorytetu.',
+    term: 'Preferowany zachodni Cypr w drugiej połowie września 2026; 11/12 dni optymalne, 14/15 też ma sens przy szerszym objeździe.',
     base: [
       'Pafos dla kultury i krótszej logistyki.',
       'Polis / Latchi dla Akamas, Blue Lagoon, Lara Bay i spokojniejszej bazy.',
-      'Larnaka odrzucona względem zachodu ze względu na Akamas i żółwie.'
+      'Larnaka odrzucona względem zachodu ze względu na Akamas, Lara i żółwie.'
     ],
     transfer: [
-      'Pafos daje krótsze dojazdy niż Albania.',
+      'Pafos Airport - Pafos to zwykle 15-25 min; Pafos - Polis / Latchi 45-60 min.',
       'Przy Polis / Latchi auto jest praktycznie obowiązkowe.',
       'Lokalna logistyka oceniana jako jedna z najłatwiejszych, mimo konieczności auta.'
     ],
@@ -265,9 +265,9 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
       'Ruch lewostronny; pierwsze 2 dni wymagają adaptacji.'
     ],
     weather: [
-      'Najpewniejsza pogoda w trójce Albania-Zakynthos-Cypr.',
-      'Najcieplejsza woda i najniższe ryzyko opadów.',
-      'Dobry kierunek, jeśli priorytetem jest stabilność warunków.'
+      'Pafos i zachód trzymają zwykle około 30°C w dzień i 19°C w nocy.',
+      'Morze we wrześniu trzyma około 26°C.',
+      'Najpewniejsza pogoda w trójce Albania-Zakynthos-Cypr.'
     ],
     water: [
       'Blue Lagoon, Sea Caves, Akamas i Lara Bay są mocnymi punktami wodnymi.',
@@ -276,7 +276,7 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     ],
     turtles: [
       'Bardzo mocny kierunek pod żółwie, zwłaszcza Lara Bay i Akamas.',
-      'Dashboardy oceniają Cypr wysoko, choć ultimate pod żółwie wskazywał Zakynthos.'
+      'To bardziej plaże lęgowe i obszar ochrony niż obietnica pewnej obserwacji w wodzie.'
     ],
     nature: [
       'Akamas, Lara Bay, Blue Lagoon, Avakas Gorge, klify i zachodnie wybrzeże.',
@@ -290,68 +290,68 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     ],
     pluses: ['najpewniejsza pogoda', 'ciepła woda', 'Akamas i kultura', 'łatwiejsza logistyka niż Albania'],
     risks: ['wyższe koszty', 'ruch lewostronny', 'auto praktycznie obowiązkowe przy Polis/Latchi', 'sprawdzać dojazdy na plaże i do sklepów'],
-    scores: { turtles: 9, snorkeling: 8, logistics: 8, economy: 5, sightseeing: 9 },
+    scores: { turtles: 8, snorkeling: 8, logistics: 8, economy: 5, sightseeing: 9 },
     localCosts: {
       foodMultiplier: '1.20',
       buffer: '1200 PLN',
-      carComparison: '95 PLN/dzień vs 180 PLN/dzień'
+      carComparison: '110 PLN/dzień vs 190 PLN/dzień'
     }
   },
   Turcja: {
     key: 'Turcja',
     viewId: 'turcja',
     displayName: 'Turcja Egejska',
-    region: 'Fethiye / Kas / Dalyan',
+    region: 'Fethiye / Kaş / Dalyan',
     accent: '#e98f45',
-    oneLine: 'Najsilniejsza nowa kandydatka: widoczność, skaliste dno, Dalyan/Iztuzu i mocny koszt lokalny.',
-    bestFor: ['snorkeling', 'natura i klify', 'koszt życia'],
-    term: 'Wrzesień 2026 jako ciepły, nadal morski termin; trasa może łączyć Fethiye, Kas i Dalyan.',
+    oneLine: 'Najsilniejsza nowa kandydatka: widoczność, skaliste dno, Dalyan / İztuzu i mocny koszt lokalny.',
+    bestFor: ['snorkeling', 'żółwie', 'natura i klify'],
+    term: 'Wrzesień 2026 z lotem do Dalaman; 11/12 lub 14/15 dni najlepsze, 7/8 dni tylko przy jednej bazie.',
     base: [
       'Fethiye dla wygodnej bazy i okolicy.',
-      'Kas dla skalistego dna, widoczności i charakteru.',
-      'Dalyan / Iztuzu dla żółwi i przyrody rzeczno-morskiej.'
+      'Kaş dla skalistego dna, widoczności i charakteru.',
+      'Dalyan / İztuzu dla żółwi i przyrody rzeczno-morskiej.'
     ],
     transfer: [
-      'Logistyka zależy od lotniska i układu trasy.',
+      'Dalaman - Dalyan to zwykle 30-40 min, Dalaman - Fethiye / Ölüdeniz 45-60 min, Dalaman - Kaş około 2.5-3.5 h.',
       'D400 jest atrakcją sama w sobie, ale dystanse są większe niż na małej wyspie.',
-      'Poza UE: uwzględnić formalności, dokumenty i dane komórkowe.'
+      'Poza UE: uwzględnić dokument podróży, roaming i dane komórkowe.'
     ],
     car: [
-      'Wielkie porównanie: 105 PLN/dzień; system porównawczy: 160 PLN/dzień.',
-      'W checklistach pojawia się wymóg paszportu ważnego minimum 150 dni od daty wjazdu.',
-      'Wypożyczalnie i ubezpieczyciele mogą wymagać paszportu.'
+      'Wielkie porównanie: ok. 110-190 PLN/dzień.',
+      'Polak może wjechać także na dowód osobisty; jeśli jedziesz na paszporcie, obowiązuje 150 dni ważności od dnia wjazdu.',
+      'Wypożyczalnie zwykle i tak oczekują dokumentu, prawa jazdy i karty na kierowcę.'
     ],
     weather: [
-      'Ciepły kierunek wrześniowy z mocną wodą.',
+      'Ciepły kierunek wrześniowy z mocną wodą; morze trzyma około 27.4°C.',
       'Warunki wodne szczególnie atrakcyjne dla skalistych zatok.',
-      'Należy uwzględnić większą złożoność logistyczną niż Cypr/Zakynthos.'
+      'Należy uwzględnić większą złożoność logistyczną niż Cypr / Zakynthos.'
     ],
     water: [
       'Najlepsza w zestawieniu widoczność i skaliste dno według ekstraktu.',
-      'Kas wskazywany jako bardzo mocny punkt snorkelingowy.',
+      'Kaş wskazywany jako bardzo mocny punkt snorkelingowy.',
       'Dalyan i Iztuzu dodają aspekt żółwi i przyrody.'
     ],
     turtles: [
-      'Dalyan i Iztuzu Beach oceniane bardzo wysoko.',
-      'Silna alternatywa dla Zakynthos i Cypru pod żółwie.'
+      'Dalyan i İztuzu Beach oceniane bardzo wysoko.',
+      'Silna alternatywa dla Zakynthos i Cypru pod żółwie; plaża ma nocne zamknięcie i ochronę gniazd.'
     ],
     nature: [
-      'Fethiye, Kas, Dalyan, Iztuzu, kaniony, klify i trasa D400.',
+      'Fethiye, Kaş, Dalyan, İztuzu, Butterfly Valley, kaniony, klify i trasa D400.',
       'Bardzo mocna pod krajobraz i bazę wypadową.',
-      'Wariant D z CSV pasuje do natury, klifów i charakteru.'
+      'Butterfly Valley ma ściany dochodzące do około 350 m, więc to realnie klifowy kierunek.'
     ],
     culture: [
+      'Xanthos-Letoon / UNESCO, Fethiye Museum, Tomb of Amyntas i Kaunos.',
       'Kultura i archeologia oceniane wysoko w nowszych dashboardach.',
-      'Dobra opcja, jeśli ma być więcej lądu, miast i historii niż na Zakynthos.',
-      'Inny charakter niż UE/Grecja/Cypr.'
+      'Mocniejszy i grubszy kierunek niż Zakynthos pod warstwę historyczną.'
     ],
     pluses: ['najmocniejszy snorkeling', 'bardzo dobre żółwie', 'tanie koszty życia', 'dużo natury i trasa D400'],
-    risks: ['poza UE', 'formalności paszportowe', 'większe dystanse', 'trzeba sprawdzić ubezpieczenie auta i dane komórkowe'],
-    scores: { turtles: 9, snorkeling: 10, logistics: 6, economy: 8, sightseeing: 9 },
+    risks: ['poza UE', 'większe dystanse', 'formalności zależne od dokumentu i wypożyczalni', 'trzeba sprawdzić ubezpieczenie auta i dane komórkowe'],
+    scores: { turtles: 9, snorkeling: 9, logistics: 6, economy: 8, sightseeing: 9 },
     localCosts: {
-      foodMultiplier: '0.75',
-      buffer: '900 PLN',
-      carComparison: '105 PLN/dzień vs 160 PLN/dzień'
+      foodMultiplier: '0.80',
+      buffer: '1000 PLN',
+      carComparison: '110 PLN/dzień vs 190 PLN/dzień'
     }
   },
   Kreta: {
@@ -360,28 +360,28 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     displayName: 'Kreta Zachodnia',
     region: 'Chania / Kissamos / Rethymno',
     accent: '#9c7cf4',
-    oneLine: 'Bezpieczna europejska opcja z lagunami, wąwozami i kulturą; droższa i mniej żółwiowa.',
+    oneLine: 'Bezpieczna europejska opcja z lagunami, wąwozami i starym miastem; droższa i umiarkowanie żółwiowa.',
     bestFor: ['laguny i wąwozy', 'kultura', 'przewidywalność UE'],
-    term: 'Wrzesień 2026 dla zachodniej Krety; region Chania / Kissamos / Rethymno.',
+    term: 'Wrzesień 2026 dla zachodniej Krety; 11/12 dni optymalne, 14/15 przy szerszym objeździe, 7/8 tylko przy Chania + Kissamos.',
     base: [
       'Chania dla miasta, kultury i gastronomii.',
       'Kissamos dla Balos i zachodnich wycieczek.',
       'Rethymno jako alternatywa miejsko-plażowa.'
     ],
     transfer: [
-      'Dobra przewidywalność europejska.',
+      'Chania Airport leży ok. 14 km od Chanii; 20-30 min do Chanii, 55-70 min do Kissamos, 70-90 min do Rethymno.',
       'Dystanse i górskie drogi wymagają planowania.',
       'Balos bezpieczniej robić rejsem z Kissamos, bo droga szutrowa może wyłączać ubezpieczenie.'
     ],
     car: [
-      'Wielkie porównanie: 120 PLN/dzień; system porównawczy: 210 PLN/dzień.',
+      'Wielkie porównanie: ok. 130-220 PLN/dzień.',
       'Auto potrzebne do lagun, wąwozów i tras poza miastami.',
       'Sprawdzać ograniczenia ubezpieczenia na drogach szutrowych.'
     ],
     weather: [
       'Ciepły wrzesień, ale północ może łapać fale Meltemi.',
-      'Dobra opcja krajobrazowa i stabilna europejsko.',
-      'Warunki wodne zależą od strony wyspy i wiatru.'
+      'Woda na północy to zwykle około 24°C.',
+      'Dobra opcja krajobrazowa i stabilna europejsko.'
     ],
     water: [
       'Balos, laguny i zatoki są wizualnie bardzo mocne.',
@@ -389,12 +389,12 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
       'Meltemi może utrudniać wodę na północy.'
     ],
     turtles: [
-      'Żółwie oceniane średnio; ARCHELON Chania pojawia się jako kontekst.',
+      'Sezonowe projekty ARCHELON działają od połowy maja do połowy października, więc żółwie są realnym elementem tła wyspy.',
       'Nie jest to kierunek żółwiowy na poziomie Zakynthos, Cypru lub Turcji.'
     ],
     nature: [
       'Balos, Elafonisi, Falassarna, Samaria i inne wąwozy, klify i zachodnie krajobrazy.',
-      'Wariant D z CSV pasuje do lagun, natury i bazy wypadowej.',
+      'Samaria Gorge ma około 16 km i jest jednym z najmocniejszych produktów przyrodniczych zachodu Krety.',
       'Jedna z najmocniejszych opcji lądowo-krajobrazowych.'
     ],
     culture: [
@@ -404,11 +404,11 @@ export const DESTINATION_PROFILES: Record<DestinationKey, DestinationProfile> = 
     ],
     pluses: ['laguny i wąwozy', 'kultura i miasta', 'przewidywalność UE', 'duża różnorodność dnia'],
     risks: ['wyższe koszty życia', 'droższe auto', 'Meltemi na północy', 'Balos i drogi szutrowe a ubezpieczenie'],
-    scores: { turtles: 5, snorkeling: 6, logistics: 8, economy: 4, sightseeing: 9 },
+    scores: { turtles: 6, snorkeling: 6, logistics: 8, economy: 4, sightseeing: 9 },
     localCosts: {
       foodMultiplier: '1.30',
       buffer: '1300 PLN',
-      carComparison: '120 PLN/dzień vs 210 PLN/dzień'
+      carComparison: '130 PLN/dzień vs 220 PLN/dzień'
     }
   }
 };
@@ -435,7 +435,7 @@ export const CHECKLIST = [
   'Przy żółwiach respektować strefy ochronne i nie zakładać gwarancji obserwacji.',
   'Albania: nie przeciążać pierwszego i ostatniego dnia przez transfer Tirana-Saranda.',
   'Cypr: ruch lewostronny i auto praktycznie obowiązkowe przy Polis / Latchi / Akamas.',
-  'Turcja: formalności poza UE, paszport i dane komórkowe.',
+  'Turcja: sprawdzić dokument podróży, roaming i ubezpieczenie auta.',
   'Kreta: Balos najlepiej rejsem z Kissamos, bo szuter może wyłączać ubezpieczenie.'
 ];
 
