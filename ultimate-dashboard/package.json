@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "rsbuild dev --host 127.0.0.1",
     "build": "rsbuild build",
+    "generate:bookings": "bun run scripts/generate-bookings-data.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
