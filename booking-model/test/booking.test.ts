@@ -60,6 +60,7 @@ test('bookingsFromMatrix attaches the serialized page details for each booking',
   );
 
   expect(idealApartHotelSaranda?.details.propertyName).toBe('Ideal ApartHotel Saranda');
-  expect(idealApartHotelSaranda?.details.captureQuality).toBe('blocked');
-  expect(idealApartHotelSaranda?.details.issues).toContain('Blocked or CAPTCHA page');
+  expect(idealApartHotelSaranda?.details.captureQuality).toBe('complete');
+  expect(idealApartHotelSaranda?.details.review.count).toBe(602);
+  expect(idealApartHotelSaranda?.details.enrichments['Best For']).toContain('Saranda');
 });

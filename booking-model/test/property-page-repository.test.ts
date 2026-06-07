@@ -26,8 +26,9 @@ test('PropertyPageRepository loads a real committed page JSON', () => {
   );
 
   expect(page.propertyName).toBe('Ideal ApartHotel Saranda');
-  expect(page.captureQuality).toBe('blocked');
-  expect(page.enrichments['Overall Impression'].length).toBeGreaterThan(0);
+  expect(page.captureQuality).toBe('complete');
+  expect(page.review.count).toBe(602);
+  expect(page.enrichments['Overall Impression']).toContain('value-focused');
 });
 
 test('PropertyPageRepository wraps missing JSON files with a clear error', () => {

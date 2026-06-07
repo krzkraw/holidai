@@ -3,43 +3,165 @@
   "country": "Albania",
   "propertyName": "Ideal ApartHotel Saranda",
   "address": "",
-  "coordinates": null,
-  "imageUrls": [],
-  "description": "Brak danych z powodu błędu lub CAPTCHA.",
+  "coordinates": {
+    "latitude": 39.877412,
+    "longitude": 20.007737
+  },
+  "imageUrls": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258903903.jpg?k=526bd468e4fc597e4eec19b560d641ba07d2e786ade8e9d11f8a3dedc2b912d2&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/258904213.jpg?k=ad31bd9d3dd7082da40bdaa9fb50cab956b87ac29c47d902e90dba1d096aa6cc&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max500/695996117.jpg?k=2efd4cf2546bdd72c374afd8ff9c4974944ac37e449dfbd361f16b8839b7d21d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/258904164.jpg?k=d72e24182be5329b9f0da0e368259611878aecb251f81e9d8bbc97b427c97cc4&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/258904188.jpg?k=56d7a3f675ed7bb0f736ef2ccab821b7bee88b9866f194e186fdb5a1df648feb&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/258904134.jpg?k=905d31a016007f3e8f1aacbaf74e34b97ab366cae2b118c68895466e8b7b718d&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/695996121.jpg?k=01b5d6308997713549fc5c4ac5f46ffd966cae478a9e8d9a953370fab11e307e&o=",
+    "https://cf.bstatic.com/xdata/images/hotel/max300/258903911.jpg?k=e18d8f80e67fc17203e7fcc17d6357ae25a66baf8d190b59a917ac0bf3b4e62a&o=",
+    "https://lh3.googleusercontent.com/a-/AOh14Gh_84LlCVEZfE4D2FI3OCmPDSfdTIdiStNizamxKQ=s96-c",
+    "https://t-cf.bstatic.com/design-assets/assets/v3.188.0/images-flags/Pl.png",
+    "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+    "https://graph.facebook.com/v2.9/4561371980658507/picture?type=square&height=64&width=64"
+  ],
+  "description": "Obiekt Ideal ApartHotel Saranda usytuowany jest w miejscowości Saranda i oferuje zakwaterowanie w klimatyzowanych pokojach. Odległość ważnych miejsc od obiektu: Plaża miejska Saranda – 700 m. Oferta hotelu obejmuje pokoje rodzinne.\n\nW każdym pokoju w obiekcie zapewniono szafę. We wszystkich pokojach w obiekcie zapewniono prywatną łazienkę z prysznicem i bezpłatnym zestawem kosmetyków, a także bezpłatne Wi-Fi. Z wybranych pokoi roztacza się również widok na morze. Każdy pokój w obiekcie wyposażono w telewizor z płaskim ekranem. Do dyspozycji Gości jest również prywatna łazienka oraz balkon z widokiem na miasto.\n\nParom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 8,1.\n\nOdległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap",
   "stayPrices": [
     {
       "nights": 8,
       "dateRange": "16.09 - 24.09",
-      "pricePln": null,
-      "raw": "TBD PLN"
+      "pricePln": 742,
+      "raw": "742 PLN"
     },
     {
       "nights": 11,
       "dateRange": "16.09 - 27.09",
-      "pricePln": null,
-      "raw": "TBD PLN"
+      "pricePln": 1020,
+      "raw": "1020 PLN"
     },
     {
       "nights": 14,
       "dateRange": "16.09 - 30.09",
-      "pricePln": null,
-      "raw": "TBD PLN"
+      "pricePln": 1299,
+      "raw": "1299 PLN"
     }
   ],
   "roomTable": {
-    "columns": [],
-    "rows": [],
-    "raw": "Brak danych."
+    "columns": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Typ pokoju",
+      "Liczba gości",
+      "Cena za 2 tygodnie",
+      "Twoje opcje",
+      "Wybierz pokoje"
+    ],
+    "rows": [
+      [
+        "Pokój trzyosobowy z widokiem na morze <br> 2 łóżka piętrowe  i 1 duże łóżko podwójne  <br> 28 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "1 496 zł <br> 1 347 zł  <br> Oryginalna cena 1 496 zł Aktualna cena 1 347 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (1 347 zł) <br> 2          (2 694 zł) <br> 3          (4 040 zł)"
+      ],
+      [
+        "Pokój Czteroosobowy z balkonem <br>  Wyższe piętro <br> 2 łóżka pojedyncze  i 2 łóżka piętrowe  <br> 30 m² <br> Balkon <br> Widok na miasto <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "1 496 zł <br> 1 347 zł  <br> Oryginalna cena 1 496 zł Aktualna cena 1 347 zł <br> Zawiera opłaty i podatki <br> 10% taniej",
+        "Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3",
+        "Wybierz pokoje <br> 0 <br> 1          (1 347 zł) <br> 2          (2 694 zł) <br> 3          (4 040 zł)"
+      ],
+      [
+        "Pokój Czteroosobowy z widokiem na morze <br> 1 łóżko podwójne  i 2 łóżka piętrowe  <br> 30 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Więcej",
+        "Maksymalna liczba osób: 2",
+        "1 603 zł <br> Cena 1 603 zł <br> Zawiera opłaty i podatki",
+        "Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> • <br> Zostały nam 2",
+        "Wybierz pokoje <br> 0 <br> 1          (1 603 zł) <br> 2          (3 207 zł)"
+      ]
+    ],
+    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Pokój trzyosobowy z widokiem na morze <br> 2 łóżka piętrowe  i 1 duże łóżko podwójne  <br> 28 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Więcej | Maksymalna liczba osób: 2 | 1 496 zł <br> 1 347 zł  <br> Oryginalna cena 1 496 zł Aktualna cena 1 347 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (1 347 zł) <br> 2          (2 694 zł) <br> 3          (4 040 zł) |\n| Pokój Czteroosobowy z balkonem <br>  Wyższe piętro <br> 2 łóżka pojedyncze  i 2 łóżka piętrowe  <br> 30 m² <br> Balkon <br> Widok na miasto <br> Klimatyzacja <br> Prywatna łazienka <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Więcej | Maksymalna liczba osób: 2 | 1 496 zł <br> 1 347 zł  <br> Oryginalna cena 1 496 zł Aktualna cena 1 347 zł <br> Zawiera opłaty i podatki <br> 10% taniej | Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> Zastosowano 10% zniżki Genius w odniesieniu do ceny przed naliczeniem podatków i opłat <br> • <br> Zostały nam 3 | Wybierz pokoje <br> 0 <br> 1          (1 347 zł) <br> 2          (2 694 zł) <br> 3          (4 040 zł) |\n| Pokój Czteroosobowy z widokiem na morze <br> 1 łóżko podwójne  i 2 łóżka piętrowe  <br> 30 m² <br> Prywatny aneks kuchenny <br> Prywatna łazienka <br> Balkon <br> Widok na morze <br> Widok na miasto <br> Klimatyzacja <br> Telewizor z płaskim ekranem <br> Dźwiękoszczelność <br> Więcej | Maksymalna liczba osób: 2 | 1 603 zł <br> Cena 1 603 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 9 września 2026 <br> • <br> Zapłać obiektowi przed przyjazdem <br> • <br> Zostały nam 2 | Wybierz pokoje <br> 0 <br> 1          (1 603 zł) <br> 2          (3 207 zł) |"
   },
   "review": {
-    "score": null,
-    "count": 0
+    "score": 7.9,
+    "count": 602
   },
-  "comments": [],
-  "surroundingsRaw": "Brak danych.",
+  "comments": [
+    {
+      "author": "Kidżowscy22",
+      "text": "„+Piękny widok z tarasu na całą Sarande"
+    },
+    {
+      "author": "Kidżowscy22",
+      "text": "„+Piękny widok z tarasu na całą Sarande"
+    },
+    {
+      "author": "Kidżowscy22",
+      "text": "„+Piękny widok z tarasu na całą Sarande"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Widok i lokalizacja. Blisko morza ale w cichej okolicy”"
+    },
+    {
+      "author": "Andrzej",
+      "text": "„Widok i lokalizacja. Blisko morza ale w cichej okolicy”"
+    },
+    {
+      "author": "Katarzyna",
+      "text": "„Fajna lokalizacja, blisko promenady. Apartament przestronny i czysty. Obsługa miła i pomocna.”"
+    },
+    {
+      "author": "Katarzyna",
+      "text": "„Fajna lokalizacja, blisko promenady. Apartament przestronny i czysty. Obsługa miła i pomocna.”"
+    },
+    {
+      "author": "Liša",
+      "text": "„The owner was nice and welcoming, everything run smoothly.. good price to quality ratio!”"
+    },
+    {
+      "author": "Liša",
+      "text": "„The owner was nice and welcoming, everything run smoothly.. good price to quality ratio!”"
+    },
+    {
+      "author": "Khokhawala",
+      "text": "„It was well kept and clean, that staff and especially the owner was very friendly. Very good value for money, bedsheets and extra towels were...”"
+    }
+  ],
+  "surroundingsRaw": "Udogodnienia w obiekcie Ideal ApartHotel Saranda\nZobacz dostępność\nNajpopularniejsze udogodnienia\nPokoje dla niepalących\nPokoje rodzinne\nBezpłatne Wi-Fi\nŚwietne na Twój pobyt\nPrywatna łazienka\nBalkon\nBezpłatne Wi-Fi\nTelewizor z płaskim ekranem\nKlimatyzacja\nWidok\nPokoje dla niepalących\nPokoje rodzinne\nPrysznic\nZamykane szafki\nŁazienka\nPapier toaletowy\nPrywatna łazienka\nBezpłatny zestaw kosmetyków\nSuszarka do włosów\nPrysznic\nSypialnia\nSzafa lub garderoba\nWidok\nWidok na miasto\nWidok\nOkolica\nMeble ogrodowe\nBalkon\nKuchnia\nStół\nŚrodki czystości\nLodówka\nSalon\nCzęść wypoczynkowa\nMedia/Technologia\nTelewizor z płaskim ekranem\nTelewizor\nInternet\nWi-Fi jest dostępne w pomieszczeniach ogólnodostępnych i jest bezpłatne.\nParking\nParking nie jest dostępny.\nUsługi\nZamykane szafki\nBezpieczeństwo\nDostęp za pomocą kluczy\nCałodobowa ochrona\nSejf\nOgólne\nCzęść przeznaczona dla palących\nKlimatyzacja\nCałkowity zakaz palenia\nMoskitiera\nPodłoga wyłożona kafelkami lub marmurem\nOgrzewanie\nDźwiękoszczelność\nPokoje dźwiękoszczelne\nPokoje rodzinne\nPokoje dla niepalących\nJęzyki\ngrecki\nangielski",
   "amenities": {
     "flatList": [
-      "Brak szczegółowych udogodnień."
+      "Pokoje dla niepalących",
+      "Pokoje rodzinne",
+      "Bezpłatne Wi-Fi",
+      "Prywatna łazienka",
+      "Balkon",
+      "Telewizor z płaskim ekranem",
+      "Klimatyzacja",
+      "Widok",
+      "Prysznic",
+      "Zamykane szafki",
+      "Papier toaletowy",
+      "Bezpłatny zestaw kosmetyków",
+      "Suszarka do włosów",
+      "Szafa lub garderoba",
+      "Widok na miasto",
+      "Meble ogrodowe",
+      "Stół",
+      "Środki czystości",
+      "Lodówka",
+      "Część wypoczynkowa",
+      "Telewizor",
+      "Dostęp za pomocą kluczy",
+      "Całodobowa ochrona",
+      "Sejf",
+      "Część przeznaczona dla palących",
+      "Całkowity zakaz palenia",
+      "Moskitiera",
+      "Podłoga wyłożona kafelkami lub marmurem",
+      "Ogrzewanie",
+      "Dźwiękoszczelność",
+      "Pokoje dźwiękoszczelne",
+      "grecki",
+      "angielski"
     ],
     "laundry": {
       "confirmed": false,
@@ -51,34 +173,30 @@
     }
   },
   "policy": {
-    "houseRulesRaw": "Brak danych.",
-    "importantInfoRaw": "Brak danych."
+    "houseRulesRaw": "Zasady pobytu\nObiekt Ideal ApartHotel Saranda przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!\nZobacz dostępność\nZameldowanie\nOd 14:00 do 23:30\nWymeldowanie\nOd 07:00 do 10:00\nOdwołanie rezerwacji/ przedpłata\nZasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania. Wybierając daną opcję, sprawdź warunki rezerwacji.\nZakwaterowanie dzieci\nZasady dotyczące pobytu dzieci\n\nDzieci w każdym wieku są mile widziane.\n\nAby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.\n\nZasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek\nWiek: 0–1\nDodatkowe łóżko dostępne na życzenie\nBezpłatnie\nŁóżeczko dziecięce dostępne na życzenie\nBezpłatnie\nWiek: 2–11\nDodatkowe łóżko dostępne na życzenie\nBezpłatnie\n\nLiczba dozwolonych dodatkowych łóżek i łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.\n\nMożliwość skorzystania z łóżeczek dziecięcych i dodatkowych łóżek zależy od dostępności.\n\nBrak ograniczeń wiekowych\nBrak ograniczeń wiekowych przy zameldowaniu\nZwierzęta\nZwierzęta nie są akceptowane.\nAkceptowane metody płatności\nGotówka",
+    "importantInfoRaw": "Brak sekcji Ważne Informacje."
   },
   "authorSummaryBullets": [
     "**Odległość od plaży:** The nearest beach is 1,300 ft from Ideal ApartHotel Saranda.",
-    "**Prywatna łazienka:** Niepotwierdzona w udogodnieniach.",
-    "**Stosunek ceny do jakości:** Trudno ocenić (brak ocen na Booking.com).",
+    "**Prywatna łazienka:** Tak, pokoje posiadają prywatną łazienkę.",
+    "**Stosunek ceny do jakości:** Przeciętny, ocena obiektu jest poniżej 8.0.",
     "**Ogólne podsumowanie:** Obiekt w kategorii C — po kosztach: prywatna łazienka i rozsądne warunki. Szczegółowe udogodnienia zostały zweryfikowane automatycznie."
   ],
-  "captureQuality": "blocked",
-  "issues": [
-    "Blocked or CAPTCHA page"
-  ],
+  "captureQuality": "complete",
+  "issues": [],
   "placeholders": [
-    "Brak widocznych zdjęć z siatki.",
-    "Brak danych z powodu błędu lub CAPTCHA.",
-    "Brak danych.",
-    "Brak widocznych opinii.",
-    "Brak szczegółowych udogodnień."
+    "Brak ograniczeń wiekowych",
+    "Brak ograniczeń wiekowych przy zameldowaniu",
+    "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "This page is effectively blocked, so there is no reliable room or amenity profile to judge from the source. The only useful signal is the generated summary, which suggests a beach location, but that is not enough to call the stay complete.",
-    "Location & Beach": "The deterministic summary says the nearest beach is about 1,300 ft away, but the markdown source itself only shows a CAPTCHA or error state. Beyond that distance hint, the actual location and beach access cannot be verified from the captured page.",
-    "Room Fit": "No room inventory, dimensions, or occupancy details were captured, so room fit cannot be assessed. Any sizing judgment would be speculation.",
-    "Amenities & Comfort": "The page does not expose a usable amenity list, so comfort features such as Wi-Fi, AC, or bathrooms are not confirmed. At the moment there is no evidence-based way to judge the property beyond the blocked page state.",
-    "Laundry Verdict": "Laundry cannot be assessed because the page is blocked and no laundry details were captured. There is no evidence of either a washer or laundry service.",
-    "Guest Sentiment": "There are no captured reviews or scores, so guest sentiment is unavailable. The property is currently too opaque to infer reputation from the source.",
-    "Tradeoffs": "The tradeoff is simply missing data: no rooms, no reviews, no amenities, and no policy details beyond a blocked page. That leaves too much unknown to compare it fairly with the other Saranda options.",
-    "Best For": "At present, it is only reasonable for users who are willing to investigate manually despite the blocked source. It is not ready for a recommendation based on the current capture."
+    "Overall Impression": "A practical Saranda apartment with a useful mix of room types, private bathrooms, and fresh sea-view or city-view options. It is not a luxury stay, but the completed capture now shows a coherent value-focused property with a decent 7.9 score and solid review volume.",
+    "Location & Beach": "The nearest beach is about 1,300 ft away, so the property is walkable to the coast without being directly on the waterfront. The setting appears quieter than a beachfront strip, which fits the apartment-house feel.",
+    "Room Fit": "The room table shows three compact options between 28 m² and 30 m², all with balcony, AC, private bathroom, and soundproofing. The availability display is a little inconsistent on capacity, but the actual room features look suitable for small groups or couples who want more space than a basic hotel room.",
+    "Amenities & Comfort": "Comfort is driven by the essentials: free Wi-Fi, air conditioning, private bathrooms, kitchen touches, and a flat-screen TV. It looks more functional than polished, but the amenity set is broad enough for a self-contained stay.",
+    "Laundry Verdict": "No washer or laundry service is confirmed, so laundry support should be treated as unavailable. That is the main practical gap for longer stays.",
+    "Guest Sentiment": "Guest feedback is respectable at 7.9 from 602 reviews and repeatedly points to the view, cleanliness, location, air conditioning, and friendly host behavior. It reads as a generally liked property with value and practicality as the main strengths.",
+    "Tradeoffs": "The biggest compromises are the lack of confirmed laundry, the missing address, and a slightly awkward room-capacity display in the live table. It is a good-value apartment stay rather than a fully buttoned-up hotel experience.",
+    "Best For": "Best for travelers who want a simple Saranda base with private bathrooms, balcony space, and some sea-view potential. It fits guests who care more about function and location than about premium service."
   }
 }

@@ -44,11 +44,6 @@
   ],
   "roomTable": {
     "columns": [
-      "",
-      "",
-      "",
-      "",
-      "",
       "Typ pokoju",
       "Liczba gości",
       "Cena za 2 tygodnie",
@@ -64,7 +59,7 @@
         "Wybierz pokoje <br> 0 <br> 1          (3 682 zł)"
       ]
     ],
-    "raw": "|  |  |  |  |  | Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Pokój dwuosobowy typu Economy z 1 lub 2 łóżkami <br> 1 duże łóżko podwójne  <br> 15 m² <br> Klimatyzacja <br> Łazienka w pokoju <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 3 682 zł <br> Cena 3 682 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (3 682 zł) |"
+    "raw": "| Typ pokoju | Liczba gości | Cena za 2 tygodnie | Twoje opcje | Wybierz pokoje |\n| --- | --- | --- | --- | --- |\n| Pokój dwuosobowy typu Economy z 1 lub 2 łóżkami <br> 1 duże łóżko podwójne  <br> 15 m² <br> Klimatyzacja <br> Łazienka w pokoju <br> Bezpłatne Wi-Fi <br> Więcej | Maksymalna liczba osób: 2 | 3 682 zł <br> Cena 3 682 zł <br> Zawiera opłaty i podatki | Bezpłatne odwołanie przed 13 sierpnia 2026 <br> • <br> Nie płacisz nic do 11 sierpnia 2026 <br> • <br> Został nam 1 | Wybierz pokoje <br> 0 <br> 1          (3 682 zł) |"
   },
   "review": {
     "score": 9.1,
@@ -170,13 +165,13 @@
     "Brak sekcji Ważne Informacje."
   ],
   "enrichments": {
-    "Overall Impression": "A strong-value Laganas stay with an excellent score and a straightforward, no-frills hotel feel. It combines beach proximity, a pool, and simple room comfort with a guest response that is notably positive.",
-    "Location & Beach": "Laganas Beach is about 400 m away, so the location is close to the coast without being a true beachfront property. The setting is convenient for Laganas itself, with airport access also very short.",
-    "Room Fit": "The listing shown here is a 15 m² economy double/twin room with AC, private bathroom, and Wi‑Fi. That makes it a compact, practical fit for couples or solo travelers rather than anyone needing extra space.",
-    "Amenities & Comfort": "The property covers the basics well with a seasonal outdoor pool, free Wi‑Fi, private parking, bar service, air conditioning, and private bathrooms with showers and hairdryers. It is comfortable in a lean, efficient way rather than a feature-heavy way.",
-    "Laundry Verdict": "No washer or laundry service is confirmed in the listing, so laundry support should be treated as unavailable. The amenities list does not add any hidden laundry signal.",
-    "Guest Sentiment": "Guests repeatedly praise the owner, the helpfulness, the quiet nights, the location, and the family atmosphere. Cleanliness and sea-view or room comfort also appear in the comments.",
-    "Tradeoffs": "The surrounding detail is thin in the source, and the room mix shown is very limited, so this is not a property with a lot of evidence about breadth. It is also not on the beach itself, so the beach benefit is about easy access rather than direct frontage.",
-    "Best For": "Best for travelers who want a compact, well-reviewed base near Laganas Beach and value location plus price over extras. It suits couples who plan to be out and about most of the day."
+    "Overall Impression": "A strong-value Laganas stay with an excellent score and a straightforward hotel feel. The property combines a pool, parking, and bar service with a compact room setup that looks practical rather than flashy.",
+    "Location & Beach": "Laganas Beach is about 400 m away, so the setting is close to the coast without being beachfront. The property also has easy access to the airport and nearby island sights, which keeps it convenient for short stays.",
+    "Room Fit": "The room shown in the capture is a 15 m² economy double or twin with AC, private bathroom, and Wi-Fi. It is a compact fit, best suited to couples or solo travelers who want a practical base rather than a spacious room.",
+    "Amenities & Comfort": "The hotel covers the basics well with a seasonal outdoor pool, free Wi-Fi, free private parking, a bar, air conditioning, and private bathrooms with showers and hairdryers. Comfort is functional and efficient rather than resort-like.",
+    "Laundry Verdict": "No washer or laundry service is confirmed in the listing, so laundry support should be treated as unavailable. That keeps the stay simple and means longer trips need an outside solution.",
+    "Guest Sentiment": "Guest feedback is very strong at 9.1 from 381 reviews, with recurring praise for the owner, helpfulness, quiet nights, location, and family atmosphere. Cleanliness and simple room comfort also come through consistently.",
+    "Tradeoffs": "The surrounding detail in the source is thin, the room mix shown here is limited, and laundry is not confirmed. It is also not beachfront, so the beach benefit is proximity rather than direct access.",
+    "Best For": "Best for couples or solo travelers who want a compact, well-reviewed Laganas base with a pool and easy beach access. It suits guests who value location and a straightforward hotel setup over larger rooms or full-service extras."
   }
 }
