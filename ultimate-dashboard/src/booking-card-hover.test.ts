@@ -22,7 +22,7 @@ describe('booking card hover treatment', () => {
     expect(baseGlow).toContain('inset: auto -20% 55% 30%');
     expect(baseGlow).toContain('opacity: 0.72');
     expect(hoverGlow).toContain('translateY(-8px) scale(1.16)');
-    expect(hoverCard).toContain('background: rgba(255, 255, 255, 0.09)');
-    expect(hoverCard).not.toContain('color-mix');
+    expect(hoverCard).toContain('linear-gradient(135deg, color-mix(in srgb, #ea580c');
+    expect(hoverCard).toContain('color-mix(in srgb, #ea580c');
   });
 });

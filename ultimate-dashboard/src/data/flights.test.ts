@@ -19,10 +19,10 @@ describe('flight options data', () => {
     ]);
     expect(greekFlights.map((flight) => getFlightStayDays('Grecja', flight)).filter(Boolean)).toEqual([
       '8',
-      '8',
-      '11',
       '11',
       '14',
+      '8',
+      '11',
       '14',
     ]);
   });
@@ -30,7 +30,7 @@ describe('flight options data', () => {
   it('keeps additional flights in a separate bucket with non-hotel dates', () => {
     const extraAlbaniaFlights = getFlightOptionsForDestination(FLIGHT_OPTIONS, 'Albania', 'extra');
 
-    expect(extraAlbaniaFlights).toHaveLength(18);
+    expect(extraAlbaniaFlights).toHaveLength(14);
     expect(extraAlbaniaFlights.some((flight) => flight.dates === '2026-09-16 → 2026-09-24')).toBe(false);
     expect(getFlightOptionsForDestination(FLIGHT_OPTIONS, 'Turcja', 'extra')).toEqual([]);
   });

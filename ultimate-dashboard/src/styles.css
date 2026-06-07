@@ -607,10 +607,14 @@ z-index: -1;
 .tile:hover {
 border-color: rgba(255, 255, 255, 0.65);
 transform: translateY(-5px) scale(1.015);
-background: rgba(255, 255, 255, 0.09);
+background:
+linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.07) 42%, rgba(255, 255, 255, 0.025)),
+linear-gradient(135deg, color-mix(in srgb, #ea580c 30%, transparent), color-mix(in srgb, #ea580c 12%, transparent) 64%, transparent),
+rgba(28, 31, 40, 0.58);
 box-shadow:
 inset 0 1.8px 1px rgba(255, 255, 255, 0.7),
-0 30px 75px -8px rgba(0, 0, 0, 0.75);
+0 30px 75px -8px rgba(0, 0, 0, 0.75),
+0 0 36px color-mix(in srgb, #ea580c 28%, transparent);
 }
 
 .tile:hover::before {
@@ -1715,10 +1719,14 @@ z-index: 1;
 
 .booking-card:hover {
 border-color: rgba(255, 255, 255, 0.52);
-background: rgba(255, 255, 255, 0.09);
+background:
+linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.065) 46%, rgba(255, 255, 255, 0.02)),
+linear-gradient(135deg, color-mix(in srgb, #ea580c 28%, transparent), color-mix(in srgb, #ea580c 10%, transparent) 64%, transparent),
+rgba(28, 31, 40, 0.6);
 box-shadow:
 inset 0 1.5px 1px rgba(255, 255, 255, 0.62),
-0 30px 72px -14px rgba(0, 0, 0, 0.84);
+0 30px 72px -14px rgba(0, 0, 0, 0.84),
+0 0 34px color-mix(in srgb, #ea580c 26%, transparent);
 transform: translateY(-5px) scale(1.015);
 }
 
@@ -2580,13 +2588,13 @@ transform: translateY(-3px) scale(1.035);
 
 .app-shell--lightweight-visuals {
 --lightweight-panel-bg: rgba(20, 23, 31, 0.78);
---lightweight-card-bg: rgba(28, 31, 40, 0.44);
+--lightweight-card-bg: rgba(28, 31, 40, 0.54);
 --lightweight-pill-bg: rgba(38, 41, 50, 0.9);
 --lightweight-pill-bg-strong: color-mix(in srgb, var(--accent, #ea580c) 42%, rgba(38, 41, 50, 0.88));
 --lightweight-pill-border: rgba(255, 255, 255, 0.44);
 --lightweight-pill-border-strong: rgba(251, 146, 60, 0.86);
 --lightweight-glass-sheen: linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.055) 38%, rgba(255, 255, 255, 0.018) 76%);
---lightweight-glass-tint: radial-gradient(circle at 20% 6%, color-mix(in srgb, var(--accent, #ea580c) 24%, transparent), transparent 46%);
+--lightweight-glass-tint: linear-gradient(135deg, color-mix(in srgb, #ea580c 8%, transparent), transparent 62%);
 --lightweight-pill-sheen: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.045) 64%);
 }
 
@@ -2739,15 +2747,7 @@ box-shadow 160ms ease;
 .app-shell--lightweight-visuals .booking-modal-tags span::before,
 .app-shell--lightweight-visuals .booking-modal-meta > span::before,
 .app-shell--lightweight-visuals .booking-stays-list > span::before {
-display: block;
-filter: none !important;
-}
-
-.app-shell--lightweight-visuals .tile::before,
-.app-shell--lightweight-visuals .booking-card::before {
-background:
-radial-gradient(circle, color-mix(in srgb, var(--accent, #ea580c) 34%, rgba(255, 255, 255, 0.03)) 0%, transparent 72%);
-opacity: 0.78;
+display: none;
 }
 
 .app-shell--lightweight-visuals .tile:hover,
@@ -2755,20 +2755,14 @@ opacity: 0.78;
 border-color: rgba(255, 255, 255, 0.58);
 background:
 linear-gradient(135deg, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.075) 38%, rgba(255, 255, 255, 0.025) 76%),
-radial-gradient(circle at 20% 6%, color-mix(in srgb, var(--accent, #ea580c) 34%, transparent), transparent 48%),
-rgba(28, 31, 40, 0.5);
+linear-gradient(135deg, color-mix(in srgb, #ea580c 32%, transparent), color-mix(in srgb, #ea580c 14%, transparent) 62%, transparent),
+rgba(28, 31, 40, 0.62);
 box-shadow:
 inset 0 1.8px 1px rgba(255, 255, 255, 0.46),
 inset 0 -1px 1px rgba(255, 255, 255, 0.08),
 0 28px 68px -16px rgba(0, 0, 0, 0.78),
-0 0 36px color-mix(in srgb, var(--accent, #ea580c) 28%, transparent);
+0 0 36px color-mix(in srgb, #ea580c 38%, transparent);
 transform: translateY(-4px) scale(1.012);
-}
-
-.app-shell--lightweight-visuals .tile:hover::before,
-.app-shell--lightweight-visuals .booking-card:hover::before {
-opacity: 1;
-transform: translateY(-8px) scale(1.14);
 }
 
 .app-shell--lightweight-visuals .tab:hover,
@@ -2819,8 +2813,19 @@ transform: translateY(-2px) scale(1.025);
 .app-shell--lightweight-visuals .variant-pills button.selected::before,
 .app-shell--lightweight-visuals .segmented button:hover::before,
 .app-shell--lightweight-visuals .segmented button.selected::before {
-opacity: 0.92;
-transform: translateY(-3px) scale(1.1);
+display: none;
+}
+
+.app-shell--lightweight-visuals .tile-hotel-reserve,
+.app-shell--lightweight-visuals .tile-hotel-reserve:hover {
+border: 0;
+background: transparent;
+box-shadow: none;
+transform: none;
+}
+
+.app-shell--lightweight-visuals .tile-hotel-reserve::before {
+display: none;
 }
 
 .booking-icon {

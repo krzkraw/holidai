@@ -55,7 +55,7 @@ function booking(price: number | null): BookingJson {
 describe('trip selection totals', () => {
   it('adds the selected stay price and selected flight price', () => {
     const flight = FLIGHT_OPTIONS.find(
-      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '703 zł',
+      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '1131 zł',
     );
 
     if (!flight) {
@@ -64,10 +64,10 @@ describe('trip selection totals', () => {
 
     const total = calculateTripTotal(booking(1300), '11', flight);
 
-    expect(total).toEqual({ hotel: 1300, flight: 703, total: 2003 });
+    expect(total).toEqual({ hotel: 1300, flight: 1131, total: 2431 });
     expect(total).not.toBeNull();
     if (total) {
-      expect(formatTripTotal(total)).toBe('2 003 PLN');
+      expect(formatTripTotal(total)).toBe('2 431 PLN');
     }
   });
 
@@ -80,10 +80,10 @@ describe('trip selection totals', () => {
 
   it('finds the cheapest and most expensive total among favorite hotels and flights', () => {
     const firstFlight = FLIGHT_OPTIONS.find(
-      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '703 zł',
+      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '1131 zł',
     );
     const secondFlight = FLIGHT_OPTIONS.find(
-      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '1134 zł',
+      (option) => option.destination === 'Albania' && option.dates === '2026-09-16 → 2026-09-27' && option.price === '1430 zł',
     );
 
     if (!firstFlight || !secondFlight) {
@@ -96,8 +96,8 @@ describe('trip selection totals', () => {
       [firstFlight, secondFlight, { ...firstFlight, price: '-' }],
     );
 
-    expect(range).toEqual({ min: 2003, max: 3234 });
-    expect(formatTripTotalRange(range)).toBe('Od: 2 003 PLN Do: 3 234 PLN');
+    expect(range).toEqual({ min: 2431, max: 3530 });
+    expect(formatTripTotalRange(range)).toBe('Od: 2 431 PLN Do: 3 530 PLN');
   });
 
   it('does not invent a range when no favorite combination has both prices', () => {

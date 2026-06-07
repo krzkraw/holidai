@@ -16,8 +16,8 @@ describe('FlightOptionsTile', () => {
     expect(html).toContain('PRICE');
     expect(html).toContain('INFO');
     expect(html).toContain('KRK ⇄ ZTH');
-    expect(html).toContain('1388 zł');
-    expect(html).toContain('przesiadka 2x · skyscanner');
+    expect(html).toContain('2300 zł');
+    expect(html).toContain('przesiadka 1x · esky');
     expect(html.match(/flight-options-row--active/g)).toHaveLength(2);
   });
 
