@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   BackgroundRendererMode,
   choosePreferredBackgroundRenderer,
-  getAtmosphereState
+  getAtmosphereState,
+  normalizeScrollDepth
 } from '../background';
 import { ViewId } from '../model';
 
@@ -73,6 +74,7 @@ struct Uniforms {
   resolution: vec2<f32>,
   time: f32,
   progress: f32,
+  scrollDepth: f32,
 };
 
 @group(0) @binding(0) var<uniform> uniforms: Uniforms;
@@ -108,19 +110,30 @@ fn noise(point: vec2<f32>) -> f32 {
 fn fragmentMain(@builtin(position) fragment: vec4<f32>) -> @location(0) vec4<f32> {
   let uv = fragment.xy / uniforms.resolution;
   let aspect = uniforms.resolution.x / uniforms.resolution.y;
-  let sun = vec2<f32>(0.14 + uniforms.progress * 0.72, 0.39 - sin(uniforms.progress * 3.14159) * 0.07);
+  let scrollDepth = clamp(uniforms.scrollDepth, 0.0, 1.0);
+  let sunArc = sin(uniforms.progress * 3.14159);
+  let sun = vec2<f32>(
+    0.14 + uniforms.progress * 0.72,
+    0.34 + scrollDepth * 0.23 - sunArc * (0.07 - scrollDepth * 0.03)
+  );
   let scaledUv = vec2<f32>(uv.x * aspect, uv.y);
   let scaledSun = vec2<f32>(sun.x * aspect, sun.y);
   let sunDistance = distance(scaledUv, scaledSun);
   let vertical = smoothstep(0.0, 1.0, uv.y);
+  let sunRadius = mix(0.165, 0.042, scrollDepth);
+  let sunInnerRadius = sunRadius * mix(0.38, 0.48, scrollDepth);
+  let sunGlowFalloff = mix(2.25, 7.1, scrollDepth);
+  let sunGlowStrength = mix(0.98, 0.34, scrollDepth);
+  let sunDiscStrength = mix(0.96, 0.62, scrollDepth);
+  let skyExposure = mix(1.18, 0.7, scrollDepth);
 
   var color = mix(vec3<f32>(0.035, 0.045, 0.085), vec3<f32>(0.39, 0.18, 0.13), vertical);
   color = mix(color, vec3<f32>(0.08, 0.095, 0.14), smoothstep(0.66, 1.0, uv.y) * 0.42);
 
-  let sunDisc = smoothstep(0.075, 0.028, sunDistance);
-  let sunGlow = exp(-sunDistance * 4.25);
-  color += vec3<f32>(1.0, 0.39, 0.16) * sunGlow * 0.54;
-  color = mix(color, vec3<f32>(1.0, 0.67, 0.36), sunDisc * 0.88);
+  let sunDisc = smoothstep(sunRadius, sunInnerRadius, sunDistance);
+  let sunGlow = exp(-sunDistance * sunGlowFalloff);
+  color += vec3<f32>(1.0, 0.43, 0.17) * sunGlow * sunGlowStrength;
+  color = mix(color, vec3<f32>(1.0, 0.72, 0.39), sunDisc * sunDiscStrength);
 
   let fogA = noise(vec2<f32>(uv.x * 2.15 + uniforms.time * 0.022 + uniforms.progress * 0.35, uv.y * 5.2));
   let fogB = noise(vec2<f32>(uv.x * 6.4 - uniforms.time * 0.036, uv.y * 2.35 + 4.0));
@@ -132,6 +145,8 @@ fn fragmentMain(@builtin(position) fragment: vec4<f32>) -> @location(0) vec4<f32
   let grain = noise(fragment.xy * 0.58 + uniforms.time * 0.25) * 0.026;
   let vignette = smoothstep(0.92, 0.22, distance(uv, vec2<f32>(0.5, 0.54)));
   color = color * (0.72 + vignette * 0.42) + grain;
+  color = color * skyExposure;
+  color = mix(color, vec3<f32>(0.018, 0.024, 0.046), scrollDepth * 0.28);
 
   return vec4<f32>(pow(color, vec3<f32>(0.92)), 1.0);
 }
@@ -153,6 +168,7 @@ precision highp float;
 uniform vec2 u_resolution;
 uniform float u_time;
 uniform float u_progress;
+uniform float u_scroll_depth;
 varying vec2 v_uv;
 
 float hash(vec2 point) {
@@ -174,17 +190,28 @@ float noise(vec2 point) {
 void main() {
   vec2 uv = v_uv;
   float aspect = u_resolution.x / u_resolution.y;
-  vec2 sun = vec2(0.14 + u_progress * 0.72, 0.39 - sin(u_progress * 3.14159) * 0.07);
+  float scrollDepth = clamp(u_scroll_depth, 0.0, 1.0);
+  float sunArc = sin(u_progress * 3.14159);
+  vec2 sun = vec2(
+    0.14 + u_progress * 0.72,
+    0.34 + scrollDepth * 0.23 - sunArc * (0.07 - scrollDepth * 0.03)
+  );
   float sunDistance = distance(vec2(uv.x * aspect, uv.y), vec2(sun.x * aspect, sun.y));
   float vertical = smoothstep(0.0, 1.0, uv.y);
+  float sunRadius = mix(0.165, 0.042, scrollDepth);
+  float sunInnerRadius = sunRadius * mix(0.38, 0.48, scrollDepth);
+  float sunGlowFalloff = mix(2.25, 7.1, scrollDepth);
+  float sunGlowStrength = mix(0.98, 0.34, scrollDepth);
+  float sunDiscStrength = mix(0.96, 0.62, scrollDepth);
+  float skyExposure = mix(1.18, 0.7, scrollDepth);
 
   vec3 color = mix(vec3(0.035, 0.045, 0.085), vec3(0.39, 0.18, 0.13), vertical);
   color = mix(color, vec3(0.08, 0.095, 0.14), smoothstep(0.66, 1.0, uv.y) * 0.42);
 
-  float sunDisc = smoothstep(0.075, 0.028, sunDistance);
-  float sunGlow = exp(-sunDistance * 4.25);
-  color += vec3(1.0, 0.39, 0.16) * sunGlow * 0.54;
-  color = mix(color, vec3(1.0, 0.67, 0.36), sunDisc * 0.88);
+  float sunDisc = smoothstep(sunRadius, sunInnerRadius, sunDistance);
+  float sunGlow = exp(-sunDistance * sunGlowFalloff);
+  color += vec3(1.0, 0.43, 0.17) * sunGlow * sunGlowStrength;
+  color = mix(color, vec3(1.0, 0.72, 0.39), sunDisc * sunDiscStrength);
 
   float fogA = noise(vec2(uv.x * 2.15 + u_time * 0.022 + u_progress * 0.35, uv.y * 5.2));
   float fogB = noise(vec2(uv.x * 6.4 - u_time * 0.036, uv.y * 2.35 + 4.0));
@@ -196,6 +223,8 @@ void main() {
   float grain = noise(gl_FragCoord.xy * 0.58 + u_time * 0.25) * 0.026;
   float vignette = smoothstep(0.92, 0.22, distance(uv, vec2(0.5, 0.54)));
   color = color * (0.72 + vignette * 0.42) + grain;
+  color = color * skyExposure;
+  color = mix(color, vec3(0.018, 0.024, 0.046), scrollDepth * 0.28);
 
   gl_FragColor = vec4(pow(color, vec3(0.92)), 1.0);
 }
@@ -204,12 +233,29 @@ void main() {
 export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const progressRef = useRef(getAtmosphereState(activeView).progress);
+  const scrollDepthRef = useRef(0);
   const [mode, setMode] = useState<BackgroundRendererMode>('static');
   const targetProgress = useMemo(() => getAtmosphereState(activeView).progress, [activeView]);
 
   useEffect(() => {
     progressRef.current = targetProgress;
   }, [targetProgress]);
+
+  useEffect(() => {
+    const updateScrollDepth = () => {
+      scrollDepthRef.current = getWindowScrollDepth();
+    };
+
+    updateScrollDepth();
+
+    window.addEventListener('scroll', updateScrollDepth, { passive: true });
+    window.addEventListener('resize', updateScrollDepth);
+
+    return () => {
+      window.removeEventListener('scroll', updateScrollDepth);
+      window.removeEventListener('resize', updateScrollDepth);
+    };
+  }, []);
 
   useEffect(() => {
     let disposed = false;
@@ -222,7 +268,7 @@ export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
         return;
       }
 
-      renderer = await createRenderer(canvas, () => progressRef.current);
+      renderer = await createRenderer(canvas, () => progressRef.current, () => scrollDepthRef.current);
 
       if (disposed) {
         renderer?.destroy();
@@ -255,6 +301,7 @@ export function ShaderBackground({ activeView }: ShaderBackgroundProps) {
 async function createRenderer(
   canvas: HTMLCanvasElement,
   getTargetProgress: () => number,
+  getTargetScrollDepth: () => number,
 ): Promise<CanvasRenderer | null> {
   const gpu = (navigator as WebGpuNavigator).gpu;
   const preferredMode = choosePreferredBackgroundRenderer({
@@ -264,7 +311,7 @@ async function createRenderer(
 
   if (preferredMode === 'webgpu') {
     try {
-      return await createWebGpuRenderer(canvas, getTargetProgress);
+      return await createWebGpuRenderer(canvas, getTargetProgress, getTargetScrollDepth);
     } catch {
       // Fall through to the small WebGL shader; static CSS remains underneath both paths.
     }
@@ -272,7 +319,7 @@ async function createRenderer(
 
   if (preferredMode !== 'static') {
     try {
-      return createWebGlRenderer(canvas, getTargetProgress);
+      return createWebGlRenderer(canvas, getTargetProgress, getTargetScrollDepth);
     } catch {
       return null;
     }
@@ -293,6 +340,7 @@ function hasWebGlSupport() {
 async function createWebGpuRenderer(
   canvas: HTMLCanvasElement,
   getTargetProgress: () => number,
+  getTargetScrollDepth: () => number,
 ): Promise<CanvasRenderer> {
   const gpu = (navigator as WebGpuNavigator).gpu;
 
@@ -339,7 +387,7 @@ async function createWebGpuRenderer(
     }
   });
   const uniformBuffer = device.createBuffer({
-    size: 16,
+    size: 32,
     usage: GPU_BUFFER_USAGE_UNIFORM | GPU_BUFFER_USAGE_COPY_DST
   });
   const bindGroup = device.createBindGroup({
@@ -353,14 +401,15 @@ async function createWebGpuRenderer(
       }
     ]
   });
-  const uniformValues = new Float32Array(4);
+  const uniformValues = new Float32Array(8);
 
-  return createAnimationLoop('webgpu', canvas, getTargetProgress, (time, progress) => {
+  return createAnimationLoop('webgpu', canvas, getTargetProgress, getTargetScrollDepth, (time, progress, scrollDepth) => {
     const { width, height } = resizeCanvas(canvas);
     uniformValues[0] = width;
     uniformValues[1] = height;
     uniformValues[2] = time;
     uniformValues[3] = progress;
+    uniformValues[4] = scrollDepth;
     device.queue.writeBuffer(uniformBuffer, 0, uniformValues);
 
     const encoder = device.createCommandEncoder();
@@ -386,6 +435,7 @@ async function createWebGpuRenderer(
 function createWebGlRenderer(
   canvas: HTMLCanvasElement,
   getTargetProgress: () => number,
+  getTargetScrollDepth: () => number,
 ): CanvasRenderer {
   const gl = canvas.getContext('webgl2') ?? canvas.getContext('webgl');
 
@@ -398,16 +448,17 @@ function createWebGlRenderer(
   const resolutionLocation = gl.getUniformLocation(program, 'u_resolution');
   const timeLocation = gl.getUniformLocation(program, 'u_time');
   const progressLocation = gl.getUniformLocation(program, 'u_progress');
+  const scrollDepthLocation = gl.getUniformLocation(program, 'u_scroll_depth');
   const buffer = gl.createBuffer();
 
-  if (!buffer || !resolutionLocation || !timeLocation || !progressLocation) {
+  if (!buffer || !resolutionLocation || !timeLocation || !progressLocation || !scrollDepthLocation) {
     throw new Error('WebGL shader uniforms are not available.');
   }
 
   gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
 
-  return createAnimationLoop('webgl', canvas, getTargetProgress, (time, progress) => {
+  return createAnimationLoop('webgl', canvas, getTargetProgress, getTargetScrollDepth, (time, progress, scrollDepth) => {
     const { width, height } = resizeCanvas(canvas);
 
     gl.viewport(0, 0, width, height);
@@ -418,6 +469,7 @@ function createWebGlRenderer(
     gl.uniform2f(resolutionLocation, width, height);
     gl.uniform1f(timeLocation, time);
     gl.uniform1f(progressLocation, progress);
+    gl.uniform1f(scrollDepthLocation, scrollDepth);
     gl.drawArrays(gl.TRIANGLES, 0, 3);
   });
 }
@@ -426,17 +478,21 @@ function createAnimationLoop(
   mode: Exclude<BackgroundRendererMode, 'static'>,
   canvas: HTMLCanvasElement,
   getTargetProgress: () => number,
-  render: (time: number, progress: number) => void,
+  getTargetScrollDepth: () => number,
+  render: (time: number, progress: number, scrollDepth: number) => void,
 ): CanvasRenderer {
   let frameId = 0;
   let currentProgress = getTargetProgress();
+  let currentScrollDepth = getTargetScrollDepth();
   const startTime = performance.now();
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   const tick = (now: number) => {
     const targetProgress = getTargetProgress();
+    const targetScrollDepth = getTargetScrollDepth();
     currentProgress = reduceMotion ? targetProgress : currentProgress + (targetProgress - currentProgress) * 0.045;
-    render(reduceMotion ? 0 : (now - startTime) / 1000, currentProgress);
+    currentScrollDepth = reduceMotion ? targetScrollDepth : currentScrollDepth + (targetScrollDepth - currentScrollDepth) * 0.08;
+    render(reduceMotion ? 0 : (now - startTime) / 1000, currentProgress, currentScrollDepth);
     frameId = window.requestAnimationFrame(tick);
   };
 
@@ -450,6 +506,13 @@ function createAnimationLoop(
       window.cancelAnimationFrame(frameId);
     }
   };
+}
+
+function getWindowScrollDepth(): number {
+  const documentElement = document.documentElement;
+  const documentHeight = Math.max(documentElement.scrollHeight, document.body.scrollHeight);
+
+  return normalizeScrollDepth(window.scrollY, window.innerHeight, documentHeight);
 }
 
 function resizeCanvas(canvas: HTMLCanvasElement) {

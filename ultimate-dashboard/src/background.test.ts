@@ -16,6 +16,19 @@ describe('dynamic atmosphere background', () => {
     expect(states.at(-1)?.sunX).toBeCloseTo(0.86);
   });
 
+  it('moves the sun vertically and dims it as the user scrolls down', () => {
+    const top = getAtmosphereState('cypr', 0);
+    const bottom = getAtmosphereState('cypr', 1);
+
+    expect(bottom.progress).toBe(top.progress);
+    expect(bottom.sunX).toBeCloseTo(top.sunX);
+    expect(top.sunRadius).toBeCloseTo(0.165);
+    expect(bottom.sunRadius).toBeLessThan(0.075);
+    expect(bottom.sunY).toBeGreaterThan(top.sunY);
+    expect(top.skyExposure).toBeGreaterThan(bottom.skyExposure);
+    expect(top.sunGlow).toBeGreaterThan(bottom.sunGlow);
+  });
+
   it('prefers WebGPU, then trivial WebGL, then the existing static CSS background', () => {
     expect(choosePreferredBackgroundRenderer({ webgpu: true, webgl: true })).toBe('webgpu');
     expect(choosePreferredBackgroundRenderer({ webgpu: false, webgl: true })).toBe('webgl');
