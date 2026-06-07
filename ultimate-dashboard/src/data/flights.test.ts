@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import {
   FLIGHT_OPTIONS,
   formatFlightInfo,
+  parseFlightPrice,
   getFlightOptionsForDestination,
   getFlightStayDays,
 } from './flights';
@@ -38,5 +39,11 @@ describe('flight options data', () => {
     const directFlight = getFlightOptionsForDestination(FLIGHT_OPTIONS, 'Albania', 'main')[0];
 
     expect(formatFlightInfo(directFlight)).toBe('DIRECT · skyscanner');
+  });
+
+  it('parses flight prices for trip totals and keeps unavailable flights unpriced', () => {
+    expect(parseFlightPrice({ price: '1196 zł' })).toBe(1196);
+    expect(parseFlightPrice({ price: '1 196 zł' })).toBe(1196);
+    expect(parseFlightPrice({ price: '-' })).toBeNull();
   });
 });

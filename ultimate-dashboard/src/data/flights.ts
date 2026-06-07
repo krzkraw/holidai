@@ -176,3 +176,13 @@ export function getFlightStayDays(destination: DestinationKey, flight: Pick<Flig
 export function formatFlightInfo(flight: Pick<FlightOption, 'info' | 'source'>): string {
   return `${flight.info} · ${flight.source}`;
 }
+
+export function parseFlightPrice(flight: Pick<FlightOption, 'price'>): number | null {
+  const digits = flight.price.replace(/[^\d]/g, '');
+
+  if (!digits) {
+    return null;
+  }
+
+  return Number.parseInt(digits, 10);
+}

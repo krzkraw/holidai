@@ -1,21 +1,26 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { BookingJson, formatStayPrice } from '../data/bookings';
+import { getBookingFavoriteKey } from '../favorites';
 import type { DestinationKey } from '../model';
 import { BookingReportPortal } from './BookingCard';
 
 export type BookingFavoritesMenuProps = {
   destination: DestinationKey;
   favoriteBookings: readonly BookingJson[];
+  selectedBookingKey?: string;
   selectedStayDays: number | string;
   onRemoveFavorite: (booking: BookingJson) => void;
+  onSelectFavorite?: (booking: BookingJson) => void;
 };
 
 export function BookingFavoritesMenu({
   destination,
   favoriteBookings,
+  selectedBookingKey,
   selectedStayDays,
   onRemoveFavorite,
+  onSelectFavorite,
 }: BookingFavoritesMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [reportBooking, setReportBooking] = useState<BookingJson | null>(null);
@@ -59,6 +64,7 @@ export function BookingFavoritesMenu({
     () =>
       favoriteBookings.map((booking) => ({
         booking,
+        favoriteKey: getBookingFavoriteKey(booking),
         stays: [...booking.stays].sort((left, right) => left.days - right.days),
       })),
     [favoriteBookings],
@@ -78,7 +84,7 @@ export function BookingFavoritesMenu({
         aria-haspopup="menu"
         onClick={() => setIsOpen((current) => !current)}
       >
-        <span aria-hidden="true">★</span>
+        <HomeIcon />
         <strong>{favoritesCount}</strong>
       </button>
 
@@ -91,10 +97,10 @@ export function BookingFavoritesMenu({
             </strong>
           </div>
           <div className="booking-favorites-list">
-            {favoriteRows.map(({ booking, stays }) => (
+            {favoriteRows.map(({ booking, favoriteKey, stays }) => (
               <div className="booking-favorite-row-shell" role="none" key={booking.url}>
                 <button
-                  className="booking-favorite-row"
+                  className={selectedBookingKey === favoriteKey ? 'booking-favorite-row booking-favorite-row--selected' : 'booking-favorite-row'}
                   type="button"
                   role="menuitem"
                   onClick={() => {
@@ -111,6 +117,22 @@ export function BookingFavoritesMenu({
                     ))}
                   </span>
                 </button>
+                {onSelectFavorite ? (
+                  <button
+                    className={
+                      selectedBookingKey === favoriteKey
+                        ? 'booking-favorite-select booking-favorite-select--active'
+                        : 'booking-favorite-select'
+                    }
+                    type="button"
+                    aria-label={`Wybierz ${booking.name} jako hotel`}
+                    aria-pressed={selectedBookingKey === favoriteKey}
+                    title="Wybierz jako hotel"
+                    onClick={() => onSelectFavorite(booking)}
+                  >
+                    ✓
+                  </button>
+                ) : null}
                 <button
                   className="booking-favorite-remove"
                   type="button"
@@ -134,5 +156,15 @@ export function BookingFavoritesMenu({
         />
       ) : null}
     </div>
+  );
+}
+
+function HomeIcon() {
+  return (
+    <svg className="booking-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M3 11 12 3l9 8" />
+      <path d="M5 10v10h14V10" />
+      <path d="M9 20v-6h6v6" />
+    </svg>
   );
 }

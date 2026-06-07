@@ -1,7 +1,14 @@
 import { describe, expect, it } from 'vitest';
 
 import { BookingJson } from './data/bookings';
-import { getFavoriteBookingsForDestination, toggleFavoriteBooking } from './favorites';
+import { FLIGHT_OPTIONS } from './data/flights';
+import {
+  getFavoriteBookingsForDestination,
+  getFavoriteFlightsForDestination,
+  getFlightFavoriteKey,
+  toggleFavoriteBooking,
+  toggleFavoriteFlight,
+} from './favorites';
 
 function booking(destination: BookingJson['destination'], name: string, url = `https://example.com/${name}`): BookingJson {
   return {
@@ -79,5 +86,30 @@ describe('booking favorites helpers', () => {
       second,
       first,
     ]);
+  });
+
+  it('toggles favorite flights independently from hotel favorites', () => {
+    const firstFlight = FLIGHT_OPTIONS.find((flight) => flight.destination === 'Albania' && flight.bucket === 'main');
+    const secondFlight = FLIGHT_OPTIONS.find((flight) => flight.destination === 'Cypr' && flight.bucket === 'extra');
+
+    if (!firstFlight || !secondFlight) {
+      throw new Error('Missing flight fixture');
+    }
+
+    const addedFirst = toggleFavoriteFlight({}, 'Albania', firstFlight);
+    const addedSecond = toggleFavoriteFlight(addedFirst, 'Cypr', secondFlight);
+    const removedFirst = toggleFavoriteFlight(addedSecond, 'Albania', firstFlight);
+
+    expect(addedSecond.Albania).toEqual([getFlightFavoriteKey(firstFlight)]);
+    expect(addedSecond.Cypr).toEqual([getFlightFavoriteKey(secondFlight)]);
+    expect(removedFirst.Albania).toEqual([]);
+    expect(removedFirst.Cypr).toEqual([getFlightFavoriteKey(secondFlight)]);
+  });
+
+  it('returns favorite flights for one destination in stored order', () => {
+    const flights = FLIGHT_OPTIONS.filter((flight) => flight.destination === 'Cypr' && flight.bucket === 'extra').slice(0, 3);
+    const favorites = { Cypr: [getFlightFavoriteKey(flights[2]), getFlightFavoriteKey(flights[0])] };
+
+    expect(getFavoriteFlightsForDestination(FLIGHT_OPTIONS, 'Cypr', favorites)).toEqual([flights[2], flights[0]]);
   });
 });

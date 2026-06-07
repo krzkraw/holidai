@@ -4,25 +4,35 @@ import {
   FLIGHT_BUCKET_LABELS,
   FLIGHT_OPTIONS,
   FlightBucket,
+  FlightOption,
   formatFlightInfo,
   getFlightOptionsForDestination,
   getFlightStayDays,
 } from '../data/flights';
+import { getFlightFavoriteKey } from '../favorites';
 import type { DestinationKey } from '../model';
 
 const FLIGHT_BUCKETS: readonly FlightBucket[] = ['main', 'extra'];
 
 export type FlightOptionsTileProps = {
   destination: DestinationKey;
+  favoriteFlightIds?: readonly string[];
   selectedLength: string;
+  onFavoriteToggle?: (flight: FlightOption) => void;
 };
 
-export function FlightOptionsTile({ destination, selectedLength }: FlightOptionsTileProps) {
+export function FlightOptionsTile({
+  destination,
+  favoriteFlightIds = [],
+  selectedLength,
+  onFavoriteToggle,
+}: FlightOptionsTileProps) {
   const [activeBucket, setActiveBucket] = useState<FlightBucket>('main');
   const flights = useMemo(
     () => getFlightOptionsForDestination(FLIGHT_OPTIONS, destination, activeBucket),
     [activeBucket, destination],
   );
+  const favoriteFlightIdSet = useMemo(() => new Set(favoriteFlightIds), [favoriteFlightIds]);
   const selectedDates = useMemo(
     () =>
       FLIGHT_OPTIONS.find(
@@ -75,12 +85,33 @@ export function FlightOptionsTile({ destination, selectedLength }: FlightOptions
             {flights.length > 0 ? (
               flights.map((flight, index) => {
                 const stayDays = getFlightStayDays(destination, flight);
+                const isFavorite = favoriteFlightIdSet.has(getFlightFavoriteKey(flight));
                 const rowClass =
                   stayDays === selectedLength ? 'flight-options-row flight-options-row--active' : 'flight-options-row';
 
                 return (
                   <tr className={rowClass} key={`${flight.bucket}-${flight.path}-${flight.dates}-${flight.price}-${flight.source}-${index}`}>
-                    <th>{flight.path}</th>
+                    <th>
+                      <span className="flight-options-path-cell">
+                        {onFavoriteToggle ? (
+                          <button
+                            className={isFavorite ? 'flight-favorite-toggle flight-favorite-toggle--active' : 'flight-favorite-toggle'}
+                            type="button"
+                            aria-label={
+                              isFavorite
+                                ? `Usuń lot ${flight.path} ${flight.dates} z ulubionych`
+                                : `Dodaj lot ${flight.path} ${flight.dates} do ulubionych`
+                            }
+                            aria-pressed={isFavorite}
+                            title={isFavorite ? 'Usuń z ulubionych lotów' : 'Dodaj do ulubionych lotów'}
+                            onClick={() => onFavoriteToggle(flight)}
+                          >
+                            <PlaneIcon />
+                          </button>
+                        ) : null}
+                        <span>{flight.path}</span>
+                      </span>
+                    </th>
                     <td>
                       <span className="flight-options-date-cell">
                         <span>{flight.dates}</span>
@@ -101,5 +132,13 @@ export function FlightOptionsTile({ destination, selectedLength }: FlightOptions
         </table>
       </div>
     </section>
+  );
+}
+
+function PlaneIcon() {
+  return (
+    <svg className="booking-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M16 3 8.5 10.5 3 9l-1 2 4.5 2.5L4 18l2 1 4.5-5.5L18 21l2-1-4-9 5-5a2 2 0 0 0-3-3Z" />
+    </svg>
   );
 }

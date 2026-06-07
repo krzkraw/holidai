@@ -1175,6 +1175,61 @@ color: #ffffff;
 box-shadow: inset 3px 0 0 var(--accent, #ea580c);
 }
 
+.flight-options-path-cell {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+}
+
+.flight-favorite-toggle {
+display: inline-grid;
+width: 28px;
+height: 28px;
+place-items: center;
+border: 1px solid rgba(255, 255, 255, 0.22);
+border-radius: 999px;
+background: rgba(255, 255, 255, 0.06);
+color: #cbd5e1;
+transition:
+background 180ms ease,
+border-color 180ms ease,
+box-shadow 180ms ease,
+color 180ms ease,
+transform 180ms ease;
+}
+
+.flight-favorite-toggle:hover,
+.flight-favorite-toggle--active {
+border-color: rgba(125, 211, 252, 0.72);
+background: rgba(125, 211, 252, 0.15);
+box-shadow: 0 0 20px rgba(125, 211, 252, 0.24);
+color: #7dd3fc;
+transform: translateY(-1px);
+}
+
+.selected-trip-total {
+display: inline-flex;
+align-items: center;
+gap: 6px;
+min-height: 38px;
+padding: 8px 13px;
+border: 1px solid color-mix(in srgb, var(--accent, #ea580c) 46%, rgba(255, 255, 255, 0.24));
+border-radius: 999px;
+background: color-mix(in srgb, var(--accent, #ea580c) 18%, rgba(255, 255, 255, 0.08));
+box-shadow:
+inset 0 1px 1px rgba(255, 255, 255, 0.22),
+0 10px 26px rgba(0, 0, 0, 0.28),
+0 0 24px color-mix(in srgb, var(--accent, #ea580c) 18%, transparent);
+color: #ffffff;
+font-size: 13px;
+font-weight: 850;
+}
+
+.selected-trip-total strong {
+font-family: 'Syne', sans-serif;
+font-weight: 900;
+}
+
 .booking-favorites-menu {
 position: relative;
 display: inline-flex;
@@ -1208,6 +1263,16 @@ background: #fbbf24;
 color: #11131a;
 font-size: 12px;
 line-height: 1;
+}
+
+.flight-favorites-button {
+border-color: rgba(125, 211, 252, 0.56);
+background: rgba(125, 211, 252, 0.12);
+color: #7dd3fc;
+}
+
+.flight-favorites-button strong {
+background: #7dd3fc;
 }
 
 .booking-favorites-popover {
@@ -1249,12 +1314,13 @@ padding-right: 2px;
 
 .booking-favorite-row-shell {
 display: grid;
-grid-template-columns: minmax(0, 1fr) auto;
+grid-template-columns: minmax(0, 1fr) auto auto;
 gap: 8px;
 align-items: stretch;
 }
 
 .booking-favorite-row,
+.booking-favorite-select,
 .booking-favorite-remove {
 border: 1px solid rgba(255, 255, 255, 0.12);
 border-radius: 12px;
@@ -1272,9 +1338,31 @@ text-align: left;
 }
 
 .booking-favorite-row:hover,
+.booking-favorite-select:hover,
 .booking-favorite-remove:hover {
 border-color: rgba(251, 191, 36, 0.42);
 background: rgba(251, 191, 36, 0.08);
+}
+
+.booking-favorite-row--selected {
+border-color: color-mix(in srgb, var(--accent, #ea580c) 52%, rgba(255, 255, 255, 0.2));
+background: color-mix(in srgb, var(--accent, #ea580c) 14%, rgba(255, 255, 255, 0.055));
+box-shadow: inset 3px 0 0 var(--accent, #ea580c);
+}
+
+.booking-favorite-select {
+display: grid;
+width: 38px;
+place-items: center;
+color: #cbd5e1;
+font-size: 13px;
+font-weight: 950;
+}
+
+.booking-favorite-select--active {
+border-color: rgba(52, 211, 153, 0.58);
+background: rgba(52, 211, 153, 0.13);
+color: #34d399;
 }
 
 .booking-favorite-remove {

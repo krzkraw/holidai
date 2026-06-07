@@ -1,6 +1,8 @@
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
 
+import { FLIGHT_OPTIONS } from '../data/flights';
+import { getFlightFavoriteKey } from '../favorites';
 import { FlightOptionsTile } from './FlightOptionsTile';
 
 describe('FlightOptionsTile', () => {
@@ -17,5 +19,26 @@ describe('FlightOptionsTile', () => {
     expect(html).toContain('1388 zł');
     expect(html).toContain('przesiadka 2x · skyscanner');
     expect(html.match(/flight-options-row--active/g)).toHaveLength(2);
+  });
+
+  it('renders favorite toggles inside the existing PATH column', () => {
+    const favoriteFlight = FLIGHT_OPTIONS.find((flight) => flight.destination === 'Grecja' && flight.bucket === 'main');
+
+    if (!favoriteFlight) {
+      throw new Error('Missing flight fixture');
+    }
+
+    const html = renderToStaticMarkup(
+      <FlightOptionsTile
+        destination="Grecja"
+        favoriteFlightIds={[getFlightFavoriteKey(favoriteFlight)]}
+        selectedLength="11"
+        onFavoriteToggle={() => undefined}
+      />,
+    );
+
+    expect(html).toContain('flight-favorite-toggle--active');
+    expect(html).toContain('aria-label="Usuń lot KRK ⇄ ZTH 2026-09-12 → 2026-09-20 z ulubionych"');
+    expect(html).toContain('<th>PATH</th><th>DATES</th><th>PRICE</th><th>INFO</th>');
   });
 });

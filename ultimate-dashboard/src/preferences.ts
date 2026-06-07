@@ -1,11 +1,14 @@
-import type { FavoriteBookingsByDestination } from './favorites';
+import type { FavoriteBookingsByDestination, FavoriteFlightsByDestination } from './favorites';
 import type { DestinationKey } from './model';
 
 export const DASHBOARD_PREFERENCES_STORAGE_KEY = 'ultimate-dashboard.booking-preferences.v1';
 
 export type DashboardPreferences = {
   favorites: FavoriteBookingsByDestination;
+  flightFavorites: FavoriteFlightsByDestination;
   lengths: Partial<Record<DestinationKey, string>>;
+  selectedBookings: Partial<Record<DestinationKey, string>>;
+  selectedFlights: Partial<Record<DestinationKey, string>>;
   variants: Partial<Record<DestinationKey, string>>;
 };
 
@@ -13,7 +16,14 @@ type StorageLike = Pick<Storage, 'getItem' | 'setItem'>;
 type JsonRecord = Record<string, unknown>;
 
 const DESTINATIONS: readonly DestinationKey[] = ['Albania', 'Grecja', 'Cypr', 'Turcja', 'Kreta'];
-const EMPTY_PREFERENCES: DashboardPreferences = { favorites: {}, lengths: {}, variants: {} };
+const EMPTY_PREFERENCES: DashboardPreferences = {
+  favorites: {},
+  flightFavorites: {},
+  lengths: {},
+  selectedBookings: {},
+  selectedFlights: {},
+  variants: {},
+};
 
 export function readDashboardPreferences(storage: StorageLike | null = getBrowserStorage()): DashboardPreferences {
   if (!storage) {
@@ -33,7 +43,10 @@ export function readDashboardPreferences(storage: StorageLike | null = getBrowse
 
     return {
       favorites: readFavorites(parsed.favorites),
+      flightFavorites: readFavorites(parsed.flightFavorites),
       lengths: readStringBuckets(parsed.lengths),
+      selectedBookings: readStringBuckets(parsed.selectedBookings),
+      selectedFlights: readStringBuckets(parsed.selectedFlights),
       variants: readStringBuckets(parsed.variants),
     };
   } catch {
@@ -55,7 +68,10 @@ export function writeDashboardPreferences(
       JSON.stringify({
         version: 1,
         favorites: preferences.favorites,
+        flightFavorites: preferences.flightFavorites,
         lengths: preferences.lengths,
+        selectedBookings: preferences.selectedBookings,
+        selectedFlights: preferences.selectedFlights,
         variants: preferences.variants,
       }),
     );

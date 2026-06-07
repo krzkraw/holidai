@@ -22,18 +22,35 @@ describe('dashboard preferences persistence', () => {
   it('returns empty preferences when storage is missing or malformed', () => {
     const storage = new MemoryStorage();
 
-    expect(readDashboardPreferences(storage)).toEqual({ favorites: {}, lengths: {}, variants: {} });
+    expect(readDashboardPreferences(storage)).toEqual({
+      favorites: {},
+      flightFavorites: {},
+      lengths: {},
+      selectedBookings: {},
+      selectedFlights: {},
+      variants: {},
+    });
 
     storage.setItem(DASHBOARD_PREFERENCES_STORAGE_KEY, '{bad json');
 
-    expect(readDashboardPreferences(storage)).toEqual({ favorites: {}, lengths: {}, variants: {} });
+    expect(readDashboardPreferences(storage)).toEqual({
+      favorites: {},
+      flightFavorites: {},
+      lengths: {},
+      selectedBookings: {},
+      selectedFlights: {},
+      variants: {},
+    });
   });
 
   it('round-trips favorites and toolbar choices through local storage shape', () => {
     const storage = new MemoryStorage();
     const preferences = {
       favorites: { Albania: ['https://example.com/a'] },
+      flightFavorites: { Albania: ['main:KRK-TIA'] },
       lengths: { Albania: '8' },
+      selectedBookings: { Albania: 'https://example.com/a' },
+      selectedFlights: { Albania: 'main:KRK-TIA' },
       variants: { Albania: 'A — super: plaża / ocena / okolica' },
     };
 
@@ -48,14 +65,20 @@ describe('dashboard preferences persistence', () => {
       JSON.stringify({
         version: 1,
         favorites: { Albania: ['ok'], Mars: ['bad'], Cypr: [12] },
+        flightFavorites: { Cypr: ['flight-ok'], Mars: ['bad'], Albania: [12] },
         lengths: { Albania: '14', Mars: '8', Cypr: 11 },
+        selectedBookings: { Kreta: 'hotel-ok', Mars: 'bad', Cypr: 12 },
+        selectedFlights: { Turcja: 'flight-ok', Mars: 'bad', Albania: 12 },
         variants: { Turcja: 'D — charakter: natura / klify / baza wypadowa', Mars: 'A' },
       }),
     );
 
     expect(readDashboardPreferences(storage)).toEqual({
       favorites: { Albania: ['ok'] },
+      flightFavorites: { Cypr: ['flight-ok'] },
       lengths: { Albania: '14' },
+      selectedBookings: { Kreta: 'hotel-ok' },
+      selectedFlights: { Turcja: 'flight-ok' },
       variants: { Turcja: 'D — charakter: natura / klify / baza wypadowa' },
     });
   });
