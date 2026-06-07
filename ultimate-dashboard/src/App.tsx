@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   CHECKLIST,
   DESTINATION_PROFILES,
@@ -26,8 +26,9 @@ const initialWeights: ScoreSet = {
 };
 
 export function App() {
-  const canvasRef = useRef<HTMLElement | null>(null);
+  const viewportRef = useRef<HTMLElement | null>(null);
   const [activeView, setActiveView] = useState<ViewId>('summary');
+  const [pageWidth, setPageWidth] = useState(0);
   const [weights, setWeights] = useState<ScoreSet>(initialWeights);
   const [lengthByDestination, setLengthByDestination] = useState<Record<DestinationKey, string>>({
     Albania: '14',
@@ -41,10 +42,31 @@ export function App() {
   );
 
   const matches = useMemo(() => calculateMatches(weights), [weights]);
+  const activeColumn = getViewLayout(activeView, 1).column;
+  const activeOffset = pageWidth > 0 ? `${activeColumn * -pageWidth}px` : `${activeColumn * -100}vw`;
+
+  useEffect(() => {
+    const updatePageWidth = () => {
+      setPageWidth(viewportRef.current?.clientWidth ?? window.innerWidth);
+    };
+    const resizeObserver = new ResizeObserver(updatePageWidth);
+
+    updatePageWidth();
+
+    if (viewportRef.current) {
+      resizeObserver.observe(viewportRef.current);
+    }
+
+    window.addEventListener('resize', updatePageWidth);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener('resize', updatePageWidth);
+    };
+  }, []);
 
   const jumpToView = (view: ViewId) => {
     setActiveView(view);
-    canvasRef.current?.scrollTo({ left: getViewLayout(view).x, behavior: 'smooth' });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -72,52 +94,54 @@ export function App() {
         </nav>
       </header>
 
-      <main className="canvas-stack" ref={canvasRef}>
-        <section id="view-summary" className="canvas-section summary-section" aria-labelledby="summary-title">
-          <CanvasTitle
-            id="summary-title"
-            title="Summary"
-            subtitle="Scalony widok decyzji: raportowa kompletność ultimate-desktop plus interaktywne widgety z Gemini v2."
-          />
-          <div className="canvas-plane summary-plane">
-            {TILES_BY_VIEW.summary.map((tile) => (
-              <SummaryTile key={tile.id} tile={tile} weights={weights} setWeights={setWeights} matches={matches} />
-            ))}
-          </div>
-        </section>
+      <main className="canvas-viewport" ref={viewportRef}>
+        <div className="canvas-stack" style={{ left: activeOffset }}>
+          <section id="view-summary" className="canvas-section summary-section" aria-labelledby="summary-title">
+            <CanvasTitle
+              id="summary-title"
+              title="Summary"
+              subtitle="Scalony widok decyzji: raportowa kompletność ultimate-desktop plus interaktywne widgety z Gemini v2."
+            />
+            <div className="canvas-plane summary-plane">
+              {TILES_BY_VIEW.summary.map((tile) => (
+                <SummaryTile key={tile.id} tile={tile} weights={weights} setWeights={setWeights} matches={matches} />
+              ))}
+            </div>
+          </section>
 
-        {DESTINATION_TABS.filter((tab) => tab.destination).map((tab) => {
-          const destination = tab.destination as DestinationKey;
-          const profile = DESTINATION_PROFILES[destination];
-          return (
-            <section
-              id={`view-${tab.id}`}
-              key={tab.id}
-              className="canvas-section"
-              style={{ '--accent': profile.accent } as React.CSSProperties}
-              aria-labelledby={`${tab.id}-title`}
-            >
-              <CanvasTitle id={`${tab.id}-title`} title={profile.displayName} subtitle={profile.region} />
-              <div className="canvas-plane destination-plane">
-                {TILES_BY_VIEW[tab.id].map((tile) => (
-                  <DestinationTile
-                    key={tile.id}
-                    tile={tile}
-                    profile={profile}
-                    selectedLength={lengthByDestination[destination]}
-                    selectedVariant={variantByDestination[destination]}
-                    onLengthChange={(value) =>
-                      setLengthByDestination((current) => ({ ...current, [destination]: value }))
-                    }
-                    onVariantChange={(value) =>
-                      setVariantByDestination((current) => ({ ...current, [destination]: value }))
-                    }
-                  />
-                ))}
-              </div>
-            </section>
-          );
-        })}
+          {DESTINATION_TABS.filter((tab) => tab.destination).map((tab) => {
+            const destination = tab.destination as DestinationKey;
+            const profile = DESTINATION_PROFILES[destination];
+            return (
+              <section
+                id={`view-${tab.id}`}
+                key={tab.id}
+                className="canvas-section"
+                style={{ '--accent': profile.accent } as React.CSSProperties}
+                aria-labelledby={`${tab.id}-title`}
+              >
+                <CanvasTitle id={`${tab.id}-title`} title={profile.displayName} subtitle={profile.region} />
+                <div className="canvas-plane destination-plane">
+                  {TILES_BY_VIEW[tab.id].map((tile) => (
+                    <DestinationTile
+                      key={tile.id}
+                      tile={tile}
+                      profile={profile}
+                      selectedLength={lengthByDestination[destination]}
+                      selectedVariant={variantByDestination[destination]}
+                      onLengthChange={(value) =>
+                        setLengthByDestination((current) => ({ ...current, [destination]: value }))
+                      }
+                      onVariantChange={(value) =>
+                        setVariantByDestination((current) => ({ ...current, [destination]: value }))
+                      }
+                    />
+                  ))}
+                </div>
+              </section>
+            );
+          })}
+        </div>
       </main>
     </div>
   );

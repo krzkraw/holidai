@@ -46,11 +46,15 @@ describe('holiday dashboard model', () => {
     }
   });
 
-  it('lays tabs out as horizontal pages that progress left to right', () => {
-    const layouts = DESTINATION_TABS.map((tab) => getViewLayout(tab.id));
+  it('lays tabs out as responsive horizontal pages that progress left to right', () => {
+    const desktopPageWidth = 1280;
+    const mobilePageWidth = 390;
+    const desktopLayouts = DESTINATION_TABS.map((tab) => getViewLayout(tab.id, desktopPageWidth));
+    const mobileLayouts = DESTINATION_TABS.map((tab) => getViewLayout(tab.id, mobilePageWidth));
 
-    expect(layouts.map((layout) => layout.column)).toEqual([0, 1, 2, 3, 4, 5]);
-    expect(layouts.map((layout) => layout.x)).toEqual(layouts.map((_, index) => index * GRID.pageWidth));
+    expect(desktopLayouts.map((layout) => layout.column)).toEqual([0, 1, 2, 3, 4, 5]);
+    expect(desktopLayouts.map((layout) => layout.x)).toEqual(desktopLayouts.map((_, index) => index * desktopPageWidth));
+    expect(mobileLayouts.map((layout) => layout.x)).toEqual(mobileLayouts.map((_, index) => index * mobilePageWidth));
   });
 
   it('uses a uniform masonry grid with bounded tile spans', () => {

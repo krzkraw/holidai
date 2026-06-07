@@ -74,8 +74,6 @@ export type DestinationProfile = {
 
 export const GRID = {
   columns: 6,
-  pageWidth: 1440,
-  unit: 200,
   gap: 18
 } as const;
 
@@ -478,7 +476,7 @@ function destinationTiles(view: ViewId): TileLayout[] {
   ];
 }
 
-export function getViewLayout(view: ViewId) {
+export function getViewLayout(view: ViewId, pageWidth: number) {
   const column = DESTINATION_TABS.findIndex((tab) => tab.id === view);
 
   if (column < 0) {
@@ -487,7 +485,7 @@ export function getViewLayout(view: ViewId) {
 
   return {
     column,
-    x: column * GRID.pageWidth
+    x: column * pageWidth
   };
 }
 
