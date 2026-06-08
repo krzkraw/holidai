@@ -11,7 +11,9 @@ import {
   getStayForDays,
   loadBookingsData,
   parseBookingsResponse,
+  preloadBookingsData,
   renderRoomCellLines,
+  resetBookingsDataPreloadForTest,
   validateBookingsData,
 } from './bookings';
 import { HOTEL_MATRIX_GROUPS } from '../model';
@@ -81,6 +83,7 @@ function minimalBooking(overrides: Record<string, unknown> = {}): BookingJson {
 
 describe('bookings data loader', () => {
   afterEach(() => {
+    resetBookingsDataPreloadForTest();
     vi.restoreAllMocks();
   });
 
@@ -118,6 +121,37 @@ describe('bookings data loader', () => {
     expect(fetchMock).toHaveBeenCalledTimes(1);
     expect(fetchMock.mock.calls.map(([url]) => String(url))).toEqual([COMPRESSED_BOOKINGS_URL]);
     expect(caught).toBeInstanceOf(Error);
+  });
+
+  it('shares one gzip request for concurrent background preloads', async () => {
+    const bookings = [minimalBooking()];
+    const fetchMock = vi.spyOn(globalThis, 'fetch').mockImplementation(async () =>
+      new Response(JSON.stringify(bookings), {
+        headers: { 'content-encoding': 'gzip' },
+      }),
+    );
+
+    await expect(Promise.all([preloadBookingsData(), preloadBookingsData()])).resolves.toEqual([bookings, bookings]);
+
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetchMock.mock.calls.map(([url]) => String(url))).toEqual([COMPRESSED_BOOKINGS_URL]);
+  });
+
+  it('retries the shared preload after a failed gzip request', async () => {
+    const bookings = [minimalBooking({ destination: 'Cypr' })];
+    const fetchMock = vi
+      .spyOn(globalThis, 'fetch')
+      .mockResolvedValueOnce(new Response('', { status: 503, statusText: 'Service Unavailable' }))
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify(bookings), {
+          headers: { 'content-encoding': 'gzip' },
+        }),
+      );
+
+    await expect(preloadBookingsData()).rejects.toThrow('503 Service Unavailable');
+    await expect(preloadBookingsData()).resolves.toEqual(bookings);
+
+    expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 
   it('does not double-decompress responses already decoded by the browser', async () => {

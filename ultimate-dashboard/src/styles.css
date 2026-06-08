@@ -340,7 +340,12 @@ backdrop-filter: blur(14px);
 box-shadow:
 inset 0 1.5px 1px rgba(255, 255, 255, 0.4),
 0 4px 12px rgba(0, 0, 0, 0.15);
-transition: all 250ms cubic-bezier(0.2, 0.8, 0.2, 1);
+transition:
+background 250ms cubic-bezier(0.2, 0.8, 0.2, 1),
+border-color 250ms cubic-bezier(0.2, 0.8, 0.2, 1),
+box-shadow 250ms cubic-bezier(0.2, 0.8, 0.2, 1),
+color 250ms cubic-bezier(0.2, 0.8, 0.2, 1),
+transform 250ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .tab:hover,
@@ -556,7 +561,11 @@ inset 0 -1px 1px rgba(255, 255, 255, 0.1),
 0 24px 60px -12px rgba(0, 0, 0, 0.6),
 0 2px 4px rgba(0, 0, 0, 0.2);
 
-transition: all 280ms cubic-bezier(0.16, 1, 0.3, 1);
+transition:
+background 280ms cubic-bezier(0.16, 1, 0.3, 1),
+border-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+box-shadow 280ms cubic-bezier(0.16, 1, 0.3, 1),
+transform 280ms cubic-bezier(0.16, 1, 0.3, 1);
 animation: tileRise 720ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
@@ -572,7 +581,9 @@ background: radial-gradient(circle, color-mix(in srgb, var(--accent, #ea580c) 16
 opacity: 0.65;
 filter: blur(18px);
 transform: translateY(0);
-transition: all 300ms ease;
+transition:
+opacity 300ms ease,
+transform 300ms ease;
 z-index: -1;
 }
 
@@ -663,7 +674,12 @@ font-weight: 700;
 box-shadow:
 inset 0 1px 1px rgba(255, 255, 255, 0.35),
 0 4px 10px rgba(0, 0, 0, 0.15);
-transition: all 200ms ease;
+transition:
+background 200ms ease,
+border-color 200ms ease,
+box-shadow 200ms ease,
+color 200ms ease,
+transform 200ms ease;
 display: flex;
 align-items: center;
 gap: 6px;
@@ -2559,10 +2575,10 @@ transform: translateY(-3px) scale(1.035);
 }
 
 .app-shell--lightweight-visuals {
---lightweight-panel-bg: rgba(20, 23, 31, 0.78);
---lightweight-card-bg: rgba(28, 31, 40, 0.54);
---lightweight-pill-bg: rgba(38, 41, 50, 0.9);
---lightweight-pill-bg-strong: color-mix(in srgb, var(--accent, #ea580c) 42%, rgba(38, 41, 50, 0.88));
+--lightweight-panel-bg: rgba(255, 255, 255, 0.11);
+--lightweight-card-bg: rgba(255, 255, 255, 0.09);
+--lightweight-pill-bg: rgba(255, 255, 255, 0.13);
+--lightweight-pill-bg-strong: color-mix(in srgb, var(--accent, #ea580c) 28%, rgba(255, 255, 255, 0.14));
 --lightweight-pill-border: rgba(255, 255, 255, 0.44);
 --lightweight-pill-border-strong: rgba(251, 146, 60, 0.86);
 --lightweight-glass-sheen: linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.055) 38%, rgba(255, 255, 255, 0.018) 76%);
@@ -2632,7 +2648,7 @@ inset 0 1.5px 1px rgba(255, 255, 255, 0.36),
 border-color: rgba(251, 146, 60, 0.9);
 background:
 var(--lightweight-pill-sheen),
-color-mix(in srgb, var(--accent, #ea580c) 46%, rgba(38, 41, 50, 0.88));
+color-mix(in srgb, var(--accent, #ea580c) 34%, rgba(255, 255, 255, 0.16));
 box-shadow:
 inset 0 1.5px 1px rgba(255, 255, 255, 0.34),
 0 10px 24px rgba(0, 0, 0, 0.42),
@@ -2680,8 +2696,8 @@ backdrop-filter: none !important;
 }
 
 .app-shell--lightweight-visuals .shader-background canvas {
-opacity: 0.34;
-filter: none !important;
+opacity: 0.78;
+filter: saturate(112%) contrast(104%);
 }
 
 .app-shell--lightweight-visuals .tile,
@@ -2724,13 +2740,13 @@ border-color: rgba(255, 255, 255, 0.58);
 background:
 linear-gradient(135deg, rgba(255, 255, 255, 0.19), rgba(255, 255, 255, 0.075) 38%, rgba(255, 255, 255, 0.025) 76%),
 linear-gradient(135deg, color-mix(in srgb, #ea580c 32%, transparent), color-mix(in srgb, #ea580c 14%, transparent) 62%, transparent),
-rgba(28, 31, 40, 0.62);
+rgba(255, 255, 255, 0.1);
 box-shadow:
 inset 0 1.8px 1px rgba(255, 255, 255, 0.46),
 inset 0 -1px 1px rgba(255, 255, 255, 0.08),
-0 28px 68px -16px rgba(0, 0, 0, 0.78),
-0 0 36px color-mix(in srgb, #ea580c 38%, transparent);
-transform: translateY(-4px) scale(1.012);
+0 14px 34px -16px rgba(0, 0, 0, 0.58),
+0 0 22px color-mix(in srgb, #ea580c 26%, transparent);
+transform: translateY(-1px);
 }
 
 .app-shell--lightweight-visuals .tab:hover,
@@ -2761,14 +2777,14 @@ transform: translateY(-4px) scale(1.012);
 border-color: var(--lightweight-pill-border-strong);
 background:
 var(--lightweight-pill-sheen),
-color-mix(in srgb, var(--accent, #ea580c) 34%, rgba(38, 41, 50, 0.9));
+color-mix(in srgb, var(--accent, #ea580c) 26%, rgba(255, 255, 255, 0.14));
 box-shadow:
 inset 0 1.5px 1px rgba(255, 255, 255, 0.34),
-0 10px 24px rgba(0, 0, 0, 0.38),
-0 0 28px color-mix(in srgb, var(--accent, #ea580c) 54%, transparent);
+0 7px 18px rgba(0, 0, 0, 0.3),
+0 0 20px color-mix(in srgb, var(--accent, #ea580c) 38%, transparent);
 color: #ffffff;
 filter: none !important;
-transform: translateY(-2px) scale(1.025);
+transform: translateY(-1px);
 }
 
 .app-shell--lightweight-visuals .tab:hover::before,
@@ -2955,4 +2971,32 @@ transform: translateX(-50%);
 @keyframes placeholderPulse {
 0%, 100% { opacity: 0.35; }
 50% { opacity: 0.7; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+html {
+scroll-behavior: auto;
+}
+
+*,
+*::before,
+*::after {
+animation: none !important;
+transition-duration: 0.01ms !important;
+transition-delay: 0ms !important;
+}
+
+.canvas-stack,
+.tile,
+.tile:hover,
+.booking-card,
+.booking-card:hover,
+.tab:hover,
+.destination-costs span:hover,
+.decision-strip span:hover,
+.pill-cloud span:hover,
+.variant-pills button:hover,
+.segmented button:hover {
+transform: none !important;
+}
 }

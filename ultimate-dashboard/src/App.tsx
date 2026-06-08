@@ -6,7 +6,7 @@ import { FlightFavoritesMenu } from './components/FlightFavoritesMenu';
 import { FlightOptionsTile } from './components/FlightOptionsTile';
 import { ShaderBackground } from './components/ShaderBackground';
 import { getCompactLengthLabel, getCompactVariantLabel } from './controls';
-import { BookingJson, loadBookingsData } from './data/bookings';
+import { BookingJson, preloadBookingsData } from './data/bookings';
 import { FLIGHT_OPTIONS } from './data/flights';
 import type { FlightOption } from './data/flights';
 import {
@@ -62,6 +62,15 @@ const CANVAS_VIEW_RETENTION_MS = CANVAS_TRANSITION_MS + CANVAS_VIEW_RETENTION_BU
 const PHONE_VIEWPORT_MAX_WIDTH = 768;
 const PHONE_VIEWPORT_QUERY = `(max-width: ${PHONE_VIEWPORT_MAX_WIDTH}px)`;
 
+export type PostPaintSchedulerSurface = {
+  requestAnimationFrame: (callback: FrameRequestCallback) => number;
+  cancelAnimationFrame: (handle: number) => void;
+  requestIdleCallback?: (callback: IdleRequestCallback, options?: IdleRequestOptions) => number;
+  cancelIdleCallback?: (handle: number) => void;
+  setTimeout: (callback: () => void, delay: number) => number;
+  clearTimeout: (handle: number) => void;
+};
+
 export function shouldRenderViewContent(
   activeView: ViewId,
   previousView: ViewId | null | undefined,
@@ -72,6 +81,52 @@ export function shouldRenderViewContent(
 
 export function resolveLightweightVisualsPreference(preference: boolean | null | undefined): boolean {
   return preference ?? true;
+}
+
+export function schedulePostPaintIdleTask(
+  callback: () => void,
+  scheduler: PostPaintSchedulerSurface = window,
+): { cancel: () => void } {
+  let cancelled = false;
+  let firstFrame = 0;
+  let secondFrame = 0;
+  let idleHandle = 0;
+  let timeoutHandle = 0;
+
+  const run = () => {
+    if (!cancelled) {
+      callback();
+    }
+  };
+
+  const scheduleIdle = () => {
+    if (scheduler.requestIdleCallback) {
+      idleHandle = scheduler.requestIdleCallback(run, { timeout: 1200 });
+      return;
+    }
+
+    timeoutHandle = scheduler.setTimeout(run, 160);
+  };
+
+  firstFrame = scheduler.requestAnimationFrame(() => {
+    secondFrame = scheduler.requestAnimationFrame(scheduleIdle);
+  });
+
+  return {
+    cancel: () => {
+      cancelled = true;
+      scheduler.cancelAnimationFrame(firstFrame);
+      scheduler.cancelAnimationFrame(secondFrame);
+
+      if (idleHandle && scheduler.cancelIdleCallback) {
+        scheduler.cancelIdleCallback(idleHandle);
+      }
+
+      if (timeoutHandle) {
+        scheduler.clearTimeout(timeoutHandle);
+      }
+    },
+  };
 }
 
 function createInitialVariantByDestination(): Record<DestinationKey, string> {
@@ -184,6 +239,20 @@ export function App() {
     .filter(Boolean)
     .join(' ');
 
+  const loadBookingsIntoState = () => {
+    preloadBookingsData()
+      .then((loadedBookings) => {
+        setBookings(loadedBookings);
+        setBookingsStatus('ready');
+        setBookingsError(null);
+      })
+      .catch((error: unknown) => {
+        setBookings([]);
+        setBookingsStatus('error');
+        setBookingsError(error instanceof Error ? error.message : 'Nie udało się załadować danych Booking.');
+      });
+  };
+
   useEffect(() => {
     const updatePageWidth = () => {
       setPageWidth(viewportRef.current?.clientWidth ?? window.innerWidth);
@@ -238,7 +307,8 @@ export function App() {
   useEffect(() => {
     let isActive = true;
 
-    loadBookingsData()
+    const preloadHandle = schedulePostPaintIdleTask(() => {
+      preloadBookingsData()
       .then((loadedBookings) => {
         if (!isActive) {
           return;
@@ -257,9 +327,11 @@ export function App() {
         setBookingsStatus('error');
         setBookingsError(error instanceof Error ? error.message : 'Nie udało się załadować danych Booking.');
       });
+    });
 
     return () => {
       isActive = false;
+      preloadHandle.cancel();
     };
   }, []);
 
@@ -303,6 +375,10 @@ export function App() {
   const jumpToView = (view: ViewId) => {
     if (view !== activeView) {
       setPreviousView(activeView);
+    }
+
+    if (view !== 'summary' && bookingsStatus === 'loading') {
+      loadBookingsIntoState();
     }
 
     setActiveView(view);

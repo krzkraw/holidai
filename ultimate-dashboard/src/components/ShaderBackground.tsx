@@ -73,6 +73,11 @@ type WebGpuCanvasContext = {
   };
 };
 
+type CanvasSize = {
+  width: number;
+  height: number;
+};
+
 const webGpuShader = `
 struct Uniforms {
   resolution: vec2<f32>,
@@ -474,8 +479,8 @@ async function createWebGpuRenderer(
   });
   const uniformValues = new Float32Array(8);
 
-  return createAnimationLoop('webgpu', canvas, getTargetProgress, getTargetScrollDepth, (time, progress, scrollDepth) => {
-    const { width, height } = resizeCanvas(canvas);
+  return createAnimationLoop('webgpu', canvas, getTargetProgress, getTargetScrollDepth, (time, progress, scrollDepth, size) => {
+    const { width, height } = size;
     uniformValues[0] = width;
     uniformValues[1] = height;
     uniformValues[2] = time;
@@ -529,8 +534,8 @@ function createWebGlRenderer(
   gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
 
-  return createAnimationLoop('webgl', canvas, getTargetProgress, getTargetScrollDepth, (time, progress, scrollDepth) => {
-    const { width, height } = resizeCanvas(canvas);
+  return createAnimationLoop('webgl', canvas, getTargetProgress, getTargetScrollDepth, (time, progress, scrollDepth, size) => {
+    const { width, height } = size;
 
     gl.viewport(0, 0, width, height);
     gl.useProgram(program);
@@ -550,12 +555,21 @@ function createAnimationLoop(
   canvas: HTMLCanvasElement,
   getTargetProgress: () => number,
   getTargetScrollDepth: () => number,
-  render: (time: number, progress: number, scrollDepth: number) => void,
+  render: (time: number, progress: number, scrollDepth: number, size: CanvasSize) => void,
 ): CanvasRenderer {
   let frameId = 0;
   let currentProgress = getTargetProgress();
   let currentScrollDepth = getTargetScrollDepth();
+  const sizeTracker = createCanvasSizeTracker(canvas);
+  let currentSize = sizeTracker.refresh();
   const startTime = performance.now();
+  const refreshCanvasSize = () => {
+    currentSize = sizeTracker.refresh();
+  };
+  const resizeObserver = typeof ResizeObserver === 'undefined' ? null : new ResizeObserver(refreshCanvasSize);
+
+  resizeObserver?.observe(canvas);
+  window.addEventListener('resize', refreshCanvasSize);
 
   const renderFrame = (now: number, animated: boolean) => {
     const targetProgress = getTargetProgress();
@@ -564,13 +578,13 @@ function createAnimationLoop(
     if (animated) {
       currentProgress += (targetProgress - currentProgress) * 0.045;
       currentScrollDepth += (targetScrollDepth - currentScrollDepth) * 0.08;
-      render((now - startTime) / 1000, currentProgress, currentScrollDepth);
+      render((now - startTime) / 1000, currentProgress, currentScrollDepth, currentSize);
       return;
     }
 
     currentProgress = targetProgress;
     currentScrollDepth = targetScrollDepth;
-    render(0, currentProgress, currentScrollDepth);
+    render(0, currentProgress, currentScrollDepth, currentSize);
   };
 
   const tick = (now: number) => {
@@ -581,7 +595,7 @@ function createAnimationLoop(
   return {
     mode,
     renderOnce: () => {
-      resizeCanvas(canvas);
+      refreshCanvasSize();
       renderFrame(performance.now(), false);
     },
     pause: () => {
@@ -602,6 +616,9 @@ function createAnimationLoop(
         window.cancelAnimationFrame(frameId);
         frameId = 0;
       }
+
+      resizeObserver?.disconnect();
+      window.removeEventListener('resize', refreshCanvasSize);
     }
   };
 }
@@ -613,20 +630,33 @@ function getWindowScrollDepth(): number {
   return normalizeScrollDepth(window.scrollY, window.innerHeight, documentHeight);
 }
 
-function resizeCanvas(canvas: HTMLCanvasElement) {
-  const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
-  const width = Math.max(1, Math.floor(canvas.clientWidth * pixelRatio));
-  const height = Math.max(1, Math.floor(canvas.clientHeight * pixelRatio));
+export function createCanvasSizeTracker(
+  canvas: HTMLCanvasElement,
+  getDevicePixelRatio: () => number = () => window.devicePixelRatio || 1,
+): { refresh: () => CanvasSize; getSize: () => CanvasSize } {
+  let size: CanvasSize = { width: 1, height: 1 };
 
-  if (canvas.width !== width) {
-    canvas.width = width;
-  }
+  const refresh = () => {
+    const pixelRatio = Math.min(getDevicePixelRatio() || 1, 2);
+    const width = Math.max(1, Math.floor(canvas.clientWidth * pixelRatio));
+    const height = Math.max(1, Math.floor(canvas.clientHeight * pixelRatio));
 
-  if (canvas.height !== height) {
-    canvas.height = height;
-  }
+    if (canvas.width !== width) {
+      canvas.width = width;
+    }
 
-  return { width, height };
+    if (canvas.height !== height) {
+      canvas.height = height;
+    }
+
+    size = { width, height };
+    return size;
+  };
+
+  return {
+    refresh,
+    getSize: () => size,
+  };
 }
 
 function createWebGlProgram(

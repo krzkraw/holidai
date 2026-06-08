@@ -92,6 +92,8 @@ export type BookingJson = {
 
 type JsonRecord = Record<string, unknown>;
 
+let bookingsDataPreloadPromise: Promise<readonly BookingJson[]> | null = null;
+
 export async function parseBookingsResponse(
   response: Response,
   format: BookingsDataFormat,
@@ -128,6 +130,19 @@ export async function parseBookingsResponse(
 export async function loadBookingsData(): Promise<readonly BookingJson[]> {
   const compressedResponse = await fetch(COMPRESSED_BOOKINGS_URL);
   return parseBookingsResponse(compressedResponse, 'gzip');
+}
+
+export function preloadBookingsData(): Promise<readonly BookingJson[]> {
+  bookingsDataPreloadPromise ??= loadBookingsData().catch((error: unknown) => {
+    bookingsDataPreloadPromise = null;
+    throw error;
+  });
+
+  return bookingsDataPreloadPromise;
+}
+
+export function resetBookingsDataPreloadForTest(): void {
+  bookingsDataPreloadPromise = null;
 }
 
 export function validateBookingsData(value: unknown): readonly BookingJson[] {
