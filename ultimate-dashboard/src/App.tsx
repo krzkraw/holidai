@@ -70,6 +70,10 @@ export function shouldRenderViewContent(
   return viewId === activeView || viewId === previousView;
 }
 
+export function resolveLightweightVisualsPreference(preference: boolean | null | undefined): boolean {
+  return preference ?? true;
+}
+
 function createInitialVariantByDestination(): Record<DestinationKey, string> {
   return Object.fromEntries(HOTEL_MATRIX_GROUPS.map((group) => [group.destination, group.variants[0]])) as Record<DestinationKey, string>;
 }
@@ -131,21 +135,16 @@ function getIsPhoneViewport() {
 
 export function App() {
   const viewportRef = useRef<HTMLElement | null>(null);
-  const settingsRef = useRef<HTMLDivElement | null>(null);
   const storedPreferences = useMemo(() => readDashboardPreferences(), []);
   const [activeView, setActiveView] = useState<ViewId>('summary');
   const [previousView, setPreviousView] = useState<ViewId | null>(null);
   const [pageWidth, setPageWidth] = useState(0);
   const [isPhoneViewport, setIsPhoneViewport] = useState(getIsPhoneViewport);
-  const [settingsOpen, setSettingsOpen] = useState(false);
   const [bookings, setBookings] = useState<readonly BookingJson[]>([]);
   const [bookingsStatus, setBookingsStatus] = useState<'loading' | 'ready' | 'error'>('loading');
   const [bookingsError, setBookingsError] = useState<string | null>(null);
   const [lightweightMobileVisuals, setLightweightMobileVisuals] = useState<boolean | null>(
     storedPreferences.lightweightMobileVisuals,
-  );
-  const [dynamicBackgroundShader, setDynamicBackgroundShader] = useState<boolean | null>(
-    storedPreferences.dynamicBackgroundShader,
   );
   const [mobilePerformanceNoticeDismissed, setMobilePerformanceNoticeDismissed] = useState(
     storedPreferences.mobilePerformanceNoticeDismissed,
@@ -178,8 +177,7 @@ export function App() {
   const activeLength = activeDestination ? lengthByDestination[activeDestination] : '';
   const activeVariant = activeDestination ? variantByDestination[activeDestination] : '';
   const renderSummaryContent = shouldRenderViewContent(activeView, previousView, 'summary');
-  const effectiveLightweightVisuals = lightweightMobileVisuals ?? isPhoneViewport;
-  const effectiveShaderEnabled = dynamicBackgroundShader ?? true;
+  const effectiveLightweightVisuals = resolveLightweightVisualsPreference(lightweightMobileVisuals);
   const showMobilePerformanceToast =
     isPhoneViewport && effectiveLightweightVisuals && !mobilePerformanceNoticeDismissed;
   const appShellClasses = ['app-shell', effectiveLightweightVisuals ? 'app-shell--lightweight-visuals' : '']
@@ -238,32 +236,6 @@ export function App() {
   }, []);
 
   useEffect(() => {
-    if (!settingsOpen) {
-      return undefined;
-    }
-
-    const handlePointerDown = (event: PointerEvent) => {
-      if (event.target instanceof Node && settingsRef.current && !settingsRef.current.contains(event.target)) {
-        setSettingsOpen(false);
-      }
-    };
-
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setSettingsOpen(false);
-      }
-    };
-
-    document.addEventListener('pointerdown', handlePointerDown);
-    document.addEventListener('keydown', handleKeyDown);
-
-    return () => {
-      document.removeEventListener('pointerdown', handlePointerDown);
-      document.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [settingsOpen]);
-
-  useEffect(() => {
     let isActive = true;
 
     loadBookingsData()
@@ -295,7 +267,7 @@ export function App() {
     writeDashboardPreferences({
       favorites: favoriteBookingsByDestination,
       flightFavorites: favoriteFlightsByDestination,
-      dynamicBackgroundShader,
+      dynamicBackgroundShader: null,
       lengths: lengthByDestination,
       lightweightMobileVisuals,
       mobilePerformanceNoticeDismissed,
@@ -306,7 +278,6 @@ export function App() {
   }, [
     favoriteBookingsByDestination,
     favoriteFlightsByDestination,
-    dynamicBackgroundShader,
     lengthByDestination,
     lightweightMobileVisuals,
     mobilePerformanceNoticeDismissed,
@@ -340,7 +311,7 @@ export function App() {
 
   return (
     <div className={appShellClasses}>
-      <ShaderBackground activeView={activeView} enabled={effectiveShaderEnabled} />
+      <ShaderBackground activeView={activeView} enabled />
       <header className="topbar">
         <div className="brand-block">
           <span className="brand-mark">UH</span>
@@ -362,26 +333,10 @@ export function App() {
               </button>
             ))}
           </nav>
-          <div className="settings-menu" ref={settingsRef}>
-            <button
-              className="settings-button"
-              type="button"
-              aria-label="Ustawienia wydajności"
-              aria-expanded={settingsOpen}
-              aria-haspopup="dialog"
-              onClick={() => setSettingsOpen((isOpen) => !isOpen)}
-            >
-              <SettingsIcon />
-            </button>
-            {settingsOpen && (
-              <SettingsPanel
-                lightweightVisualsEnabled={effectiveLightweightVisuals}
-                dynamicBackgroundShaderEnabled={effectiveShaderEnabled}
-                onLightweightVisualsChange={setLightweightMobileVisuals}
-                onDynamicBackgroundShaderChange={setDynamicBackgroundShader}
-              />
-            )}
-          </div>
+          <FxToggle
+            lightweightVisualsEnabled={effectiveLightweightVisuals}
+            onChange={(enabled) => setLightweightMobileVisuals(enabled)}
+          />
         </div>
       </header>
 
@@ -571,65 +526,30 @@ export function App() {
   );
 }
 
-function SettingsPanel({
+function FxToggle({
   lightweightVisualsEnabled,
-  dynamicBackgroundShaderEnabled,
-  onLightweightVisualsChange,
-  onDynamicBackgroundShaderChange
-}: {
-  lightweightVisualsEnabled: boolean;
-  dynamicBackgroundShaderEnabled: boolean;
-  onLightweightVisualsChange: (enabled: boolean) => void;
-  onDynamicBackgroundShaderChange: (enabled: boolean) => void;
-}) {
-  return (
-    <div className="settings-popover" role="dialog" aria-label="Ustawienia">
-      <strong>Ustawienia</strong>
-      <SettingsToggle
-        checked={lightweightVisualsEnabled}
-        label="Lekkie wizuale"
-        onChange={onLightweightVisualsChange}
-      />
-      <SettingsToggle
-        checked={dynamicBackgroundShaderEnabled}
-        label="Shader tła"
-        onChange={onDynamicBackgroundShaderChange}
-      />
-    </div>
-  );
-}
-
-function SettingsToggle({
-  checked,
-  label,
   onChange
 }: {
-  checked: boolean;
-  label: string;
-  onChange: (checked: boolean) => void;
+  lightweightVisualsEnabled: boolean;
+  onChange: (enabled: boolean) => void;
 }) {
-  return (
-    <label className="settings-row">
-      <span>{label}</span>
-      <input
-        className="settings-toggle-input"
-        type="checkbox"
-        checked={checked}
-        onChange={(event) => onChange(event.target.checked)}
-      />
-      <span className="settings-toggle-track" aria-hidden="true">
-        <span />
-      </span>
-    </label>
-  );
-}
+  const nextModeLabel = lightweightVisualsEnabled ? 'pełne szkło' : 'lekkie wizuale';
 
-function SettingsIcon() {
   return (
-    <svg className="settings-icon" viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" />
-      <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.05.05a2 2 0 0 1-2.83 2.83l-.05-.05a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.03 1.56V21a2 2 0 0 1-4 0v-.08a1.7 1.7 0 0 0-1.03-1.56 1.7 1.7 0 0 0-1.87.34l-.05.05a2 2 0 0 1-2.83-2.83l.05-.05A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.56-1.03H3a2 2 0 0 1 0-4h.08A1.7 1.7 0 0 0 4.64 8.94a1.7 1.7 0 0 0-.34-1.87l-.05-.05a2 2 0 0 1 2.83-2.83l.05.05A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1.03-1.56V3a2 2 0 0 1 4 0v.08A1.7 1.7 0 0 0 15.06 4.64a1.7 1.7 0 0 0 1.87-.34l.05-.05a2 2 0 0 1 2.83 2.83l-.05.05A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.56 1.03H21a2 2 0 0 1 0 4h-.08A1.7 1.7 0 0 0 19.4 15Z" />
-    </svg>
+    <button
+      className={lightweightVisualsEnabled ? 'fx-toggle fx-toggle--light' : 'fx-toggle fx-toggle--heavy'}
+      type="button"
+      aria-label={`FX ${lightweightVisualsEnabled ? 'L' : 'H'}; przełącz na ${nextModeLabel}`}
+      aria-pressed={!lightweightVisualsEnabled}
+      onClick={() => onChange(!lightweightVisualsEnabled)}
+    >
+      <span className="fx-toggle-label">FX</span>
+      <span className="fx-toggle-track" aria-hidden="true">
+        <span className="fx-toggle-thumb" />
+        <span className={lightweightVisualsEnabled ? 'fx-toggle-option fx-toggle-option--active' : 'fx-toggle-option'}>L</span>
+        <span className={lightweightVisualsEnabled ? 'fx-toggle-option' : 'fx-toggle-option fx-toggle-option--active'}>H</span>
+      </span>
+    </button>
   );
 }
 

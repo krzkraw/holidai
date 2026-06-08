@@ -224,24 +224,30 @@ gap: 10px;
 min-width: 0;
 }
 
-.settings-menu {
+.fx-toggle {
 position: relative;
-flex: 0 0 auto;
-}
-
-.settings-button {
-display: grid;
-width: 42px;
-height: 42px;
-place-items: center;
-border: 1px solid rgba(255, 255, 255, 0.28);
-border-radius: 50%;
-background: rgba(255, 255, 255, 0.09);
+display: inline-grid;
+grid-template-columns: auto auto;
+align-items: center;
+gap: 8px;
+min-height: 40px;
+padding: 5px 7px 5px 14px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 9999px;
+background:
+linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.05) 62%),
+rgba(255, 255, 255, 0.09);
 backdrop-filter: blur(14px);
 box-shadow:
-inset 0 1.5px 1px rgba(255, 255, 255, 0.35),
-0 8px 20px rgba(0, 0, 0, 0.24);
+inset 0 1.5px 1px rgba(255, 255, 255, 0.42),
+0 8px 20px rgba(0, 0, 0, 0.28);
 color: #ffffff;
+font: inherit;
+font-size: 12px;
+font-weight: 900;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+cursor: pointer;
 transition:
 background 180ms ease,
 border-color 180ms ease,
@@ -249,108 +255,74 @@ box-shadow 180ms ease,
 transform 180ms ease;
 }
 
-.settings-button:hover,
-.settings-button[aria-expanded='true'] {
-border-color: rgba(255, 255, 255, 0.64);
-background: rgba(255, 255, 255, 0.16);
+.fx-toggle:hover,
+.fx-toggle:focus-visible {
+border-color: rgba(251, 146, 60, 0.88);
+background:
+linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.06) 64%),
+color-mix(in srgb, var(--accent, #ea580c) 24%, rgba(38, 41, 50, 0.82));
 box-shadow:
-inset 0 1.5px 1px rgba(255, 255, 255, 0.5),
-0 12px 28px rgba(0, 0, 0, 0.34);
+inset 0 1.5px 1px rgba(255, 255, 255, 0.52),
+0 10px 24px rgba(0, 0, 0, 0.36),
+0 0 28px color-mix(in srgb, var(--accent, #ea580c) 46%, transparent);
 transform: translateY(-1px);
 }
 
-.settings-icon {
-width: 19px;
-height: 19px;
-fill: none;
-stroke: currentColor;
-stroke-linecap: round;
-stroke-linejoin: round;
-stroke-width: 1.8;
+.fx-toggle:focus-visible {
+outline: 2px solid rgba(255, 255, 255, 0.72);
+outline-offset: 3px;
 }
 
-.settings-popover {
-position: absolute;
-top: calc(100% + 10px);
-right: 0;
-z-index: 70;
-display: grid;
-gap: 12px;
-width: min(260px, calc(100vw - 28px));
-padding: 14px;
-border: 1px solid rgba(255, 255, 255, 0.24);
-border-radius: 16px;
-background: rgba(20, 23, 31, 0.94);
-backdrop-filter: blur(24px) saturate(150%);
-box-shadow: 0 22px 54px rgba(0, 0, 0, 0.5);
+.fx-toggle-label {
+line-height: 1;
 }
 
-.settings-popover strong {
-color: #ffffff;
-font-size: 13px;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-}
-
-.settings-row {
+.fx-toggle-track {
 position: relative;
 display: grid;
-grid-template-columns: minmax(0, 1fr) auto;
-align-items: center;
-gap: 12px;
-min-height: 34px;
-color: #dbe4ef;
-font-size: 13px;
-font-weight: 800;
-cursor: pointer;
-}
-
-.settings-toggle-input {
-position: absolute;
-opacity: 0;
-pointer-events: none;
-}
-
-.settings-toggle-track {
-position: relative;
-display: block;
-width: 42px;
-height: 24px;
-border: 1px solid rgba(255, 255, 255, 0.22);
+grid-template-columns: 1fr 1fr;
+width: 56px;
+height: 28px;
+padding: 3px;
+border: 1px solid rgba(255, 255, 255, 0.2);
 border-radius: 999px;
-background: rgba(255, 255, 255, 0.08);
-transition:
-background 180ms ease,
-border-color 180ms ease;
+background: rgba(11, 14, 21, 0.45);
+box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.36);
 }
 
-.settings-toggle-track span {
+.fx-toggle-thumb {
 position: absolute;
 top: 3px;
 left: 3px;
-width: 16px;
-height: 16px;
-border-radius: 50%;
-background: #cbd5e1;
-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.28);
-transition:
-background 180ms ease,
-transform 180ms ease;
+width: 24px;
+height: 20px;
+border-radius: 999px;
+background:
+linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.2)),
+color-mix(in srgb, var(--accent, #ea580c) 62%, rgba(38, 41, 50, 0.7));
+box-shadow:
+inset 0 1px 1px rgba(255, 255, 255, 0.42),
+0 4px 12px rgba(0, 0, 0, 0.34),
+0 0 16px color-mix(in srgb, var(--accent, #ea580c) 42%, transparent);
+transition: transform 180ms ease;
 }
 
-.settings-toggle-input:checked + .settings-toggle-track {
-border-color: rgba(234, 88, 12, 0.58);
-background: rgba(234, 88, 12, 0.32);
+.fx-toggle--heavy .fx-toggle-thumb {
+transform: translateX(26px);
 }
 
-.settings-toggle-input:checked + .settings-toggle-track span {
-background: #ffffff;
-transform: translateX(18px);
+.fx-toggle-option {
+position: relative;
+z-index: 1;
+display: grid;
+place-items: center;
+color: rgba(226, 232, 240, 0.64);
+line-height: 1;
+transition: color 180ms ease;
 }
 
-.settings-toggle-input:focus-visible + .settings-toggle-track {
-outline: 2px solid rgba(255, 255, 255, 0.72);
-outline-offset: 3px;
+.fx-toggle-option--active {
+color: #ffffff;
 }
 
 /* Pillsy w pełni zaokrąglone zgodnie z mockupem image_593a92.png */
@@ -2599,7 +2571,6 @@ transform: translateY(-3px) scale(1.035);
 }
 
 .app-shell--lightweight-visuals .topbar,
-.app-shell--lightweight-visuals .settings-popover,
 .app-shell--lightweight-visuals .mobile-performance-toast,
 .app-shell--lightweight-visuals .booking-data-banner,
 .app-shell--lightweight-visuals .booking-favorites-popover {
@@ -2627,7 +2598,7 @@ inset 0 -1px 1px rgba(255, 255, 255, 0.06),
 }
 
 .app-shell--lightweight-visuals .tab,
-.app-shell--lightweight-visuals .settings-button,
+.app-shell--lightweight-visuals .fx-toggle,
 .app-shell--lightweight-visuals .destination-costs span,
 .app-shell--lightweight-visuals .decision-strip span,
 .app-shell--lightweight-visuals .pill-cloud span,
@@ -2645,9 +2616,7 @@ inset 0 1px 1px rgba(255, 255, 255, 0.28),
 
 .app-shell--lightweight-visuals .tab.active,
 .app-shell--lightweight-visuals .variant-pills button.selected,
-.app-shell--lightweight-visuals .segmented button.selected,
-.app-shell--lightweight-visuals .settings-button:hover,
-.app-shell--lightweight-visuals .settings-button[aria-expanded='true'] {
+.app-shell--lightweight-visuals .segmented button.selected {
 border-color: var(--lightweight-pill-border-strong);
 background:
 var(--lightweight-pill-sheen),
@@ -2685,8 +2654,7 @@ background: rgba(8, 10, 14, 0.92);
 }
 
 .app-shell--lightweight-visuals .topbar,
-.app-shell--lightweight-visuals .settings-button,
-.app-shell--lightweight-visuals .settings-popover,
+.app-shell--lightweight-visuals .fx-toggle,
 .app-shell--lightweight-visuals .mobile-performance-toast,
 .app-shell--lightweight-visuals .tab,
 .app-shell--lightweight-visuals .destination-costs span,
@@ -2767,8 +2735,8 @@ transform: translateY(-4px) scale(1.012);
 
 .app-shell--lightweight-visuals .tab:hover,
 .app-shell--lightweight-visuals .tab.active,
-.app-shell--lightweight-visuals .settings-button:hover,
-.app-shell--lightweight-visuals .settings-button[aria-expanded='true'],
+.app-shell--lightweight-visuals .fx-toggle:hover,
+.app-shell--lightweight-visuals .fx-toggle:focus-visible,
 .app-shell--lightweight-visuals .destination-costs span:hover,
 .app-shell--lightweight-visuals .decision-strip span:hover,
 .app-shell--lightweight-visuals .pill-cloud span:hover,
@@ -2805,7 +2773,6 @@ transform: translateY(-2px) scale(1.025);
 
 .app-shell--lightweight-visuals .tab:hover::before,
 .app-shell--lightweight-visuals .tab.active::before,
-.app-shell--lightweight-visuals .settings-button:hover::before,
 .app-shell--lightweight-visuals .destination-costs span:hover::before,
 .app-shell--lightweight-visuals .decision-strip span:hover::before,
 .app-shell--lightweight-visuals .pill-cloud span:hover::before,
@@ -2877,10 +2844,9 @@ position: relative;
 display: block;
 padding: 14px;
 }
-.brand-block { margin-bottom: 12px; padding-right: 52px; }
+.brand-block { margin-bottom: 12px; padding-right: 116px; }
 .topbar-actions { display: block; }
-.settings-menu { position: absolute; top: 14px; right: 14px; }
-.settings-popover { top: calc(100% + 8px); }
+.fx-toggle { position: absolute; top: 14px; right: 14px; }
 .tabbar { justify-content: flex-start; }
 .canvas-stack { min-height: 0; padding-bottom: var(--bottom-toolbar-clearance); }
 .controls-card--compact { gap: 6px; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); }
@@ -2936,7 +2902,10 @@ grid-template-columns: 1fr;
 h1 { font-size: 18px; }
 .brand-mark { width: 38px; height: 38px; font-size: 14px; }
 .tab { min-height: 34px; padding: 6px 11px; font-size: 12px; }
-.settings-button { width: 38px; height: 38px; }
+.fx-toggle { min-height: 36px; padding: 4px 6px 4px 12px; }
+.fx-toggle-track { width: 52px; height: 26px; }
+.fx-toggle-thumb { width: 22px; height: 18px; }
+.fx-toggle--heavy .fx-toggle-thumb { transform: translateX(24px); }
 .mobile-performance-toast { align-items: flex-start; flex-direction: column; }
 .mobile-performance-toast button { align-self: flex-end; }
 .tile { padding: 16px; }

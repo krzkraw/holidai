@@ -94,4 +94,12 @@ describe('bottom toolbar visual treatment', () => {
     expect(ruleFor('.tab')).toContain('backdrop-filter: blur(14px)');
     expect(sharedPillRule).not.toMatch(/will-change\s*:\s*transform/);
   });
+
+  it('uses a compact FX L/H pill instead of the settings popover', () => {
+    expect(ruleFor('.fx-toggle')).toContain('grid-template-columns: auto auto');
+    expect(ruleFor('.fx-toggle-track')).toContain('grid-template-columns: 1fr 1fr');
+    expect(ruleFor('.fx-toggle--heavy .fx-toggle-thumb')).toContain('transform: translateX');
+    expect(styles).not.toContain('.settings-popover');
+    expect(styles).not.toContain('.settings-button');
+  });
 });
